@@ -16,11 +16,9 @@
 ## Create Projects and Jobs
 
 * [Add a Project](create-projects-and-jobs/add-a-project.md)
-* [Add Project Teams](create-projects-and-jobs/add-project-teams.md)
-* [Public vs Private Projects](create-projects-and-jobs/public-vs-private-projects.md)
-* [Add Members to a Project](create-projects-and-jobs/add-team-members.md)
+* [Add a Job](create-projects-and-jobs/add-a-job.md)
+* [Create Teams](create-projects-and-jobs/create-teams.md)
 * [Add Recipes to a Project](create-projects-and-jobs/add-recipes-to-a-project.md)
-* [Create a Job Under a Project](create-projects-and-jobs/create-a-job-under-a-project.md)
 * [Select a Recipe to Run](create-projects-and-jobs/select-a-recipe-to-run.md)
 * [Upload Geometry and Weather File](create-projects-and-jobs/upload-geometry-and-weather-file.md)
 * [Run a Parametric Job \(Coming Soon…\)](create-projects-and-jobs/run-a-parametric-job-coming-soon....md)

@@ -1,2 +1,0 @@
-# Public vs Private Projects
-
