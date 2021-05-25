@@ -2,10 +2,16 @@
 
 * [User Manual](README.md)
 
+## Before You Start
+
+* [Create a Pollination Account](before-you-start/create-a-pollination-account.md)
+* [System Requirements](before-you-start/system-requirements.md)
+* [Legal Stuff](before-you-start/legal-stuff.md)
+* [Troubleshooting](before-you-start/troubleshooting.md)
+
 ## Account Setup
 
 * [Add a Member to Your Account](account-setup/add-a-member-to-your-account.md)
-* [Untitled](account-setup/untitled.md)
 
 ## Create Projects and Jobs
 
