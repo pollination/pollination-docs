@@ -11,13 +11,13 @@ description: >-
 
 On the left side of your screen, on the main page, click on your organization. 
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 ## Step 2
 
 Click on Members tab.
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 ## Step 3
 
@@ -29,7 +29,7 @@ Click on New Member to search by Username.  Users must create a Pollination Acco
 
 Select the Role dropdown to assign permissions as a member or owner.
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 ## Step 5
 

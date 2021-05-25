@@ -4,7 +4,7 @@
 
 During early access, the link to register is by invite only. If you have the link, you can create a Pollination account by filling in your information. 
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 ## Step 2
 
