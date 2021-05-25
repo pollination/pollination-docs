@@ -1,4 +1,4 @@
-# pollination-docs
+# User Manual
 
 ## Before You Start
 

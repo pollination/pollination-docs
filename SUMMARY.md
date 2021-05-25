@@ -1,4 +1,4 @@
 # Table of contents
 
-* [pollination-docs](README.md)
-* [pollination-docs](README.md)
+* [User Manual](README.md)
+
