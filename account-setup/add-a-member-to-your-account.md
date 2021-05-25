@@ -20,11 +20,17 @@ Click on Members tab.
 
 ## Step 3
 
-Click on New Member and search for their account name. You can add them as a member or an owner.
+Click on New Member to search by Username.  Users must create a Pollination Account before you can find them using the search feature. 
 
-[![image](https://discourse.pollination.cloud/uploads/default/optimized/1X/13c37d96ba2bbaf6a0174a4046560fc6093aeb7b_2_690x216.png)](https://discourse.pollination.cloud/uploads/default/original/1X/13c37d96ba2bbaf6a0174a4046560fc6093aeb7b.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
-[![image](https://discourse.pollination.cloud/uploads/default/optimized/1X/37f688427407a2b729056236ff0e0e5fdfe15048_2_690x191.png)](https://discourse.pollination.cloud/uploads/default/original/1X/37f688427407a2b729056236ff0e0e5fdfe15048.png)
+## Step 4
 
-That’s it! Once you have enough team members it should be a good time to create teams to be able to give them access to different projects. 
+Select the Role dropdown to assign permissions as a member or owner.
+
+![](../.gitbook/assets/image%20%284%29.png)
+
+## Step 5
+
+Select Add Member to add them to your team. 
 

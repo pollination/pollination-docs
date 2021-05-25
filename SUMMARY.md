@@ -12,6 +12,7 @@
 ## Account Setup
 
 * [Add a Member to Your Account](account-setup/add-a-member-to-your-account.md)
+* [Create Project Teams](account-setup/create-project-teams.md)
 
 ## Create Projects and Jobs
 
