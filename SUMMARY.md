@@ -4,21 +4,21 @@
 
 ## Before You Start
 
-* [Create a Pollination Account](before-you-start/create-a-pollination-account.md)
 * [System Requirements](before-you-start/system-requirements.md)
 * [Legal Stuff](before-you-start/legal-stuff.md)
 * [Troubleshooting](before-you-start/troubleshooting.md)
 
 ## Account Setup
 
+* [Create a Pollination Account](account-setup/create-a-pollination-account.md)
 * [Add a Member to Your Account](account-setup/add-a-member-to-your-account.md)
-* [Create Project Teams](account-setup/create-project-teams.md)
 
 ## Create Projects and Jobs
 
-* [Create a Project](create-projects-and-jobs/create-a-project.md)
+* [Add a Project](create-projects-and-jobs/add-a-project.md)
+* [Add Project Teams](create-projects-and-jobs/add-project-teams.md)
 * [Public vs Private Projects](create-projects-and-jobs/public-vs-private-projects.md)
-* [Add Team Members](create-projects-and-jobs/add-team-members.md)
+* [Add Members to a Project](create-projects-and-jobs/add-team-members.md)
 * [Add Recipes to a Project](create-projects-and-jobs/add-recipes-to-a-project.md)
 * [Create a Job Under a Project](create-projects-and-jobs/create-a-job-under-a-project.md)
 * [Select a Recipe to Run](create-projects-and-jobs/select-a-recipe-to-run.md)
