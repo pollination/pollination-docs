@@ -18,7 +18,15 @@ Select a recipe. _NOTE: Only recipes that you've added to a project will show up
 
 ![](../.gitbook/assets/image%20%2817%29.png)
 
-\_\_
+## Step 4
+
+You can only upload a single model for a job. If you'd like to test multiple models, you will need to create a new job. Based on how your files are organized, click on the folder icon to open a folder.
+
+## Step 5
+
+Click on the paper icon to preview your geometry and confirm the model looks good. Click on the button to select the model you'd like to upload and then click OK. 
+
+![](../.gitbook/assets/image%20%2819%29.png)
 
  
 

@@ -49,6 +49,10 @@
 
 * [Untitled](build-a-custom-recipe-coming-soon.../untitled.md)
 
+## Grasshopper Plugin
+
+* [Untitled](grasshopper-plugin/untitled.md)
+
 ## Rhino Plugin
 
 * [Untitled](rhino-plugin/untitled.md)
