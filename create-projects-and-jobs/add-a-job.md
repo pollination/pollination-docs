@@ -14,7 +14,11 @@ Fill in the job information, select your organization, and project.
 
 ## Step 3
 
-Select a recipe. _NOTE: Only recipes that you've added to a project will show up in the drop down. You may also see multiple versions of the same recipe. A higher version number will indicate a more current version._
+Select a recipe. 
+
+{% hint style="info" %}
+_NOTE: Only recipes that you've added to a project will show up in the drop down. You may also see multiple versions of the same recipe. A higher version number will indicate a more current version._
+{% endhint %}
 
 ![](../.gitbook/assets/image%20%2817%29.png)
 

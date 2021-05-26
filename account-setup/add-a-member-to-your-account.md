@@ -21,7 +21,11 @@ Click on Members tab.
 
 ## Step 3
 
-Click on New Member to search by Username.  Users must create a Pollination Account before you can find them using the search feature. 
+Click on New Member to search by Username.   
+
+{% hint style="info" %}
+_Users must create a Pollination Account before you can find them using the search feature._
+{% endhint %}
 
 ![](../.gitbook/assets/image%20%282%29.png)
 

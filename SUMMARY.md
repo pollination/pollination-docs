@@ -11,6 +11,7 @@
 ## Account Setup
 
 * [Create a Pollination Account](account-setup/create-a-pollination-account.md)
+* [Create a Discourse Account](account-setup/create-a-discourse-account.md)
 * [Add a Member to Your Account](account-setup/add-a-member-to-your-account.md)
 
 ## Create Projects and Jobs
