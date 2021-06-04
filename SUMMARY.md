@@ -51,7 +51,16 @@
 
 ## Grasshopper Plugin
 
-* [Components](grasshopper-plugin/untitled.md)
+* [Components](grasshopper-plugin/text/categories/README.md)
+	* [Pollination](grasshopper-plugin/text/categories/Pollination.md)
+		* [Setup Runs](grasshopper-plugin/text/components/Setup_Runs.md)
+		* [User Inputs](grasshopper-plugin/text/components/User_Inputs.md)
+		* [Pollinate](grasshopper-plugin/text/components/Pollinate.md)
+		* [Check Job Status](grasshopper-plugin/text/components/Check_Job_Status.md)
+		* [Check Run Inputs](grasshopper-plugin/text/components/Check_Run_Inputs.md)
+		* [Check Run Results](grasshopper-plugin/text/components/Check_Run_Results.md)
+		* [List Jobs](grasshopper-plugin/text/components/List_Jobs.md)
+		* [Load Assets](grasshopper-plugin/text/components/Load_Assets.md)
 
 ## Rhino Plugin
 
