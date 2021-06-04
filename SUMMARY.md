@@ -14,17 +14,16 @@
 * [Create a Discourse Account](account-setup/create-a-discourse-account.md)
 * [Add a Member to Your Account](account-setup/add-a-member-to-your-account.md)
 
-## Create Projects and Jobs
+## Projects and Jobs
 
-* [Add a Project](create-projects-and-jobs/add-a-project.md)
-* [Add a Job](create-projects-and-jobs/add-a-job.md)
-* [Create Teams](create-projects-and-jobs/create-teams.md)
-* [Add Recipes to a Project](create-projects-and-jobs/add-recipes-to-a-project.md)
-* [Select a Recipe to Run](create-projects-and-jobs/select-a-recipe-to-run.md)
-* [Upload Geometry and Weather File](create-projects-and-jobs/upload-geometry-and-weather-file.md)
-* [Run a Parametric Job \(Coming Soon…\)](create-projects-and-jobs/run-a-parametric-job-coming-soon....md)
-* [Delete a Job From a Project \(Coming Soon…\)](create-projects-and-jobs/delete-a-job-from-a-project-coming-soon....md)
-* [Visualize Results \(Coming Soon…\)](create-projects-and-jobs/visualize-results-coming-soon....md)
+* [Create Teams](projects-and-jobs/create-teams.md)
+* [Create a New Project](projects-and-jobs/create-a-new-project.md)
+* [Add Recipes to a Project](projects-and-jobs/add-recipes-to-a-project.md)
+* [Create a New Job](projects-and-jobs/create-a-new-job.md)
+* [Upload Geometry and Weather File](projects-and-jobs/upload-geometry-and-weather-file.md)
+* [Run a Parametric Job \(Coming Soon…\)](projects-and-jobs/run-a-parametric-job-coming-soon....md)
+* [Delete a Job From a Project \(Coming Soon…\)](projects-and-jobs/delete-a-job-from-a-project-coming-soon....md)
+* [Visualize Results \(Coming Soon…\)](projects-and-jobs/visualize-results-coming-soon....md)
 
 ## Recipes
 
