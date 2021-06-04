@@ -51,7 +51,7 @@
 
 ## Grasshopper Plugin
 
-* [Untitled](grasshopper-plugin/untitled.md)
+* [Components](grasshopper-plugin/untitled.md)
 
 ## Rhino Plugin
 
