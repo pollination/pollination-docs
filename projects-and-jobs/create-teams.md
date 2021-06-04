@@ -20,13 +20,13 @@ _You must have an administrator account to create teams and select an organizati
 
 Search for Usernames in our organization to add to the project team and assign role permissions. 
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 ## Step 4
 
 Add members by clicking on the Add Member button. 
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2839%29.png)
 
 ## Step 5
 
