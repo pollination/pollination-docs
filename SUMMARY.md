@@ -38,14 +38,17 @@
 * [Setup Geometry](grasshopper-plugin/setup-geometry.md)
 * [Select a Recipe](grasshopper-plugin/select-a-recipe.md)
 * [Create a Parametric Run](grasshopper-plugin/untitled-1.md)
+* [Visualize Results](grasshopper-plugin/visualize-results.md)
 
 ## Rhino Plugin
 
 * [Download the Rhino Plugin](rhino-plugin/untitled.md)
 * [Rhino User Interface](rhino-plugin/rhino-user-interface.md)
+* [Rhino Commands](rhino-plugin/rhino-commands.md)
 * [Setup Geometry](rhino-plugin/setup-geometry.md)
 * [Select a Recipe](rhino-plugin/untitled-2.md)
 * [Modeling Best Practices](rhino-plugin/modeling-best-practices.md)
+* [Visualize Results](rhino-plugin/visualize-results.md)
 
 ## Revit Plugin
 
@@ -54,6 +57,7 @@
 * [Add Sensor Grid](revit-plugin/add-sensor-grid.md)
 * [Setup Geometry](revit-plugin/setup-geometry.md)
 * [Modeling Best Practices](revit-plugin/modeling-best-practices.md)
+* [Visualize Results](revit-plugin/visualize-results.md)
 
 ## Recipes
 
