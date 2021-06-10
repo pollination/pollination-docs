@@ -8,13 +8,13 @@ _A Pollination account will get you access to Pollination, which is different fr
 
 During early access, the link to register is by invite only. If you have the link, you can create a Pollination account by filling in your information. 
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../../.gitbook/assets/image%20%2815%29.png)
 
 ## Step 2
 
 Go to [https://pollination.app](https://pollination.app) and select sign in with email and use the registration email to log on to the web 
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 
 

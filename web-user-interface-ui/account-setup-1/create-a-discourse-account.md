@@ -8,5 +8,5 @@ _Discourse is used primarily for communication with the development team. You ca
 
 During early access, the link to register is by invite only. If you have the link, you can create a Discourse account by filling in your information.
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
