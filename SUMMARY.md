@@ -44,7 +44,6 @@
 
 * [Download the Rhino Plugin](rhino-plugin/untitled.md)
 * [Rhino User Interface](rhino-plugin/rhino-user-interface.md)
-* [Rhino Commands](rhino-plugin/rhino-commands.md)
 * [Setup Geometry](rhino-plugin/setup-geometry.md)
 * [Select a Recipe](rhino-plugin/untitled-2.md)
 * [Modeling Best Practices](rhino-plugin/modeling-best-practices.md)
