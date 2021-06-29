@@ -1,18 +1,22 @@
-# Pollination Rhino Import/Export
+# Rhino Import/Export
 
 Pollination Rhino allows for the import/export of geometry and properties in the gbXML, OSM, IDF, hbjson file format.
 
 There are two modes to open the file formats above.
+
 * Open: It creates a new Pollination Rhino Model using the generic template
 * Import: It add the model to the current Pollination Rhino model
 
-### Import:
-* [Import Honeybee JSON (HBJSON)](import/hbjson.md)
-* [Import Green Building XML (gbXML)](import/gbxml.md)
-* [Import OpenStudio Model (OSM)](import/osm.md)
-* [Import Imput Data File (IDF)](import/idf.md)
+## Import:
 
-### Export:
-* [Export Honeybee JSON (HBJSON)](export/hbjson.md)
-* [Export Green Building XML (gbXML)](export/gbxml.md)
-* [Export OpenStudio Model (OSM) + Imput Data File (IDF)](export/osm.md)
+* [Import Honeybee JSON \(HBJSON\)](https://github.com/pollination/pollination-docs/tree/c528b58fc901eac82d8f0d5da208b62da8d41d7c/rhino-plugin/import/hbjson.md)
+* [Import Green Building XML \(gbXML\)](https://github.com/pollination/pollination-docs/tree/c528b58fc901eac82d8f0d5da208b62da8d41d7c/rhino-plugin/import/gbxml.md)
+* [Import OpenStudio Model \(OSM\)](https://github.com/pollination/pollination-docs/tree/c528b58fc901eac82d8f0d5da208b62da8d41d7c/rhino-plugin/import/osm.md)
+* [Import Imput Data File \(IDF\)](https://github.com/pollination/pollination-docs/tree/c528b58fc901eac82d8f0d5da208b62da8d41d7c/rhino-plugin/import/idf.md)
+
+## Export:
+
+* [Export Honeybee JSON \(HBJSON\)](https://github.com/pollination/pollination-docs/tree/c528b58fc901eac82d8f0d5da208b62da8d41d7c/rhino-plugin/export/hbjson.md)
+* [Export Green Building XML \(gbXML\)](https://github.com/pollination/pollination-docs/tree/c528b58fc901eac82d8f0d5da208b62da8d41d7c/rhino-plugin/export/gbxml.md)
+* [Export OpenStudio Model \(OSM\) + Imput Data File \(IDF\)](https://github.com/pollination/pollination-docs/tree/c528b58fc901eac82d8f0d5da208b62da8d41d7c/rhino-plugin/export/osm.md)
+

@@ -54,7 +54,7 @@ Check your inputs and then click on Create.
 
 Click on New Job.
 
-![](../../.gitbook/assets/image%20%2829%29%20%282%29.png)
+![](../../.gitbook/assets/image%20%2829%29%20%282%29%20%282%29.png)
 
 ## Step 2
 
@@ -72,7 +72,7 @@ Based on how your files are organized, click on the folder icon to open a folder
 
 Click on the paper icon to preview your geometry and confirm the model looks good. Click on the button to select the model you'd like to upload and then click OK.
 
-![](../../.gitbook/assets/image%20%2836%29%20%281%29.png)
+![](../../.gitbook/assets/image%20%2836%29%20%281%29%20%281%29.png)
 
 ## Step 5
 
