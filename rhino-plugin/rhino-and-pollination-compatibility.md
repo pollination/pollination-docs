@@ -12,7 +12,6 @@ Besides custom [Pollination Commands for Rhino](pollination-commands-for-rhino/)
         <p>KEYBOARD</p>
         <p>SHORTCUT</p>
       </th>
-      <th style="text-align:center">DRAG</th>
     </tr>
   </thead>
   <tbody>
@@ -24,7 +23,6 @@ Besides custom [Pollination Commands for Rhino](pollination-commands-for-rhino/)
       </td>
       <td style="text-align:center"><b>&#x2714;</b>
       </td>
-      <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:left">CUT / CTRL+X</td>
@@ -33,7 +31,6 @@ Besides custom [Pollination Commands for Rhino](pollination-commands-for-rhino/)
       <td style="text-align:center"></td>
       <td style="text-align:center"><b>&#x2714;</b>
       </td>
-      <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:left">PASTE / CTRL+V</td>
@@ -43,7 +40,6 @@ Besides custom [Pollination Commands for Rhino](pollination-commands-for-rhino/)
       </td>
       <td style="text-align:center"><b>&#x2714;</b>
       </td>
-      <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:left">UNDO / CTRL+Z</td>
@@ -52,7 +48,14 @@ Besides custom [Pollination Commands for Rhino](pollination-commands-for-rhino/)
       <td style="text-align:center"></td>
       <td style="text-align:center"><b>&#x2714;</b>
       </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">REDO / CTRL+Y</td>
+      <td style="text-align:center"><b>&#x2714;</b>
+      </td>
       <td style="text-align:center"></td>
+      <td style="text-align:center"><b>&#x2714;</b>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">DELETE</td>
@@ -61,7 +64,6 @@ Besides custom [Pollination Commands for Rhino](pollination-commands-for-rhino/)
       <td style="text-align:center"></td>
       <td style="text-align:center"><b>&#x2714;</b>
       </td>
-      <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:left">MOVE</td>
@@ -70,16 +72,14 @@ Besides custom [Pollination Commands for Rhino](pollination-commands-for-rhino/)
       <td style="text-align:center"><b>&#x2714;</b>
       </td>
       <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:left">MOVE SUB-GEOMETRY</td>
       <td style="text-align:center"><b>&#x2714;</b>
       </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
       <td style="text-align:center"><b>&#x2714;</b>
       </td>
+      <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:left">SCALE, SCALE 1D, SCALE 2D</td>
@@ -88,13 +88,11 @@ Besides custom [Pollination Commands for Rhino](pollination-commands-for-rhino/)
       <td style="text-align:center"><b>&#x2714;</b>
       </td>
       <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:left">MOVE FACE / MOVE EDGE</td>
       <td style="text-align:center"><b>&#x2714;</b>
       </td>
-      <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
     </tr>
@@ -108,7 +106,6 @@ Besides custom [Pollination Commands for Rhino](pollination-commands-for-rhino/)
       </td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -119,13 +116,11 @@ Besides custom [Pollination Commands for Rhino](pollination-commands-for-rhino/)
       </td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:left">SPLITFACE / MERGEFACE</td>
       <td style="text-align:center"><b>&#x2714;</b>
       </td>
-      <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
     </tr>
