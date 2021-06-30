@@ -95,6 +95,7 @@
   * [Add a Skylight](rhino-plugin/modeling-best-practices/add-a-skylight.md)
   * [Make a Face Adiabatic](rhino-plugin/modeling-best-practices/make-a-face-adiabatic.md)
   * [Assign a Construction to a Surface](rhino-plugin/modeling-best-practices/assign-a-construction-to-a-surface.md)
+  * [Set Air Boundaries](rhino-plugin/modeling-best-practices/set-air-boundaries.md)
 * [Add Sensor Grid](rhino-plugin/add-sensor-grid.md)
 * [Select a Recipe](rhino-plugin/untitled-2/README.md)
   * [Untitled](rhino-plugin/untitled-2/untitled-1.md)
