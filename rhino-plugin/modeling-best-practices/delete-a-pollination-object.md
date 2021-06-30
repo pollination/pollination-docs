@@ -1,0 +1,2 @@
+# Delete a Pollination Object
+
