@@ -1,4 +1,4 @@
-# Rhino Commands
+# Pollination Commands for Rhino
 
 * [PO\_AddApertures](po_addapertures.md)
 * [PO\_AddAperturesByWWR](po_addaperturesbywwr.md)
