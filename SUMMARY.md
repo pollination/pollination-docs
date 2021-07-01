@@ -25,7 +25,7 @@
 
 ## Grasshopper Plugin
 
-* [Download the Grasshopper Plugin](grasshopper-plugin/download-the-grasshopper-plugin.md)
+* [Download and Install the Grasshopper Plugin](grasshopper-plugin/download-the-grasshopper-plugin.md)
 * [Grasshopper User Interface](grasshopper-plugin/grasshopper-user-interface/README.md)
   * [Setup Runs](grasshopper-plugin/grasshopper-user-interface/setup_runs.md)
   * [User Inputs](grasshopper-plugin/grasshopper-user-interface/user_inputs.md)
@@ -42,9 +42,25 @@
 
 ## Rhino Plugin
 
-* [Download the Rhino Plugin](rhino-plugin/untitled.md)
+* [Download and Install the Rhino Plugin](rhino-plugin/untitled.md)
 * [Rhino User Interface](rhino-plugin/rhino-user-interface.md)
 * [Rhino and Pollination Compatibility](rhino-plugin/rhino-and-pollination-compatibility.md)
+* [Setup Geometry](rhino-plugin/setup-geometry.md)
+* [Modeling Tips, Tricks, and Best Practices](rhino-plugin/modeling-best-practices/README.md)
+  * [Create Rooms from Solid and Layers](rhino-plugin/modeling-best-practices/create-rooms-from-solid-and-layers.md)
+  * [Merge Rooms](rhino-plugin/modeling-best-practices/merge-rooms.md)
+  * [Split Rooms](rhino-plugin/modeling-best-practices/split-rooms.md)
+  * [Delete a Pollination Object](rhino-plugin/modeling-best-practices/delete-a-pollination-object.md)
+  * [Pollination Rhino Object and Rhino Layer](rhino-plugin/modeling-best-practices/pollination-rhino-object-and-rhino-layer.md)
+  * [Remove Adjacency](rhino-plugin/modeling-best-practices/remove-adjacency.md)
+  * [Add a Skylight](rhino-plugin/modeling-best-practices/add-a-skylight.md)
+  * [Make a Face Adiabatic](rhino-plugin/modeling-best-practices/make-a-face-adiabatic.md)
+  * [Assign a Construction to a Surface](rhino-plugin/modeling-best-practices/assign-a-construction-to-a-surface.md)
+  * [Set Air Boundaries](rhino-plugin/modeling-best-practices/set-air-boundaries.md)
+* [Add Sensor Grid](rhino-plugin/add-sensor-grid.md)
+* [Select a Recipe](rhino-plugin/untitled-2/README.md)
+  * [Untitled](rhino-plugin/untitled-2/untitled-1.md)
+* [Visualize Results](rhino-plugin/visualize-results.md)
 * [Pollination Commands for Rhino](rhino-plugin/pollination-commands-for-rhino/README.md)
   * [PO\_AddApertures](rhino-plugin/pollination-commands-for-rhino/po_addapertures.md)
   * [PO\_AddAperturesByWWR](rhino-plugin/pollination-commands-for-rhino/po_addaperturesbywwr.md)
@@ -84,22 +100,6 @@
   * [PO\_SolveAdjacency](rhino-plugin/pollination-commands-for-rhino/po_solveadjacency.md)
   * [PO\_SplitRoom](rhino-plugin/pollination-commands-for-rhino/po_splitroom.md)
 * [Rhino Import/Export](rhino-plugin/rhino-import-export.md)
-* [Setup Geometry](rhino-plugin/setup-geometry.md)
-* [Modeling Tips, Tricks, and Best Practices](rhino-plugin/modeling-best-practices/README.md)
-  * [Create Rooms from Solid and Layers](rhino-plugin/modeling-best-practices/create-rooms-from-solid-and-layers.md)
-  * [Merge Rooms](rhino-plugin/modeling-best-practices/merge-rooms.md)
-  * [Split Rooms](rhino-plugin/modeling-best-practices/split-rooms.md)
-  * [Delete a Pollination Object](rhino-plugin/modeling-best-practices/delete-a-pollination-object.md)
-  * [Pollination Rhino Object and Rhino Layer](rhino-plugin/modeling-best-practices/pollination-rhino-object-and-rhino-layer.md)
-  * [Remove Adjacency](rhino-plugin/modeling-best-practices/remove-adjacency.md)
-  * [Add a Skylight](rhino-plugin/modeling-best-practices/add-a-skylight.md)
-  * [Make a Face Adiabatic](rhino-plugin/modeling-best-practices/make-a-face-adiabatic.md)
-  * [Assign a Construction to a Surface](rhino-plugin/modeling-best-practices/assign-a-construction-to-a-surface.md)
-  * [Set Air Boundaries](rhino-plugin/modeling-best-practices/set-air-boundaries.md)
-* [Add Sensor Grid](rhino-plugin/add-sensor-grid.md)
-* [Select a Recipe](rhino-plugin/untitled-2/README.md)
-  * [Untitled](rhino-plugin/untitled-2/untitled-1.md)
-* [Visualize Results](rhino-plugin/visualize-results.md)
 
 ## Recipes
 

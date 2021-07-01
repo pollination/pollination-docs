@@ -4,7 +4,7 @@ Pollination Rhino allows for the import/export of geometry and properties in the
 
 There are two modes to open the file formats above.
 
-* Open: It creates a new Pollination Rhino Model using the generic template
+* Open: Creates a new Pollination Rhino Model using the generic template
 * Import: It add the model to the current Pollination Rhino model
 
 ## Import:

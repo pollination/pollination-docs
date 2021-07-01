@@ -1,8 +1,8 @@
 # Grasshopper User Interface
 
-## Pollination Grasshopper Tab
+## Pollination Tab
 
-
+![](../../.gitbook/assets/image%20%2821%29.png)
 
 ## Pollination Components
 
