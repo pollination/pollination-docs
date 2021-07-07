@@ -127,5 +127,11 @@ Besides custom [Pollination Commands for Rhino](pollination-commands-for-rhino/)
   </tbody>
 </table>
 
-\*\*\*\*
+![Edit Room Geometry](../.gitbook/assets/editroomgeometry%20%281%29.gif)
+
+![Undo and Redo Commands](../.gitbook/assets/undoredo.gif)
+
+![Move Face &amp; Move Edge Using Rhino Command line](../.gitbook/assets/moveface_moveedge_cmd.gif)
+
+![Move Face &amp; Move Edge Using Gumball](../.gitbook/assets/moveface_moveedge.gif)
 
