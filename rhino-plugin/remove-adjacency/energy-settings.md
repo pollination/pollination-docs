@@ -1,2 +1,2 @@
-# Energy Settings
+# Energy Settings and Parameters
 

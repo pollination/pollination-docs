@@ -1,2 +1,2 @@
-# Energy Settings and Parameters
+# Energy Modeling
 

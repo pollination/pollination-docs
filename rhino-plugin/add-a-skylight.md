@@ -1,2 +1,0 @@
-# Daylighting Settings and Parameters
-
