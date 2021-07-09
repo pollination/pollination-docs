@@ -2,7 +2,7 @@
 
 
 
-Creating Organization on your own is currently limited on Pollination. Please reach out to our team by posting under the [Web App](https://discourse.pollination.cloud/c/web-app/8) category on [Discourse](https://discourse.pollination.cloud/). Please provide our team with the following information about your company.
+Creating Organization on your own is currently limited on Pollination. Please reach out to our team by emailing the following information about your company to info@pollination.cloud.
 
 * Company Name: Human readable company name \(e.g. Ladybug Tools\)
 * Slug: company name for url \(e.g. ladybug-tools\)
