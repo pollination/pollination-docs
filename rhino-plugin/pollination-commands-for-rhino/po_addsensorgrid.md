@@ -1,5 +1,6 @@
-# PO_AddSensorGrid
+# PO\_AddSensorGrid
 
-![](./img/PO_AddSensorGrid.gif)
+![](../../.gitbook/assets/PO_AddSensorGrid.gif)
 
 Adding sensor grids for running Radiance grid based simulations.
+

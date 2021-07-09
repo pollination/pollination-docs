@@ -1,3 +1,4 @@
-# PO_ModelPanel
+# PO\_ModelPanel
 
-Turn on the main control panel for managing rooms, orphaned objects, resources (program types, constructions, schedules, etc.)
+Turn on the main control panel for managing rooms, orphaned objects, resources \(program types, constructions, schedules, etc.\)
+

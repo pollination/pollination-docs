@@ -1,5 +1,6 @@
-# PO_AddSiteContext
+# PO\_AddSiteContext
 
-![](./img/PO_AddSiteContext.gif)
+![](../../.gitbook/assets/PO_AddSiteContext.gif)
 
 This command will add selected planer surfaces as site contexts to honeybee model.
+

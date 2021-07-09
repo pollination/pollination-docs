@@ -127,7 +127,7 @@ Besides custom [Pollination Commands for Rhino](pollination-commands-for-rhino/)
   </tbody>
 </table>
 
-![Edit Room Geometry](../.gitbook/assets/editroomgeometry%20%281%29.gif)
+![Edit Room Geometry](../.gitbook/assets/editroomgeometry%20%281%29%20%281%29.gif)
 
 ![Undo and Redo Commands](../.gitbook/assets/undoredo.gif)
 
