@@ -12,6 +12,7 @@
 
 ## Web User Interface
 
+* [Create an Organization](web-user-interface/create-an-organization.md)
 * [Add a Member to Your Account](web-user-interface/add-a-member-to-your-account.md)
 * [Create Teams](web-user-interface/create-teams.md)
 * [Projects and Jobs](web-user-interface/projects-and-jobs/README.md)
