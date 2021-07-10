@@ -9,14 +9,14 @@ There are two modes to open the file formats above.
 
 ## Import:
 
-* [Import Honeybee JSON \(HBJSON\)](import/hbjson.md)
-* [Import Green Building XML \(gbXML\)](import/gbxml.md)
-* [Import OpenStudio Model \(OSM\)](import/osm.md)
-* [Import Input Data File \(IDF\)](import/idf.md)
+* [Import Honeybee JSON \(HBJSON\)](/rhino-plugin/interoperability/import/hbjson.md)
+* [Import Green Building XML \(gbXML\)](/rhino-plugin/interoperability/import/gbxml.md)
+* [Import OpenStudio Model \(OSM\)](/rhino-plugin/interoperability/import/osm.md)
+* [Import Input Data File \(IDF\)](/rhino-plugin/interoperability/import/idf.md)
 
 ## Export:
 
-* [Export Honeybee JSON \(HBJSON\)](export/hbjson.md)
-* [Export Green Building XML \(gbXML\)](export/gbxml.md)
-* [Export OpenStudio Model \(OSM\) + Input Data File \(IDF\)](export/osm.md)
+* [Export Honeybee JSON \(HBJSON\)](/rhino-plugin/interoperability/export/hbjson.md)
+* [Export Green Building XML \(gbXML\)](/rhino-plugin/interoperability/export/gbxml.md)
+* [Export OpenStudio Model \(OSM\) + Input Data File \(IDF\)](/rhino-plugin/interoperability/export/osm.md)
 
