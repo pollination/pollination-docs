@@ -6,11 +6,11 @@ Use the standard toolbar of Rhino to open the "Import" window. Right click on th
 
 Navigate on the local machine and select the file to import.
 
-![](../../../.gitbook/assets/Pollination_Rhino_Import_HBJSON.png)
+![](../../../.gitbook/assets/Pollination_Rhino_Import_HBJSON.PNG)
 
 Add the file format filter to show only the selected file format to speed up the process. Click on the "Open" button to complete the operation.
 
-![](../../../.gitbook/assets/Pollination_Rhino_Import_HBJSON_Sample.png)
+![](../../../.gitbook/assets/Pollination_Rhino_Import_HBJSON_Sample.PNG)
 
 ## Validation
 
@@ -18,7 +18,7 @@ It is an optional process that checks the validity of the hbjson to import or op
 
 It is an helpful functionality to debug a model and fix it.
 
-![](../../../.gitbook/assets/Pollination_Rhino_Import_HBJSON_Validation.png)
+![](../../../.gitbook/assets/Pollination_Rhino_Import_HBJSON_Validation.PNG)
 
 ### Tip and Tricks
 
