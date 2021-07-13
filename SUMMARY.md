@@ -7,7 +7,6 @@
 * [System Requirements](before-you-start/system-requirements.md)
 * [Legal Stuff](before-you-start/legal-stuff.md)
 * [Troubleshooting](before-you-start/troubleshooting.md)
-* [Create a Discourse Account](before-you-start/create-a-discourse-account.md)
 * [Create a Pollination Account](before-you-start/create-a-pollination-account.md)
 
 ## Web Application

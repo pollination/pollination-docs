@@ -4,7 +4,7 @@ One of the easiest ways to create a Pollination Rhino script is ironpython of Rh
 
 Rhino has an internal IDE to write ironpython. Type the command **EditPythonScript** on the command bar of Rhino to open it.
 
-![Rhino Python Editor](../../.gitbook/assets/image%20%2859%29.png)
+![Rhino Python Editor](../../.gitbook/assets/image%20%2860%29.png)
 
 Or it is possible to use external IDE to create it.
 

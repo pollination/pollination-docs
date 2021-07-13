@@ -4,7 +4,7 @@ Use the standard toolbar of Rhino to save the file as **HBJSON**. Cascade menu: 
 
 Select the extension **Honeybee Model \(\*.hbjson\)** and navigate on the local machine and select the location where to save the file
 
-![](../../../.gitbook/assets/image%20%2875%29.png)
+![](../../../.gitbook/assets/image%20%2876%29.png)
 
 It recognizes the name of the current file and it assigns it to the hbjson file to export.
 
