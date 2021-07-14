@@ -1,4 +1,4 @@
-# PO\_AddApertureShades
+# PO_AddApertureShades
 
 Use this command to add shades to apertures. It works with two different modalities, BorderShades and LouverShades.
 
@@ -16,11 +16,11 @@ Use this command to add shades to apertures. It works with two different modalit
 
   A number for the for an angle to rotate the louvers in degrees.
 
-* **Distance\_between**
+* **Distance_between**
 
   A number for the approximate distance between each louver.
 
-* **Shade\_count**
+* **Shade_count**
 
   A positive integer for the number of louvers to generate.
 
@@ -28,11 +28,11 @@ Use this command to add shades to apertures. It works with two different modalit
 
   A number for the depth to extrude the louvers.
 
-* **Facade\_offset**
+* **Facade_offset**
 
   A number for the distance from the louver edge to the facade.
 
-* **Flip\_start**
+* **Flip_start**
 
   Optional boolean to note whether the side the louvers start from should be flipped.
 

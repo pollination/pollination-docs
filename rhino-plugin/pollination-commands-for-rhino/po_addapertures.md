@@ -1,4 +1,4 @@
-# PO\_AddApertures
+# PO_AddApertures
 
-Add planer window surfaces to selected honeybee rooms or orphaned faces. Window surface will only be added to a room when it is co-planer to target faces.
-
+Add planer window surfaces to selected honeybee rooms or orphaned faces. Aperture surfaces will only be added to a room when it is co-planer to one of room&apos;s faces.
+A valid aperture geometry could be a brep or extrusion with single surface.
