@@ -6,7 +6,7 @@ Similar to Rhino, you can use the Pollination Rhino plugin from a panel or type 
 
 To pull up the Pollination panel, type `Pollination` in the command line. Once you hit Enter, the Pollination panel will emerge. You can dock it in your window as you would a native Rhino panel. 
 
-![](../.gitbook/assets/image%20%2850%29.png)
+{% embed url="https://youtu.be/qJQCc59EdCw" %}
 
 ## Rhino and Pollination Compatibility
 
