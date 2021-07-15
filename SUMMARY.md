@@ -49,7 +49,7 @@
   * [Add Apertures and Doors](rhino-plugin/setup-geometry-1/add-apertures.md)
   * [Solve Adjacency](rhino-plugin/setup-geometry-1/solve-adjacency.md)
   * [Add Shade or Context](rhino-plugin/setup-geometry-1/add-shade-or-context.md)
-  * [Make Model Edits](rhino-plugin/setup-geometry-1/make-model-edits.md)
+  * [Edit your Model](rhino-plugin/setup-geometry-1/make-model-edits.md)
 * [Energy Modeling](rhino-plugin/remove-adjacency/README.md)
   * [Set Program Type](rhino-plugin/remove-adjacency/untitled-1.md)
   * [Add Constructions](rhino-plugin/remove-adjacency/pollination-rhino-object-and-rhino-layer.md)
