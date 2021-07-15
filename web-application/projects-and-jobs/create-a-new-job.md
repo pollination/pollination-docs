@@ -54,7 +54,7 @@ Check your inputs and then click on Create.
 
 Click on New Job.
 
-![](../../.gitbook/assets/image%20%2829%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](../../.gitbook/assets/image%20%2829%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
 
 ## Step 2
 

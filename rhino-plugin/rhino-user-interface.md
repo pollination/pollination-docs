@@ -4,13 +4,13 @@ Similar to Rhino, you can use the Pollination Rhino plugin from a panel or type 
 
 ## Pollination Panel
 
-To pull up the Pollination panel, type PO\_Panel in the command line. Once you hit Enter, the Pollination panel will emerge. You can dock it in your window as you would a native Rhino panel. 
+To pull up the Pollination panel, type `Pollination` in the command line. Once you hit Enter, the Pollination panel will emerge. You can dock it in your window as you would a native Rhino panel. 
 
 ![](../.gitbook/assets/image%20%2850%29.png)
 
 ## Rhino and Pollination Compatibility
 
-Besides custom [Pollination Commands for Rhino](pollination-commands-for-rhino/), which start with "PO\_", there are several native Rhino commands that can be used to modify custom Pollination RhinoObjects.
+Besides custom [Pollination Commands for Rhino](pollination-commands-for-rhino/), there are several native Rhino commands that can be used to modify custom Pollination RhinoObjects.
 
 <table>
   <thead>

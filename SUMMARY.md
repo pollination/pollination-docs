@@ -51,7 +51,7 @@
   * [Add Child Objects](rhino-plugin/setup-geometry-1/add-child-objects.md)
   * [Add Shade or Context](rhino-plugin/setup-geometry-1/add-shade-or-context.md)
 * [Energy Modeling](rhino-plugin/remove-adjacency/README.md)
-  * [Add Program](rhino-plugin/remove-adjacency/untitled-1.md)
+  * [Set Program Type](rhino-plugin/remove-adjacency/untitled-1.md)
   * [Add Constructions](rhino-plugin/remove-adjacency/pollination-rhino-object-and-rhino-layer.md)
   * [Add HVAC](rhino-plugin/remove-adjacency/untitled-2.md)
   * [Energy Settings and Parameters](rhino-plugin/remove-adjacency/energy-settings.md)

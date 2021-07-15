@@ -1,6 +1,6 @@
-# PO_AddRoomShades
+# PO\_AddRoomShades
 
-![](./img/PO_AddRoomShades.gif)
+![](../../.gitbook/assets/PO_AddRoomShades%20%281%29.gif)
 
 Add shades to a room.
 
@@ -8,5 +8,5 @@ Add shades to a room.
 
 * **ShadeType**
 
-  set whether new shades are indoor or outdoor types. (default: indoor)
+  set whether new shades are indoor or outdoor types. \(default: indoor\)
 
