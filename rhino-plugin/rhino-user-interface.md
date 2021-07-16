@@ -84,7 +84,11 @@ Besides custom [Pollination Commands for Rhino](pollination-commands-for-rhino/)
       <td style="text-align:center"></td>
     </tr>
     <tr>
-      <td style="text-align:left">MOVE SUB-GEOMETRY</td>
+      <td style="text-align:left">
+        <p>MOVE SUB-GEOMETRY</p>
+        <p><em>(Hold Shift+Ctrl keys)</em>
+        </p>
+      </td>
       <td style="text-align:center"><b>&#x2714;</b>
       </td>
       <td style="text-align:center"><b>&#x2714;</b>
@@ -129,6 +133,13 @@ Besides custom [Pollination Commands for Rhino](pollination-commands-for-rhino/)
     </tr>
     <tr>
       <td style="text-align:left">SPLITFACE / MERGEFACE</td>
+      <td style="text-align:center"><b>&#x2714;</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">FLIP</td>
       <td style="text-align:center"><b>&#x2714;</b>
       </td>
       <td style="text-align:center"></td>
