@@ -6,6 +6,8 @@ description: >-
 
 # Add Constructions
 
+{% embed url="https://www.youtube.com/watch?v=TrOOoRkyjMA&list=PLHnzKQMrclYmtPc\_ISoD6vdjtPG3786S0&index=9" %}
+
 ## **Step 1**
 
 Use command [PO\_SetRoomProperties](../pollination-commands-for-rhino/po_setroomproperties.md) or double click the room from "Room Manager" to bring up the "Room Properties" dialog, in which you can override room's construction set\*.

@@ -1,4 +1,10 @@
+---
+description: Assign 100+ HVACs from OpenStudio Standards
+---
+
 # Add HVAC
+
+{% embed url="https://www.youtube.com/watch?v=rHVnZt3euoA&list=PLHnzKQMrclYmtPc\_ISoD6vdjtPG3786S0&index=10" %}
 
 ## **Step 1**
 

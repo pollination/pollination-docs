@@ -6,6 +6,8 @@ description: >-
 
 # Set Program Type
 
+{% embed url="https://www.youtube.com/watch?v=Hz\_-MM2bb4E&list=PLHnzKQMrclYmtPc\_ISoD6vdjtPG3786S0&index=8" %}
+
 ## **Step 1**
 
 Use command [PO\_SetRoomProperties](../pollination-commands-for-rhino/po_setroomproperties.md) or double click the room from "Room Manager" to bring up the "Room Properties" dialog, in which you can override room's program type.

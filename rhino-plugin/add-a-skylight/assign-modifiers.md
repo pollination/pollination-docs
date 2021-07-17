@@ -1,6 +1,12 @@
+---
+description: Set a modifier set to rooms
+---
+
 # Assign Modifier Sets
 
 Materials that we use for any Radiance related simulations is called **Modifier**. We have also added a new concept **Modifier Set** for a group of modifiers. Modifier set is useful in cases when users want to have a global control of all modifiers that apply to the entire project, and easier for reporting a modifier summary.
+
+{% embed url="https://www.youtube.com/watch?v=lV9nJTqzjhg&list=PLHnzKQMrclYmtPc\_ISoD6vdjtPG3786S0&index=12" %}
 
 ## Step 1
 

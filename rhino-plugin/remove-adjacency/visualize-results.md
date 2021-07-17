@@ -1,6 +1,12 @@
+---
+description: Schedule a new energy simulation and check html report
+---
+
 # Run Simulation and Load Results
 
 In the current beta version, we only support running simulation on Pollination cloud \(it is free!\), but we will enable local simulation execution in the next release.
+
+{% embed url="https://youtu.be/es8uieh3vVI?t=41" %}
 
 ## Step 1
 

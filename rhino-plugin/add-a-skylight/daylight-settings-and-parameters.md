@@ -1,2 +1,0 @@
-# Daylight Settings and Parameters
-
