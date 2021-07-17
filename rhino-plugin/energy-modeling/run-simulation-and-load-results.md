@@ -10,7 +10,7 @@ In the current beta version, we only support running simulation on Pollination c
 
 ## Step 1
 
-Use command [PO\_RunSimulation](../pollination-commands-for-rhino/po_runsimulation.md) or click "Run Simulation" button on [Pollination panel](../rhino-user-interface.md#pollination-panel). This brings up the Run Simulation dialog where you can select recipes and schedule a new simulation job.
+Use command [PO\_RunSimulation](../pollination-commands-for-rhino/po_runsimulation.md) or click "Run Simulation" button on [Pollination panel](../getting-started.md#pollination-panel). This brings up the Run Simulation dialog where you can select recipes and schedule a new simulation job.
 
 ![](../../.gitbook/assets/image%20%2893%29.png)
 

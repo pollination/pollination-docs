@@ -1,4 +1,4 @@
-# Ladybug Tools Grasshopper plugins
+# Ladybug Tools Grasshopper Plugins
 
 Pollination Rhino plugin can be used alongside the Grasshopper Ladybug Tools plugins.
 
