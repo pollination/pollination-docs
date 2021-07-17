@@ -4,7 +4,7 @@ description: >-
   energy model more easily and flexible for a complex project.
 ---
 
-# Set Program Type
+# Assign Program Types
 
 {% embed url="https://www.youtube.com/watch?v=Hz\_-MM2bb4E&list=PLHnzKQMrclYmtPc\_ISoD6vdjtPG3786S0&index=8" %}
 

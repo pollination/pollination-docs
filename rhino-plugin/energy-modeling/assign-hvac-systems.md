@@ -2,7 +2,7 @@
 description: Assign 100+ HVACs from OpenStudio Standards
 ---
 
-# Set HVAC Systems
+# Assign HVAC Systems
 
 {% embed url="https://www.youtube.com/watch?v=rHVnZt3euoA&list=PLHnzKQMrclYmtPc\_ISoD6vdjtPG3786S0&index=10" %}
 

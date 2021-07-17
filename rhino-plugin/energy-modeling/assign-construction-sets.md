@@ -4,7 +4,7 @@ description: >-
   assembling material layers ordered from the outside to interior.
 ---
 
-# Set Construction Types
+# Assign Construction Sets
 
 {% embed url="https://www.youtube.com/watch?v=TrOOoRkyjMA&list=PLHnzKQMrclYmtPc\_ISoD6vdjtPG3786S0&index=9" %}
 
