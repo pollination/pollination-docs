@@ -2,7 +2,9 @@
 
 ## Download
 
-During early access, download of the Rhino plugin is currently restricted. We will update this section to coincide with the release of the Rhino plugin.
+During public BETA access, download of the Rhino plugin is available through our Discourse site only. If you don't have a Discourse account, you can sign up [here](https://discourse.pollination.cloud/).
+
+If you have a Discourse account, then a download link is located at the end our [Pollination's Rhino plugin \(WIP\) is now available for download!](https://discourse.pollination.cloud/t/pollinations-rhino-plugin-wip-is-now-available-for-download/558?u=jankivyas) post. 
 
 ## Installation
 
@@ -12,9 +14,13 @@ Run the .exe file to start the installation. The installer can also be used to r
 
 {% hint style="danger" %}
 Rhino must be closed before running the installer to install or uninstall Pollination
-{% endhint %}
 
-![](../.gitbook/assets/image%20%2836%29.png)
+The installer also updates Ladybug Tools for Grasshopper. So if are an existing user of Ladybug Tools and have custom libraries for Honeybee that you'd like to maintain, please use the following process to backup your files. 
+
+1. Go to C:\Users\\[USERNAME\]\ladybug\_tools\resources\standards\ 
+2. Copy the "honeybee\_standards" folder to another location before running the installer 
+3. Once the installer is executed, you can copy "honeybee\_standards" folder back to the original location. 
+{% endhint %}
 
 ### Step 2
 
