@@ -2,6 +2,10 @@
 
 Similar to Rhino, you can use the Pollination Rhino plugin from a panel or type commands in the command line. You can check out detailed descriptions of [Pollination Commands for Rhino](pollination-commands-for-rhino/) in our user manual or you can type "PO\_" in the command line to see the list of commands in Rhino.
 
+Users can use following sample model for tutorials:
+
+{% file src="../.gitbook/assets/model.zip" caption="Download the sample model" %}
+
 ## Pollination Panel
 
 To pull up the Pollination panel, type `Pollination` in the command line. Once you hit Enter, the Pollination panel will emerge. You can dock it in your window as you would a native Rhino panel. 

@@ -18,7 +18,7 @@ Use command [PO\_SetRoomProperties](../pollination-commands-for-rhino/po_setroom
 
 Select a program type from "Program Type Manager" dialog.
 
-Note: at the beginning, you may not have all program types that are listed in below screenshot, please check the next **step 2B** to import new program types from OpenStudio Standards templates.
+_Note: at the beginning, you may not have all program types that are listed in below screenshot, please check the next **step 2B** to import new program types from OpenStudio Standards templates._
 
 ![Program Type Manager](../../.gitbook/assets/image%20%2871%29.png)
 
@@ -26,7 +26,7 @@ Note: at the beginning, you may not have all program types that are listed in be
 
 Import a new program type from OpenStudio Standards template.
 
-Note: [OpenStudio Standards](https://github.com/NREL/openstudio-standards/) are developed by the US. [National Renewable Energy Laboratory](https://www.nrel.gov/) \(NREL\)'s OpenStudio Team. It includes ASHRAE 90.1 baseline model's program types and HVAC system templates. We convert them to [Honeybee Schema](https://www.ladybug.tools/honeybee-schema/model.html) standard format so it becomes one of the trusted data sources that we can use across our entire eco-system.
+_Note:_ [_OpenStudio Standards_](https://github.com/NREL/openstudio-standards/) _are developed by the US._ [_National Renewable Energy Laboratory_](https://www.nrel.gov/) _\(NREL\)'s OpenStudio Team. It includes ASHRAE 90.1 baseline model's program types and HVAC system templates. We convert them to_ [_Honeybee Schema_](https://www.ladybug.tools/honeybee-schema/model.html) _standard format so it becomes one of the trusted data sources that we can use across our entire eco-system._
 
 ![](../../.gitbook/assets/image%20%2863%29.png)
 
