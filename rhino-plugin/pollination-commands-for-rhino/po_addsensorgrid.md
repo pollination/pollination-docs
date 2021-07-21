@@ -1,6 +1,18 @@
-# PO\_AddSensorGrid
+# PO_AddSensorGrid
 
-![](../../.gitbook/assets/PO_AddSensorGrid%20%281%29.gif)
+![](./img/PO_AddSensorGrid.gif)
 
 Adding sensor grids for running Radiance grid based simulations.
+The input geometries can be Rhino surfaces, rooms or orphaned faces. 
+For rooms, only sub-surfaces with floor type will be used for generating sensor grids.
+
+## Options
+
+* **GridSize**
+
+  space between any two sensor points. (in Rhino&apos;s unit)
+
+* **Offset**
+
+  offset distance from the input geometries. (in Rhino&apos;s unit)
 
