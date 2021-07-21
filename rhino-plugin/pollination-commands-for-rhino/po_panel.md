@@ -1,6 +1,5 @@
-# PO\_Panel
+# PO_Panel
 
-![](../../.gitbook/assets/PO_Panel.gif)
+![](./img/PO_Panel.gif)
 
-Turn on the main control panel for managing rooms, orphaned objects, resources \(program types, constructions, schedules, etc.\)
-
+Turn on the main control panel for managing rooms, orphaned objects, resources (program types, constructions, schedules, etc.)
