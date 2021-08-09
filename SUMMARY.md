@@ -27,7 +27,12 @@
 
 * [Download and Install the Revit Plugin](revit-plugin/download-and-install-the-revit-plugin.md)
 * [Getting Started](revit-plugin/getting-started.md)
-* [Modeling Best Practices](revit-plugin/modeling-best-practices.md)
+* [Modeling Best Practices](revit-plugin/modeling-best-practices/README.md)
+  * [Walls and Curtain Walls](revit-plugin/modeling-best-practices/walls-and-curtain-walls.md)
+  * [Rooms](revit-plugin/modeling-best-practices/rooms.md)
+  * [Windows and Doors](revit-plugin/modeling-best-practices/windows-and-doors.md)
+  * [Building Shading](revit-plugin/modeling-best-practices/building-shading.md)
+  * [Structural Columns](revit-plugin/modeling-best-practices/structural-columns.md)
 
 ## Rhino Plugin
 
