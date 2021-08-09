@@ -23,22 +23,11 @@
   * [Delete a Job From a Project](web-application/projects-and-jobs/delete-a-job-from-a-project.md)
   * [Visualize Results](web-application/projects-and-jobs/visualize-results.md)
 
-## Grasshopper Plugin
+## REVIT PLUGIN
 
-* [Download and Install the Grasshopper Plugin](grasshopper-plugin/download-and-install-the-grasshopper-plugin.md)
-* [Grasshopper User Interface](grasshopper-plugin/grasshopper-user-interface/README.md)
-  * [Setup Runs](grasshopper-plugin/grasshopper-user-interface/setup_runs.md)
-  * [User Inputs](grasshopper-plugin/grasshopper-user-interface/user_inputs.md)
-  * [Pollinate](grasshopper-plugin/grasshopper-user-interface/pollinate.md)
-  * [Check Job Status](grasshopper-plugin/grasshopper-user-interface/check_job_status.md)
-  * [Check Run Inputs](grasshopper-plugin/grasshopper-user-interface/check_run_inputs.md)
-  * [Check Run Results](grasshopper-plugin/grasshopper-user-interface/check_run_results.md)
-  * [List Jobs](grasshopper-plugin/grasshopper-user-interface/list_jobs.md)
-  * [Load Assets](grasshopper-plugin/grasshopper-user-interface/load_assets.md)
-* [Setup Geometry](grasshopper-plugin/setup-geometry.md)
-* [Select a Recipe](grasshopper-plugin/select-a-recipe.md)
-* [Create a Parametric Run](grasshopper-plugin/create-a-parametric-run.md)
-* [Visualize Results](grasshopper-plugin/visualize-results.md)
+* [Download and Install the Revit Plugin](revit-plugin/download-and-install-the-revit-plugin.md)
+* [Getting Started](revit-plugin/getting-started.md)
+* [Modeling Best Practices](revit-plugin/modeling-best-practices.md)
 
 ## Rhino Plugin
 
@@ -124,6 +113,23 @@
   * [PO\_SimulationParameter](rhino-plugin/pollination-commands-for-rhino/po_simulationparameter.md)
   * [PO\_SolveAdjacency](rhino-plugin/pollination-commands-for-rhino/po_solveadjacency.md)
   * [PO\_SplitRoom](rhino-plugin/pollination-commands-for-rhino/po_splitroom.md)
+
+## Grasshopper Plugin
+
+* [Download and Install the Grasshopper Plugin](grasshopper-plugin/download-and-install-the-grasshopper-plugin.md)
+* [Grasshopper User Interface](grasshopper-plugin/grasshopper-user-interface/README.md)
+  * [Setup Runs](grasshopper-plugin/grasshopper-user-interface/setup_runs.md)
+  * [User Inputs](grasshopper-plugin/grasshopper-user-interface/user_inputs.md)
+  * [Pollinate](grasshopper-plugin/grasshopper-user-interface/pollinate.md)
+  * [Check Job Status](grasshopper-plugin/grasshopper-user-interface/check_job_status.md)
+  * [Check Run Inputs](grasshopper-plugin/grasshopper-user-interface/check_run_inputs.md)
+  * [Check Run Results](grasshopper-plugin/grasshopper-user-interface/check_run_results.md)
+  * [List Jobs](grasshopper-plugin/grasshopper-user-interface/list_jobs.md)
+  * [Load Assets](grasshopper-plugin/grasshopper-user-interface/load_assets.md)
+* [Setup Geometry](grasshopper-plugin/setup-geometry.md)
+* [Select a Recipe](grasshopper-plugin/select-a-recipe.md)
+* [Create a Parametric Run](grasshopper-plugin/create-a-parametric-run.md)
+* [Visualize Results](grasshopper-plugin/visualize-results.md)
 
 ## Recipes
 

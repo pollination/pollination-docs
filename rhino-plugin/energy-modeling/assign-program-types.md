@@ -12,7 +12,7 @@ description: >-
 
 Use command [PO\_SetRoomProperties](../pollination-commands-for-rhino/po_setroomproperties.md) or double click the room from "Room Manager" to bring up the "Room Properties" dialog, in which you can override room's program type.
 
-![Set room&apos;s program type from Room Properties dialog](../../.gitbook/assets/image%20%2877%29.png)
+![Set room&apos;s program type from Room Properties dialog](../../.gitbook/assets/image%20%2878%29.png)
 
 ## **Step 2A**
 
