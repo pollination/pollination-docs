@@ -28,8 +28,8 @@
 * [Download and Install the Revit Plugin](revit-plugin/download-and-install-the-revit-plugin.md)
 * [Getting Started](revit-plugin/getting-started.md)
 * [Modeling Best Practices](revit-plugin/modeling-best-practices/README.md)
+  * [Rooms and Room Separation Lines](revit-plugin/modeling-best-practices/rooms.md)
   * [Walls and Curtain Walls](revit-plugin/modeling-best-practices/walls-and-curtain-walls.md)
-  * [Rooms](revit-plugin/modeling-best-practices/rooms.md)
   * [Windows](revit-plugin/modeling-best-practices/windows-and-doors.md)
 
 ## Rhino Plugin
