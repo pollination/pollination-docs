@@ -1,7 +1,5 @@
 # Walls and Curtain Walls
 
-## Walls
-
 ## Compound Walls
 
 On many projects, there are instances where compound walls are required. For example, a project may have a concrete curb at the base or there is a shorter furred wall over masonry. To properly export a model from Revit for analysis, Pollination requires dissimilar wall types to be a compound wall instead of multiple walls drawn in parallel or stacked on top of each other. This not only makes it easier to model doors and windows for architectural purposes, but it also facilitates a seamless model export. 
