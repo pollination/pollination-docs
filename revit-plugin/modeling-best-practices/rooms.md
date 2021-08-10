@@ -4,9 +4,9 @@
 
 Avoid room export errors by selecting the "Areas and Volumes" room computation option. While this option might be slower than the areas only option, it generates rooms that are bounded more accurately in height. 
 
-![](../../.gitbook/assets/image%20%28132%29.png)
+![](../../.gitbook/assets/image%20%28136%29.png)
 
-![](../../.gitbook/assets/image%20%28123%29.png)
+![](../../.gitbook/assets/image%20%28124%29.png)
 
 ## Room Bounding Elements
 
@@ -20,11 +20,21 @@ Ensure all appropriate elements are room bounding, this includes:
 
 If room bounding is not selected in the properties tab, it will not export correctly. 
 
-![](../../.gitbook/assets/image%20%28129%29.png)
+![](../../.gitbook/assets/image%20%28133%29.png)
 
 ## Room Separation Lines
 
-Avoid duplicate room separation lines. 
+### General
 
-As long as
+As an overall strategy, minimize the use of room separation lines and avoid overlapping room separation lines. Pollination uses room separation lines to export air boundaries, so if there are instances where the room separation line overlaps with an already room bounding wall, curtain wall, or storefront, it will cause errors in the translation to an analytical model. 
+
+
+
+### Walk-Through Openings 
+
+When you have a door-less opening in a wall that allows for passage, it is important to place the room separation line correctly. In the example below, a walk-through opening is shown in axonometric and in plan view. In this instance, the room separation line should be located at the centerline of the wall assembly to properly export an air boundary at the opening.  
+
+![At walk-through openings, located a room separation line at the center of the wall assembly.](../../.gitbook/assets/room-separation-lines.jpg)
+
+
 

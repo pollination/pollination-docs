@@ -18,7 +18,7 @@ Please share instances that cause a crash, so we can improve the plugin. Thanks!
 
 Double-click on the Pollination.Revit.X.XX.X.msi file to run the Installer. 
 
-![](../.gitbook/assets/image%20%28125%29.png)
+![](../.gitbook/assets/image%20%28126%29.png)
 
 ### Step 2
 

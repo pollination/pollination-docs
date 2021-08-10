@@ -2,7 +2,7 @@
 
 When you first open Revit, you may receive a security message about the Pollination plugin. Select the "Always Load" option to ensure a Pollination works properly.
 
-![](../.gitbook/assets/image%20%28127%29.png)
+![](../.gitbook/assets/image%20%28128%29.png)
 
 ### Navigating the Tab
 
