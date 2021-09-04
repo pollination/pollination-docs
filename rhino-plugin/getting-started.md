@@ -1,8 +1,12 @@
 # Getting Started
 
-Similar to Rhino, you can use the Pollination Rhino plugin from a panel or type commands in the command line. You can check out detailed descriptions of [Pollination Commands for Rhino](pollination-commands-for-rhino/) in our user manual or you can type "PO\_" in the command line to see the list of commands in Rhino.
+## Compatibility
 
-Users can use following sample model for tutorials:
+The Pollination Rhino plugin is designed for optimal compatibility with Rhino 7. If you are using Rhino 6, there is an incompatibility issue with the way Rhino 6 loads plugins. After installing Pollination, you will need to open and close Rhino **three times** to load the Pollination plugin. 
+
+You can use the Pollination in Rhino using the Pollination panel or type Pollination commands in the command line. A list of [Pollination Commands for Rhino](pollination-commands-for-rhino/) with detailed descriptions in available in this user manual. You can also type "PO\_" in the command line to preview a list of commands in Rhino.
+
+## Sample Analytical Model
 
 {% file src="../.gitbook/assets/model.zip" caption="Download the sample model" %}
 
@@ -12,7 +16,7 @@ To pull up the Pollination panel, type `Pollination` in the command line. Once y
 
 {% embed url="https://youtu.be/qJQCc59EdCw" %}
 
-## Rhino and Pollination Compatibility
+## Native Rhino Command Compatibility
 
 Besides custom [Pollination Commands for Rhino](pollination-commands-for-rhino/), there are several native Rhino commands that can be used to modify custom Pollination RhinoObjects.
 
