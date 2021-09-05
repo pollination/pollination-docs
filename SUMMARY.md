@@ -27,6 +27,7 @@
 
 * [Download and Install the Revit Plugin](revit-plugin/download-and-install-the-revit-plugin.md)
 * [Getting Started](revit-plugin/getting-started.md)
+* [Export Analytical Model](revit-plugin/export-analytical-model.md)
 * [Modeling Best Practices](revit-plugin/modeling-best-practices/README.md)
   * [Rooms and Room Separation Lines](revit-plugin/modeling-best-practices/rooms.md)
   * [Walls and Curtain Walls](revit-plugin/modeling-best-practices/walls-and-curtain-walls.md)
