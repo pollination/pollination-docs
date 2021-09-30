@@ -130,8 +130,7 @@
   * [Check Run Results](grasshopper-plugin/grasshopper-user-interface/check_run_results.md)
   * [List Jobs](grasshopper-plugin/grasshopper-user-interface/list_jobs.md)
   * [Load Assets](grasshopper-plugin/grasshopper-user-interface/load_assets.md)
-* [Setup Geometry](grasshopper-plugin/setup-geometry.md)
-* [Select a Recipe](grasshopper-plugin/select-a-recipe.md)
+* [Your First Simulation](grasshopper-plugin/your-first-simulation-grasshopper.md)
 * [Create a Parametric Run](grasshopper-plugin/create-a-parametric-run.md)
 * [Visualize Results](grasshopper-plugin/visualize-results.md)
 
