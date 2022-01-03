@@ -1,2 +1,0 @@
-# Geojson Annual Energy Use
-

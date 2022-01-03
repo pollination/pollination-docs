@@ -1,2 +1,0 @@
-# Daylight and Radiation
-

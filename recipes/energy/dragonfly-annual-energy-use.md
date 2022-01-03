@@ -1,2 +1,0 @@
-# Dragonfly Annual Energy Use
-
