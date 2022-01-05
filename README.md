@@ -6,7 +6,7 @@ description: Use this manual to get started with the Pollination ecosystem!
 
 ## Welcome to the Pollination User Manual!&#x20;
 
-If you're new to the Pollination ecosystem, this page will give you a quick overview of all that Pollination has to offer! Designed as a flexible, collaborative, and customizable system of tools, you can curate your interactions with Pollination to obtain actionable simulation data at the speed and level of detail you desire.
+If you're new to the Pollination ecosystem, this page will give you a quick overview of all that Pollination has to offer! Designed as a flexible, collaborative, and customizable system of tools, you can curate your interactions with Pollination to obtain actionable simulation data at the speed and level of detail you desire.&#x20;
 
 {% hint style="info" %}
 As you use this manual to navigate Pollination, you may notice some sections are incomplete or screenshots don't look 100% the same on your computer. Since we are still testing and improving our platform things are changing rapidly. We'll try our best to update changes as we make them!
@@ -20,7 +20,8 @@ At a very high level, the ecosystem is comprised of four components that are des
    * Cloud computing resources
    * Tool-agnostic, web-based simulation setup, execution, and result visualization
    * Unrestricted access to simulation data
-   * Create and maintain your organization's projects, jobs, and recipes.   &#x20;
+   * Create and maintain your organization's projects, jobs, and recipes
+   * Collaborate with technical and non-technical team members in one place
 2. **CAD/BIM Plugins:** You can use our plugins to connect your favorite CAD/BIM software to all that Pollination has to offer. Each plugin will allow you to set up and execute simulations and visualize results without ever leaving your software. You can use Pollination Cloud Computing resources, or you can choose to run simulations locally on your computer. We currently support plugins for the following software packages:&#x20;
    * [Revit](https://www.pollination.cloud/revit-plugin)
    * [Rhino](https://www.pollination.cloud/rhino-plugin)

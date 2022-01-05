@@ -5,22 +5,18 @@
 ## Get Started
 
 * [Create a Pollination Account](get-started/create-a-pollination-account.md)
+* [Create a Pollination Organization Account](get-started/create-an-organization.md)
 * [Download and Install Plugins](get-started/download-and-install-plugins.md)
 * [Troubleshooting](get-started/troubleshooting.md)
 
 ## Web Application
 
-* [Create an Organization](web-application/create-an-organization.md)
 * [Add a Member to Your Account](web-application/add-a-member-to-your-account.md)
 * [Create Teams](web-application/create-teams.md)
 * [Projects and Jobs](web-application/projects-and-jobs/README.md)
   * [Create a New Project](web-application/projects-and-jobs/create-a-new-project.md)
   * [Add Recipes to a Project](web-application/projects-and-jobs/add-recipes-to-a-project.md)
   * [Create a New Job](web-application/projects-and-jobs/create-a-new-job.md)
-  * [Upload Geometry and Weather File](web-application/projects-and-jobs/upload-geometry-and-weather-file.md)
-  * [Create a Parametric Job](web-application/projects-and-jobs/create-a-parametric-job.md)
-  * [Delete a Job From a Project](web-application/projects-and-jobs/delete-a-job-from-a-project.md)
-  * [Visualize Results](web-application/projects-and-jobs/visualize-results.md)
 
 ## REVIT PLUGIN
 

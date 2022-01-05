@@ -4,6 +4,12 @@ description: Use the tabs to see instructions for each of our plugins.
 
 # Download and Install Plugins
 
+Pollination plugins are required if you would like to use Pollination from within your CAD/BIM software. If you plan to use Pollination across more than one software package, you will need to purchase and download multiple installation files. For plugin pricing, please visit our [pricing page](https://www.pollination.cloud/pricing-cad-plugins).  Click on one of the tabs below that correspond with your software to get started.&#x20;
+
+{% hint style="info" %}
+Please pay particular attention to the download instructions for each plugin during BETA access.
+{% endhint %}
+
 {% tabs %}
 {% tab title="Rhino" %}
 ## Download
