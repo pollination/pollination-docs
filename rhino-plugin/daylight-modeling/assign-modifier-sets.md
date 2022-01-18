@@ -10,7 +10,7 @@ Materials that we use for any Radiance related simulations is called **Modifier*
 
 ## Step 1
 
-Use command [PO\_SetRoomProperties](../pollination-commands-for-rhino/po\_setroomproperties.md) or double click the room from "Room Manager" to bring up the "Room Properties" dialog, in which you can override room's modifier set.
+Use command [PO\_SetRoomProperties](../pollination-commands/po\_setroomproperties.md) or double click the room from "Room Manager" to bring up the "Room Properties" dialog, in which you can override room's modifier set.
 
 ![](<../../.gitbook/assets/image (90).png>)
 
@@ -21,4 +21,3 @@ From ModifierSet manager, select a modifier set that you want to apply to the ro
 ![Select one modifier set from the list](<../../.gitbook/assets/image (85).png>)
 
 ![Review and edit modifier set](<../../.gitbook/assets/image (94).png>)
-

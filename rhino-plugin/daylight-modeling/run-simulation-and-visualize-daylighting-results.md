@@ -4,9 +4,9 @@
 
 ## Step 1
 
-Use command [PO\_RunSimulation](../pollination-commands-for-rhino/po\_runsimulation.md) or click "Run Simulation" button on [Pollination panel](../getting-started.md#pollination-panel). This brings up the Run Simulation dialog where you can select recipes and schedule a new simulation job.
+Use command [PO\_RunSimulation](../pollination-commands/po\_runsimulation.md) or click "Run Simulation" button on [Pollination panel](../getting-started.md#pollination-panel). This brings up the Run Simulation dialog where you can select recipes and schedule a new simulation job.
 
-![Run simulation dialog ](<../../.gitbook/assets/image (110).png>)
+![Run simulation dialog](<../../.gitbook/assets/image (110).png>)
 
 ## Step 2
 
@@ -20,7 +20,7 @@ _Note: please wait until the job is successfully created on the Pollination clou
 
 ## Step 3
 
-Depending on the number of sensor points and input radiance parameters, the simulation might take a few minutes to hours. You can only load results for those has completed. Once a job is finished, you can choice one of available results from dropdown list to load.&#x20;
+Depending on the number of sensor points and input radiance parameters, the simulation might take a few minutes to hours. You can only load results for those has completed. Once a job is finished, you can choice one of available results from dropdown list to load.
 
 Note: some results are not visualize-able, and they will only be downloaded from the Pollination cloud. Users can review all downloaded files by clicking "ResultFolder" button.
 

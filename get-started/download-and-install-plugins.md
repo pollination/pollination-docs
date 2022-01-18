@@ -78,11 +78,15 @@ Visit the [Pollination Grasshopper Plugin](https://www.pollination.cloud/grassho
 
 ![](<../.gitbook/assets/image (53).png>)
 
+## Installation
+
+
+
 {% hint style="danger" %}
 Rhino must be closed before running the installer.
 {% endhint %}
 
-## Installation
+###
 
 ### Step 1
 
