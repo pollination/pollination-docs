@@ -20,6 +20,8 @@ A room-based model is not required for daylight simulations, users can still use
 
 ## Draw New Rooms
 
+{% embed url="https://youtu.be/MNPbKR9Z-Ls" %}
+
 
 
 ##
