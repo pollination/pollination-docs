@@ -14,11 +14,11 @@ There are three methods for creating rooms using Pollination:&#x20;
 A room-based model is not required for daylight simulations, users can still use surface-by-surface method to build a daylight model. It is worth noting that a non-room-based model is not simulate-able for EnergyPlus simulations.
 {% endhint %}
 
-## Select Geometries or Select by Layer
+### Select Geometries or Select by Layer
 
 {% embed url="https://youtu.be/MQmKfh3TboU" %}
 
-## Draw New Rooms
+### Draw New Rooms
 
 Because Rhino offers unparalleled modeling flexibility, there are several ways that you can draw Pollination rooms from scratch. In this video, we review three of the most common ways to draw rooms.
 

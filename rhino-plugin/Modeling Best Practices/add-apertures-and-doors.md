@@ -1,19 +1,17 @@
-# Create Apertures and Doors
+# Create Apertures
 
-An aperture is an opening, hole, or gap with in a room. Apertures should always be modeled as planar surfaces that are coplanar with the appropriate face of your room. If you have floor to ceiling windows on a face of a room, then the window edge should not overlap with any room face edge.
+An aperture is an opening, hole, or gap within a room. Apertures should always be modeled as planar surfaces that are coplanar with the appropriate face of your room. If you have floor-to-ceiling windows on a face of a room, then the window edge should not overlap with any room face edge.
 
-Pollination supports the following Aperature types:
+Similar to rooms, there are three ways to add or draw apertures:&#x20;
 
-1.
+1. Select Geometries
+2. Add by Window to Wall Ratio
+3. Draw an Aperture&#x20;
 
-
-
-## Add Apertures
+### Select Window Geometries and Add by Window to Wall Ratio
 
 {% embed url="https://youtu.be/3u_xXu4F1L0" %}
 
-## Add Doors
+### Draw Apertures
 
-Similar to apertures, doors must be modeled as planar surfaces that are coplanar with the appropriate face of your room.
-
-{% embed url="https://youtu.be/Ubsm1Io7Y2E" %}
+{% embed url="https://youtu.be/LPFQMcqW-2s" %}
