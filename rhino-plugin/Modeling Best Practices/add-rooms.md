@@ -20,7 +20,13 @@ A room-based model is not required for daylight simulations, users can still use
 
 ## Draw New Rooms
 
-{% embed url="https://youtu.be/MNPbKR9Z-Ls" %}
+Because Rhino offers unparalleled modeling flexibility, there are several ways that you can draw Pollination rooms from scratch. In this video, we review three of the most common ways to draw rooms.
+
+1. Import a Plan and Trace
+2. Snap to Grid
+3. Draw a Mass and Split Rooms&#x20;
+
+{% embed url="https://youtu.be/R2cZeWawtMg" %}
 
 
 
