@@ -26,8 +26,9 @@ can be imported from OSM, gbXML and IDF. These are summarized below.
 | Opaque Constructions           |  &#x2611;  |  &#x2611;              |  &#x2611;              |  &#x2611;                |
 | Window Constructions           |  &#x2611;  |  &#x2611; <sup>3</sup> |  &#x2611; <sup>3</sup> |  &#x2611; <sup>3</sup>   |
 | Schedules                      |  &#x2611;  |  &#x2611; <sup>4</sup> |  :x: <sup>5</sup>      |  :x: <sup>5</sup>        |
-| Space Types                    |  &#x2611;  |  WIP                   |  :x:                   |  :x:                     |
-| Thermostats + Outdoor Air Req. |  &#x2611;  |  WIP <sup>6</sup>      |  :x:                   |  :x:                     |
+| Loads                          |  &#x2611;  |  &#x2611; <sup>4</sup> |  :x: <sup>5</sup>      |  :x: <sup>5</sup>        |
+| Thermostats + Outdoor Air Req. |  &#x2611;  |  &#x2611 <sup>6</sup>  |  :x: <sup>5</sup>      |  :x: <sup>5</sup>        |
+| Program Types                  |  &#x2611;  |  &#x2611               |  :x:                   |  :x:                     |
 | HVAC Systems                   |  &#x2611;  |  :x:                   |  :x:                   |  :x:                     |
 | SHW Systems                    |  &#x2611;  |  :x:                   |  :x:                   |  :x:                     |
 | Natural Ventilation            |  &#x2611;  |  :x:                   |  :x:                   |  :x:                     |
