@@ -1,4 +1,3 @@
-# PO\_SetApertureProperties
+# PO_SetApertureProperties
 
-Modify Aperture properties for one or more selected honeybee Apertures.
-
+Edit aperture properties for one or more selected apertures.

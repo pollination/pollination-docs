@@ -1,4 +1,3 @@
-# PO\_SetRoomProperties
+# PO_SetRoomProperties
 
-Modify room properties for one or more selected honeybee rooms.
-
+Edit room properties for one or more selected rooms.
