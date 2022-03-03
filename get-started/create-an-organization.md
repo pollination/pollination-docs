@@ -1,13 +1,27 @@
-# Create a Pollination Organization Account
+# Upgrade to Professional
 
-An organization account is the only account type that supports multiple users and the ability to create teams. An organization can be a company, an association, a joint venture, or other entity.&#x20;
+A professional account is a single-user account that supports private projects, more cloud computing resources, and more storage. For the details, you can check out our [pricing page](https://www.pollination.cloud/pricing).
+
+### Step 1
+
+To upgrade to a Professional account, you can click on the "Subscription" tab or click on your avatar to find the "Subscription" option. Here you will find a button to upgrade your account to a Professional subscription. &#x20;
+
+![](<../.gitbook/assets/image (148).png>)
+
+### Step 2
+
+Enter your email and location in the pop-up window to preview your monthly subscription cost inclusive of all taxes. You have the option to pay using a credit card or using your PayPal account.  &#x20;
+
+![](<../.gitbook/assets/image (153).png>)
+
+### Step 3
+
+Once you've upgraded your account, the "Upgrade" button changes to "Downgrade". This gives you flexibility to downgrade your account at any time.&#x20;
 
 {% hint style="info" %}
-During BETA access, creating an organization on your own is currently limited on Pollination. Please email us at info@pollination.cloud with the following information about your company:
-
-* \*\*Company Name: \*\*Human readable company name (e.g. Ladybug Tools)
-* **Slug:** company name for url (e.g. ladybug-tools)
-* \*\*Description: \*\*A single line description for the company
-* **URL to Company Logo:** it should be a square like logo similar to what you would use for Twitter.
-* **Contact email**
+Please see the Pollination cancellation policy before making a purchase. Canellations are effective immediately and we cannot provide prorated refunds if you choose to cancel before your subscription ends. &#x20;
 {% endhint %}
+
+
+
+##

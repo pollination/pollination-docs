@@ -38,7 +38,7 @@ The installer also updates Ladybug Tools for Grasshopper. So if are an existing 
 3. Once the installer is executed, you can copy "honeybee\_standards" folder back to the original location.
 {% endhint %}
 
-![](<../.gitbook/assets/image (150).png>)
+![](<../.gitbook/assets/image (150) (1).png>)
 
 ### Step 2
 
@@ -62,13 +62,13 @@ The Pollination plugin currently supports Revit 2022 - 2019. If you are using an
 
 Double-click on the "PollinationRevitPluginInstaller-latest.exe" file to start the installation. The installer can also be used to remove components, update Pollination, or uninstall previous versions of Pollination. If you already have a version of the Pollination Revit plugin installed then the installer will automatically show these options.
 
-![](<../.gitbook/assets/image (148).png>)
+![](<../.gitbook/assets/image (148) (1).png>)
 
 ### Step 2
 
 Follow the instructions in the Pollination Revit Plugin Setup Wizard application to install the plugin.
 
-![](<../.gitbook/assets/image (152).png>)
+![](<../.gitbook/assets/image (151).png>)
 {% endtab %}
 
 {% tab title="Grasshopper" %}

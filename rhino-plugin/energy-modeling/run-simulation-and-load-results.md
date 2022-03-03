@@ -12,7 +12,7 @@ In the current beta version, we only support running simulation on Pollination c
 
 Use command [PO\_RunSimulation](../pollination-commands/po\_runsimulation.md) or click "Run Simulation" button on [Pollination panel](../getting-started.md#pollination-panel). This brings up the Run Simulation dialog where you can select recipes and schedule a new simulation job.
 
-![](<../../.gitbook/assets/image (98).png>)
+![](<../../.gitbook/assets/image (98) (1).png>)
 
 ## Step 2
 

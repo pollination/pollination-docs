@@ -5,7 +5,8 @@
 ## Get Started
 
 * [Create a Pollination Account](get-started/create-a-pollination-account.md)
-* [Create a Pollination Organization Account](get-started/create-an-organization.md)
+* [Upgrade to Professional](get-started/create-an-organization.md)
+* [Create to Organization](get-started/create-to-organization.md)
 * [Purchase Plugins](get-started/purchase-plugins.md)
 * [Download and Install Plugins](get-started/download-and-install-plugins.md)
 * [Troubleshooting](get-started/troubleshooting.md)

@@ -41,7 +41,7 @@ Besides custom Pollination commands, there are several native Rhino commands tha
 
 
 
-![Edit Room Geometry](<../.gitbook/assets/editroomgeometry (1) (1).gif>)
+![Edit Room Geometry](<../.gitbook/assets/editroomgeometry (1).gif>)
 
 ![Undo and Redo Commands](../.gitbook/assets/undoredo.gif)
 
