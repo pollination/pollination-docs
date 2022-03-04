@@ -8,13 +8,13 @@ An organization account is the only account type that supports multiple users an
 You must have a free Starter or Professional account first before you can create an Organization.&#x20;
 {% endhint %}
 
-Click on your avatar and select "Subscription" to bring up your subscription management page. Click on the blue button to create a new Organization.&#x20;
+Click on your avatar and select _Subscription_ to bring up your subscription management page. Click on _New Organization (_blue button) to create a new Organization.&#x20;
 
 ![](<../.gitbook/assets/image (151).png>)
 
 ### Step 2
 
-Type in the account email address, display name, and a unique name for your account. As the name implies, Pollination supports duplicate display names, but unique names must be - unique! If the name you chose is already taken, the entry field will alert you to choose a different name. Additionally, instead of uploading an Organization avatar as an image, we require a URL address to an image.&#x20;
+Type in the account email address, display name, and a unique name for your account. As the name implies, Pollination supports duplicate display names, but unique names must be - unique! If the name you chose is already taken, the entry field will alert you to choose a different name. Additionally, instead of uploading an Organization avatar as an image, we require a URL address to an image. Click on _Create Organization_ to continue.
 
 ![](<../.gitbook/assets/image (149).png>)
 
