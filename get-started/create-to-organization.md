@@ -10,7 +10,7 @@ You must have a free Starter or Professional account first before you can create
 
 Click on your avatar and select _Subscription_ to bring up your subscription management page. Click on _New Organization (_blue button) to create a new Organization.&#x20;
 
-![](<../.gitbook/assets/image (151).png>)
+![](<../.gitbook/assets/image (151) (1).png>)
 
 ### Step 2
 
@@ -20,12 +20,19 @@ Type in the account email address, display name, and a unique name for your acco
 
 ### Step 3
 
-Once you've created an organization, you can select the number of seats you'd like to purchase and add members to your organization. Use the search for members field to search for eligible members with Pollination accounts.&#x20;
+Once you've created an organization, you can select the number of seats you'd like to purchase and add members to your organization. Use the search for members field to search for eligible members with Pollination accounts. Then click Purchase seats to finalize your purchase.
 
 {% hint style="info" %}
 A free Starter account or Professional account is required for a member to be added to an organization. &#x20;
 {% endhint %}
 
+![](<../.gitbook/assets/image (152).png>)
+
 ### Step 4
 
-Enter your email and location in the pop-up window to preview your monthly subscription cost inclusive of all taxes. You have the option to pay using a credit card or using your PayPal account.&#x20;
+Enter your email and location in the pop-up window to preview your monthly subscription cost inclusive of all taxes. Double check all your information and click on "Subscribe Now" to complete your Organization seat(s) purchase.
+
+![](<../.gitbook/assets/image (155).png>)
+
+&#x20;
+

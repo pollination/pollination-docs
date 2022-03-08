@@ -38,7 +38,7 @@ The installer also updates Ladybug Tools for Grasshopper. So if are an existing 
 3. Once the installer is executed, you can copy "honeybee\_standards" folder back to the original location.
 {% endhint %}
 
-![](<../.gitbook/assets/image (150) (1).png>)
+![](<../.gitbook/assets/image (150) (1) (1).png>)
 
 ### Step 2
 
@@ -68,7 +68,7 @@ Double-click on the "PollinationRevitPluginInstaller-latest.exe" file to start t
 
 Follow the instructions in the Pollination Revit Plugin Setup Wizard application to install the plugin.
 
-![](<../.gitbook/assets/image (151) (1).png>)
+![](<../.gitbook/assets/image (151) (1) (1).png>)
 {% endtab %}
 
 {% tab title="Grasshopper" %}
