@@ -1,8 +1,6 @@
 # Manage Licenses
 
-![image](https://user-images.githubusercontent.com/2915573/156390566-d46f2823-8d7a-448b-ac6b-5f2fc25b2b07.png)
-
-### **Manage floating licenses**
+### **Manage Floating Licenses**
 
 All the Pollination Rhino licenses are floating licenses. That means that you can share them with other users on Pollination.
 
@@ -13,8 +11,6 @@ Click on the `Manage Floating Licenses` button under the subscription tab.&#x20;
 Use the Add License Poll Members to add your team to be able to access your license pool.&#x20;
 
 ![](https://user-images.githubusercontent.com/2915573/156394412-d17c959b-4021-491b-ae7a-51c2ffa59ab1.png)
-
-There are two other tabs under the _Rhino Plugin Subscription_ panel.
 
 ### **Manage tab**
 
