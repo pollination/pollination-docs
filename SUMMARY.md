@@ -9,6 +9,7 @@
 * [Create to Organization](get-started/create-to-organization.md)
 * [Purchase Plugins](get-started/purchase-plugins.md)
 * [Download and Install Plugins](get-started/download-and-install-plugins.md)
+* [Manage Licenses](get-started/manage-licenses.md)
 * [Troubleshooting](get-started/troubleshooting.md)
 
 ## Web Application
