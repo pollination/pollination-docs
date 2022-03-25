@@ -12,7 +12,7 @@ If you're new to the Pollination ecosystem, this page will give you a quick over
 As you use this manual to navigate Pollination, you may notice some sections are incomplete or screenshots don't look 100% the same on your computer. Since we are still testing and improving our platform things are changing rapidly. We'll try our best to update changes as we make them!
 {% endhint %}
 
-![Diagram of the Pollination Ecosystem](<.gitbook/assets/Pollination Platform.png>)
+![](<.gitbook/assets/Pollination in One Slide\_Apps.jpg>)
 
 At a very high level, the ecosystem is comprised of four components that are designed to work together in multiple user-defined configurations:&#x20;
 

@@ -6,10 +6,11 @@
 
 * [Create a Pollination Account](get-started/create-a-pollination-account.md)
 * [Upgrade to Professional](get-started/create-an-organization.md)
-* [Create to Organization](get-started/create-to-organization.md)
-* [Purchase Plugins](get-started/purchase-plugins.md)
-* [Download and Install Plugins](get-started/download-and-install-plugins.md)
-* [Manage Licenses](get-started/manage-licenses.md)
+* [Create an Organization](get-started/create-an-organization-1.md)
+* [Purchase and Manage Plugins](get-started/purchase-and-manage-plugins.md)
+* [Download Plugins](get-started/download-plugins.md)
+* [Plugin Installation](get-started/download-and-install-plugins.md)
+* [Manage License Pool](get-started/manage-license-pool.md)
 * [Troubleshooting](get-started/troubleshooting.md)
 
 ## Web Application

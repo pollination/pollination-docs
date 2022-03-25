@@ -8,8 +8,6 @@ When you first open Revit, you may receive a security message about the Pollinat
 
 Once Revit opens, you can find a tab for Pollination in the ribbon. The Pollination tab has 4 sections, Plugin, Settings, Model, and Simulation. Watch the video to learn more!
 
-
-
-![](<../.gitbook/assets/image (77).png>)
+![](<../.gitbook/assets/image (162).png>)
 
 {% embed url="https://youtu.be/v3HiEZiIsNE" %}

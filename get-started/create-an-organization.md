@@ -6,13 +6,13 @@ A professional account is a single-user account that supports private projects, 
 
 To upgrade to a Professional account, click on your avatar to find the "Subscription" option. You can find the option to upgrade your account to a Professional subscription under your Subscriptions.  &#x20;
 
-![](<../.gitbook/assets/image (153).png>)
+![](<../.gitbook/assets/image (153) (1).png>)
 
 ### Step 2
 
 Enter your email and location in the pop-up window to preview your monthly subscription cost inclusive of all taxes. You have the option to pay using a credit card or using your PayPal account.&#x20;
 
-![](<../.gitbook/assets/image (154).png>)
+![](<../.gitbook/assets/image (154) (1).png>)
 
 ### Step 3
 

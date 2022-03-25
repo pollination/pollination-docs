@@ -4,7 +4,7 @@
 
 To export a model, click on the `Export Model`button.
 
-![](<../.gitbook/assets/image (147).png>)
+![](<../.gitbook/assets/image (161).png>)
 
 ## Step 2 Select Settings
 
