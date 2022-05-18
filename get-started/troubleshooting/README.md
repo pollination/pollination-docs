@@ -7,3 +7,11 @@ If you have a Pollination account already, you can use the same email and passwo
 {% content-ref url="../create-a-pollination-account.md" %}
 [create-a-pollination-account.md](../create-a-pollination-account.md)
 {% endcontent-ref %}
+
+## Common Pollination Modeling Errors
+
+Getting error codes when validating your model for simulation? Check out our list of common errors and how to fix them.&#x20;
+
+{% content-ref url="help-with-modeling-error-codes.md" %}
+[help-with-modeling-error-codes.md](help-with-modeling-error-codes.md)
+{% endcontent-ref %}
