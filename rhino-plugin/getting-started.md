@@ -38,6 +38,8 @@ Besides custom Pollination commands, there are several native Rhino commands tha
 |                             FLIP/DIR                            |     **✔**    |       |                   |
 |                               CAP                               |     **✔**    |       |                   |
 |                           TRIM/UNTRIM                           |     **✔**    |       |                   |
+|                              MIRROR                             |     **✔**    |       |                   |
+|                      MergeAllCoplanarFaces                      |     **✔**    |       |                   |
 
 
 

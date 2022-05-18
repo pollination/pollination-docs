@@ -32,7 +32,7 @@ A free Starter account or Professional account is required for a member to be ad
 
 Enter your email and location in the pop-up window to preview your monthly subscription cost inclusive of all taxes. Double check all your information and click on "Subscribe Now" to complete your Organization seat(s) purchase.
 
-![](<../.gitbook/assets/image (156) (1).png>)
+![](<../.gitbook/assets/image (155) (1).png>)
 
 &#x20;
 

@@ -16,7 +16,7 @@ Scroll down to _the Plugin Subscription_ section, select the plugin you'd like t
 If you are buying plugins for multiple CAD software, you'll have to repeat Steps 2 and 3 for each plugin at this time. &#x20;
 {% endhint %}
 
-![](<../.gitbook/assets/image (152).png>)
+![](<../.gitbook/assets/image (160).png>)
 
 ### Step 3
 
