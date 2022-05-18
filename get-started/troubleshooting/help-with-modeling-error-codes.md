@@ -1,8 +1,8 @@
 # Validation Error Codes
 
-The validation process happens automatically upon import of a model to the Rhino plugin or whenever the [PO\_ValidateModel](pollination-commands/po\_validatemodel/) command is run. It can also be run on a `.hbjson` file from the command line by installing [lbt-honeybee](https://pypi.org/project/lbt-honeybee/) and then running the [`honeybee validate model`](https://www.ladybug.tools/honeybee-core/docs/cli/validate.html) command.
+The validation process happens automatically upon importing a model to the Rhino plugin or whenever the [po\_validatemodel.md](../../rhino-plugin/pollination-commands/po\_validatemodel.md "mention") command is run. It can also be run on a `.hbjson` file from the command line by installing [lbt-honeybee](https://pypi.org/project/lbt-honeybee/) and then running the [`honeybee validate model`](https://www.ladybug.tools/honeybee-core/docs/cli/validate.html) command.
 
-The validation process runs a number of tests on the model, each of which corresponds to a specific validation error code. A model failing a specific test will return this error code along with a message about the failing Model object. A model that passes all validation can usually be simulated in any of the engines that Honeybee connects to without error.
+The validation process runs a number of tests on the model, each of which corresponds to a specific validation error code. A model failing a specific test will return this error code along with a message about the failing Model object. A model that passes all validation can usually be simulated in any engine that Honeybee connects to without error.
 
 Invalid models may still be simulate-able in some engines but not others. For this reason, it is helpful to check the consequences of each error code since it can sometimes be ok to ignore them. Furthermore, in the event that an error must be fixed, it is important to know how to fix it and errors sharing the same error code can usually be corrected with similar methods.
 
@@ -22,25 +22,25 @@ Below is a list of all validation error codes that can be obtained from the Hone
 
 **Duplicate Shade Identifier** - Two or more Shades in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object.
 
-This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [PO\_ResetIdentifier](pollination-commands/po\_resetidentifier/) command can be used to change object identifiers.
+This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../rhino-plugin/pollination-commands/po\_resetidentifier.md "mention")command can be used to change object identifiers.
 
 ### 000002
 
 **Duplicate Sub-Face Identifier** - Two or more Apertures or Doors in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object.
 
-This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [PO\_ResetIdentifier](pollination-commands/po\_resetidentifier/) command can be used change object identifiers.
+This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../rhino-plugin/pollination-commands/po\_resetidentifier.md "mention")command can be used change object identifiers.
 
 ### 000003
 
 **Duplicate Face Identifier** - Two or more Faces in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object.
 
-This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [PO\_ResetIdentifier](pollination-commands/po\_resetidentifier/) command can be used to change object identifiers.
+This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../rhino-plugin/pollination-commands/po\_resetidentifier.md "mention")command can be used to change object identifiers.
 
 ### 000004
 
 **Duplicate Room Identifier** - Two or more Rooms in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object.
 
-This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [PO\_ResetIdentifier](pollination-commands/po\_resetidentifier/) command can be used change object identifiers.
+This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../rhino-plugin/pollination-commands/po\_resetidentifier.md "mention")command can be used change object identifiers.
 
 ### 000101
 
