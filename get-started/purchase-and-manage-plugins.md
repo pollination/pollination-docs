@@ -16,7 +16,7 @@ Scroll down to _the Plugin Subscription_ section, select the plugin you'd like t
 If you are buying plugins for multiple CAD software, you'll have to repeat Steps 2 and 3 for each plugin at this time. &#x20;
 {% endhint %}
 
-![](<../.gitbook/assets/image (160).png>)
+![](<../.gitbook/assets/image (152).png>)
 
 ### Step 3
 
@@ -25,7 +25,7 @@ Enter your email and location in the pop-up window to preview your monthly subsc
 ![](<../.gitbook/assets/image (159).png>)
 
 {% hint style="info" %}
-NOTE: We use [Paddle](https://paddle.com) to process all payments on our platform. Once you complete payment, you will receive an email from Ladybug Tools (via Paddle.com) with a link to your invoice/receipt. Please check your spam and junk folders after making your payment if you don't see an email confirmation in your inbox.&#x20;
+NOTE: We use [Paddle](https://paddle.com/) to process all payments on our platform. Once you complete payment, you will receive an email from Ladybug Tools (via Paddle.com) with a link to your invoice/receipt. Please check your spam and junk folders after making your payment if you don't see an email confirmation in your inbox.&#x20;
 {% endhint %}
 
 ### Step 4

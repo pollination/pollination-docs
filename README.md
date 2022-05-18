@@ -29,4 +29,4 @@ At a very high level, the ecosystem is comprised of four components that are des
 3. **Recipes:** Pollination simulation recipes are required to execute simulations. We provide a set of recipes for common energy, daylighting, and comfort simulations that meet the requirements of several green building standards and codes. The recipes are accessible from all our plugins and the web application.&#x20;
 4. **App Marketplace:** Our app gallery is guaranteed to be your favorite feature of our platform! You can use apps provided by us or create your own apps that use Pollination under the hood. Create custom reports (think LEED daylighting or energy!), bring in context geometry from your favorite GIS platform, etc. The possibilities are endless!&#x20;
 
-**Get started today by creating a** [**Pollination account**](https://app.pollination.cloud)**!**&#x20;
+**Get started today by creating a** [**Pollination account**](https://app.pollination.cloud/)**!**&#x20;

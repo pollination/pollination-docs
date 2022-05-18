@@ -4,6 +4,6 @@ You'll need a Pollination account to access all features of the Pollination ecos
 
 Check out our [pricing page ](https://www.pollination.cloud/pricing-platform)to learn more about the difference between a free and paid account and how that relates to an Organization account!&#x20;
 
-Visit [https://app.pollination.cloud/](https://app.pollination.cloud) and choose your preferred method for signing up. We currently support sign-up via email, with a Google account, or a GitHub account.&#x20;
+Visit [https://app.pollination.cloud/](https://app.pollination.cloud/) and choose your preferred method for signing up. We currently support sign-up via email, with a Google account, or a GitHub account.&#x20;
 
 ![](<../.gitbook/assets/image (57).png>)

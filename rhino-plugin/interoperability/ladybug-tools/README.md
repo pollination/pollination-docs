@@ -4,7 +4,7 @@ Many architects and designers have good experience with Rhino, Pollination Rhino
 
 **Pollination Rhino** plugin adds a new tab to \*\*Honeybee \*\*for bidirectional integration to Rhino.
 
-![](<../../../.gitbook/assets/image (116) (1).png>)
+![](<../../../.gitbook/assets/image (116).png>)
 
 There are two kind of components:
 

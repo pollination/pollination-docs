@@ -1,6 +1,6 @@
 # PO\_AddAperturesByWWR
 
-![](../pollination-commands-for-rhino/img/PO\_AddAperturesByWWR.gif)
+![](../../.gitbook/assets/PO\_AddAperturesByWWR.gif)
 
 Use this command to add windows by window to wall ratio for each outdoor walls of selected rooms.
 

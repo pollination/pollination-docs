@@ -11,7 +11,8 @@
 * [Download Plugins](get-started/download-plugins.md)
 * [Plugin Installation](get-started/download-and-install-plugins.md)
 * [Manage License Pool](get-started/manage-license-pool.md)
-* [Troubleshooting](get-started/troubleshooting.md)
+* [Troubleshooting](get-started/troubleshooting/README.md)
+  * [Help with Modeling Error Codes](get-started/troubleshooting/help-with-modeling-error-codes.md)
 
 ## Web Application
 
