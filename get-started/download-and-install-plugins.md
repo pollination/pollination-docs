@@ -20,7 +20,7 @@ Rhino must be closed before running the installer to install or uninstall Pollin
 
 
 
-![](<../.gitbook/assets/image (150) (2).png>)
+![](<../.gitbook/assets/image (150) (1) (1) (1).png>)
 
 Double-click on the "PollinationRHGHPluginInstaller-latest.exe" file to start the installation. The installer can also be used to remove components, update Pollination, or uninstall previous versions of Pollination. If you already have a version of Pollination installed then the installer will automatically show these options.
 
@@ -38,7 +38,7 @@ The installer also updates Ladybug Tools for Grasshopper. So if are an existing 
 
 Follow the instructions in the Pollination Rhino Plugin Setup Wizard to install the plugin.
 
-![](<../.gitbook/assets/image (149) (2).png>)
+![](<../.gitbook/assets/image (149) (1) (1).png>)
 {% endtab %}
 
 {% tab title="Revit" %}
@@ -50,13 +50,13 @@ The Pollination Revit plugin currently supports Revit 2022 - 2019. If you are us
 
 Double-click on the "PollinationRevitPluginInstaller-latest.exe" file to start the installation. The installer can also be used to remove components, update Pollination, or uninstall previous versions of Pollination. If you already have a version of the Pollination Revit plugin installed then the installer will automatically show these options.
 
-![](<../.gitbook/assets/image (148) (2).png>)
+![](<../.gitbook/assets/image (148) (1) (1).png>)
 
 ### Step 2
 
 Follow the instructions in the Pollination Revit Plugin Setup Wizard application to install the plugin.
 
-![](<../.gitbook/assets/image (152) (2).png>)
+![](<../.gitbook/assets/image (151) (1) (1) (1).png>)
 {% endtab %}
 
 {% tab title="Grasshopper" %}

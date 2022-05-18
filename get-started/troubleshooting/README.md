@@ -4,6 +4,6 @@ The Pollination [user forum](https://discourse.pollination.cloud/) is the best p
 
 If you have a Pollination account already, you can use the same email and password to sign on to our forum. If you don't have a Pollination account yet, please visit:
 
-{% content-ref url="create-a-pollination-account.md" %}
-[create-a-pollination-account.md](create-a-pollination-account.md)
+{% content-ref url="../create-a-pollination-account.md" %}
+[create-a-pollination-account.md](../create-a-pollination-account.md)
 {% endcontent-ref %}

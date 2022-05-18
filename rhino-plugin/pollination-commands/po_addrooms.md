@@ -1,6 +1,6 @@
 # PO\_AddRooms
 
-![](../../.gitbook/assets/PO\_AddRooms.gif)
+![](<../../.gitbook/assets/PO\_AddRooms (1).gif>)
 
 Use this command to convert closed geometries to rooms.
 
