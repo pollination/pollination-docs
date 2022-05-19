@@ -1,5 +1,5 @@
-# PO\_AddSiteContext
+# PO_AddSiteContext
 
-![](../pollination-commands-for-rhino/img/PO\_AddSiteContext.gif)
+![](../../.gitbook/assets/PO_AddSiteContext.gif)
 
-This command will add selected planer surfaces as site contexts to model.
+This command will add selected planar surfaces as site contexts to model.
