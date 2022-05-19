@@ -20,27 +20,27 @@ Below is a list of all validation error codes that can be obtained from the Hone
 
 ### 000001
 
-**Duplicate Shade Identifier** - Two or more Shades in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object.
+**Duplicate Shade Identifier** - Two or more Shades in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during the serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object.
 
 This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../rhino-plugin/pollination-commands/po\_resetidentifier.md "mention")command can be used to change object identifiers.
 
 ### 000002
 
-**Duplicate Sub-Face Identifier** - Two or more Apertures or Doors in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object.
+**Duplicate Sub-Face Identifier** - Two or more Apertures or Doors in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during the serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object.
 
-This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../rhino-plugin/pollination-commands/po\_resetidentifier.md "mention")command can be used change object identifiers.
+This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../rhino-plugin/pollination-commands/po\_resetidentifier.md "mention")command can be used to change object identifiers.
 
 ### 000003
 
-**Duplicate Face Identifier** - Two or more Faces in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object.
+**Duplicate Face Identifier** - Two or more Faces in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during the serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object.
 
 This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../rhino-plugin/pollination-commands/po\_resetidentifier.md "mention")command can be used to change object identifiers.
 
 ### 000004
 
-**Duplicate Room Identifier** - Two or more Rooms in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object.
+**Duplicate Room Identifier** - Two or more Rooms in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during the serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object.
 
-This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../rhino-plugin/pollination-commands/po\_resetidentifier.md "mention")command can be used change object identifiers.
+This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../rhino-plugin/pollination-commands/po\_resetidentifier.md "mention")command can be used to change object identifiers.
 
 ### 000101
 
@@ -48,7 +48,7 @@ This issue should be fixed by finding the object with the duplicate identifier a
 
 This error must be fixed for simulation in both Radiance and EnergyPlus since these engines only accept planar geometry.
 
-If the non-planarity of the geometry is not that severe, it can sometimes be fixed by using the [PO\_AlignToGrid](pollination-commands/po\_aligntogrid/) command. Otherwise, more detailed editing of vertices on the individual geometry object may be required.
+If the non-planarity of the geometry is not that severe, it can sometimes be fixed by using the [PO\_AlignToGrid](../../rhino-plugin/pollination-commands/po\_aligntogrid.md) command. Otherwise, more detailed editing of vertices on the individual geometry object may be required.
 
 ### 000102
 
@@ -66,7 +66,7 @@ The typical way to address these zero-area geometries is to simply delete them.
 
 ### 000104
 
-**Invalid Sub-Face Geometry** - An Aperture or a Door is not co-planar with its parent Face or does not lie completely inside the parent Face boundary. Fixing this is a requirement for both EnergyPlus and Radiance. In EnergyPlus, this error can result in an incorrect estimation of solar gains if an Aperture is significantly larger than its parent Face or is facing the incorrect direction. In Radiance, the parent Face will not have the child geometries properly "punched" out of it, often resulting is odd visuals.
+**Invalid Sub-Face Geometry** - An Aperture or a Door is not co-planar with its parent Face or does not lie completely inside the parent Face boundary. Fixing this is a requirement for both EnergyPlus and Radiance. In EnergyPlus, this error can result in an incorrect estimation of solar gains if an Aperture is significantly larger than its parent Face or is facing the incorrect direction. In Radiance, the parent Face will not have the child geometries properly "punched" out of it, often resulting in odd visuals.
 
 Note that this error will still arise even when the child Aperture or Door is only sharing an edge with the parent Face, which is technically still acceptable for certain Energy simulations but will often cause issues in Radiance and will result in display issues for most model viewers.
 
@@ -117,13 +117,13 @@ It can usually be fixed by re-solving adjacency.
 
 ### 000205
 
-**Mismatched Area Adjacency** - The model contains an adjacent pair of Faces, Apertures or Doors that are otherwise valid but do not have equivalent areas to each other within the model tolerance. Matching areas are required for EnergyPlus simulation in order to ensure there is matching heat flow across adjacent Faces. Otherwise, conservation of energy is usually violated and EnergyPlus will give a severe error. This condition may have little to no effect on Radiance simulation if the geometry is otherwise "clean."
+**Mismatched Area Adjacency** - The model contains an adjacent pair of Faces, Apertures, or Doors that are otherwise valid but do not have equivalent areas to each other within the model tolerance. Matching areas are required for EnergyPlus simulation in order to ensure there is matching heat flow across adjacent Faces. Otherwise, conservation of energy is usually violated and EnergyPlus will give a severe error. This condition may have little to no effect on Radiance simulation if the geometry is otherwise "clean."
 
 This error can usually be fixed by re-solving adjacencies with the intersection step selected in order to ensure any mismatched geometries are correctly split with their neighboring geometry.
 
 ### 000206
 
-**Non-Adjacent AirBoundary** - The model contains an AirBoundary Face that does not have a Surface boundary condition and is not adjacent to another Room in the Model. All AirBoundary Faces must be adjacent to another Room for EnergyPlus simulation since EnergyPlus expects to simulate detailed radiant heat and air exchange between Rooms across an AirBoundary. In Radiance simulation, this a non-adjacent AirBoundary is permissible, though it's effectively equivalent to having a Room geometry open to the outdoors.
+**Non-Adjacent AirBoundary** - The model contains an AirBoundary Face that does not have a Surface boundary condition and is not adjacent to another Room in the Model. All AirBoundary Faces must be adjacent to another Room for EnergyPlus simulation since EnergyPlus expects to simulate detailed radiant heat and air exchange between Rooms across an AirBoundary. In Radiance simulation, a non-adjacent AirBoundary is permissible, though it's effectively equivalent to having a Room geometry open to the outdoors.
 
 The error might be fixed by re-solving adjacency or, if the erroneous AirBoundary Face is not between two Rooms, then it should be changed to a different face type like a Wall, Roof, or Floor.
 
@@ -137,13 +137,13 @@ It should be fixed by merging the Room composed entirely of AirBoundaries into a
 
 ### 010001
 
-**Duplicate Modifier Identifier** - Two or more Modifiers in the model have the same identifier. While Radiance will often let the simulation proceed with this situation, it can result in confusing results since Radiance will always use the first occurrence of the modifier that is found in the input files. This situation can also result in issues during serialization of the model to/from any file format. For example, a geometry object may be assigned the incorrect modifier between the two duplicate identifiers.
+**Duplicate Modifier Identifier** - Two or more Modifiers in the model have the same identifier. While Radiance will often let the simulation proceed with this situation, it can result in confusing results since Radiance will always use the first occurrence of the modifier that is found in the input files. This situation can also result in issues during the serialization of the model to/from any file format. For example, a geometry object may be assigned the incorrect modifier between the two duplicate identifiers.
 
 This issue should be fixed by finding the object with the duplicate identifier and changing its identifier.
 
 ### 010002
 
-**Duplicate ModifierSet Identifier** - Two or more ModifierSets in the model have the same identifier. This situation can result in issues during serialization of the model to/from any file format. For example, a Room object may be assigned the incorrect ModifierSet between the two duplicate identifiers.
+**Duplicate ModifierSet Identifier** - Two or more ModifierSets in the model have the same identifier. This situation can result in issues during the serialization of the model to/from any file format. For example, a Room object may be assigned the incorrect ModifierSet between the two duplicate identifiers.
 
 This issue should be fixed by finding the object with the duplicate identifier and changing its identifier.
 
@@ -175,49 +175,49 @@ This issue should be fixed by finding the View and either removing its room\_ide
 
 ### 020001
 
-**Duplicate Material Identifier** - Two or more Material layers in the model have the same identifier. This is illegal in EnergyPlus, and it can also result in issues during serialization of the model to/from any file format. For example, a construction may be assigned the incorrect material layer between the two duplicate identifiers.
+**Duplicate Material Identifier** - Two or more Material layers in the model have the same identifier. This is illegal in EnergyPlus, and it can also result in issues during the serialization of the model to/from any file format. For example, a construction may be assigned the incorrect material layer between the two duplicate identifiers.
 
 This issue should be fixed by finding the object with the duplicate identifier and changing its identifier.
 
 ### 020002
 
-**Duplicate Construction Identifier** - Two or more Constructions in the model have the same identifier. This is illegal in EnergyPlus, and it can also result in issues during serialization of the model to/from any file format. For example, a Face or Aperture may be assigned the incorrect construction between the two duplicate identifiers.
+**Duplicate Construction Identifier** - Two or more Constructions in the model have the same identifier. This is illegal in EnergyPlus, and it can also result in issues during the serialization of the model to/from any file format. For example, a Face or Aperture may be assigned the incorrect construction between the two duplicate identifiers.
 
 This issue should be fixed by finding the object with the duplicate identifier and changing its identifier.
 
 ### 020003
 
-**Duplicate ConstructionSet Identifier** - Two or more ConstructionSets in the model have the same identifier. This can result in issues during serialization of the model to/from any file format. For example, a Room may be assigned the incorrect construction set between the two duplicate identifiers.
+**Duplicate ConstructionSet Identifier** - Two or more ConstructionSets in the model have the same identifier. This can result in issues during the serialization of the model to/from any file format. For example, a Room may be assigned the incorrect construction set between the two duplicate identifiers.
 
 This issue should be fixed by finding the object with the duplicate identifier and changing its identifier.
 
 ### 020004
 
-**Duplicate ScheduleTypeLimit Identifier** - Two or more ScheduleTypeLimits in the model have the same identifier. This is illegal in EnergyPlus and can result in issues during serialization of the model to/from any file format. For example, a Schedule may be assigned the incorrect schedule type limit between the two duplicate identifiers.
+**Duplicate ScheduleTypeLimit Identifier** - Two or more ScheduleTypeLimits in the model have the same identifier. This is illegal in EnergyPlus and can result in issues during the serialization of the model to/from any file format. For example, a Schedule may be assigned the incorrect schedule type limit between the two duplicate identifiers.
 
 This issue should be fixed by finding the object with the duplicate identifier and changing its identifier.
 
 ### 020005
 
-**Duplicate Schedule Identifier** - Two or more Schedules in the model have the same identifier. This is illegal in EnergyPlus and can result in issues during serialization of the model to/from any file format. For example, a ProgramType may be assigned the incorrect schedule between the two duplicate identifiers.
+**Duplicate Schedule Identifier** - Two or more Schedules in the model have the same identifier. This is illegal in EnergyPlus and can result in issues during the serialization of the model to/from any file format. For example, a ProgramType may be assigned the incorrect schedule between the two duplicate identifiers.
 
 This issue should be fixed by finding the object with the duplicate identifier and changing its identifier.
 
 ### 020006
 
-**Duplicate ProgramType Identifier** - Two or more ProgramTypes in the model have the same identifier. This can result in issues during serialization of the model to/from any file format. For example, a Room may be assigned the incorrect program type between the two duplicate identifiers.
+**Duplicate ProgramType Identifier** - Two or more ProgramTypes in the model have the same identifier. This can result in issues during the serialization of the model to/from any file format. For example, a Room may be assigned the incorrect program type between the two duplicate identifiers.
 
 This issue should be fixed by finding the object with the duplicate identifier and changing its identifier.
 
 ### 020007
 
-**Duplicate HVAC Identifier** - Two or more Heating, Ventilation, and Air Conditioning (HVAC) systems in the model have the same identifier. This can result in issues during serialization of the model to/from any file format. For example, a Room may be assigned the incorrect HVAC system between the two duplicate identifiers.
+**Duplicate HVAC Identifier** - Two or more Heating, Ventilation, and Air Conditioning (HVAC) systems in the model have the same identifier. This can result in issues during the serialization of the model to/from any file format. For example, a Room may be assigned the incorrect HVAC system between the two duplicate identifiers.
 
 This issue should be fixed by finding the object with the duplicate identifier and changing its identifier.
 
 ### 020008
 
-**Duplicate SHW Identifier** - Two or more Service Hot Water (SHW) systems in the model have the same identifier. This can result in issues during serialization of the model to/from any file format. For example, a Room may be assigned the incorrect SHW system between the two duplicate identifiers.
+**Duplicate SHW Identifier** - Two or more Service Hot Water (SHW) systems in the model have the same identifier. This can result in issues during the serialization of the model to/from any file format. For example, a Room may be assigned the incorrect SHW system between the two duplicate identifiers.
 
 This issue should be fixed by finding the object with the duplicate identifier and changing its identifier.
 
