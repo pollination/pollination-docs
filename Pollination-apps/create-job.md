@@ -40,8 +40,6 @@ the inputs for the recipe
 
 ![](../.gitbook/assets/pollination-apps/recipe.png)
 
-## Example
-
 We will create a job on Pollination to run the
 [daylight-factor](https://app.pollination.cloud/ladybug-tools/recipes/daylight-factor)
 recipe on the gridbased model that ships with Ladybug Tools.
