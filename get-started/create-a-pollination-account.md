@@ -6,4 +6,4 @@ Check out our [pricing page ](https://www.pollination.cloud/pricing-platform)to 
 
 Visit [https://app.pollination.cloud/](https://app.pollination.cloud/) and choose your preferred method for signing up. We currently support sign-up via email, with a Google account, or a GitHub account.&#x20;
 
-![](<../.gitbook/assets/image (57).png>)
+![](<../.gitbook/assets/web_create_account.png>)
