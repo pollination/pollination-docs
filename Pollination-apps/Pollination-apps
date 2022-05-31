@@ -14,6 +14,7 @@ give an idea about what's possible with the apps.
 2. You need to know enough python to work with
    [Ladybug tools API](https://discourse.ladybug.tools/pub/ladybug-tools-core-sdk-documentation)
    and [Streamlit API](https://docs.streamlit.io/library/api-reference).
+3. You need to know how to write and run a streamlit app. Look [here](https://docs.streamlit.io/library/get-started)
 
 ![](../.gitbook/assets/pollination-apps/ladybug-streamlit.png)
 
