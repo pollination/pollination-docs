@@ -20,7 +20,7 @@ https://github.com/pollination-apps/pollination-viewer-sample/blob/main/app.py
 This app exposes all the configurations and features of pollination-streamlit-viewer.
 
 Here's a screenshot of the viewer itself:
-![](../.gitbook/assets/integrating-the-pollination-viewer/pollination-viewer-model-loaded.png)
+![](../../.gitbook/assets/integrating-the-pollination-viewer/pollination-viewer-model-loaded.png)
 
 
 ### Instantiating the `viewer` in Streamlit
@@ -68,7 +68,7 @@ content = _file.getvalue() if _file else None
 
 ### Subscribe Toggle
 The subscribe toggle is a powerful feature that may be easy to misuse. If set, the value returned by st_vtkjs will contain additional fields. 
-![](../.gitbook/assets/integrating-the-pollination-viewer/subscribe-toggle.png)
+![](../../.gitbook/assets/integrating-the-pollination-viewer/subscribe-toggle.png)
 
 These fields contain information about the renderer, legend, and "widgets" (the compass rose and section planes) and will update as the you make changes to the scene. Be warned! This toggle can easily cause your app to go into an infinite rendering loop as the component responds to changes and returns new values. See the last section of this guide Gotchas: Controlling Component Re-rendering.
 
@@ -92,7 +92,7 @@ st.selectbox('Color sets', COLORSETS, key='colorset_select', on_change=handle_co
 ```
 
 This renders the select box in the right hand sidebar:
-![](../.gitbook/assets/integrating-the-pollination-viewer/colorset-selector.png)
+![](../../.gitbook/assets/integrating-the-pollination-viewer/colorset-selector.png)
 
 Please be aware, that if you've set the `subscribe` toggle to `True` this will cause the component to rerender. Please see the previous section on the Subscribe Toggle or the next section Gotchas: Controlling Component Re-Rendering for more information.
 
