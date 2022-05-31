@@ -1,0 +1,25 @@
+# Pollination Apps
+
+A Pollination app is a way to capture a workflow in a web application.
+Examples of these workflows are customized weather data visualization,
+running simulations on models prepared in a CAD environment, post-processing
+the results of a simulation, and visualizing the results back into the CAD environment.
+[These](https://pollination.gallery/) are some of the early examples of the apps that
+give an idea about what's possible with the apps.
+
+### What are the prerequisite to develop a Pollination app?
+
+1. you need to have a Pollination account. If you don't have one, you can create one for
+   free by following the steps [here](../get-started/create-a-pollination-account.md).
+2. You need to know enough python to work with
+   [Ladybug tools API](https://discourse.ladybug.tools/pub/ladybug-tools-core-sdk-documentation)
+   and [Streamlit API](https://docs.streamlit.io/library/api-reference).
+
+![](../.gitbook/assets/pollination-apps/ladybug-streamlit.png)
+
+### How to start developing a Pollination app?
+
+We have several public [examples](https://github.com/pollination-apps) of apps deployed
+on Pollination. Make sure to look at
+these examples to get an idea of how to put together an app. Next, you will see guides for
+several of the common workflows used in most of the apps.
