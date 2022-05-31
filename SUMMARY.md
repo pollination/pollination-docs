@@ -14,14 +14,14 @@
 * [Troubleshooting](get-started/troubleshooting/README.md)
   * [Validation Error Codes](get-started/troubleshooting/help-with-modeling-error-codes.md)
 
-## Web Application
+## Web Platform
 
-* [Add a Member to Your Account](web-application/add-a-member-to-your-account.md)
-* [Create Teams](web-application/create-teams.md)
-* [Projects and Jobs](web-application/projects-and-jobs/README.md)
-  * [Create a New Project](web-application/projects-and-jobs/create-a-new-project.md)
-  * [Add Recipes to a Project](web-application/projects-and-jobs/add-recipes-to-a-project.md)
-  * [Create a New Job](web-application/projects-and-jobs/create-a-new-job.md)
+* [Add a Member to Your Account](web-platform/add-a-member-to-your-account.md)
+* [Create Teams](web-platform/create-teams.md)
+* [Projects and Jobs](web-platform/projects-and-jobs/README.md)
+  * [Create a New Project](web-platform/projects-and-jobs/create-a-new-project.md)
+  * [Add Recipes to a Project](web-platform/projects-and-jobs/add-recipes-to-a-project.md)
+  * [Create a New Job](web-platform/projects-and-jobs/create-a-new-job.md)
 
 ## REVIT PLUGIN
 
@@ -168,3 +168,7 @@
 * [Your First Simulation](grasshopper-plugin/your-first-simulation-grasshopper.md)
 * [Create a Parametric Run](grasshopper-plugin/create-a-parametric-run.md)
 * [Visualize Results](grasshopper-plugin/visualize-results.md)
+
+## Pollination Apps
+
+* [Page 1](pollination-apps/page-1.md)
