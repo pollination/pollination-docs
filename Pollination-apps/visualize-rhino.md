@@ -40,7 +40,7 @@ import streamlit as st
 from typing import List
 from pathlib import Path
 from honeybee.model import Model as HBModel
-from pollination_streamlit_io import button, inputs
+from pollination_streamlit_io import button, inputs, special
 ```
 
 Helper function to send a Honeybee model to Rhino
@@ -50,7 +50,7 @@ def rhino_hbjson(hb_model: HBModel, label: str = 'View model',
                  key: str = 'model') -> None:
     """Visualize and bake HBJSON in rhino."""
 
-    if not st.session_state.host == 'Rhino':
+    if not st.session_state.host == 'rhino':
         return
 
     col1, col2 = st.columns(2)
@@ -76,7 +76,6 @@ def rhino_hbjson(hb_model: HBModel, label: str = 'View model',
             },
             key=f'bake-{key}',
         )
-
 ```
 
 Helper function to send results as a colored mesh in Rhino
@@ -91,7 +90,7 @@ def rhino_mesh(hb_model: HBModel, results_folder: Path, result_name: str) -> Non
         result_name: The name of the result to be loaded as mesh.
     """
 
-    if not st.session_state.host == 'Rhino':
+    if not st.session_state.host == 'rhino':
         return
 
     grids_info_file = results_folder.joinpath('grids_info.json')
@@ -133,12 +132,12 @@ def rhino_mesh(hb_model: HBModel, results_folder: Path, result_name: str) -> Non
             data=result_json,
             unique_id=f'bake_grid_{result_name}',
             key=result_name)
+
 ```
 
 Helper function to send a Honeybee model and the results as a colored mesh in Rhino
 
 ```Python
-
 def visualize_model_with_mesh(hbjson_path: Path,
                               result_folders: List[Path] = None,
                               result_names: List[str] = None,
@@ -158,6 +157,7 @@ def visualize_model_with_mesh(hbjson_path: Path,
             assigned based on the order of the result files.
         show_rhino_mesh: Boolean to show the mesh in Rhino or not. Defaults to False.
     """
+
     hb_model = HBModel.from_hbjson(hbjson_path.as_posix())
     rhino_hbjson(hb_model)
 
@@ -168,12 +168,10 @@ def visualize_model_with_mesh(hbjson_path: Path,
             rhino_mesh(hb_model, result_folder, result_names[count])
 ```
 
-Getting the host. Here, host is Rhino. We this to make the streamlit app aware of the context. In this case, the Rhino environment.
+Getting the host and saving in [session state](https://docs.streamlit.io/library/api-reference/session-state). Here, host is Rhino. We this to make the streamlit app aware of the context. In this case, the Rhino environment.
 
 ```python
-st_query = st.experimental_get_query_params()
-st.session_state.host = st_query['__platform__'][0] \
-    if '__platform__' in st_query else 'web'
+st.session_state.host = special.get_host()
 ```
 
 Finally, visualizing the model and the results as a mesh in Rhino
