@@ -1,5 +1,7 @@
 # Add a custom chart to your Pollination app
 
+In this section, we will see how you can add a customized chart to your Pollination app. We will filter the dry bulb temperature data coming out of an EPW file and will visualize it as a Plotly chart in a Pollination app.
+
 Install the following libraries first
 
 ```

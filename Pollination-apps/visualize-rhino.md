@@ -1,10 +1,10 @@
 # Visualize a model with the data in Rhino
 
-In [this](visualize-web.md) step, we visualized the visualization output of a daylight-factor study in the web app. Now, we will see how we can visualize the same in the Rhino environment.
+In [this](https://docs.pollination.cloud/user-manual/pollination-apps/download-output) section, we downloaded the visualization output of a daylight-factor study in the web app. Now, we will see how we can download the "result" output and visualize it in Rhino.
 
 ## Data needed for this visualization
 
-Using the steps mentioned in [here](download-output.md), download the "results" output of the daylight-factor study instead of the "visualization" output.
+Using the steps mentioned [here](https://docs.pollination.cloud/user-manual/pollination-apps/download-output), download the "results" output of the daylight-factor study instead of the "visualization" output.
 
 ![](../.gitbook/assets/pollination-apps/output_results.png)
 
@@ -21,7 +21,7 @@ results
         TestRoom_2.res
 ```
 
-We will also need the original HBJSON file used for the daylight-factor study in [this](create-job.md) step.
+We will also need the original HBJSON file used for the daylight-factor study in [this](https://docs.pollination.cloud/user-manual/pollination-apps/create-job) step.
 
 ## App
 
@@ -34,7 +34,6 @@ pip install pollination-streamlit-io lbt-honeybee
 importing libraries
 
 ```python
-import uuid
 import json
 import streamlit as st
 from typing import List
@@ -46,9 +45,15 @@ from pollination_streamlit_io import button, inputs, special
 Helper function to send a Honeybee model to Rhino
 
 ```python
-def rhino_hbjson(hb_model: HBModel, label: str = 'View model',
+def rhino_hbjson(hb_model: HBModel, label: str = 'Preview model',
                  key: str = 'model') -> None:
-    """Visualize and bake HBJSON in rhino."""
+    """Visualize and bake HBJSON in rhino.
+
+    args:
+        hb_model: A honeybee model.
+        label: Label of the button. Defaults to 'Preview model'.
+        key: Key of the button. Defaults to 'model'.
+    """
 
     if not st.session_state.host == 'rhino':
         return
@@ -58,7 +63,7 @@ def rhino_hbjson(hb_model: HBModel, label: str = 'View model',
     with col1:
         inputs.send(
             data=hb_model.to_dict(),
-            unique_id=str(uuid.uuid4()),
+            unique_id='preview-model',
             default_checked=True,
             is_pollination_model=True,
             label=label,
@@ -69,7 +74,7 @@ def rhino_hbjson(hb_model: HBModel, label: str = 'View model',
         button.send(
             action='BakePollinationModel',
             data=hb_model.to_dict(),
-            unique_id=str(uuid.uuid4()),
+            unique_id='bake-model',
             options={
                 "layer": "hbjson",
                 "units": "Meters"
@@ -119,7 +124,7 @@ def rhino_mesh(hb_model: HBModel, results_folder: Path, result_name: str) -> Non
     with col1:
         inputs.send(
             data=result_json,
-            unique_id=str(uuid.uuid4()),
+            unique_id='preview-mesh',
             default_checked=True,
             label=result_name,
             delay=1000,
@@ -130,9 +135,8 @@ def rhino_mesh(hb_model: HBModel, results_folder: Path, result_name: str) -> Non
         button.send(
             action='BakeGeometry',
             data=result_json,
-            unique_id=f'bake_grid_{result_name}',
+            unique_id=f'bake_{result_name}',
             key=result_name)
-
 ```
 
 Helper function to send a Honeybee model and the results as a colored mesh in Rhino
@@ -207,10 +211,10 @@ http://localhost:8501/
 
 ### Running the App inside Rhino
 
-If you don't have already, download the Pollination Rhino plugin from [here](https://www.pollination.cloud/rhino-plugin). Once you install the Rhino plugin, you should see the tabs for "Pollination", "Pollination.Apps" and "Pollination. Cloud" in the sidebar of Rhino. If you don't, click on the gear icon shown in the image below;
+If you don't have already, download the Pollination Rhino plugin from [here](https://www.pollination.cloud/rhino-plugin). Once you install the Rhino plugin, you should see the tabs for "Pollination" and "Pollination.Apps"n the sidebar of Rhino. If you don't, click on the gear icon shown in the image below;
 ![](../.gitbook/assets/pollination-apps/rhino_start.png)
 
-Select the "Pollination", "Pollination.Apps" and "Pollination.Cloud" on the menu that opens up
+Select the "Pollination" and "Pollination.Apps" on the menu that opens up
 ![](../.gitbook/assets/pollination-apps/rhino_add_pollination.png)
 
 Next, click on the gear icon in Pollination.Apps. This will open up a new window.
