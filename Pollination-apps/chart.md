@@ -1,5 +1,7 @@
 # Add a chart to your Pollination app
 
+In this section, we will see how you can visualize the yearly dry bulb temperature data from an [EPW](https://bigladdersoftware.com/epx/docs/8-3/auxiliary-programs/energyplus-weather-file-epw-data-dictionary.html) as a Plotly chart in a Pollination app. We're using the [ladybug-charts](https://github.com/ladybug-tools/ladybug-charts) library of Ladybug Tools to to create this chart here. This library can help you create, ladybug monthly charts, daily charts, sunpath, windrose, pyschrometric chart, and more.
+
 Install the following libraries first
 
 ```
@@ -21,8 +23,7 @@ st.set_page_config(
 )
 ```
 
-Create an EPW object from an epw file and create a Plotly figure from the dry bulb
-temperature.
+Create an EPW object from an EPW file and then get the `heatmap` figure. This method returns a Plotly figure with the dry bulb temperature data.
 
 ```python
 epw = EPW("file path to epw file")
@@ -32,7 +33,6 @@ figure = epw.dry_bulb_temperature.heat_map()
 Finally, add the title to the page and visualize dry bulb temperature as a Plotly chart.
 
 ```python
-st.title("Dry bulb temperature")
 st.plotly_chart(figure, use_container_width=True)
 ```
 
