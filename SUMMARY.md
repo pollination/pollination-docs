@@ -171,4 +171,4 @@
 
 ## Pollination Apps
 
-* [Page 1](pollination-apps/page-1.md)
+* [Getting Started with Apps](pollination-apps/page-1.md)
