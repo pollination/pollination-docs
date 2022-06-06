@@ -1,4 +1,4 @@
-# Download output from a job
+# Download an Output
 
 In this section, we will see how we can download an output of a recipe that has successfully finished running on Pollination.
 
@@ -64,9 +64,8 @@ with st.form('download-result'):
 
 The streamlit form above will render the following interface;
 
-![](../.gitbook/assets/pollination-apps/download_job.png)
+![](../.gitbook/assets/pollination-apps/download\_job.png)
 
-Providing the following inputs will download a file named 'daylight_factor.vtkjs' in your
-current working directory;
+Providing the following inputs will download a file named "daylight\_factor.vtkjs" in your current working directory;
 
-![](../.gitbook/assets/pollination-apps/download_job_query.png)
+![](../.gitbook/assets/pollination-apps/download\_job\_query.png)

@@ -1,12 +1,12 @@
-# Visualize a model with the data in Rhino
+# Visualize Results in Rhino
 
-In [this](https://docs.pollination.cloud/user-manual/pollination-apps/download-output) section, we downloaded the visualization output of a daylight-factor study in the web app. Now, we will see how we can download the "result" output and visualize it in Rhino.
+In [this](download-output.md) section, we downloaded the "visualization" output of a daylight-factor study in the web app. Now, we will see how we can download the "result" output and visualize it in Rhino.
 
 ## Data needed for this visualization
 
-Using the steps mentioned [here](https://docs.pollination.cloud/user-manual/pollination-apps/download-output), download the "results" output of the daylight-factor study instead of the "visualization" output.
+Using the steps mentioned [here](download-output.md), download the "results" output of the daylight-factor study instead of the "visualization" output.
 
-![](../.gitbook/assets/pollination-apps/output_results.png)
+![](../.gitbook/assets/pollination-apps/output\_results.png)
 
 This should give you a results folder with the following structure:
 
@@ -21,7 +21,7 @@ results
         TestRoom_2.res
 ```
 
-We will also need the original HBJSON file used for the daylight-factor study in [this](https://docs.pollination.cloud/user-manual/pollination-apps/create-job) step.
+We will also need the original HBJSON file used for the daylight-factor study in [this](create-job.md) step.
 
 ## App
 
@@ -85,7 +85,7 @@ def rhino_hbjson(hb_model: HBModel, label: str = 'Preview model',
 
 Helper function to send results as a colored mesh in Rhino
 
-```Python
+```
 def rhino_mesh(hb_model: HBModel, results_folder: Path, result_name: str) -> None:
     """Visualize and bake the mesh in Rhino
 
@@ -141,7 +141,7 @@ def rhino_mesh(hb_model: HBModel, results_folder: Path, result_name: str) -> Non
 
 Helper function to send a Honeybee model and the results as a colored mesh in Rhino
 
-```Python
+```
 def visualize_model_with_mesh(hbjson_path: Path,
                               result_folders: List[Path] = None,
                               result_names: List[str] = None,
@@ -172,7 +172,7 @@ def visualize_model_with_mesh(hbjson_path: Path,
             rhino_mesh(hb_model, result_folder, result_names[count])
 ```
 
-Getting the host and saving in [session state](https://docs.streamlit.io/library/api-reference/session-state). Here, host is Rhino. We this to make the streamlit app aware of the context. In this case, the Rhino environment.
+Getting the host and saving in [session state](https://docs.streamlit.io/library/api-reference/session-state). Here, host is Rhino. We this to make the Streamlit app aware of the context. In this case, the Rhino environment.
 
 ```python
 st.session_state.host = special.get_host()
@@ -211,26 +211,32 @@ http://localhost:8501/
 
 ### Running the App inside Rhino
 
-If you don't have already, download the Pollination Rhino plugin from [here](https://www.pollination.cloud/rhino-plugin). Once you install the Rhino plugin, you should see the tabs for "Pollination" and "Pollination.Apps"n the sidebar of Rhino. If you don't, click on the gear icon shown in the image below;
-![](../.gitbook/assets/pollination-apps/rhino_start.png)
+If you don't have already, download the Pollination Rhino plugin from [here](https://www.pollination.cloud/rhino-plugin). Once you install the Rhino plugin, you should see the tabs for "Pollination" and "Pollination.Apps" in the sidebar of Rhino. If you don't, click on the gear icon shown in the image below;&#x20;
 
-Select the "Pollination" and "Pollination.Apps" on the menu that opens up
-![](../.gitbook/assets/pollination-apps/rhino_add_pollination.png)
+![](../.gitbook/assets/pollination-apps/rhino\_start.png)
 
-Next, click on the gear icon in Pollination.Apps. This will open up a new window.
-![](../.gitbook/assets/pollination-apps/rhino_load_panel.png)
+Select the "Pollination" and "Pollination.Apps" on the menu that opens up&#x20;
 
-In the panel, add the URL where the app is running and click on "Navigate to selection".
-![](../.gitbook/assets/pollination-apps/rhino_add_url.png)
+![](../.gitbook/assets/pollination-apps/rhino\_add\_pollination.png)
 
-This should show the app inside Rhino;
-![](../.gitbook/assets/pollination-apps/rhino_show_app.png)
+Next, click on the gear icon in Pollination.Apps. This will open up a new window.&#x20;
+
+![](../.gitbook/assets/pollination-apps/rhino\_load\_panel.png)
+
+In the panel, add the URL where the app is running and click on "Navigate to selection".&#x20;
+
+![](../.gitbook/assets/pollination-apps/rhino\_add\_url.png)
+
+This should show the app inside Rhino.
+
+![](../.gitbook/assets/pollination-apps/rhino\_show\_app.png)
 
 Enter, the following values assuming the HBJSON file and the results are present in the current working directory. If not, provide full path to both.
 
-![](../.gitbook/assets/pollination-apps/rhino_enter_values.png)
+![](../.gitbook/assets/pollination-apps/rhino\_enter\_values.png)
 
 ## Visualization in Rhino
 
-Clicking the 'Submit" button should show the model and the mesh in Rhino that you can tun on and off and also bake as Rhino objects.
+Clicking the 'Submit" button should show the model and the mesh in Rhino that you can tun on and off and also bake as Rhino objects.&#x20;
+
 ![](../.gitbook/assets/pollination-apps/rhino.gif)

@@ -56,7 +56,7 @@ Double-click on the "PollinationRevitPluginInstaller-latest.exe" file to start t
 
 Follow the instructions in the Pollination Revit Plugin Setup Wizard application to install the plugin.
 
-![](<../.gitbook/assets/image (151) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (152) (1) (1).png>)
 {% endtab %}
 
 {% tab title="Grasshopper" %}

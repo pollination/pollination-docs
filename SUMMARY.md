@@ -177,6 +177,6 @@
 * [Create a Job](apps/create-job.md)
 * [Check Job Status](apps/job-status.md)
 * [Download an Output](apps/download-output.md)
-* [Visualize results on the web](apps/visualize-web.md)
+* [Visualize Results on the Web](apps/visualize-web.md)
 * [Integrate Pollination Viewer](apps/integrating-the-pollination-viewer.md)
-* [Visualize results in Rhino](apps/visualize-rhino.md)
+* [Visualize Results in Rhino](apps/visualize-rhino.md)

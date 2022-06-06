@@ -4,58 +4,43 @@ In this section, we will see how you can schedule a simulation aka a job, on Pol
 
 ### Pollination credentials
 
-API key:
-A user of your app can find a Pollination API key in the "Developer Settings" section
-under the "Settings" tab of their profile on Pollination. If they don't have a key,
-they can generate one by entering any name for the key and clicking on the "+" button.
-Once they have this key, they can copy it to the clipboard and paste it back to the
-Pollination-app.
+API key: A user of your app can find a Pollination API key in the "Developer Settings" section under the "Settings" tab of their profile on Pollination. If they don't have a key, they can generate one by entering any name for the key and clicking on the "+" button. Once they have this key, they can copy it to the clipboard and paste it back to the Pollination-app.
 
-![](../.gitbook/assets/pollination-apps/api_key.png)
+![](../.gitbook/assets/pollination-apps/api\_key.png)
 
-Owner Name:
-The owner name is the username of the user who is scheduling this job on Pollination.
-This username too can be found in the "Profile Settings" section of the "Settings"
-tab on Pollination. The username is typically followed by a "@" on the "Profile Settings".
+Owner Name: The owner name is the username of the user who is scheduling this job on Pollination. This username too can be found in the "Profile Settings" section of the "Settings" tab on Pollination. The username is typically followed by a "@" on the "Profile Settings".
 
 ![](../.gitbook/assets/pollination-apps/owner.png)
 
 ### Job inputs
 
-Project:
-The project name is name of the project the scheduled job will go into. A user can create
-a project on Pollination by clicking on the "+" button on the navigation bar at the top.
-If a project already exists, the user can use that project's name.
+Project: The project name is name of the project the scheduled job will go into. A user can create a project on Pollination by clicking on the "+" button on the navigation bar at the top. If a project already exists, the user can use that project's name.
 
 ![](../.gitbook/assets/pollination-apps/project.png)
 
-Job name: Any text to name the job.
+Job name: Any text to name the job.&#x20;
+
 Job description: Any text to describe the job.
 
 ### Recipe Selection
 
-A recipe needs to be selected and added to the project before it can be used. A recipe can be
-added to the project by going to the 'Recipes' on the 'Settings' tab of the project.
+A recipe needs to be selected and added to the project before it can be used. A recipe can be added to the project by going to the "Recipes" on the "Settings" tab of the project.
 
 ![](../.gitbook/assets/pollination-apps/recipe.png)
 
-Recipe owner:
-The owner of the recipe. You will find several public recipes developed by the ladybug tools team on Pollination. If you develop and deploy a recipe, the owner name here will be your username.
-Recipe name:
-Name of the recipe you want to use for the job.
-Recipe tag:
-The version tag of the recipe you want to use for the job.
+Recipe owner: The owner of the recipe. You will find several public recipes developed by the ladybug tools team on Pollination. If you develop and deploy a recipe, the owner name here will be your username.&#x20;
+
+Recipe name: Name of the recipe you want to use for the job.&#x20;
+
+Recipe tag: The version tag of the recipe you want to use for the job.
 
 ### Recipe Inputs
 
-Visit any [recipe](https://app.pollination.cloud/recipes) on Pollination to find out
-the inputs for the recipe
+Visit any [recipe](https://app.pollination.cloud/recipes) on Pollination to find out the inputs for the recipe
 
 ### Scheduling a job
 
-We will create a job on Pollination to run the
-[daylight-factor](https://app.pollination.cloud/ladybug-tools/recipes/daylight-factor)
-recipe on the gridbased model that ships with Ladybug Tools.
+We will create a job on Pollination to run the [daylight-factor](https://app.pollination.cloud/ladybug-tools/recipes/daylight-factor) recipe on the gridbased model that ships with Ladybug Tools.
 
 Install the following libraries first
 
@@ -72,7 +57,7 @@ from pollination_streamlit.api.client import ApiClient
 from pollination_streamlit.interactors import NewJob, Recipe
 ```
 
-Helper function to add recipe to a job
+Helper function to add a recipe to a job
 
 ```python
 def add_recipe_to_job(new_job, recipe_arguments, recipe_artifacts) -> NewJob:
@@ -100,7 +85,7 @@ def add_recipe_to_job(new_job, recipe_arguments, recipe_artifacts) -> NewJob:
     return new_job
 ```
 
-Create a streamlit form to collect inputs from the user and submit the job
+Create a Streamlit form to collect inputs from the user and submit the job
 
 ```python
 with st.form('daylight-factor-job'):
@@ -165,10 +150,8 @@ with st.form('daylight-factor-job'):
         job = new_job.create()
 ```
 
-The above code will render the following streamlit form that can be used to submit a
-job on Pollination to run the daylight-factor recipe.
+The above code will render the following Streamlit form that can be used to submit a job on Pollination to run the daylight-factor recipe.
 
-![](../.gitbook/assets/pollination-apps/create_job.png)
+![](../.gitbook/assets/pollination-apps/create\_job.png)
 
-A job submitted using this form can be accessed
-[here](https://app.pollination.cloud/devang/projects/demo/jobs/53498657-5da8-4308-86ce-e9fb4b9c0fc8).
+A job submitted using this form can be accessed [here](https://app.pollination.cloud/devang/projects/demo/jobs/53498657-5da8-4308-86ce-e9fb4b9c0fc8).
