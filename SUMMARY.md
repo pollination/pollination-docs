@@ -173,3 +173,10 @@
 
 * [Getting Started with Apps](apps/introduction.md)
 * [Create a Simple Chart](apps/chart.md)
+* [Create a Custom Chart](apps/custom-chart.md)
+* [Create a Job](apps/create-job.md)
+* [Check Job Status](apps/job-status.md)
+* [Download an Output](apps/download-output.md)
+* [Visualize results on the web](apps/visualize-web.md)
+* [Integrate Pollination Viewer](apps/integrating-the-pollination-viewer.md)
+* [Visualize results in Rhino](apps/visualize-rhino.md)
