@@ -22,7 +22,7 @@ This app exposes all the configurations and features of pollination-streamlit-vi
 
 Here's a screenshot of the viewer itself:
 
-![](../../.gitbook/assets/integrating-the-pollination-viewer/pollination-viewer-model-loaded.png)
+![](../.gitbook/assets/integrating-the-pollination-viewer/pollination-viewer-model-loaded.png)
 
 
 ### Instantiating the `viewer` in Streamlit

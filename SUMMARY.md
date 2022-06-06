@@ -171,4 +171,5 @@
 
 ## Pollination Apps
 
-* [Getting Started with Apps](pollination-apps/page-1.md)
+* [Getting Started with Apps](pollination-apps/introduction.md)
+* [Create a Simple Chart](pollination-apps/chart.md)
