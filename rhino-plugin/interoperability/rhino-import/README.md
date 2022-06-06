@@ -25,9 +25,9 @@ can be imported from OSM, gbXML and IDF. These are summarized below.
 | Face Types (eg. AirBoundary)   |  &#x2611;  |  &#x2611;              |  &#x2611;              |  &#x2611;                |
 | Opaque Constructions           |  &#x2611;  |  &#x2611;              |  &#x2611;              |  &#x2611;                |
 | Window Constructions           |  &#x2611;  |  &#x2611; <sup>3</sup> |  &#x2611; <sup>3</sup> |  &#x2611; <sup>3</sup>   |
-| Schedules                      |  &#x2611;  |  &#x2611; <sup>4</sup> |  WIP <sup>5</sup>      |  WIP <sup>5</sup>        |
-| Loads                          |  &#x2611;  |  &#x2611; <sup>4</sup> |  WIP <sup>5</sup>      |  WIP <sup>5</sup>        |
-| Thermostats + Outdoor Air Req. |  &#x2611;  |  &#x2611; <sup>6</sup> |  WIP <sup>5</sup>      |  WIP <sup>5</sup>        |
+| Schedules                      |  &#x2611;  |  &#x2611;              |  :x: <sup>5</sup>      |  &#x2611;                |
+| Loads                          |  &#x2611;  |  &#x2611;              |  :x: <sup>5</sup>      |  &#x2611;                |
+| Thermostats + Outdoor Air Req. |  &#x2611;  |  &#x2611; <sup>4</sup> |  :x: <sup>5</sup>      |  &#x2611;                |
 | Program Types                  |  &#x2611;  |  &#x2611;              |  :x:                   |  :x:                     |
 | HVAC Systems                   |  &#x2611;  |  :x:                   |  :x:                   |  :x:                     |
 | SHW Systems                    |  &#x2611;  |  :x:                   |  :x:                   |  :x:                     |
@@ -35,8 +35,7 @@ can be imported from OSM, gbXML and IDF. These are summarized below.
 | Everything Else                |  &#x2611;  |  :x:                   |  :x:                   |  :x:                     |
 
 <sup>1</sup> Formats do not natively support geometries with holes (they are collapsed to a single list of inward-turning vertices on export).<br>
-<sup>2</sup> IDF only supports Apertures/Doors with 3-4 vertices (more complex window geometries are triangulated upon export).<br>
+<sup>2</sup> IDF only supports Apertures/Doors with 3-4 vertices (more complex window geometries are usually triangulated).<br>
 <sup>3</sup> No dynamic behavior of window constructions is imported.<br>
-<sup>4</sup> Only Ruleset and FixedInterval schedules are imported.<br>
-<sup>5</sup> Will be supported once [this update](https://github.com/NREL/OpenStudio/issues/4469) is in an OpenStudio release.<br>
-<sup>6</sup> These become divorced from the ProgramType since they are not a part of OpenStudio SpaceTypes.
+<sup>4</sup> These always become divorced from ProgramTypes since they are not a part of OpenStudio SpaceTypes.<br>
+<sup>5</sup> These may eventually be supported depending upon [this issue](https://github.com/NREL/OpenStudio/issues/4320).
