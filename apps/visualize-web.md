@@ -1,21 +1,21 @@
 # Visualize Results on the Web
 
-In [this](download-output.md) section we downloaded the "visualization" output of the daylight-factor study that we ran, which downloaded a file named "daylight\_factor.vtkjs". We will now visualize that file in the Pollination web app.
+In [this](download-output.md) section we downloaded the "visualization" output of the daylight-factor study that we ran, which downloaded a file named "daylight_factor.vtkjs". We will now visualize that file in the Pollination web app.
 
 Install the following libraries first
 
 ```python
-pip install streamlit-vtkjs
+pip install pollination-streamlit-viewer
 ```
 
 Visualize the vtkjs file in the web app
 
 ```python
-from streamlit_vtkjs import st_vtkjs
+from pollination_streamlit_viewer import viewer
 from pathlib import Path
 
 vtkjs_path = Path('daylight_factor.vtkjs')
-st_vtkjs(content=vtkjs_path.read_bytes(), key='df')
+viewer(content=vtkjs_path.read_bytes(), key='df')
 ```
 
 This should render the model inside the Pollination viewer in the web app;&#x20;
