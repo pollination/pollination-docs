@@ -169,7 +169,7 @@
 * [Create a Parametric Run](grasshopper-plugin/create-a-parametric-run.md)
 * [Visualize Results](grasshopper-plugin/visualize-results.md)
 
-## Pollination Apps
+## Apps
 
-* [Getting Started with Apps](pollination-apps/introduction.md)
-* [Create a Simple Chart](pollination-apps/chart.md)
+* [Getting Started with Apps](apps/introduction.md)
+* [Create a Simple Chart](apps/chart.md)
