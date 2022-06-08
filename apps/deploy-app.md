@@ -1,6 +1,6 @@
 # Deploy an App
 
-In this section, we will see how you can deploy your own app on Pollination Cloud. As an example to demonstrate the process, we will write and deploy an app that draws a wind rose using the EPW data. At the end of this section, you will have deployed an app named "epw-wind" that appears under the "Apps" tab on your profile.
+In this section, we will see how you can deploy your own app on Pollination Cloud. As an example to demonstrate the process, we will write and deploy an app that draws a wind rose using the EPW data. At the end of this section, you will have deployed an app named **epw-wind** that appears under the **Apps** tab on your profile.
 
 ![](../.gitbook/assets/pollination-apps/app_deployed.png)
 
@@ -11,11 +11,11 @@ In order to follow this section, you will need to be comfortable doing basic act
 - [windows](https://youtu.be/A3nwRCV-bTU)
 - [Mac](https://youtu.be/aKRYQsKR46I)
 
-### Creating a folder to write the app
+### Step-1: Creating a folder to write the app
 
 We first need to prepare a folder in which we will write the app. This folder will be used later to deploy the app to Pollination Cloud. We will take the help of the [pollination-apps](https://pollination.github.io/pollination-apps/cli.html) library by the Ladybug Tools team to create this folder for us.
 
-Install the "pollination-apps" library by using the following command on your command prompt / terminal.
+Install the `pollination-apps` library by using the following command on your command prompt / terminal.
 
 ```python
 pip install -U pollination-apps
@@ -27,7 +27,7 @@ Go to the location on your system where you'd like to create the app folder and 
 pollination-apps new
 ```
 
-This will ask for the project name. The project name here will become the name of your app. Also, make sure to not have any blank spaces in your project name. In our case, we will choose the project name to be "epw-wind".
+This will ask for the project name. The project name here will become the name of your app. Also, make sure to not have any blank spaces in your project name. In our case, we will choose the project name to be **epw-wind**.
 
 ```
 project_name [Python Boilerplate]: epw-wind
@@ -51,7 +51,7 @@ Next, comes pollination_owner. This is your username in Pollination. We looked a
 pollination_owner []: devang
 ```
 
-Next, pollination-apps will give you an option to choose the visibility setting of the app you are deploying. We will choose the "Public" option.
+Next, pollination-apps will give you an option to choose the visibility setting of the app you are deploying. We will choose the `public` option.
 
 ```
 Select app_visibility:
@@ -69,26 +69,25 @@ Select ci:
 Choose from 1, 2 [1]: 1
 ```
 
-Doing this should give you a folder named "epw-wind" in your current working directory with the following file structure;
+Doing this should give you a folder named epw-wind in your current working directory with the following file structure;
 
 ```
 epw-wind
-│   app.py
-│   Dockerfile
 │   README.md
-│   requirements.txt
 │
 ├───.github
 │   └───workflows
 │           ci.yaml
 │
-└───__pycache__
-        app.cpython-37.pyc
+└───app
+        app.py
+        Dockerfile
+        requirements.txt
 ```
 
-### Updating dependencies
+### Step-2: Updating dependencies
 
-The requirements.txt file is a list of dependencies that your app needs to run. We will update the requirements.txt file to include the libraries we need to run the app. This list will mostly differ for each app based on the libraries we need to run the app. if you are unsure about the libraries you need in this file, go ahead and start writing your app. Once you have finished writing the app, make sure to come back and update the requirements.txt file to reflect all the necessary libraries.
+The requirements.txt file inside the app folder contains a list of dependencies that your app needs to run. We will update the requirements.txt file to include the libraries we need to run the app. This list will mostly differ for each app based on the libraries we need to run the app. if you are unsure about the libraries you need in this file, go ahead and start writing your app. Once you have finished writing the app, make sure to come back and update the requirements.txt file to reflect all the necessary libraries.
 
 In the requirements.txt file, we will make sure to have the latest version of the libraries we need to run the app. Let's make the content of the file as follows;
 
@@ -99,17 +98,17 @@ ladybug-charts>=1.18.3
 
 These are the libraries we need to run the app. To find the latest version of any library that you may want to use with your app, please search for that library on the [pypi](https://pypi.org/search/?q=) website.
 
-### Installing libraries
+### Step-3: Installing libraries
 
-Change directory and arrive at the epw-wind folder. Once "epw-wind" is your current working directory, run the following command. This will install all the dependencies in the requirements.txt file.
+Change directory and arrive at the **app** folder inside the epw-wind folder. Once app is your current working directory, run the following command. This will install all the dependencies in the requirements.txt file.
 
 ```python
 pip install -r requirements.txt
 ```
 
-### Writing the app
+### Step-4: Writing the app
 
-Now that we have the folder in place. We can write the app. We will be using the app.py file created in this folder to write the app. Let's clear the file and write the following to generate a wind rose using the EPW data.
+Now that we have the folder in place. We can write the app. We will be using the app.py file created in the app folder to write the app. Let's clear the file and write the following to generate a wind rose using the EPW data.
 
 ```python
 import streamlit as st
@@ -135,27 +134,26 @@ st.plotly_chart(figure, use_container_width=True)
 
 ```
 
-Please note that we created a subfolder called "assets" in the epw-wind folder. This subfolder will contain the EPW data file we are using renamed as "sample.epw". So after creating the "assets" folder, the structure of the "epw-wind" folder will look like the following;
+Please note that we created a subfolder called **assets** in the epw-wind folder. This subfolder will contain the EPW data file we are using renamed as **sample.epw**. So after creating the assets folder, the structure of the epw-wind folder will look like the following;
 
 ```
 epw-wind
-│   app.py
-│   Dockerfile
 │   README.md
-│   requirements.txt
 │
 ├───.github
 │   └───workflows
 │           ci.yaml
 │
-├───assets
-│       sample.epw
-│
-└───__pycache__
-        app.cpython-37.pyc
+└───app
+    │   app.py
+    │   Dockerfile
+    │   requirements.txt
+    │
+    └───assets
+            sample.epw
 ```
 
-Once done, run the following command to start the app;
+Once done, run the following command from inside the app folder;
 
 ```python
 streamlit run app.py
@@ -167,11 +165,11 @@ This should render the following in the browser;
 
 If the app runs as expected, enter "ctrl + c" on the command line to stop the app.
 
-### Running the app in a Docker container
+### Step-5: Running the app in a Docker container
 
 Before, deploying the app, it is necessary to run the app in a Docker container. In order to run the app in a Docker container, we will need to install Docker desktop first. Visit this [link](https://www.docker.com/products/docker-desktop) to download the Docker desktop and install it on your system. Once installed, run the docker desktop and keep it running in the background.
 
-Once the docker desktop is running, Let's go to the epw-wind folder use the "run" command from the Pollination-apps library to run the app in a Docker container.
+Once the docker desktop is running, Let's go to the app folder and use the `run` command from the Pollination-apps library to run the app in a Docker container.
 
 You can find out the structure of this command by using the following command;
 
@@ -218,13 +216,13 @@ localhost:8501
 
 You should see your app running in the browser. If the app works as expected. Come back to the command line and use the "ctrl + c" command to stop the app.
 
-### API token
+### Step-6: Generating API token
 
 Once we have tested that the app works inside the Docker container. We are ready to deploy it to Pollination Cloud. To deploy the app, we will login to Pollination cloud first and will create an API token. Go to the "Developer Settings" section of the "Settings" page on your profile and create a new API or retrieve an existing API token. Here, we created a new API token with the name of "epw-wind". We will click on the "refresh" button to get the API token and will copy the API token to the clipboard.
 
 ![](../.gitbook/assets/pollination-apps/api_token.png)
 
-### Deploy the app
+### Step-7: Deploying the app
 
 To deploy the app we will use the "run" command from the Pollination-apps library.
 
@@ -234,10 +232,10 @@ In order to learn the structure of the command above, use the following command;
 pollination-apps deploy --help
 ```
 
-Finally, run the command and use the API token created in the step above.
+Finally, run the command inside the app folder and use the API token created in the step above.
 
 ```
-pollination-apps deploy . -api XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+pollination-apps deploy . --name "epw-wind" -api XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
 Once you deploy the app, you should see the following message appear on the command line;
@@ -251,4 +249,4 @@ If you reached here, congratulations! You have successfully deployed the app to 
 
 ![](../.gitbook/assets/pollination-apps/live_app.png)
 
-In the next section, we will see how we can automate this process of deploying the app using Github and Github actions.
+In the next section, we will see how we can [automate](automate-deployment.md) this process of deploying the app using Github and Github actions.
