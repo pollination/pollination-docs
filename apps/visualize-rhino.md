@@ -172,7 +172,7 @@ def visualize_model_with_mesh(hbjson_path: Path,
             rhino_mesh(hb_model, result_folder, result_names[count])
 ```
 
-Getting the host and saving in [session state](https://docs.streamlit.io/library/api-reference/session-state). Here, host is Rhino. We this to make the Streamlit app aware of the context. In this case, the Rhino environment.
+Getting the host and saving in [session state](https://docs.streamlit.io/library/api-reference/session-state). Here, the host is Rhino. We need this to make the Streamlit app aware of the context. In this case, the Rhino environment.
 
 ```python
 st.session_state.host = special.get_host()
