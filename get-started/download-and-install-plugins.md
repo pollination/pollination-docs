@@ -50,7 +50,7 @@ If your office has a firm-wide firewall, it may block Pollination's CAD plugins 
 
 Additionally, we use the third-party licensing service from Cryptlex, and the internet connection between the CAD plugin and Cryptlex's server can also cause an error with recognizing a license.&#x20;
 
-Adding Cryptlex's server to your firewall or antivirus software whitelist should solve the issue. Your office IT department can use Cryptlex's documentation to further troubleshoot this problem: [https://docs.cryptlex.com/node-locked-licenses/proxies-and-firewall](https://docs.cryptlex.com/node-locked-licenses/proxies-and-firewall)
+Adding Cryptlex's server, Rhino, and Pollination's CAD plugin to your firewall or antivirus software whitelist should solve the issue. Your office IT department can use Cryptlex's documentation to further troubleshoot this issue: [https://docs.cryptlex.com/node-locked-licenses/proxies-and-firewall](https://docs.cryptlex.com/node-locked-licenses/proxies-and-firewall)
 {% endtab %}
 
 {% tab title="Revit" %}
