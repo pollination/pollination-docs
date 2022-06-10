@@ -1,5 +1,7 @@
 # Getting Started with Apps
 
+![](../.gitbook/assets/pollination-apps/logos.png)
+
 ### Introduction
 
 This section gives a high level idea about Pollination apps, the knowledge needed to build them, and how to get started if you want build them.
@@ -29,5 +31,3 @@ We recommend looking at [freecodecamp](https://www.youtube.com/c/Freecodecamp/se
 ### How to start developing a Pollination app?
 
 We have several public [examples](https://github.com/pollination-apps) of apps deployed on Pollination. Make sure to look at these examples to get an idea of how to put together an app. Next, you will see guides for several of the common workflows used in most of the apps.
-
-![](../.gitbook/assets/pollination-apps/logos.png)
