@@ -39,6 +39,18 @@ The installer also updates Ladybug Tools for Grasshopper. So if are an existing 
 Follow the instructions in the Pollination Rhino Plugin Setup Wizard to install the plugin.
 
 ![](<../.gitbook/assets/image (149) (1) (1).png>)
+
+## Troubleshooting your Installation
+
+####
+
+#### I can log in and have a valid CAD plugin license, but the plugin doesn't recognize the license.&#x20;
+
+If your office has a firm-wide firewall, it may block Pollination's CAD plugins from accessing the internet. This will prevent the CAD plugin from completing the login process, even if are successfully logged into Pollination using your preferred browser.&#x20;
+
+Additionally, we use the third-party licensing service from Cryptlex, and the internet connection between the CAD plugin and Cryptlex's server can also cause an error with recognizing a license.&#x20;
+
+Adding Cryptlex's server to your firewall or antivirus software whitelist should solve the issue. Your office IT department can use Cryptlex's documentation to further troubleshoot this problem: [https://docs.cryptlex.com/node-locked-licenses/proxies-and-firewall](https://docs.cryptlex.com/node-locked-licenses/proxies-and-firewall)
 {% endtab %}
 
 {% tab title="Revit" %}
@@ -56,7 +68,7 @@ Double-click on the "PollinationRevitPluginInstaller-latest.exe" file to start t
 
 Follow the instructions in the Pollination Revit Plugin Setup Wizard application to install the plugin.
 
-![](<../.gitbook/assets/image (152) (1) (1).png>)
+![](<../.gitbook/assets/image (151) (1) (1) (1).png>)
 {% endtab %}
 
 {% tab title="Grasshopper" %}
