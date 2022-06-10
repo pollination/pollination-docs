@@ -1,4 +1,4 @@
-# Create a filtered Chart
+# Create a Filtered Chart
 
 In this section, we will see how you can add a filtered chart to your Pollination app. We will filter the dry bulb temperature data coming out of an EPW file and will visualize it as a Plotly chart in a Pollination app.
 
@@ -50,6 +50,4 @@ st.title("Dry bulb temperature")
 st.plotly_chart(figure, use_container_width=True)
 ```
 
-You should see a filtered annual heatmap appear in the Streamlit app.&#x20;
-
-![](../.gitbook/assets/pollination-apps/dbt\_custom.png)
+You should see a filtered annual heatmap appear in the Streamlit app.&#x20; ![](../.gitbook/assets/pollination-apps/dbt_custom.png)

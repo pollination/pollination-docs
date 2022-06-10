@@ -2,7 +2,7 @@
 
 In [this](download-output.md) section, we downloaded the "visualization" output of a daylight-factor study in the web app. Now, we will see how we can download the "result" output and visualize it in Rhino.
 
-## Data needed for this visualization
+### Data needed for this visualization
 
 Using the steps mentioned [here](download-output.md), download the "results" output of the daylight-factor study instead of the "visualization" output.
 
@@ -23,7 +23,7 @@ results
 
 We will also need the original HBJSON file used for the daylight-factor study in [this](create-job.md) step.
 
-## App
+### App
 
 Installing necessary libraries
 
@@ -193,7 +193,7 @@ with st.form('visualize-rhino'):
                                   'daylight-factor'], show_rhino_mesh=True)
 ```
 
-## Testing the App inside Rhino
+### Testing the App inside Rhino
 
 First, run the pollination app. Here, were assuming that the name of the python file for the app is "app" and the file is in the current working directory.
 
@@ -235,7 +235,7 @@ Enter, the following values assuming the HBJSON file and the results are present
 
 ![](../.gitbook/assets/pollination-apps/rhino\_enter\_values.png)
 
-## Visualization in Rhino
+### Visualization in Rhino
 
 Clicking the 'Submit" button should show the model and the mesh in Rhino that you can tun on and off and also bake as Rhino objects.&#x20;
 

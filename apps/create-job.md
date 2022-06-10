@@ -2,7 +2,7 @@
 
 In this section, we will see how you can schedule a simulation aka a job, on Pollination cloud from your Pollination app. A Job on Pollination can be created using the Pollination credentials, job inputs,and recipe inputs.
 
-### Pollination credentials
+### Step-1: Pollination credentials
 
 API key: A user of your app can find a Pollination API key in the "Developer Settings" section under the "Settings" tab of their profile on Pollination. If they don't have a key, they can generate one by entering any name for the key and clicking on the "+" button. Once they have this key, they can copy it to the clipboard and paste it back to the Pollination-app.
 
@@ -12,7 +12,7 @@ Owner Name: The owner name is the username of the user who is scheduling this jo
 
 ![](../.gitbook/assets/pollination-apps/owner.png)
 
-### Job inputs
+### Step-2: Job inputs
 
 Project: The project name is name of the project the scheduled job will go into. A user can create a project on Pollination by clicking on the "+" button on the navigation bar at the top. If a project already exists, the user can use that project's name.
 
@@ -22,7 +22,7 @@ Job name: Any text to name the job.&#x20;
 
 Job description: Any text to describe the job.
 
-### Recipe Selection
+### Step-3: Recipe Selection
 
 A recipe needs to be selected and added to the project before it can be used. A recipe can be added to the project by going to the "Recipes" on the "Settings" tab of the project.
 
@@ -34,11 +34,11 @@ Recipe name: Name of the recipe you want to use for the job.&#x20;
 
 Recipe tag: The version tag of the recipe you want to use for the job.
 
-### Recipe Inputs
+### Step-4: Recipe Inputs
 
 Visit any [recipe](https://app.pollination.cloud/recipes) on Pollination to find out the inputs for the recipe
 
-### Scheduling a job
+### Step-5: Scheduling a job
 
 We will create a job on Pollination to run the [daylight-factor](https://app.pollination.cloud/ladybug-tools/recipes/daylight-factor) recipe on the gridbased model that ships with Ladybug Tools.
 

@@ -1,6 +1,6 @@
 # PO\_AddRooms
 
-![](<../../.gitbook/assets/PO\_AddRooms (1) (1).gif>)
+![](<../pollination-commands-for-rhino/img/PO\_AddRooms (1).gif>)
 
 Use this command to convert closed geometries to rooms.
 
