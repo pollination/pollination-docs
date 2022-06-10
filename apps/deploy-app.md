@@ -1,6 +1,6 @@
 # Deploy an App
 
-In this section, we will see how you can deploy your own app on Pollination Cloud. As an example to demonstrate the process, we will write and deploy an app that draws a wind rose using the EPW data. At the end of this section, you will have deployed an app named **windrose** that appears under the **Apps** tab on your profile.
+In this section, we will see how you can deploy your own app on Pollination Cloud. As an example to demonstrate the process, we will write and deploy an app that draws a wind rose using the EPW data. At the end of this section, you will have deployed an app named **wind-rose** that appears under the **Apps** tab on your profile.
 
 ![](../.gitbook/assets/pollination-apps/app_deployed.png)
 
@@ -27,28 +27,28 @@ Go to the location on your system where you'd like to create the app folder and 
 pollination-apps new
 ```
 
-This will ask for the project name. The project name here will become the name of your app. Also, make sure to not have any blank spaces in your project name. In our case, we will choose the project name to be **windrose**.
+This will ask for the project name. The project name here will become the name of your app. Also, make sure to not have any blank spaces in your project name. In our case, we will choose the project name to be **wind-rose**.
 
 ```
-project_name [Python Boilerplate]: windrose
+project_name [Python Boilerplate]: wind-rose
 ```
 
 Next, it will ask for the project_slug. Enter the same name you entered above or keep it blank which will use the same name you entered above for the project_name. We are keeping it blank.
 
 ```
-project_slug [windrose]:
+project_slug [wind-rose]:
 ```
 
 Next, we will enter project_short_description. This is a short description of your app.
 
 ```
-project_short_description [The best Pollination app... so far!]: Generate a windrse from EPW.
+project_short_description [The best Pollination app... so far!]: Generate a wind rose from EPW.
 ```
 
 Next, comes pollination_owner. This is your username in Pollination. We looked at how to find this owner name in [this](https://docs.pollination.cloud/user-manual/apps/create-job) section.
 
 ```
-pollination_owner []: devang
+pollination_owner []: YOUR_USERNAME
 ```
 
 Next, pollination-apps will ask you whether you'll need the [Pollination-viewer](integrating-the-pollination-viewer.md) in your app. You'll most likely need the Pollination viewer in your app if you are dealing with any 3D geometry. In this case, we're simply creating a 2D interactive chart so we will choose not to have the Pollination viewer.
@@ -78,10 +78,10 @@ Select ci:
 Choose from 1, 2 [1]: 1
 ```
 
-Doing this should give you a folder named windrose in your current working directory with the following file structure;
+Doing this should give you a folder named wind-rose in your current working directory with the following file structure;
 
 ```
-windrose
+wind-rose
 │   README.md
 │
 ├───.github
@@ -109,7 +109,7 @@ These are the libraries we need to run the app. To find the latest version of an
 
 ### Step-3: Installing libraries
 
-Change directory and arrive at the **app** folder created inside the windrose folder at the end of step-1. Once app folder is your current working directory, run the following command. This will install all the dependencies in the requirements.txt file.
+Change directory and arrive at the **app** folder created inside the wind-rose folder at the end of step-1. Once app folder is your current working directory, run the following command. This will install all the dependencies in the requirements.txt file.
 
 ```python
 pip install -r requirements.txt
@@ -143,10 +143,10 @@ st.plotly_chart(figure, use_container_width=True)
 
 ```
 
-Please note that we created a subfolder called **assets** inside the app folder. This subfolder will contain the EPW data file we are using renamed as **sample.epw**. So after creating the assets folder, the structure of the windrose folder will look like the following;
+Please note that we created a subfolder called **assets** inside the app folder. This subfolder will contain the EPW data file we are using renamed as **sample.epw**. So after creating the assets folder, the structure of the wind-rose folder will look like the following;
 
 ```
-windrose
+wind-rose
 │   README.md
 │
 ├───.github
@@ -172,7 +172,7 @@ This should render the following in the browser;
 
 ![](../.gitbook/assets/pollination-apps/wind_rose.png)
 
-If the app runs as expected, enter "ctrl + c" on the command line to stop the app.
+If the app runs as expected, enter `ctrl + c` on the command line to stop the app.
 
 ### Step-5: Running the app in a Docker container
 
@@ -202,10 +202,10 @@ Options:
   --help           Show this message and exit.
 ```
 
-Let's run the command now to run the app in a Docker container.
+Let's run the command now to run the app in a Docker container. The **.** here means that we want the current working directory to be the path.
 
 ```
-pollination-apps run . devang
+pollination-apps run . YOUR_USERNAME
 ```
 
 This will take a while depending on the size of the app and the number of dependencies in the requirements.txt file. If everything works fine you should see the following appear in the command line;
@@ -223,11 +223,11 @@ Now, you can view the app in your browser by going to the following URL;
 localhost:8501
 ```
 
-You should see your app running in the browser. If the app works as expected. Come back to the command line and use the "ctrl + c" command to stop the app.
+You should see your app running in the browser. If the app works as expected. Come back to the command line and use the `ctrl + c` command to stop the app.
 
 ### Step-6: Generating API token
 
-Once we have tested that the app works inside the Docker container. We are ready to deploy it to Pollination Cloud. To deploy the app, we will login to Pollination cloud first and will create an API token. Go to the "Developer Settings" section of the "Settings" page on your profile and create a new API or retrieve an existing API token. Here, we created a new API token with the name of "windrose". We will click on the "refresh" button to get the API token and will copy the API token to the clipboard.
+Once we have tested that the app works inside the Docker container. We are ready to deploy it to Pollination Cloud. To deploy the app, we will login to Pollination cloud first and will create an API token. Go to the **Developer Settings** section of the **Settings** page on your profile and create a new API or retrieve an existing API token. Here, we created a new API token with the name of `wind-rose`. We will click on the `refresh` button to get the API token and will copy the API token to the clipboard.
 
 ![](../.gitbook/assets/pollination-apps/api_token.png)
 
@@ -235,7 +235,7 @@ Once we have tested that the app works inside the Docker container. We are ready
 
 ### Step-7: Deploying the app
 
-To deploy the app we will use the "run" command from the Pollination-apps library.
+To deploy the app we will use the `deploy` command from the Pollination-apps library.
 
 In order to learn the structure of the command above, use the following command;
 
@@ -246,17 +246,17 @@ pollination-apps deploy --help
 Finally, run the command inside the app folder and use the API token created in the step above.
 
 ```
-pollination-apps deploy . --name "windrose" --api-token XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+pollination-apps deploy . --name "wind-rose" --api-token XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
 Once you deploy the app, you should see the following message appear on the command line;
 
 ```
-Congrats! The "windrose" app is successfully scheduled for deployment.
-It can take up to 10 minutes before the new version of the app is deployed to Pollination. You can check the app at this URL: https://app.pollination.cloud/your user name/applications/windrose
+Congrats! The "wind-rose" app is successfully scheduled for deployment.
+It can take up to 10 minutes before the new version of the app is deployed to Pollination. You can check the app at this URL: https://app.pollination.cloud/YOUR_USERNAME/applications/wind-rose
 ```
 
-If you reached here, congratulations! You have successfully deployed the app to Pollination Cloud. Go to the "windrose" app under the "Apps" tab on your profile and check the live app after 10 minutes of deployment. You should see the "windrose" app live on Pollination cloud.
+If you reached here, congratulations! You have successfully deployed the app to Pollination Cloud. Go to the **wind-rose** app under the **Apps** tab on your profile and check the live app after 10 minutes of deployment. You should see the wind-rose app live on Pollination cloud.
 
 ![](../.gitbook/assets/pollination-apps/live_app.png)
 
