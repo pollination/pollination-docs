@@ -6,7 +6,7 @@ In [this](download-output.md) section, we downloaded the "visualization" output 
 
 Using the steps mentioned [here](download-output.md), download the "results" output of the daylight-factor study instead of the "visualization" output.
 
-![](../.gitbook/assets/pollination-apps/output\_results.png)
+![](../.gitbook/assets/pollination-apps/output_results.png)
 
 This should give you a results folder with the following structure:
 
@@ -213,27 +213,27 @@ http://localhost:8501/
 
 If you don't have already, download the Pollination Rhino plugin from [here](https://www.pollination.cloud/rhino-plugin). Once you install the Rhino plugin, you should see the tabs for "Pollination" and "Pollination.Apps" in the sidebar of Rhino. If you don't, click on the gear icon shown in the image below;&#x20;
 
-![](../.gitbook/assets/pollination-apps/rhino\_start.png)
+![](../.gitbook/assets/pollination-apps/rhino_start.png)
 
 Select the "Pollination" and "Pollination.Apps" on the menu that opens up&#x20;
 
-![](../.gitbook/assets/pollination-apps/rhino\_add\_pollination.png)
+![](../.gitbook/assets/pollination-apps/rhino_add_pollination.png)
 
 Next, click on the gear icon in Pollination.Apps. This will open up a new window.&#x20;
 
-![](../.gitbook/assets/pollination-apps/rhino\_load\_panel.png)
+![](../.gitbook/assets/pollination-apps/rhino_load_panel.png)
 
 In the panel, add the URL where the app is running and click on "Navigate to selection".&#x20;
 
-![](../.gitbook/assets/pollination-apps/rhino\_add\_url.png)
+![](../.gitbook/assets/pollination-apps/rhino_add_url.png)
 
 This should show the app inside Rhino.
 
-![](../.gitbook/assets/pollination-apps/rhino\_show\_app.png)
+![](../.gitbook/assets/pollination-apps/rhino_show_app.png)
 
 Enter, the following values assuming the HBJSON file and the results are present in the current working directory. If not, provide full path to both.
 
-![](../.gitbook/assets/pollination-apps/rhino\_enter\_values.png)
+![](../.gitbook/assets/pollination-apps/rhino_enter_values.png)
 
 ### Visualization in Rhino
 
