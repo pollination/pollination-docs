@@ -82,6 +82,8 @@ Doing this should give you a folder named wind-rose in your current working dire
 
 ```
 wind-rose
+│   .gitignore
+│   .releaserc.json
 │   README.md
 │
 ├───.github
@@ -147,6 +149,8 @@ Please note that we created a subfolder called **assets** inside the app folder.
 
 ```
 wind-rose
+│   .gitignore
+│   .releaserc.json
 │   README.md
 │
 ├───.github
