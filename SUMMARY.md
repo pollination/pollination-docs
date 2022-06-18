@@ -182,3 +182,4 @@
 * [Visualize Results in Rhino](apps/visualize-rhino.md)
 * [Deploy an App](apps/deploy-app.md)
 * [Automate App Deployment](apps/automate-app-deployment.md)
+* [Update App](apps/update-app.md)
