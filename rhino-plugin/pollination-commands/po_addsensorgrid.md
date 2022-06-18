@@ -1,6 +1,6 @@
 # PO\_AddSensorGrid
 
-![](../pollination-commands-for-rhino/img/PO\_AddSensorGrid.gif)
+![](<../../.gitbook/assets/PO\_AddSensorGrid (1).gif>)
 
 Adding sensor grids for running Radiance grid based simulations. The input geometries can be Rhino surfaces, rooms or orphaned faces. For rooms, only sub-surfaces with floor type will be used for generating sensor grids.
 
