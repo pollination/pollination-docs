@@ -26,7 +26,7 @@ Here's a screenshot of the viewer itself:
 
 ![](../.gitbook/assets/integrating-the-pollination-viewer/pollination-viewer-model-loaded.png)
 
-### Instantiating the viewer in Streamlit
+### Instantiating the Viewer in Streamlit
 
 ```python
 from pollination-streamlit-viewer import viewer
@@ -44,16 +44,16 @@ def viewer(
      style: Dict = None)
 ```
 
-| Argument      | Description                                                                                                                                                                                         |
-| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| key           | A unique string for each instance of the viewer.                                                                                                                                                    |
-| content       | A `.vtkjs` file (see the section below Loading a File)                                                                                                                                              |
-| toolbar       | A `boolean` that toggles the toolbar visibility. Default is `True`.                                                                                                                                 |
-| sidebar       | A boolean that toggles the sidebar visiblity. Default is `True`.                                                                                                                                    |
-| subscribe     | A boolean that toggles subscription to the VTKJS camera and renderer content. Default is `False`.                                                                                                   |
-| clear         | A boolean to clear the current contents from the viewer before loading new content. Default is `True`.                                                                                              |
-| action\_stack | The action stack is an advanced feature that allows the streamlit component to send actions to the React component's dispatch function. A set of useful actions are demonstrated in the sample app. |
-| style         | A dictionary to set the style for the viewer. The key and values can be any CSS style attribute. Default is: `{"border": "1px solid #d0d7de", "borderRadius": "2px"}`                               |
+| Argument | Description |
+| --- | --- |
+| key | A unique string for each instance of the viewer. |
+| content | A `.vtkjs` file (see the section below Loading a File) |
+| toolbar | A `boolean` that toggles the toolbar visibility. Default is `True`. |
+| sidebar | A boolean that toggles the sidebar visiblity. Default is `True`. |
+| subscribe | A boolean that toggles subscription to the VTKJS camera and renderer content. Default is `False`. |
+| clear | A boolean to clear the current contents from the viewer before loading new content. Default is `True`. |
+| action_stack | The action stack is an advanced feature that allows the streamlit component to send actions to the React component's dispatch function. A set of useful actions are demonstrated in the sample app. |
+| style | A dictionary to set the style for the viewer. The key and values can be any CSS style attribute. Default is: `{"border": "1px solid #d0d7de", "borderRadius": "2px"}` |
 
 ### Return Value
 
@@ -63,7 +63,7 @@ If you want to read and respond to values as the viewer state changes, use the `
 
 #### Loading a File
 
-You can make use of the Streamlit provided st.file\_uploader component to load a .vtkjs file.
+You can make use of the Streamlit provided st.file_uploader component to load a .vtkjs file.
 
 ```python
 _file = st.file_uploader(
@@ -79,7 +79,7 @@ content = _file.getvalue() if _file else None
 
 ### Subscribe Toggle
 
-The subscribe toggle is a powerful feature that may be easy to misuse. If set, the value returned by st\_vtkjs will contain additional fields.
+The subscribe toggle is a powerful feature that may be easy to misuse. If set, the value returned by st_vtkjs will contain additional fields.
 
 ![](../.gitbook/assets/integrating-the-pollination-viewer/subscribe-toggle.png)
 
@@ -116,7 +116,7 @@ Please be aware, that if you've set the `subscribe` toggle to `True` this will c
 
 By default when the value of variables in Streamlit change, often in response to user input, the component will re-render. When a component like `st_vtkjs` returns input back to Streamlit, it can easily cause an infinite loop of rendering that will cause the Streamlit app to report "Running..." in the top right corner of the app. This will eventually cause the app to fail. To control this behavior there are two techniques that you should employ.
 
-First, use `st.session_state` to prevent a variable from being reinitialize when the app responds to other changing values. st.session\_state is a feature of Streamlit, and you can look to their docs to learn more about this feature.
+First, use `st.session_state` to prevent a variable from being reinitialize when the app responds to other changing values. st.session_state is a feature of Streamlit, and you can look to their docs to learn more about this feature.
 
 Each Streamlit input component can use it's own session state automatically.
 
@@ -146,6 +146,6 @@ with vtkjs_container:
 
 The second strategy: don't set the `subscribe` toggle unless you absolutely need to. All of the controls in the Viewer Sample work without this toggle. It is rarely necessary and if you choose to use it, you should know the ins and outs of this problem.
 
-### Report bugs
+### Report Bugs
 
 These software are both under active development, please report bugs on the [Pollination forum](https://discourse.pollination.cloud/).
