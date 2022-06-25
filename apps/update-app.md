@@ -1,6 +1,6 @@
 # Update App
 
-In this section, we will see how to update an app and use automated deployment to update the already deployed app on Pollination. This section builds on the [previous](automate-app-deployment.md) section and therefore assumes that you have already completed the previous section.
+In this section, we will see how to update an app and use automated deployment to update the already deployed app on Pollination. This section builds on the [this](github-automated.md) section and therefore assumes that you have already completed it..
 
 ### Step-1 Update App locally
 
@@ -61,10 +61,10 @@ Open Github desktop and go to your wind-rose repository. You should see the chan
 
 `feat(app.py): add analysis period to filter wind rose`
 
-![](../.gitbook/assets/pollination-apps/update_app_commit.png)
+![](../.gitbook/assets/pollination-apps/update\_app\_commit.png)
 
 Click on the "Commit to master" and then on "Push to origin".
 
 That's it. You should see a new version of the app deployed on Pollination in 5-10 minutes with the changes we made.
 
-![](../.gitbook/assets/pollination-apps/update_app_done.png)
+![](../.gitbook/assets/pollination-apps/update\_app\_done.png)

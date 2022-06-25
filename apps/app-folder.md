@@ -1,4 +1,4 @@
-# App Folder
+# Prepare App folder
 
 In this section, we are going to learn how to prepare a folder before you start writing your app. Pollination offers resources to prepare this folder in such a way that you can automate app deployment to Pollination. We will use these resources to prepare a folder for an app that plots the wind rose from the EPW data.
 
@@ -6,8 +6,8 @@ In this section, we are going to learn how to prepare a folder before you start 
 
 To follow this section, you will need to be comfortable doing actions using the command line. Check the following tutorials to learn about the command prompt on Windows and the terminal on Mac.
 
-- [windows](https://youtu.be/A3nwRCV-bTU)
-- [Mac](https://youtu.be/aKRYQsKR46I)
+* [windows](https://youtu.be/A3nwRCV-bTU)
+* [Mac](https://youtu.be/aKRYQsKR46I)
 
 ### Creating App Folder
 
@@ -19,7 +19,7 @@ Install the `pollination-apps` library by using the following command on your co
 pip install -U pollination-apps
 ```
 
-Go to the location on your system where you'd like to create the app folder and run the following command;
+Go to the location on your system where you'd like to create the app folder and run the following command. [This](https://www.lifewire.com/change-directories-in-command-prompt-5185508) article shows how to change directory on windows command prompt to go to a location on your system.
 
 ```python
 pollination-apps new
@@ -31,19 +31,19 @@ This will ask for the project name. The project name here will become the name o
 project_name [Pollination-app]: wind-rose
 ```
 
-Next, it will ask for the project_slug. Enter the same name you entered above or keep it blank which will use the same name you entered above for the project_name. We are keeping it blank.
+Next, it will ask for the project\_slug. Enter the same name you entered above or keep it blank which will use the same name you entered above for the project\_name. We are keeping it blank.
 
 ```
 project_slug [wind-rose]:
 ```
 
-Next, we will enter project_short_description. This is a short description of your app.
+Next, we will enter project\_short\_description. This is a short description of your app.
 
 ```
 project_short_description [Your Pollination app!]: Generate a wind rose from EPW.
 ```
 
-Next, comes pollination_owner. This is your username in Pollination. We looked at how to find this owner name in [this](create-job.md) section.
+Next, comes pollination\_owner. This is your username in Pollination. We looked at how to find this owner name in [this](create-job.md) section.
 
 ```
 pollination_owner []: YOUR_USERNAME
@@ -67,7 +67,7 @@ Select app_visibility:
 Choose from 1, 2 [1]: 1
 ```
 
-Lastly, pollination-apps will give you three options to choose from for [continuous integration](https://docs.github.com/en/actions/automating-builds-and-tests/about-continuous-integration#about-continuous-integration).
+Lastly, pollination-apps will give you three options to choose from for [continuous integration](https://docs.github.com/en/actions/automating-builds-and-tests/about-continuous-integration#about-continuous-integration) (CI).
 
 ```
 Select ci:
@@ -77,7 +77,7 @@ Select ci:
 Choose from 1, 2, 3 [1]:
 ```
 
-The first option creates the following app folder structure without any CI.In this option, deploying an app on Pollination relies on using the command line. Go to [this](deploy-app.md) section to learn how to deploy an app when you have chosen this option.
+The first option creates the following app folder structure without any CI. In this option, deploying an app on Pollination relies on using the command line. Go to [this](deploy-app.md) section to learn how to deploy an app when you have chosen this option.
 
 ```
 wind-rose
@@ -89,7 +89,7 @@ wind-rose
         requirements.txt
 ```
 
-The second option creates the following app folder structure with basic CI.In this option, deploying an app on Pollination relies on triggering a release on Github. Go to [this](github-manual.md) section to learn how to deploy an app when you have chosen this option.
+The second option creates the following app folder structure with basic CI. In this option, deploying an app on Pollination relies on triggering a release on Github. Go to [this](github-manual.md) section to learn how to deploy an app when you have chosen this option.
 
 ```
 wind-rose

@@ -16,7 +16,7 @@ Add the file format filter **Honeybee Model (\*.hbjson)** show only the selected
 
 Clicking on the "Options" button you get two extra functionalities.
 
-![](<../../../.gitbook/assets/image (74) (1).png>)
+![](<../../../.gitbook/assets/image (74) (1) (1).png>)
 
 * **Validate**: It is an optional process that checks the validity of the hbjson to import or open. Just specify the extension to read and click on the radio button "validation". It is a helpful functionality to debug a model and fix it.
 * **Add a prefix:** It\*\* \*\*is particularly useful in workflows where you duplicate and edit a starting object and then want to import it again in the same 3dm file. In fact, it changes the display name and identifier of this object and all child objects by inserting a prefix, creating unique IDs.
