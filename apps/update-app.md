@@ -55,16 +55,16 @@ figure = wind_rose.plot()
 st.plotly_chart(figure, use_container_width=True)
 ```
 
-### Step-2 Commit changes
+### Step-2 Commit Changes
 
 Open Github desktop and go to your wind-rose repository. You should see the changes appear. In the diff checker on the right, note the changes that have been made to the app. Also note the commit message. Since we added the capability to use analysis period to filter the wind rose, we are using the `feat` commit type. Also, since the change is only made in the app.py, we're using the file name in the commit scope. The full commit message here is;
 
 `feat(app.py): add analysis period to filter wind rose`
 
-![](../.gitbook/assets/pollination-apps/update\_app\_commit.png)
+![](../.gitbook/assets/pollination-apps/update_app_commit.png)
 
 Click on the "Commit to master" and then on "Push to origin".
 
 That's it. You should see a new version of the app deployed on Pollination in 5-10 minutes with the changes we made.
 
-![](../.gitbook/assets/pollination-apps/update\_app\_done.png)
+![](../.gitbook/assets/pollination-apps/update_app_done.png)

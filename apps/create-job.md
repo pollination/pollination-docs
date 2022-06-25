@@ -2,17 +2,17 @@
 
 In this section, we will see how you can schedule a simulation aka a job, on Pollination cloud from your Pollination app. A Job on Pollination can be created using the Pollination credentials, job inputs,and recipe inputs.
 
-### Step-1: Pollination credentials
+### Step-1: Pollination Credentials
 
 API key: A user of your app can find a Pollination API key in the "Developer Settings" section under the "Settings" tab of their profile on Pollination. If they don't have a key, they can generate one by entering any name for the key and clicking on the "+" button. Once they have this key, they can copy it to the clipboard and paste it back to the Pollination-app.
 
-![](../.gitbook/assets/pollination-apps/api\_key.png)
+![](../.gitbook/assets/pollination-apps/api_key.png)
 
 Owner Name: The owner name is the username of the user who is scheduling this job on Pollination. This username too can be found in the "Profile Settings" section of the "Settings" tab on Pollination. The username is typically followed by a "@" on the "Profile Settings".
 
 ![](../.gitbook/assets/pollination-apps/owner.png)
 
-### Step-2: Job inputs
+### Step-2: Job Inputs
 
 Project: The project name is name of the project the scheduled job will go into. A user can create a project on Pollination by clicking on the "+" button on the navigation bar at the top. If a project already exists, the user can use that project's name.
 
@@ -38,7 +38,7 @@ Recipe tag: The version tag of the recipe you want to use for the job.
 
 Visit any [recipe](https://app.pollination.cloud/recipes) on Pollination to find out the inputs for the recipe
 
-### Step-5: Scheduling a job
+### Step-5: Scheduling a Job
 
 We will create a job on Pollination to run the [daylight-factor](https://app.pollination.cloud/ladybug-tools/recipes/daylight-factor) recipe on the gridbased model that ships with Ladybug Tools.
 
@@ -152,6 +152,6 @@ with st.form('daylight-factor-job'):
 
 The above code will render the following Streamlit form that can be used to submit a job on Pollination to run the daylight-factor recipe.
 
-![](../.gitbook/assets/pollination-apps/create\_job.png)
+![](../.gitbook/assets/pollination-apps/create_job.png)
 
 A job submitted using this form can be accessed [here](https://app.pollination.cloud/devang/projects/demo/jobs/53498657-5da8-4308-86ce-e9fb4b9c0fc8).

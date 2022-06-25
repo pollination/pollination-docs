@@ -197,7 +197,7 @@ with st.form('visualize-rhino'):
 
 First, run the pollination app. Here, were assuming that the name of the python file for the app is "app" and the file is in the current working directory.
 
-### Running the app
+### Running the App
 
 ```python
 streamlit run app.py
