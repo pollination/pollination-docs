@@ -1,6 +1,6 @@
 # Troubleshooting
 
-The Pollination [user forum](https://discourse.pollination.cloud/) is the best place for you to communicate with our team. Please use our forum to post any issues or make feature requests. It's similar to creating a technical support ticket but much more collaborative.
+This section of the User Manual contains solutions to common errors and compatibility issues that users of Pollination can face. For custom errors not covered in this section, please visit the Pollination [user forum](https://discourse.pollination.cloud/) to communicate new issues with our team. You can post any issues or make feature requests on the forum and someone from our team will help you find a solution. It's similar to creating a technical support ticket but much more collaborative.&#x20;
 
 If you have a Pollination account already, you can use the same email and password to sign on to our forum. If you don't have a Pollination account yet, please visit:
 
@@ -8,10 +8,9 @@ If you have a Pollination account already, you can use the same email and passwo
 [create-a-pollination-account.md](../create-a-pollination-account.md)
 {% endcontent-ref %}
 
-## Common Pollination Modeling Errors
+## Product Specific Troubleshooting Tips
 
-Getting error codes when validating your model for simulation? Check out our list of common errors and how to fix them.&#x20;
-
-{% content-ref url="help-with-modeling-error-codes.md" %}
-[help-with-modeling-error-codes.md](help-with-modeling-error-codes.md)
+{% content-ref url="rhino-plugin-errors/" %}
+[rhino-plugin-errors](rhino-plugin-errors/)
 {% endcontent-ref %}
+

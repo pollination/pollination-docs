@@ -12,7 +12,8 @@
 * [Plugin Installation](get-started/download-and-install-plugins.md)
 * [Manage License Pool](get-started/manage-license-pool.md)
 * [Troubleshooting](get-started/troubleshooting/README.md)
-  * [Validation Error Codes](get-started/troubleshooting/help-with-modeling-error-codes.md)
+  * [Rhino Plugin Errors](get-started/troubleshooting/rhino-plugin-errors/README.md)
+    * [Validation Error Codes](get-started/troubleshooting/rhino-plugin-errors/help-with-modeling-error-codes.md)
 
 ## Web Platform
 
