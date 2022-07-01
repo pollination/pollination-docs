@@ -16,7 +16,7 @@ Click on your avatar and select _Subscription_ to bring up your subscription man
 
 Type in the account email address, display name, and a unique name for your account. As the name implies, Pollination supports duplicate display names, but unique names must be - unique! If the name you chose is already taken, the entry field will alert you to choose a different name. Additionally, instead of uploading an Organization avatar as an image, we require a URL address to an image. Click on _Create Organization_ to continue.
 
-![](<../.gitbook/assets/image (149) (1).png>)
+![](<../.gitbook/assets/image (149) (1) (1).png>)
 
 ### Step 3
 

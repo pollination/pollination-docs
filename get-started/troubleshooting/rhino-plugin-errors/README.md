@@ -13,7 +13,7 @@ Adding Cryptlex's server, Rhino, and Pollination's CAD plugin to your firewall o
 
 Type in the `GrasshopperDeveloperSettings` command in Rhino and uncheck the “Memory Load …” option.
 
-![](<../../../.gitbook/assets/image (152).png>)
+![](<../../../.gitbook/assets/image (152) (2).png>)
 
 ## Decoding Model Validation Error Codes
 
