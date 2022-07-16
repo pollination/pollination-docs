@@ -32,6 +32,7 @@
   * [Walls and Curtain Walls](revit-plugin/modeling-best-practices/walls-and-curtain-walls.md)
   * [Windows](revit-plugin/modeling-best-practices/windows-and-doors.md)
 * [Export Analytical Model](revit-plugin/export-analytical-model.md)
+* [Running Simulations](revit-plugin/running-simulations.md)
 
 ## Rhino Plugin
 
