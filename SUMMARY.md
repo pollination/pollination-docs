@@ -5,8 +5,8 @@
 ## Get Started
 
 * [Create a Pollination Account](get-started/create-a-pollination-account.md)
-* [Upgrade to Organization](get-started/create-an-organization.md)
-* [Purchase and Manage Plugins](get-started/purchase-and-manage-plugins.md)
+* [Create an Organization](get-started/create-an-organization.md)
+* [Purchase and Manage CAD Plugins](get-started/purchase-and-manage-plugins.md)
 * [Download Plugins](get-started/download-plugins.md)
 * [Plugin Installation](get-started/download-and-install-plugins.md)
 * [Manage License Pool](get-started/manage-license-pool.md)

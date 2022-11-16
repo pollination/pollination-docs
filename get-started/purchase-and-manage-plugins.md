@@ -2,6 +2,12 @@
 
 Pollination plugins are required if you would like to use Pollination from within your CAD/BIM software. If you plan to use Pollination across more than one software package, you will need to purchase and download multiple installation files. For plugin pricing, please visit our [pricing page](https://www.pollination.cloud/pricing-cad-plugins). &#x20;
 
+
+{% hint style="info" %}
+For sharing the CAD licenses among several Pollination users you must buy the licenses under an organization account. A license that is purchased under a personal account can only be used by the account owner.
+{% endhint %}
+
+
 ### Step 1
 
 Click on your avatar and select _Subscription_ to bring up your subscription management page or click on the blue _Buy Licenses_ button to bring up the purchasing page.&#x20;
