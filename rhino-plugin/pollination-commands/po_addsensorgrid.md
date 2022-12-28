@@ -1,10 +1,10 @@
+---
+description: Add sensor grids for running Radiance grid based simulations. Use &quot;Pollination&quot; command to open Radiance Object Manager to check and edit each sensor grid.
+---
+
 # PO_AddSensorGrid
 
-![](./img/PO_AddSensorGrid.gif)
-
-Adding sensor grids for running Radiance grid based simulations.
-The input geometries can be Rhino surfaces, rooms or orphaned faces. 
-For rooms, only sub-surfaces with floor type will be used for generating sensor grids.
+Add sensor grids for running Radiance grid based simulations. Use &quot;Pollination&quot; command to open Radiance Object Manager to check and edit each sensor grid.
 
 ## Options
 
@@ -15,4 +15,15 @@ For rooms, only sub-surfaces with floor type will be used for generating sensor 
 * **Offset**
 
   offset distance from the input geometries. (in Rhino&apos;s unit)
+
+Notes:
+
+* **The input geometries can be Rhino surfaces, rooms or orphaned faces. **
+
+  
+
+* **For rooms, only sub-surfaces with floor type will be used for generating sensor grids.
+**
+
+  
 

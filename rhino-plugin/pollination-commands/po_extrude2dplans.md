@@ -1,3 +1,7 @@
+---
+description: Extrude 2D plans (curves) to solid Breps based on height data. A default height will be used if curves do not contains height information.
+---
+
 # PO_Extrude2DPlans
 
 Extrude 2D plans (curves) to solid Breps based on height data. A default height will be used if curves do not contains height information.
@@ -19,4 +23,5 @@ Extrude 2D plans (curves) to solid Breps based on height data. A default height 
 * **SimplifyCurves**
 
   set to true to simplify the generated curves and convert it to polylines. 
+
 

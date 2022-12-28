@@ -1,12 +1,16 @@
+---
+description: Add skylights by ratio for each outdoor roof of selected rooms.
+---
+
 # PO_AddSkylightsByRatio
 
-Use this command to add skylights by ratio for each outdoor roof of selected rooms.
+Add skylights by ratio for each outdoor roof of selected rooms.
 
 ## Options
 
 * **Ratio**
 
-  set a number between 0 to 1 for the skylight ratio. (default:0.4)
+  Set a number between 0 to 1 for the skylight ratio. Default: 0.4 (40%).
 
 * **Dimension_X**
 
@@ -15,4 +19,5 @@ Use this command to add skylights by ratio for each outdoor roof of selected roo
 * **Dimension_Y**
 
   The y dimension of the grid cells as a number.
+
 

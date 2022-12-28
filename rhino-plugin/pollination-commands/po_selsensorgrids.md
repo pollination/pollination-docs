@@ -1,3 +1,8 @@
+---
+description: Select all visible sensor grids in the current Rhino document.
+---
+
 # PO_SelSensorGrids
 
-Select all sensor grids
+Select all visible sensor grids in the current Rhino document.
+

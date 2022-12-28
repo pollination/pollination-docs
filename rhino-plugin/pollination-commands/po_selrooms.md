@@ -1,3 +1,8 @@
+---
+description: Select all visible rooms in the current Rhino document.
+---
+
 # PO_SelRooms
 
-Select all rooms
+Select all visible rooms in the current Rhino document.
+

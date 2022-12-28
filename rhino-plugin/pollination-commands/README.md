@@ -375,3 +375,4 @@ Move back all legends back to top-left of the view. [Read more](po_resetlegendlo
 #### <mark style="background-color:yellow;">PO\_ShowObjectNotes</mark>
 
 Display a full report of object&apos;s notes which often is used for errors. [Read more](po_showobjectnotes.md).
+

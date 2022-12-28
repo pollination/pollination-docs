@@ -1,3 +1,8 @@
+---
+description: Select all visible shades in the current Rhino document.
+---
+
 # PO_SelShades
 
-Select all shades
+Select all visible shades in the current Rhino document.
+

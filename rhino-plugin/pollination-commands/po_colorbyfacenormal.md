@@ -1,4 +1,11 @@
+---
+description: Color all faces (including orphaned objects) by face normal.
+---
+
 # PO_ColorByFaceNormal
 
-Color all faces (including orphaned objects) by face normal.  
-Rerun this command to turn off this mode.
+Color all faces (including orphaned objects) by face normal. 
+
+Notes:
+- Rerun this command to turn off this mode.
+

@@ -1,4 +1,11 @@
+---
+description: Color all rooms&apos; faces by boundary condition.
+---
+
 # PO_ColorByFaceType
 
 Color all rooms&apos; faces by boundary condition. 
-Rerun this command to turn off this mode.
+
+Tips:
+- Rerun this command to turn off this mode.
+
