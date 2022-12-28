@@ -8,7 +8,7 @@ description: >-
 
 <div>
 
-<figure><img src="../../.gitbook/assets/PO_AddAperturesByWWR.gif" alt=""><figcaption><p>Add apertures to room by window to wall ratio</p></figcaption></figure>
+<figure><img src="../pollination-commands-for-rhino/img/PO_AddAperturesByWWR.gif" alt=""><figcaption><p>Add apertures to room by window to wall ratio</p></figcaption></figure>
 
  
 
@@ -64,11 +64,5 @@ description: >-
 {% embed url="https://www.youtube.com/watch?v=_q07tzElNmU" %}
 How to export the Pollination Rhino Model to IES
 {% endembed %}
-
-{% embed url="https://discourse.pollination.cloud/uploads/default/original/2X/4/4f2d84ed12781f0cab5c1a08dc77fc218c4a341c.mp4" %}
-Duplicate apertures
-{% endembed %}
-
-<div><video controls src="https://discourse.pollination.cloud/uploads/default/original/2X/4/4f2d84ed12781f0cab5c1a08dc77fc218c4a341c.mp4" ></video></div>
 
 Enjoy!

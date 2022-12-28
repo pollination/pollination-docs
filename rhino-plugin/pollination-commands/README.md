@@ -4,7 +4,9 @@ description: Below is the list of Pollination Rhino commands organized
 
 # Pollination Commands
 
-### <mark style="background-color:blue;">General</mark>
+## General
+
+### `Daylighting`
 
 #### <mark style="background-color:yellow;">PO\_AddApertureShades</mark>
 

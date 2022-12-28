@@ -26,32 +26,29 @@ An organization does not have additional seats or cloud resources by default. Yo
 
 Once you've created an organization, you can select the number of seats you'd like to purchase and add members to your organization. You can either select a monthly or an annual billing period. The annual subscription offers a free month of subscription.
 
-![](<../.gitbook/assets/buy_org_seats.png>)
-
+![](../.gitbook/assets/buy\_org\_seats.png)
 
 ### Enter Payment Information
 
 Enter your email and location in the pop-up window to preview your subscription cost inclusive of all taxes. Double-check all your information and click on "Subscribe Now" to complete your Organization seat(s) purchase.
 
-![](<../.gitbook/assets/image (155) (1).png>)
-
+![](<../.gitbook/assets/image (156) (1).png>)
 
 ### Add New Members
 
 After buying additional seats you can assign them to different Pollination accounts.
 
 1. Go to the members tab.
-1. Click on `Add Member` button.
-1. Use the search for members field to search for eligible members with Pollination accounts.
-1. Select the role for the new member. A member can be an `Owner` a `Member` of the organization.
-1. Click on `Add Member` again to add them to the organization.
+2. Click on `Add Member` button.
+3. Use the search for members field to search for eligible members with Pollination accounts.
+4. Select the role for the new member. A member can be an `Owner` a `Member` of the organization.
+5. Click on `Add Member` again to add them to the organization.
 
-![](<../.gitbook/assets/add_team_members.gif>)
+![](../.gitbook/assets/add\_team\_members.gif)
 
 {% hint style="info" %}
 A free Starter account is required for a member to be added to an organization.
 {% endhint %}
-
 
 ### Add Additional Computing Resources
 
