@@ -65,6 +65,10 @@ description: >-
 How to export the Pollination Rhino Model to IES
 {% endembed %}
 
-<div>
-<video controls src="https://discourse.pollination.cloud/uploads/default/original/2X/4/4f2d84ed12781f0cab5c1a08dc77fc218c4a341c.mp4" ></video>
-</div>
+{% embed url="https://discourse.pollination.cloud/uploads/default/original/2X/4/4f2d84ed12781f0cab5c1a08dc77fc218c4a341c.mp4" %}
+Duplicate apertures
+{% endembed %}
+
+<div><video controls src="https://discourse.pollination.cloud/uploads/default/original/2X/4/4f2d84ed12781f0cab5c1a08dc77fc218c4a341c.mp4" ></video></div>
+
+Enjoy!
