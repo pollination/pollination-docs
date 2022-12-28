@@ -1,6 +1,10 @@
+---
+description: Add shades to apertures. It works with two different modalities, BorderShades and LouverShades.
+---
+
 # PO_AddApertureShades
 
-Use this command to add shades to apertures. It works with two different modalities, BorderShades and LouverShades.
+Add shades to apertures. It works with two different modalities, BorderShades and LouverShades.
 
 ## Options
 
@@ -43,4 +47,5 @@ Use this command to add shades to apertures. It works with two different modalit
 * **Vertical**
 
   Optional boolean to note whether the lovers are vertical.
+
 

@@ -1,3 +1,7 @@
+---
+description: Rebuild selected rooms with following options: 1) merge all coplanar faces; 2) rebuild all room faces; 3) reset all boundary conditions; In this command, it also checks all child objects (apertures and doors)&apos;s normal to be matched with their host surfaces.
+---
+
 # PO_RebuildRooms
 
 Rebuild selected rooms with following options: 1) merge all coplanar faces; 2) rebuild all room faces; 3) reset all boundary conditions; In this command, it also checks all child objects (apertures and doors)&apos;s normal to be matched with their host surfaces.
@@ -15,4 +19,9 @@ Rebuild selected rooms with following options: 1) merge all coplanar faces; 2) r
 * **ResetBoundaryConditon**
 
   when this option is set to true, it resets all faces&apos;s boundary condition to Outdoor. Unless a face is below the Z 0, then its boundary condition will be set to the Ground. (default:true)
+
+* **FixApertureDoors**
+
+  set to true to check all child objects (apertures and doors) to ensure they are coplanar with their host faces.
+
 

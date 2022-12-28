@@ -1,8 +1,10 @@
+---
+description: Convert closed geometries to rooms. New created rooms contains default energy and radiance properties. Use &quot;Pollination&quot; command to open Room Manager to check and edit each room.
+---
+
 # PO_AddRooms
 
-![](./img/PO_AddRooms.gif)
-
-Use this command to convert closed geometries to rooms.
+Convert closed geometries to rooms. New created rooms contains default energy and radiance properties. Use &quot;Pollination&quot; command to open Room Manager to check and edit each room.
 
 ## Options
 
@@ -17,4 +19,5 @@ Use this command to convert closed geometries to rooms.
 * **MaxRoofAngle**
 
   change the max angle for how much a surface is tilted will be set to roof type. Any surface tilted between 0 and max angle will be set to roof (default: 30)
+
 

@@ -1,3 +1,8 @@
+---
+description: Select all visible orphaned faces in the current Rhino document.
+---
+
 # PO_SelOpaqueFaces
 
-Select all orphaned opaque faces
+Select all visible orphaned faces in the current Rhino document.
+

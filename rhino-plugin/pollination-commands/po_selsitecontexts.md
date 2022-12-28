@@ -1,3 +1,8 @@
+---
+description: Select all visible site contexts in the current Rhino document.
+---
+
 # PO_SelSiteContexts
 
-Select all site contexts
+Select all visible site contexts in the current Rhino document.
+

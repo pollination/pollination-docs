@@ -1,3 +1,8 @@
+---
+description: Sync current model with a new updated Pollination model.
+---
+
 # PO_SyncModel
 
-Sync current model with a new updated HBJson model
+Sync current model with a new updated Pollination model.
+
