@@ -1,7 +1,3 @@
----
-description: Check all child objects (apertures and doors) of selected rooms to ensure they are coplanar with their host faces.
----
-
 # PO_ProjectChildToHost
 
 Check all child objects (apertures and doors) of selected rooms to ensure they are coplanar with their host faces. 

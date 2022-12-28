@@ -1,7 +1,3 @@
----
-description: Reset a room to reset all child faces&apos; boundary condition. You can also select partial room&apos;s sub-faces for resetting boundary condition.
----
-
 # PO_ResetBoundaryCondition
 
 Reset a room to reset all child faces&apos; boundary condition. You can also select partial room&apos;s sub-faces for resetting boundary condition.

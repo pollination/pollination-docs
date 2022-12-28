@@ -1,7 +1,3 @@
----
-description: Setting up the camera view for running Radiance view based simulations. Use &quot;Pollination&quot; command to open Radiance Object Manager to check and edit each view object.
----
-
 # PO_AddView
 
 Setting up the camera view for running Radiance view based simulations. Use &quot;Pollination&quot; command to open Radiance Object Manager to check and edit each view object.

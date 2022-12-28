@@ -1,7 +1,3 @@
----
-description: Split rooms by selected cutters. The selected existing cutter has to cut through the entire room so that it could perform a clean cut.
----
-
 # PO_SplitRooms
 
 Split rooms by selected cutters. The selected existing cutter has to cut through the entire room so that it could perform a clean cut.

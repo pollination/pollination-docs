@@ -1,7 +1,3 @@
----
-description: Convert closed geometries to rooms. New created rooms contains default energy and radiance properties. Use &quot;Pollination&quot; command to open Room Manager to check and edit each room.
----
-
 # PO_AddRooms
 
 Convert closed geometries to rooms. New created rooms contains default energy and radiance properties. Use &quot;Pollination&quot; command to open Room Manager to check and edit each room.

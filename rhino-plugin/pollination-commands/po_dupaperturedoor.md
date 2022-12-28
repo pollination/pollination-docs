@@ -1,7 +1,3 @@
----
-description: Duplicate apertures and doors from one location to another point.
----
-
 # PO_DupApertureDoor
 
 Duplicate apertures and doors from one location to another point. 

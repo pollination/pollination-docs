@@ -1,7 +1,3 @@
----
-description: Reset a honeybee object&apos;s identifier and boundary condition. You can also select partial room&apos;s sub-faces for resetting boundary conditions.
----
-
 # PO_ResetIdentifier
 
 Reset a honeybee object&apos;s identifier and boundary condition. You can also select partial room&apos;s sub-faces for resetting boundary conditions.

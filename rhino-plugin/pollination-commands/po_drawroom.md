@@ -1,7 +1,3 @@
----
-description: Draw a room.
----
-
 # PO_DrawRoom
 
 Draw a room.

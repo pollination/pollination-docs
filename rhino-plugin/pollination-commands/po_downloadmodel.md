@@ -1,7 +1,3 @@
----
-description: Download a model from the Pollination cloud.
----
-
 # PO_DownloadModel
 
 Download a model from the Pollination cloud.

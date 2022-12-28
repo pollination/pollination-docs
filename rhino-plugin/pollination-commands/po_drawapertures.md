@@ -1,7 +1,3 @@
----
-description: Draw apertures on a selected room&apos;s surface.
----
-
 # PO_DrawApertures
 
 Draw apertures on a selected room&apos;s surface

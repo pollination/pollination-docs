@@ -1,7 +1,3 @@
----
-description: Add shades to apertures. It works with two different modalities, BorderShades and LouverShades.
----
-
 # PO_AddApertureShades
 
 Add shades to apertures. It works with two different modalities, BorderShades and LouverShades.

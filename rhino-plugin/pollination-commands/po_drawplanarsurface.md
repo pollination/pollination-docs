@@ -1,7 +1,3 @@
----
-description: Set CPlane and draw plane surfaces on it.
----
-
 # PO_DrawPlanarSurface
 
 Set CPlane and draw plane surfaces on it.
