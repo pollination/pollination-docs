@@ -10,6 +10,7 @@ Check the Pollination server for a new version of the Rhino plugin.
   </figcaption>
 </figure>
 </div>
+
 ## Discourse Topics
 
 {% embed url="https://discourse.pollination.cloud/t/best-method-of-keeping-plugins-current/1711" %}
