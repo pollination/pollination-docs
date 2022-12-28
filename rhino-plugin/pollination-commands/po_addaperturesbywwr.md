@@ -1,7 +1,3 @@
----
-description: Add windows by window to wall ratio for each outdoor walls of selected rooms. Use &quot;Pollination&quot; command to open Room Manager or Orphaned Object Manager to check and edit each hosted window object.
----
-
 # PO_AddAperturesByWWR
 
 Add windows by window to wall ratio for each outdoor walls of selected rooms. Use &quot;Pollination&quot; command to open Room Manager or Orphaned Object Manager to check and edit each hosted window object.

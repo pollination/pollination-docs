@@ -1,7 +1,3 @@
----
-description: Convert closed geometries to rooms by layers. Use &quot;Pollination&quot; command to open Room Manager to check and edit each room.
----
-
 # PO_AddRoomsByLayer
 
 Convert closed geometries to rooms by layers. Use &quot;Pollination&quot; command to open Room Manager to check and edit each room.

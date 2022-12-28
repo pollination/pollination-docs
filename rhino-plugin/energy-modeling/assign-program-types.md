@@ -10,7 +10,7 @@ description: >-
 
 ## **Step 1**
 
-Use command [PO\_SetRoomProperties](../pollination-commands/po\_setroomproperties.md) or double click the room from "Room Manager" to bring up the "Room Properties" dialog, in which you can override room's program type.
+Use command [PO\_EditRoomProperties](../pollination-commands/po\_editroomproperties.md) or double click the room from "Room Manager" to bring up the "Room Properties" dialog, in which you can override room's program type.
 
 ![Set room's program type from Room Properties dialog](<../../.gitbook/assets/image (78) (1).png>)
 

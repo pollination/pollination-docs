@@ -1,7 +1,3 @@
----
-description: Merge multiple rooms into one room.
----
-
 # PO_MergeRooms
 
 Merge multiple rooms into one room. 

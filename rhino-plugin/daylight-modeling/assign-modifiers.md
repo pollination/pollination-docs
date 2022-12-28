@@ -14,7 +14,7 @@ description: Use modifiers for non-room geometries
 
 ## Step 2
 
-Use command [PO\_SetApertureProperties](../pollination-commands/po\_setapertureproperties.md), [PO\_SetDoorProperties](../pollination-commands/po\_setdoorproperties.md), [PO\_SetFaceProperties](../pollination-commands/po\_setfaceproperties.md), or [PO\_SetShadeProperties](../pollination-commands/po\_setshadeproperties.md) or double click the item from "Room Manager" to bring up the object properties dialog, in which you can override geometry's modifier.
+Use command [PO\_EditApertureProperties](../pollination-commands/po\_editapertureproperties.md), [PO\_EditDoorProperties](../pollination-commands/po\_editdoorproperties.md), [PO\_EditFaceProperties](../pollination-commands/po\_editfaceproperties.md), or [PO\_EditShadeProperties](../pollination-commands/po\_editshadeproperties.md) or double click the item from "Room Manager" to bring up the object properties dialog, in which you can override geometry's modifier.
 
 ![Override face's modifier by selecting a new modifier from Modifier Manager](<../../.gitbook/assets/image (107).png>)
 

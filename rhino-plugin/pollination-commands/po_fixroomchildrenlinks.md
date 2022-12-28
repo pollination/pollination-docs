@@ -1,7 +1,3 @@
----
-description: Search globally and relink all child objects (Aperture and Door) with their host room object.
----
-
 # PO_FixRoomChildrenLinks
 
 Search globally and relink all child objects (Aperture and Door) with their host room object. 

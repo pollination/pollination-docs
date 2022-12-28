@@ -1,7 +1,3 @@
----
-description: Color all objects by their boundary condition.
----
-
 # PO_ColorByBoundaryCondition
 
 Color all objects by their boundary condition. 

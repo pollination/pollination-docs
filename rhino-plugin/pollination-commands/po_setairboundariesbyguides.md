@@ -1,7 +1,3 @@
----
-description: Use this command to set rooms&apos; interior surface to air boundary type based on guide surfaces.
----
-
 # PO_SetAirBoundariesByGuides
 
 Use this command to set rooms&apos; interior surface to air boundary type based on guide surfaces.

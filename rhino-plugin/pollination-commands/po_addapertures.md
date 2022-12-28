@@ -1,7 +1,3 @@
----
-description: Add planar window surfaces to selected rooms or orphaned faces. For adding an orphaned windows, press ENTER to skip selecting the host objects. Use &quot;Pollination&quot; command to open Room Manager or Orphaned Object Manager to check and edit each hosted window object or orphaned windows.
----
-
 # PO_AddApertures
 
 Add planar window surfaces to selected rooms or orphaned faces. For adding an orphaned windows, press ENTER to skip selecting the host objects. Use &quot;Pollination&quot; command to open Room Manager or Orphaned Object Manager to check and edit each hosted window object or orphaned windows.

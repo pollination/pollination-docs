@@ -1,7 +1,3 @@
----
-description: Add selected geometries as site contexts to model. This can be used to add trees, surrounding buildings, or site structures that are not directly attached to the building. Use &quot;Pollination&quot; command to open Orphaned Object Manager to check and edit each shade object.
----
-
 # PO_AddSiteContext
 
 Add selected geometries as site contexts to model. This can be used to add trees, surrounding buildings, or site structures that are not directly attached to the building. Use &quot;Pollination&quot; command to open Orphaned Object Manager to check and edit each shade object.

@@ -1,7 +1,3 @@
----
-description: Color all faces (including orphaned objects) by face normal.
----
-
 # PO_ColorByFaceNormal
 
 Color all faces (including orphaned objects) by face normal. 

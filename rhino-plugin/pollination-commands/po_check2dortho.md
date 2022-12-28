@@ -1,7 +1,3 @@
----
-description: Analysis 2D plans (curves) and visualize non-orthogonal geometries based on a reference plane.
----
-
 # PO_Check2DOrtho
 
 Analysis 2D plans (curves) and visualize non-orthogonal geometries based on a reference plane.

@@ -1,7 +1,3 @@
----
-description: Rebuild all 2D plan curves by aligning them to Rhino grid.
----
-
 # PO_Align2DPlans
 
 Rebuild all 2D plan curves by aligning them to Rhino grid.

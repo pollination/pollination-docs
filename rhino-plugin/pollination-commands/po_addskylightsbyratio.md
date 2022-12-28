@@ -1,7 +1,3 @@
----
-description: Add skylights by ratio for each outdoor roof of selected rooms.
----
-
 # PO_AddSkylightsByRatio
 
 Add skylights by ratio for each outdoor roof of selected rooms.

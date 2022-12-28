@@ -1,7 +1,3 @@
----
-description: Use this command to split and match walls between rooms. If non-room geometries are selected, this command only splits for each subsurface.
----
-
 # PO_SolveAdjacency
 
 Use this command to split and match walls between rooms. If non-room geometries are selected, this command only splits for each subsurface.

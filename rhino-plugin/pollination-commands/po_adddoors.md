@@ -1,7 +1,3 @@
----
-description: Add planar door surfaces to selected rooms or orhpaned faces. For adding an orphaned door, press ENTER to skip selecting the host objects. Use &quot;Pollination&quot; command to open Room Manager or Orphaned Object Manager to check and edit each hosted door object or orphaned door.
----
-
 # PO_AddDoors
 
 Add planar door surfaces to selected rooms or orhpaned faces. For adding an orphaned door, press ENTER to skip selecting the host objects. Use &quot;Pollination&quot; command to open Room Manager or Orphaned Object Manager to check and edit each hosted door object or orphaned door.

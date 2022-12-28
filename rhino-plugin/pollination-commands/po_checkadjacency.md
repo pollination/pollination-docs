@@ -1,7 +1,3 @@
----
-description: Analysis geometries (Curve, Brep, Extrusion, or Pollination object) for adjacencies.
----
-
 # PO_CheckAdjacency
 
 Analysis geometries (Curve, Brep, Extrusion, or Pollination object) for adjacencies.

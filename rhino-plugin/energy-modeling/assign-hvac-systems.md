@@ -8,7 +8,7 @@ description: Assign 100+ HVACs from OpenStudio Standards
 
 ## **Step 1**
 
-Use command [PO\_SetRoomProperties](../pollination-commands/po\_setroomproperties.md) or double click the room from "Room Manager" to bring up the "Room Properties" dialog, in which you can override the room's HVAC system.
+Use command [PO\_EditRoomProperties](../pollination-commands/po\_editroomproperties.md) or double click the room from "Room Manager" to bring up the "Room Properties" dialog, in which you can override the room's HVAC system.
 
 ![Override room's HVAC from Room Properties dialog](<../../.gitbook/assets/image (101).png>)
 
