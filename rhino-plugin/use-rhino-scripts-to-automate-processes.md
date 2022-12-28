@@ -33,15 +33,13 @@ import HoneybeeSchema as hb # Honeybee Schema
 import Core as po # Pollination classes
 ```
 
-* **HoneybeeSchema.dll **contains the schema that Pollination rhino uses
-* **Pollination.Core.dll **contains following sub-modules:
-  * **Objects**: Pollination Rhino Runtime Objects (RoomObject, OrphanedFaceObject, ApertureObject, DoorObject, ShadeObject, SensorGridObject, ViewObject)
-  * **Entity**: It contains ModelEntity which collects on runtime all Pollination Object which the model is made
-  * **Data**: Honeybee Schema data that every Pollination Object contains. E.g. RoomObject is composed by RoomData through Data Property
+* **HoneybeeSchema.dll** contains the schema that Pollination rhino uses
+* **Pollination.Core.dll** contains following sub-modules:
+* **Objects**: Pollination Rhino Runtime Objects (RoomObject, OrphanedFaceObject, ApertureObject, DoorObject, ShadeObject, SensorGridObject, ViewObject)
+* **Entity**: It contains ModelEntity which collects on runtime all Pollination Object which the model is made
+* **Data**: Honeybee Schema data that every Pollination Object contains. E.g. RoomObject is composed by RoomData through Data Property
 
-_Note: for more information about above libraries, please visit:_\
-_Honeybee Schema: _[_https://www.ladybug.tools/honeybee-schema/model.html_](https://www.ladybug.tools/honeybee-schema/model.html)_ _\
-_Pollination.Core: _[_https://pollination.github.io/rhino-plugin/api/Core.Objects.html_](https://pollination.github.io/rhino-plugin/api/Core.Objects.html)__
+See links below for more information:
 
-
-
+* Honeybee Schema: [_https://www.ladybug.tools/honeybee-schema/model.html_](https://www.ladybug.tools/honeybee-schema/model.html)
+* Pollination.Core: [_https://pollination.github.io/rhino-plugin/api/Core.Objects.html_](https://pollination.github.io/rhino-plugin/api/Core.Objects.html)
