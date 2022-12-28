@@ -17,3 +17,7 @@ Add skylights by ratio for each outdoor roof of selected rooms.
   The y dimension of the grid cells as a number.
 
 
+## See Also
+
+* [PO_AddAperturesByWWR](./po_addaperturesbywwr.md)
+

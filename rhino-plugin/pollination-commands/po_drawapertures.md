@@ -41,3 +41,11 @@ Draw apertures on a selected room&apos;s surface
   Height of the aperture.
 
 
+## See Also
+
+* [PO_AddApertures](./po_addapertures.md)
+* [PO_AddAperturesByWWR](./po_addaperturesbywwr.md)
+
+## Video Tutorials
+
+{% embed url="https://youtu.be/8xD6KI6zFXI" %}Create a Pollination Model by Tracing CAD Plan{% endembed %}
