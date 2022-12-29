@@ -2,6 +2,12 @@
 
 Convert closed geometries to rooms. New created rooms contains default energy and radiance properties. Use &quot;Pollination&quot; command to open Room Manager to check and edit each room.
 
+<div>
+<figure>
+  <img src="https://user-images.githubusercontent.com/2915573/209876724-d3fcefd3-abb9-4c25-8bd6-e8b5a8170c53.gif" alt="">
+</figure>
+</div>
+
 ## Options
 
 * **Property**
@@ -16,12 +22,6 @@ Convert closed geometries to rooms. New created rooms contains default energy an
 
   change the max angle for how much a surface is tilted will be set to roof type. Any surface tilted between 0 and max angle will be set to roof (default: 30)
 
-
-<div>
-<figure>
-  <img src="https://user-images.githubusercontent.com/2915573/209876724-d3fcefd3-abb9-4c25-8bd6-e8b5a8170c53.gif" alt="">
-</figure>
-</div>
 
 ## See Also
 

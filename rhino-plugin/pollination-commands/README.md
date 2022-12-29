@@ -122,9 +122,9 @@ Draw apertures on a selected room&apos;s surface. [Read more](./po_drawapertures
 
 Draw doors on a selected room&apos;s surface. [Read more](./po_drawdoors.md).
 
-#### <mark style="background-color:yellow;">PO\_DupApertureDoor</mark>
+#### <mark style="background-color:yellow;">PO\_DupAperturesDoors</mark>
 
-Duplicate apertures and doors from one location to another point. [Read more](./po_dupaperturedoor.md).
+Duplicate apertures and doors from one location to another point. [Read more](./po_dupaperturesdoors.md).
 
 #### <mark style="background-color:yellow;">PO\_EditApertureProperties</mark>
 

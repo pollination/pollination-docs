@@ -2,6 +2,12 @@
 
 Add windows by window to wall ratio for each outdoor walls of selected rooms. Use &quot;Pollination&quot; command to open Room Manager or Orphaned Object Manager to check and edit each hosted window object.
 
+<div>
+<figure>
+  <img src="https://user-images.githubusercontent.com/2915573/209876723-e427d0f9-38e6-40e8-93ca-e732d2c61afb.gif" alt="">
+</figure>
+</div>
+
 ## Options
 
 * **WindowWallRatio_North**
@@ -46,12 +52,6 @@ Tips:
 **
 
   
-
-<div>
-<figure>
-  <img src="https://user-images.githubusercontent.com/2915573/209876723-e427d0f9-38e6-40e8-93ca-e732d2c61afb.gif" alt="">
-</figure>
-</div>
 
 ## See Also
 
