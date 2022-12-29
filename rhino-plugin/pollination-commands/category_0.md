@@ -13,7 +13,7 @@ Check the Pollination server for a new version of the Rhino plugin.
 </figure>
 </div>
 
-### Discourse Topics
+### Useful Links
 
 {% embed url="https://discourse.pollination.cloud/t/best-method-of-keeping-plugins-current/1711" %}
 

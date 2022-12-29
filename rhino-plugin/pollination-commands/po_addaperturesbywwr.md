@@ -46,14 +46,15 @@ Add windows by window to wall ratio for each outdoor walls of selected rooms. Us
 
   An optional number to create a single vertical separation between top and bottom apertures. Default: 0.0.
 
-Tips:
+Notes:
 
-* **Set the ratio to 0 to skip the aperture creation in the specific direction.
-**
-
-  
+* Set the ratio to 0 to skip the aperture creation in the specific direction.
 
 ## See Also
 
 * [PO_AddSkylightsByRatio](./po_addskylightsbyratio.md)
+
+## Video Tutorials
+
+{% embed url="https://youtu.be/3u_xXu4F1L0" %}Add Apertures{% endembed %}
 

@@ -86,19 +86,29 @@ Draw a room.
 * [PO_AddRooms](./po_addrooms.md)
 * [PO_AddRoomsByLayer](./po_addroomsbylayer.md)
 
-### Discourse Topics
+### Useful Links
 
 {% embed url="https://discourse.pollination.cloud/t/po-drawroom-suggestions/1397" %}
 
 ### Video Tutorials
 
 {% embed url="https://youtu.be/8xD6KI6zFXI" %}Create a Pollination Model by Tracing CAD Plan{% endembed %}
+{% embed url="https://youtu.be/yjI-glACd4w" %}Draw New Rooms{% endembed %}
 
 ---
 
 ## PO_EditRoomProperties
 
 Edit room properties for one or more selected rooms.
+
+<div>
+<figure>
+  <img src="https://user-images.githubusercontent.com/2915573/209991053-70ca6ca2-38f6-4e90-b2d3-98db47957076.png" alt="">
+  <figcaption>
+    <p>Edit Room Properties</p>
+  </figcaption>
+</figure>
+</div>
 
 ---
 
@@ -249,14 +259,8 @@ Add planar window surfaces to selected rooms or orphaned faces. For adding an or
 
 Notes:
 
-* **Aperture surfaces will only be added to a room when it is coplanar to one of the room&apos;s faces.**
-
-  
-
-* **A valid aperture geometry could be a brep or extrusion with a single surface.
-**
-
-  
+* Aperture surfaces will only be added to a room when it is coplanar to one of the room&apos;s faces.
+* A valid aperture geometry could be a brep or extrusion with a single surface.
 
 ### See Also
 
@@ -312,16 +316,17 @@ Add windows by window to wall ratio for each outdoor walls of selected rooms. Us
 
   An optional number to create a single vertical separation between top and bottom apertures. Default: 0.0.
 
-Tips:
+Notes:
 
-* **Set the ratio to 0 to skip the aperture creation in the specific direction.
-**
-
-  
+* Set the ratio to 0 to skip the aperture creation in the specific direction.
 
 ### See Also
 
 * [PO_AddSkylightsByRatio](./po_addskylightsbyratio.md)
+
+### Video Tutorials
+
+{% embed url="https://youtu.be/3u_xXu4F1L0" %}Add Apertures{% endembed %}
 
 ---
 
@@ -345,14 +350,12 @@ Add planar door surfaces to selected rooms or orhpaned faces. For adding an orph
 
 Notes:
 
-* **Door surface will only be added to a room when it is co-planar to one of room walls.**
+* Door surface will only be added to a room when it is co-planar to one of room walls.
+* A valid door geometry could be a brep or extrusion with single surface.
 
-  
+### Video Tutorials
 
-* **A valid door geometry could be a brep or extrusion with single surface.
-**
-
-  
+{% embed url="https://youtu.be/Ubsm1Io7Y2E" %}Add doors to rooms{% endembed %}
 
 ---
 
@@ -431,6 +434,7 @@ Draw apertures on a selected room&apos;s surface
 
 ### Video Tutorials
 
+{% embed url="https://youtu.be/LPFQMcqW-2s" %}Draw Apertures{% endembed %}
 {% embed url="https://youtu.be/8xD6KI6zFXI" %}Create a Pollination Model by Tracing CAD Plan{% endembed %}
 
 ---
@@ -461,6 +465,15 @@ Draw doors on a selected room&apos;s surface.
 Duplicate apertures and doors from one location to another point. 
 The duplicated apertures and doors will be automatically added to any coplanar room faces or orphaned faces. 
 If no coplanar host face found, they would be added as orphaned apertures and orphaned doors.
+
+<div>
+<figure>
+  <img src="https://user-images.githubusercontent.com/2915573/209991329-257a0bc9-e5d0-4592-95d9-b8e5dab2f3c6.gif" alt="">
+  <figcaption>
+    <p>Duplicate apertures and doors in your model.</p>
+  </figcaption>
+</figure>
+</div>
 
 ---
 
@@ -494,6 +507,19 @@ Offset all child objects (apertures and doors) of selected rooms to ensure they 
 Notes:
 - If the aperture has an edge coincident to an edge of the room it is not valid for energy simulation.
 
+<div>
+<figure>
+  <img src="https://user-images.githubusercontent.com/2915573/209991804-5ec0fb4a-512d-462c-9aec-ca76ef768726.gif" alt="">
+  <figcaption>
+    <p>Offset child objects</p>
+  </figcaption>
+</figure>
+</div>
+
+### See Also
+
+* [PO_ProjectChildToHost](./po_projectchildtohost.md)
+
 ### Video Tutorials
 
 {% embed url="https://youtu.be/SCqkWwhoov4" %}How to Fix Problematic Apertures{% endembed %}
@@ -507,6 +533,10 @@ Check all child objects (apertures and doors) of selected rooms to ensure they a
 Notes:
 - This command will automatically project the child geometry to its host&apos;s plane.
 - It is important apertures and doors are coplanar to get a valid energy and radiance model.
+
+### See Also
+
+* [PO_OffsetChildObjects](./po_offsetchildobjects.md)
 
 ### Video Tutorials
 
@@ -621,6 +651,10 @@ Add shades to a host. A host can be room, orphaned face, aperture, or door. Use 
 
   set whether new shades are indoor or outdoor types. In several Radiance recipes, indoor shades will be removed in the simulation in order to meet the code requirements. (default: indoor) 
 
+
+### Video Tutorials
+
+{% embed url="https://youtu.be/6uMqPPP4I-0" %}Add shades from Rhino geometry{% endembed %}
 
 ---
 

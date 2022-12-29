@@ -38,10 +38,7 @@ Reset a honeybee object&apos;s identifier and boundary condition. You can also s
 
 Notes:
 
-* **All geometries&apos; boundary condition will be reset to Outdoor, unless geometry touches the ground (0) and then it will be set to Ground.
-**
-
-  
+* All geometries&apos; boundary condition will be reset to Outdoor, unless geometry touches the ground (0) and then it will be set to Ground.
 
 ## Video Tutorials
 

@@ -17,3 +17,7 @@ Setting up the camera view for running Radiance view based simulations. Use &quo
   It uses the current location of the camera. The direction is the target direction.
 
 
+## Useful Links
+
+{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/add-view" %}
+

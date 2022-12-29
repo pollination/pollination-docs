@@ -26,12 +26,10 @@ Use this command to split and match walls between rooms. If non-room geometries 
 
 Notes:
 
-* **Apertures and doors will be adjusted to match new walls.**
+* Apertures and doors will be adjusted to match new walls.
+* The boundary condition of the aperture or door won&apos;t be changed if its outdoor walls become indoor surfaces.
 
-  
+## Video Tutorials
 
-* **The boundary condition of the aperture or door won&apos;t be changed if its outdoor walls become indoor surfaces.
-**
-
-  
+{% embed url="https://youtu.be/5T9VWc96hyk" %}Solve adjacency in a model{% endembed %}
 

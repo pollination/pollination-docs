@@ -18,12 +18,10 @@ Add planar door surfaces to selected rooms or orhpaned faces. For adding an orph
 
 Notes:
 
-* **Door surface will only be added to a room when it is co-planar to one of room walls.**
+* Door surface will only be added to a room when it is co-planar to one of room walls.
+* A valid door geometry could be a brep or extrusion with single surface.
 
-  
+## Video Tutorials
 
-* **A valid door geometry could be a brep or extrusion with single surface.
-**
-
-  
+{% embed url="https://youtu.be/Ubsm1Io7Y2E" %}Add doors to rooms{% endembed %}
 

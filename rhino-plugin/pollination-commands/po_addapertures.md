@@ -18,14 +18,8 @@ Add planar window surfaces to selected rooms or orphaned faces. For adding an or
 
 Notes:
 
-* **Aperture surfaces will only be added to a room when it is coplanar to one of the room&apos;s faces.**
-
-  
-
-* **A valid aperture geometry could be a brep or extrusion with a single surface.
-**
-
-  
+* Aperture surfaces will only be added to a room when it is coplanar to one of the room&apos;s faces.
+* A valid aperture geometry could be a brep or extrusion with a single surface.
 
 ## See Also
 

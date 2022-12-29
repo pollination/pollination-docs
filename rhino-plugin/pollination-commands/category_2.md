@@ -16,10 +16,7 @@ Rebuild all 2D plan curves by aligning them to Rhino grid.
 
 Notes:
 
-* **All curve geometries&apos; end points will be snapped together based on current model&apos;s tolerance.
-**
-
-  
+* All curve geometries&apos; end points will be snapped together based on current model&apos;s tolerance.
 
 ---
 
@@ -60,10 +57,7 @@ Analysis 2D plans (curves) and visualize non-orthogonal geometries based on a re
 
 Notes:
 
-* **The results are non-orthogonal lines. 
-**
-
-  
+* The results are non-orthogonal lines.
 
 ---
 
@@ -184,10 +178,7 @@ Reset a honeybee object&apos;s identifier and boundary condition. You can also s
 
 Notes:
 
-* **All geometries&apos; boundary condition will be reset to Outdoor, unless geometry touches the ground (0) and then it will be set to Ground.
-**
-
-  
+* All geometries&apos; boundary condition will be reset to Outdoor, unless geometry touches the ground (0) and then it will be set to Ground.
 
 ### Video Tutorials
 

@@ -4,6 +4,11 @@
 
 Start submitting a new simulation job.
 
+### Useful Links
+
+{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/energy-modeling/run-simulation-and-load-results" %}
+{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/run-simulation-and-visualize-daylighting-results" %}
+
 ---
 
 ## PO_SimulationParameter
@@ -34,18 +39,9 @@ Add radial sensor grids for running Radiance grid based simulations. Use &quot;P
 
 Notes:
 
-* **The input geometries can be Rhino surfaces, rooms or orphaned faces. **
-
-  
-
-* **For rooms, only sub-surfaces with floor type will be used for generating sensor grids.**
-
-  
-
-* **This type of sensor grid is particularly helpful for studies of multiple view directions, such as imageless glare studies.
-**
-
-  
+* The input geometries can be Rhino surfaces, rooms or orphaned faces. 
+* For rooms, only sub-surfaces with floor type will be used for generating sensor grids.
+* This type of sensor grid is particularly helpful for studies of multiple view directions, such as imageless glare studies.
 
 ---
 
@@ -71,14 +67,12 @@ Add sensor grids for running Radiance grid based simulations. Use &quot;Pollinat
 
 Notes:
 
-* **The input geometries can be Rhino surfaces, rooms or orphaned faces. **
+* The input geometries can be Rhino surfaces, rooms or orphaned faces. 
+* For rooms, only sub-surfaces with floor type will be used for generating sensor grids.
 
-  
+### Useful Links
 
-* **For rooms, only sub-surfaces with floor type will be used for generating sensor grids.
-**
-
-  
+{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/add-sensor-grid" %}
 
 ---
 
@@ -101,6 +95,10 @@ Setting up the camera view for running Radiance view based simulations. Use &quo
   It uses the current location of the camera. The direction is the target direction.
 
 
+### Useful Links
+
+{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/add-view" %}
+
 ---
 
 ## PO_EditSensorGridProperties
@@ -112,6 +110,10 @@ Edit sensor grid properties for one or more selected objects.
 ## PO_EditViewProperties
 
 Edit view properties for selected objects.
+
+### Useful Links
+
+{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/add-view" %}
 
 ---
 
@@ -133,17 +135,29 @@ Select all visible Radiance views in the current Rhino document.
 
 This command brings up the energy ConstructionSets manager for users to add/edit/remove energy construction sets.
 
+### Useful Links
+
+{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/energy-modeling/assign-construction-sets" %}
+
 ---
 
 ## PO_EnergyConstructions
 
 This command brings up the energy Constructions manager for users to add/edit/remove energy constructions.
 
+### Useful Links
+
+{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/energy-modeling/assign-construction-sets" %}
+
 ---
 
 ## PO_EnergyHVACs
 
 This command brings up the energy HVACs manager for users to add/edit/remove energy HVACs.
+
+### Useful Links
+
+{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/energy-modeling/assign-hvac-systems" %}
 
 ---
 
@@ -156,6 +170,19 @@ This command brings up the energy materials manager for users to add/edit/remove
 ## PO_EnergyProgramTypes
 
 This command brings up the energy ProgramTypes manager for users to add/edit/remove energy program types.
+
+<div>
+<figure>
+  <img src="https://user-images.githubusercontent.com/2915573/209991054-6ddb4451-5a66-482b-adfb-d71a68491626.png" alt="">
+  <figcaption>
+    <p>Program Type Manager</p>
+  </figcaption>
+</figure>
+</div>
+
+### Useful Links
+
+{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/energy-modeling/assign-program-types" %}
 
 ---
 
@@ -191,6 +218,15 @@ Analysis selected surfaces for planarity and visualize non-planar surfaces.
 
 Notes:
 - A pollination model is made by planar geometries.
+
+<div>
+<figure>
+  <img src="https://user-images.githubusercontent.com/2915573/209992073-f5b8db70-4e38-4fc3-a5f9-e16087724b45.gif" alt="">
+  <figcaption>
+    <p>Check planarity for input geometry.</p>
+  </figcaption>
+</figure>
+</div>
 
 ---
 
@@ -247,14 +283,12 @@ Use this command to split and match walls between rooms. If non-room geometries 
 
 Notes:
 
-* **Apertures and doors will be adjusted to match new walls.**
+* Apertures and doors will be adjusted to match new walls.
+* The boundary condition of the aperture or door won&apos;t be changed if its outdoor walls become indoor surfaces.
 
-  
+### Video Tutorials
 
-* **The boundary condition of the aperture or door won&apos;t be changed if its outdoor walls become indoor surfaces.
-**
-
-  
+{% embed url="https://youtu.be/5T9VWc96hyk" %}Solve adjacency in a model{% endembed %}
 
 ---
 
@@ -274,11 +308,19 @@ Notes:
 
 This command brings up the energy RadianceModifierSets manager for users to add/edit/remove Radiance modifier sets.
 
+### Useful Links
+
+{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/assign-modifier-sets" %}
+
 ---
 
 ## PO_RadianceModifiers
 
 This command brings up the energy RadianceModifiers manager for users to add/edit/remove Radiance modifiers.
+
+### Useful Links
+
+{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/assign-modifiers" %}
 
 ---
 

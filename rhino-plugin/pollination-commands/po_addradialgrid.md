@@ -18,16 +18,7 @@ Add radial sensor grids for running Radiance grid based simulations. Use &quot;P
 
 Notes:
 
-* **The input geometries can be Rhino surfaces, rooms or orphaned faces. **
-
-  
-
-* **For rooms, only sub-surfaces with floor type will be used for generating sensor grids.**
-
-  
-
-* **This type of sensor grid is particularly helpful for studies of multiple view directions, such as imageless glare studies.
-**
-
-  
+* The input geometries can be Rhino surfaces, rooms or orphaned faces. 
+* For rooms, only sub-surfaces with floor type will be used for generating sensor grids.
+* This type of sensor grid is particularly helpful for studies of multiple view directions, such as imageless glare studies.
 

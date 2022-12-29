@@ -14,8 +14,5 @@ Rebuild all 2D plan curves by aligning them to Rhino grid.
 
 Notes:
 
-* **All curve geometries&apos; end points will be snapped together based on current model&apos;s tolerance.
-**
-
-  
+* All curve geometries&apos; end points will be snapped together based on current model&apos;s tolerance.
 

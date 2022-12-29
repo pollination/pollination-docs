@@ -14,8 +14,5 @@ Analysis 2D plans (curves) and visualize non-orthogonal geometries based on a re
 
 Notes:
 
-* **The results are non-orthogonal lines. 
-**
-
-  
+* The results are non-orthogonal lines.
 

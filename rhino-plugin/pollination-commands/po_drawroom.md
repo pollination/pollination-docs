@@ -34,11 +34,12 @@ Draw a room.
 * [PO_AddRooms](./po_addrooms.md)
 * [PO_AddRoomsByLayer](./po_addroomsbylayer.md)
 
-## Discourse Topics
+## Useful Links
 
 {% embed url="https://discourse.pollination.cloud/t/po-drawroom-suggestions/1397" %}
 
 ## Video Tutorials
 
 {% embed url="https://youtu.be/8xD6KI6zFXI" %}Create a Pollination Model by Tracing CAD Plan{% endembed %}
+{% embed url="https://youtu.be/yjI-glACd4w" %}Draw New Rooms{% endembed %}
 
