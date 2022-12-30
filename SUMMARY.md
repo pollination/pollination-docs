@@ -12,13 +12,13 @@
   * [4. Purchase and Manage CAD Plugins](get-started/purchase-and-manage-plugins.md)
   * [5. Manage License Pools](get-started/manage-license-pool.md)
   * [6. Add Additional Computing Resources](web-platform/account-setup/purchase-additional-compute-resources.md)
+
+## Manage CAD Licenses
+
 * [Purchase and Manage CAD Plugins](get-started/purchase-and-manage-plugins.md)
 * [Download Plugins](get-started/download-plugins.md)
 * [Install CAD Plugins](get-started/download-and-install-plugins.md)
 * [Manage License Pools](get-started/manage-license-pool.md)
-* [Troubleshooting](get-started/troubleshooting/README.md)
-  * [Rhino Plugin Errors](get-started/troubleshooting/rhino-plugin-errors/README.md)
-  * [Validation Error Codes](get-started/troubleshooting/rhino-plugin-errors/help-with-modeling-error-codes.md)
 
 ## Web Platform
 
@@ -75,6 +75,9 @@
     * [Export gbXML](rhino-plugin/interoperability/rhino-export/gbxml.md)
     * [Export OSM and IDF](rhino-plugin/interoperability/rhino-export/osm.md)
 * [Use Rhino Scripts to Automate Processes](rhino-plugin/use-rhino-scripts-to-automate-processes.md)
+* [Troubleshooting](get-started/troubleshooting/README.md)
+  * [Rhino Plugin Errors](get-started/troubleshooting/rhino-plugin-errors/README.md)
+  * [Validation Error Codes](get-started/troubleshooting/rhino-plugin-errors/help-with-modeling-error-codes.md)
 * [Pollination Commands](rhino-plugin/pollination-commands/README.md)
   * [General](rhino-plugin/pollination-commands/category_0.md)
   * [Geometry Setup](rhino-plugin/pollination-commands/category_1.md)

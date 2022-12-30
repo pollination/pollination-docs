@@ -1,5 +1,9 @@
-# Setting Up an Organization
+# Setting Up a Pollination Organization
 
-This section walks you through the process of setting up an organization.
+This section walks you through the process of setting up a Pollination organization.
 
-You need a Pollination organization to be able to collaborate with your team members, share computing resources, and CAD plugin licenses.
+A Pollination Organization allows you to:
+
+1. Collaborate with your team members on private projects
+2. Share computing resources among different projects
+3. Share the floating CAD licenses with other Pollination accounts.
