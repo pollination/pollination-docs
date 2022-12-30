@@ -10,7 +10,7 @@
   * [2. Add Organization Seats](web-platform/account-setup/purchase-additional-seats.md)
   * [3. Add Team Members](web-platform/account-setup/add-a-member-to-your-account.md)
   * [4. Purchase and Manage CAD Plugins](get-started/purchase-and-manage-plugins.md)
-  * [5. Manage License Pools](get-started/purchase-and-manage-plugins.md)
+  * [5. Manage License Pools](get-started/manage-license-pool.md)
   * [6. Add Additional Computing Resources](web-platform/account-setup/purchase-additional-compute-resources.md)
 * [Purchase and Manage CAD Plugins](get-started/purchase-and-manage-plugins.md)
 * [Download Plugins](get-started/download-plugins.md)

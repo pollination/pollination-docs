@@ -6,13 +6,13 @@ Pollination plugins are required if you would like to use Pollination from withi
 For sharing the CAD licenses among several Pollination users you must buy the licenses under an organization account. A license that is purchased under a personal account can only be used by the account owner.
 {% endhint %}
 
-### Step 1
+## Step 1
 
 Click on your avatar and select _Subscription_ to bring up your subscription management page or click on the blue _Buy Licenses_ button to bring up the purchasing page.
 
 ![](<../.gitbook/assets/image (156).png>)
 
-### Step 2
+## Step 2
 
 Scroll down to _the Plugin Subscription_ section, select the plugin you'd like to purchase and choose the number of floating licenses you'd like to purchase. Click on _Buy._
 
@@ -22,7 +22,7 @@ If you are buying plugins for multiple CAD software, you'll have to repeat Steps
 
 ![](<../.gitbook/assets/image (152) (2) (1).png>)
 
-### Step 3
+## Step 3
 
 Enter your email and location in the pop-up window to preview your monthly subscription cost inclusive of all taxes. If you have a coupon code, add it to your cart by clicking on _Add Coupon_ before completing your purchase.
 
@@ -32,11 +32,11 @@ Enter your email and location in the pop-up window to preview your monthly subsc
 NOTE: We use [Paddle](https://paddle.com/) to process all payments on our platform. Once you complete payment, you will receive an email from Ladybug Tools (via Paddle.com) with a link to your invoice/receipt. Please check your spam and junk folders after making your payment if you don't see an email confirmation in your inbox.
 {% endhint %}
 
-### Step 4
+## Step 4
 
 Congratulations! Once payment is processed you should see the license under your account. If the screen doesn't automatically update, hit the refresh button on your screen to access _Management_ and _Payment_ tabs for your subscriptions.
 
-#### Manage Tab
+### Manage Tab
 
 Under _Manage_, you can increase/decrease the number of licenses you own, cancel your subscription, and update payment methods.
 
@@ -48,12 +48,12 @@ Updating the number of licenses also removes any coupons that might be applied t
 
 ![](<../.gitbook/assets/image (153).png>)
 
-#### Payment Tab
+### Payment Tab
 
 Under _Payment_, you can access both upcoming payments and past payments with links to a copy of your invoice.
 
 ![](<../.gitbook/assets/image (148).png>)
 
-### Questions
+## Questions
 
 You can always contact us at sales@pollination.cloud with any additional questions.
