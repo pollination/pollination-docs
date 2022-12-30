@@ -20,19 +20,19 @@ In order to purchase the seats for your organization:
 
 3. Use the dropdown to select the ideal organization seats package for your organization.
 
-   ![](../../.gitbook/assets/organization-setup/buy-org-seats-2.png)
+   ![Select the package](../../.gitbook/assets/organization-setup/buy-org-seats-2.png)
 
 4. Select the `Billing Period`. It is set to yearly subscription by default which gives you a month of subscription for free.
 
-   ![](../../.gitbook/assets/organization-setup/buy-org-seats-3.png)
+   ![Set the billing period](../../.gitbook/assets/organization-setup/buy-org-seats-3.png)
 
 5. Change the `Quantity` of the package if needed. Keep in mind that the quantity will be multiplied by the number of seats that are available in your package. For example, if you are buying a 10 seats subscription with the quantity of 3, you will have 3 * 10 = 30 seats.
 
-   ![](../../.gitbook/assets/organization-setup/buy-org-seats-4.png)
+   ![Select quantity](../../.gitbook/assets/organization-setup/buy-org-seats-4.png)
 
 6. Click on the `Subscribe` button and continue with the purchase.
 
-   ![](../../.gitbook/assets/organization-setup/buy-org-seats-5.png)
+   ![Payment](../../.gitbook/assets/organization-setup/buy-org-seats-5.png)
 
    If you have a discount code you may use it at this step and before finish the purchase by clicking on the `+ Add discount` button.
 
