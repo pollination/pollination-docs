@@ -5,7 +5,7 @@ to the organization.
 
 Pollination provides several options based on the size of your team. You can either select a monthly or an annual billing period.
 
-![](../../.gitbook/assets/organization-setup/org-seats-options.png)
+![Organization Seats Options](../../.gitbook/assets/organization-setup/org-seats-options.png)
 
 {% hint style="info" %}
 The annual billing offers a free month of subscription.
@@ -16,19 +16,19 @@ In order to purchase the seats for your organization:
 1. Go to the organization and find the subscription tab.
 2. Scroll to the seats card.
 
-   ![Scroll to organization seats](../../.gitbook/assets/organization-setup/buy-org-seats-1.png)
+   ![Scroll to Organization Seats](../../.gitbook/assets/organization-setup/buy-org-seats-1.png)
 
 3. Use the dropdown to select the ideal organization seats package for your organization.
 
-   ![Select the package](../../.gitbook/assets/organization-setup/buy-org-seats-2.png)
+   ![Select the Package](../../.gitbook/assets/organization-setup/buy-org-seats-2.png)
 
 4. Select the `Billing Period`. It is set to yearly subscription by default which gives you a month of subscription for free.
 
-   ![Set the billing period](../../.gitbook/assets/organization-setup/buy-org-seats-3.png)
+   ![Set the Billing Period](../../.gitbook/assets/organization-setup/buy-org-seats-3.png)
 
 5. Change the `Quantity` of the package if needed. Keep in mind that the quantity will be multiplied by the number of seats that are available in your package. For example, if you are buying a 10 seats subscription with the quantity of 3, you will have 3 * 10 = 30 seats.
 
-   ![Select quantity](../../.gitbook/assets/organization-setup/buy-org-seats-4.png)
+   ![Select Quantity](../../.gitbook/assets/organization-setup/buy-org-seats-4.png)
 
 6. Click on the `Subscribe` button and continue with the purchase.
 

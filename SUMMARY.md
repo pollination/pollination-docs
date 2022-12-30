@@ -9,12 +9,8 @@
   * [1. Create an Organization](web-platform/account-setup/create-an-organization.md)
   * [2. Add Organization Seats](web-platform/account-setup/purchase-additional-seats.md)
   * [3. Add Team Members](web-platform/account-setup/add-a-member-to-your-account.md)
-  * [4. Purchase and Manage CAD Plugins](get-started/purchase-and-manage-plugins.md)
-  * [5. Manage License Pools](get-started/manage-license-pool.md)
-  * [6. Add Additional Computing Resources](web-platform/account-setup/purchase-additional-compute-resources.md)
-
-## Manage CAD Licenses
-
+  * [4. Purchase and Manage CAD Licenses](web-platform/account-setup/purchase-and-manage-plugins.md)
+  * [5. Add Additional Computing Resources](web-platform/account-setup/purchase-additional-compute-resources.md)
 * [Purchase and Manage CAD Plugins](get-started/purchase-and-manage-plugins.md)
 * [Download Plugins](get-started/download-plugins.md)
 * [Install CAD Plugins](get-started/download-and-install-plugins.md)
@@ -22,12 +18,10 @@
 
 ## Web Platform
 
-* [Add a Member to Your Account](web-platform/account-setup/add-a-member-to-your-account.md)
+* [Create a New Project](web-platform/projects-and-jobs/create-a-new-project.md)
+* [Add Recipes to a Project](web-platform/projects-and-jobs/add-recipes-to-a-project.md)
+* [Create a New Study](web-platform/projects-and-jobs/create-a-new-job.md)
 * [Create Teams](web-platform/account-setup/create-teams.md)
-* [Projects and Studies](web-platform/projects-and-jobs/README.md)
-  * [Create a New Project](web-platform/projects-and-jobs/create-a-new-project.md)
-  * [Add Recipes to a Project](web-platform/projects-and-jobs/add-recipes-to-a-project.md)
-  * [Create a New Study](web-platform/projects-and-jobs/create-a-new-job.md)
 
 ## REVIT PLUGIN
 
