@@ -5,19 +5,25 @@
 ## Get Started
 
 * [Create a Pollination Account](get-started/create-a-pollination-account.md)
-* [Create an Organization](get-started/create-an-organization.md)
+* [Setting up an Organization](web-platform/account-setup/README.md)
+  * [1. Create an Organization](web-platform/account-setup/create-an-organization.md)
+  * [2. Add Organization Seats](web-platform/account-setup/purchase-additional-seats.md)
+  * [3. Add Team Members](web-platform/account-setup/add-a-member-to-your-account.md)
+  * [4. Purchase and Manage CAD Plugins](get-started/purchase-and-manage-plugins.md)
+  * [5. Manage License Pools](get-started/purchase-and-manage-plugins.md)
+  * [6. Add Additional Computing Resources](web-platform/account-setup/purchase-additional-compute-resources.md)
 * [Purchase and Manage CAD Plugins](get-started/purchase-and-manage-plugins.md)
 * [Download Plugins](get-started/download-plugins.md)
-* [Plugin Installation](get-started/download-and-install-plugins.md)
-* [Manage License Pool](get-started/manage-license-pool.md)
+* [Install CAD Plugins](get-started/download-and-install-plugins.md)
+* [Manage License Pools](get-started/manage-license-pool.md)
 * [Troubleshooting](get-started/troubleshooting/README.md)
   * [Rhino Plugin Errors](get-started/troubleshooting/rhino-plugin-errors/README.md)
   * [Validation Error Codes](get-started/troubleshooting/rhino-plugin-errors/help-with-modeling-error-codes.md)
 
 ## Web Platform
 
-* [Add a Member to Your Account](web-platform/add-a-member-to-your-account.md)
-* [Create Teams](web-platform/create-teams.md)
+* [Add a Member to Your Account](web-platform/account-setup/add-a-member-to-your-account.md)
+* [Create Teams](web-platform/account-setup/create-teams.md)
 * [Projects and Studies](web-platform/projects-and-jobs/README.md)
   * [Create a New Project](web-platform/projects-and-jobs/create-a-new-project.md)
   * [Add Recipes to a Project](web-platform/projects-and-jobs/add-recipes-to-a-project.md)
