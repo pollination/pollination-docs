@@ -1,12 +1,16 @@
 # Ladybug Tools Grasshopper Plugins
 
-Many architects and designers have good experience with Rhino, Pollination Rhino is the tool to speed up the design process of HB models. The feature below adds the dynamic part that only Grasshopper can give you. In fact, Pollination Rhino plugin can be used alongside the Grasshopper Ladybug Tools plugins.
+Pollination Rhino speeds up the process creating and validating the analytic models. We have created several components to ensure these models can be used seamlessly with the Ladybug Tools Grasshopper plugins.
 
-**Pollination Rhino** plugin adds a new tab to \*\*Honeybee \*\*for bidirectional integration to Rhino.
+**Pollination Rhino** plugin adds two new categories to the Pollination Grasshopper tab for bidirectional integration to Rhino:
 
-![](<../../../.gitbook/assets/image (116) (1).png>)
+1. Parameters
+2. Serialization
 
-There are two kind of components:
+![Pollination Tab in Grasshopper](../../../.gitbook/assets/rhino-plugin/rhino-grasshopper-components.png)
+
+There are three kind of components:
 
 * _Entity components_ to translate Pollination Rhino entities into Honeybee entities
-* _Library components_ to use Pollination UI with Honeybee
+* _Library components_ to use Pollination UI from inside Grasshopper
+* _Serializer components_ to serialize a Pollination model to other file formats.

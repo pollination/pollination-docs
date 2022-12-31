@@ -1,6 +1,6 @@
 # Getting Started in Rhino
 
-There are two interfaces for Pollination in Rhino. You can use the Pollination panel to use buttons to create your analytical model, or you can type Pollination commands in the command line.&#x20;
+There are two interfaces for Pollination in Rhino. You can use the Pollination panel to use buttons to create your analytical model, or you can type Pollination commands in the command line.
 
 ## Pollination Panel
 
@@ -40,10 +40,6 @@ Besides custom Pollination commands, there are several native Rhino commands tha
 |                           TRIM/UNTRIM                           |     **✔**    |       |                   |
 |                              MIRROR                             |     **✔**    |       |                   |
 |                      MergeAllCoplanarFaces                      |     **✔**    |       |                   |
-
-
-
-![Edit Room Geometry](<../.gitbook/assets/editroomgeometry.gif>)
 
 ![Undo and Redo Commands](../.gitbook/assets/undoredo.gif)
 

@@ -2,9 +2,9 @@
 
 ## Step 1
 
-Click on your avatar and select _Try CAD Plugins_ or click on the white _Install Plugins_ button to bring up the CAD Plugin download page.
+Click on your avatar and select _Try CAD Plugins_ or click on the white _Install Plugins_ button on the home page to bring up the CAD Plugin download page.
 
-![](<../.gitbook/assets/image (157).png>)
+![Try CAD Plugins](../.gitbook/assets/web-application/try-cad-plugins.png)
 
 ## Step 2
 
@@ -16,4 +16,4 @@ In order for the plugins to work, a constant internet connection is required. Ou
 
 {% endhint %}
 
-![](<../.gitbook/assets/image (164).png>)
+![Download CAD Plugins](../.gitbook/assets/web-application/download-cad-plugins-page.png)
