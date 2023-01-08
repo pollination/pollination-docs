@@ -23,6 +23,7 @@ Notes:
 ## PO_AlignToGrid
 
 Align geometries (generic geometries or Pollination geometries) to a grid system.
+Non-planar faces will be triangulated.
 
 ### Options
 
