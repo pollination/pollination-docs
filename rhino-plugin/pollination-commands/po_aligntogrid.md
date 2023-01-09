@@ -3,6 +3,15 @@
 Align geometries (generic geometries or Pollination geometries) to a grid system.
 Non-planar faces will be triangulated.
 
+<div>
+<figure>
+  <img src="https://user-images.githubusercontent.com/9031066/211238032-5833de73-ac07-48e7-8bb7-d3289a81649a.gif" alt="">
+  <figcaption>
+    <p>This command automatically triangulates non-planar surfaces.</p>
+  </figcaption>
+</figure>
+</div>
+
 ## Options
 
 * **Threshold**
