@@ -228,6 +228,10 @@ Generate reference grids for alignments based on input geometries. [Read more](.
 
 Remove all attached properties from selected geometries. [Read more](./po_removeproperties.md).
 
+#### <mark style="background-color:yellow;">PO\_ResetDisplayName</mark>
+
+Reset an object&apos;s display name. You can also select partial room&apos;s sub-faces. [Read more](./po_resetdisplayname.md).
+
 #### <mark style="background-color:yellow;">PO\_ResetIdentifier</mark>
 
 Reset a honeybee object&apos;s identifier and boundary condition. You can also select partial room&apos;s sub-faces for resetting boundary conditions. [Read more](./po_resetidentifier.md).

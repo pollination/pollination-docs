@@ -142,6 +142,7 @@
   * [PO\_RebuildRooms](rhino-plugin/pollination-commands/po\_rebuildrooms.md)
   * [PO\_RemoveProperties](rhino-plugin/pollination-commands/po\_removeproperties.md)
   * [PO\_ResetBoundaryCondition](rhino-plugin/pollination-commands/po\_resetboundarycondition.md)
+  * [PO\_ResetDisplayName](rhino-plugin/pollination-commands/po\_resetdisplayname.md)
   * [PO\_ResetIdentifier](rhino-plugin/pollination-commands/po\_resetidentifier.md)
   * [PO\_ResetLegendLocation](rhino-plugin/pollination-commands/po\_resetlegendlocation.md)
   * [PO\_RunSimulation](rhino-plugin/pollination-commands/po\_runsimulation.md)
