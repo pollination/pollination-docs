@@ -127,6 +127,7 @@
   * [PO\_Extrude2DPlans](rhino-plugin/pollination-commands/po\_extrude2dplans.md)
   * [PO\_FixRoomChildrenLinks](rhino-plugin/pollination-commands/po\_fixroomchildrenlinks.md)
   * [PO\_GenAlignGrids](rhino-plugin/pollination-commands/po\_genaligngrids.md)
+  * [PO\_GenRoomPerimeters](rhino-plugin/pollination-commands/po\_genroomperimeters.md)
   * [PO\_IsolateAdjacencies](rhino-plugin/pollination-commands/po\_isolateadjacencies.md)
   * [PO\_LicenseManager](rhino-plugin/pollination-commands/po\_licensemanager.md)
   * [PO\_LoadResults](rhino-plugin/pollination-commands/po\_loadresults.md)

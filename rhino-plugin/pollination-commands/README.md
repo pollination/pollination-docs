@@ -224,6 +224,10 @@ Search globally and relink all child objects (Aperture and Door) with their host
 
 Generate reference grids for alignments based on input geometries. [Read more](./po_genaligngrids.md).
 
+#### <mark style="background-color:yellow;">PO\_GenRoomPerimeters</mark>
+
+Split room and generate core/perimeter rooms. [Read more](./po_genroomperimeters.md).
+
 #### <mark style="background-color:yellow;">PO\_RemoveProperties</mark>
 
 Remove all attached properties from selected geometries. [Read more](./po_removeproperties.md).
