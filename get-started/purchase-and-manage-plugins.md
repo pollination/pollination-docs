@@ -83,6 +83,6 @@ Updating the number of licenses also removes any coupons that might be applied t
 
 {% endhint %}
 
-## Sharing the Floating Licenses
+## Sharing Floating Licenses
 
-For organizations, you can share the license between the organization members. See [this page](../../get-started/manage-license-pool.md) for more information.
+For organizations, you can share the license between the organization members. See [this page](../get-started/manage-license-pool.md) for more information.
