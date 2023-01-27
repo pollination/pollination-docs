@@ -148,6 +148,6 @@ Here is the short list of the topics that we will be working on in 2023:
 
 We understand that Pollination as an ecosystem is different from most of the tools that you have tried before, and you might have more questions. Feel free to start a topic on [Pollination Discourse](https://discourse.pollination.cloud/) or reach out to us via email with your questions.
 
-{% endembed %}
+{% endhint %}
 
 **Get started today by creating a** [**Pollination account**](https://app.pollination.cloud/)**!**
