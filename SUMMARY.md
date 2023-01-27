@@ -15,6 +15,7 @@
 * [Download CAD Plugins](get-started/download-plugins.md)
 * [Install CAD Plugins](get-started/download-and-install-plugins.md)
 * [Purchase and Manage CAD Plugins](get-started/purchase-and-manage-plugins.md)
+* [The Difference between CAD Licenses and Organization Seats](web-platform/account-setup/seats-vs-licenses.md)
 
 ## Web Platform
 
