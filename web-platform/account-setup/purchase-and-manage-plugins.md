@@ -1,4 +1,4 @@
-# Purchase and Manage CAD Plugins for an Organization
+# 4. Purchase and Manage CAD Licenses
 
 ## Purchasing the CAD Plugins
 
@@ -6,4 +6,4 @@ Follow the instruction on [this page](../../get-started/purchase-and-manage-plug
 
 ## Sharing the Floating Licenses
 
-You can share the CAD licenses that are owned by an organization between the organization members. See [this page](../../get-started/manage-license-pool.md) for more information.
+You can share the CAD licenses that are owned by an organization between the organization members. See [this page](broken-reference) for more information.
