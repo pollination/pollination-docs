@@ -37,6 +37,16 @@ Notes:
 
 ---
 
+## PO_HideRoomNames
+
+Hide room names
+
+### See Also
+
+* [PO_ShowRoomNames](./po_showroomnames.md)
+
+---
+
 ## PO_LoadResults
 
 Load results from previous submitted simulations. Download simulation assets if the job is executed on Pollination cloud.
@@ -55,6 +65,16 @@ Display a full report of object&apos;s notes which often is used for errors.
 
 Notes:
 - Room is the only supported type now.
+
+---
+
+## PO_ShowRoomNames
+
+Show selected rooms&apos; display name
+
+### See Also
+
+* [PO_HideRoomNames](./po_hideroomnames.md)
 
 ---
 

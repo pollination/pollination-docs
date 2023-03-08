@@ -314,6 +314,10 @@ This command brings up the energy SHW manager for users to add/edit/remove energ
 
 This command brings up the energy Schedules manager for users to add/edit/remove energy schedules. [Read more](./po_energyschedules.md).
 
+#### <mark style="background-color:yellow;">PO\_HVACEditor</mark>
+
+Open an embedded gh file in HVAC Editor (Grasshopper). [Read more](./po_hvaceditor.md).
+
 ### `Energy Validation`
 
 #### <mark style="background-color:yellow;">PO\_CheckAdjacency</mark>
@@ -372,6 +376,10 @@ Color all rooms&apos; faces by boundary condition. [Read more](./po_colorbyfacet
 
 Download a model from the Pollination cloud. [Read more](./po_downloadmodel.md).
 
+#### <mark style="background-color:yellow;">PO\_HideRoomNames</mark>
+
+Hide room names. [Read more](./po_hideroomnames.md).
+
 #### <mark style="background-color:yellow;">PO\_LoadResults</mark>
 
 Load results from previous submitted simulations. Download simulation assets if the job is executed on Pollination cloud. [Read more](./po_loadresults.md).
@@ -383,4 +391,8 @@ Move back all legends back to top-left of the view. [Read more](./po_resetlegend
 #### <mark style="background-color:yellow;">PO\_ShowObjectNotes</mark>
 
 Display a full report of object&apos;s notes which often is used for errors. [Read more](./po_showobjectnotes.md).
+
+#### <mark style="background-color:yellow;">PO\_ShowRoomNames</mark>
+
+Show selected rooms&apos; display name. [Read more](./po_showroomnames.md).
 
