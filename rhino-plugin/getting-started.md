@@ -31,7 +31,7 @@ Besides custom Pollination commands, there are several native Rhino commands tha
 |                         Move / GumballDrag / GumballTransform                              |     **✔**    | **✔** |                   |
 |  <p>Move Sub-Geometry</p><p><em>(Hold Shift+Ctrl keys)</em></p> |     **✔**    | **✔** |                   |
 |                    Scale / Scale1D / Scale2D                    |     **✔**    | **✔** |                   |
-|                    Rotate / Rotate2D                    |     **✔**    | **✔** |                   |
+|                    Rotate / Rotate3D                    |     **✔**    | **✔** |                   |
 |                      MoveFace / MoveEdge                      |     **✔**    |       |                   |
 | <p>Explode</p><p><em>(RoomObject=> OrphanedFaces only)</em></p> |     **✔**    |       |                   |
 |       <p>Join</p><p>(OrphanedFaces => RoomObject only)</p>      |     **✔**    |       |                   |
