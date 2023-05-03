@@ -20,25 +20,26 @@ A list of Pollination Commands for Rhino with detailed descriptions is available
 
 Besides custom Pollination commands, there are several native Rhino commands that can be used to modify custom Pollination RhinoObjects.
 
-|                              ACTION                             | COMMAND LINE |       | KEYBOARD SHORTCUT |
+|                              ACTION                             | COMMAND LINE |  GUMBALL     | KEYBOARD SHORTCUT |
 | :-------------------------------------------------------------: | :----------: | :---: | :---------------: |
-|                          COPY / CTRL+C                          |     **✔**    | **✔** |       **✔**       |
-|                           CUT / CTRL+X                          |     **✔**    |       |       **✔**       |
-|                          PASTE / CTRL+V                         |     **✔**    | **✔** |       **✔**       |
-|                          UNDO / CTRL+Z                          |     **✔**    |       |       **✔**       |
-|                          REDO / CTRL+Y                          |     **✔**    |       |       **✔**       |
-|                              DELETE                             |     **✔**    |       |       **✔**       |
-|                               MOVE                              |     **✔**    | **✔** |                   |
-|  <p>MOVE SUB-GEOMETRY</p><p><em>(Hold Shift+Ctrl keys)</em></p> |     **✔**    | **✔** |                   |
-|                    SCALE, SCALE 1D, SCALE 2D                    |     **✔**    | **✔** |                   |
-|                      MOVE FACE / MOVE EDGE                      |     **✔**    |       |                   |
-| <p>EXPLODE</p><p><em>(RoomObject=> OrphanedFaces only)</em></p> |     **✔**    |       |                   |
-|       <p>JOIN</p><p>(OrphanedFaces => RoomObject only)</p>      |     **✔**    |       |                   |
-|                      SPLITFACE / MERGEFACE                      |     **✔**    |       |                   |
-|                             FLIP/DIR                            |     **✔**    |       |                   |
-|                               CAP                               |     **✔**    |       |                   |
-|                           TRIM/UNTRIM                           |     **✔**    |       |                   |
-|                              MIRROR                             |     **✔**    |       |                   |
+|                          Copy / CTRL+C                          |     **✔**    | **✔** |       **✔**       |
+|                           Cut / CTRL+X                          |     **✔**    |       |       **✔**       |
+|                          Paste / CTRL+V                         |     **✔**    | **✔** |       **✔**       |
+|                          Undo / CTRL+Z                          |     **✔**    |       |       **✔**       |
+|                          Redo / CTRL+Y                          |     **✔**    |       |       **✔**       |
+|                              Delete                             |     **✔**    |       |       **✔**       |
+|                         Move / GumballDrag / GumballTransform                              |     **✔**    | **✔** |                   |
+|  <p>Move Sub-Geometry</p><p><em>(Hold Shift+Ctrl keys)</em></p> |     **✔**    | **✔** |                   |
+|                    Scale / Scale1D / Scale2D                    |     **✔**    | **✔** |                   |
+|                    Rotate / Rotate2D                    |     **✔**    | **✔** |                   |
+|                      MoveFace / MoveEdge                      |     **✔**    |       |                   |
+| <p>Explode</p><p><em>(RoomObject=> OrphanedFaces only)</em></p> |     **✔**    |       |                   |
+|       <p>Join</p><p>(OrphanedFaces => RoomObject only)</p>      |     **✔**    |       |                   |
+|                      SplitFace / MergeFace                      |     **✔**    |       |                   |
+|                             Flip / Dir                            |     **✔**    |       |                   |
+|                               Cap                               |     **✔**    |       |                   |
+|                           Trim / Untrim / UntrimHoles                           |     **✔**    |       |                   |
+|                              Mirror                             |     **✔**    |       |                   |
 |                      MergeAllCoplanarFaces                      |     **✔**    |       |                   |
 
 ![Undo and Redo Commands](../.gitbook/assets/undoredo.gif)
