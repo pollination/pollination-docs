@@ -2,28 +2,13 @@
 
 ## PO_Align2DPlans
 
-Rebuild all 2D plan curves by aligning them to Rhino grid.
 
-### Options
-
-* **DeleteInputs**
-
-  Delete the selected planar curves.
-
-* **Threshold**
-
-  Minimum dimension of the offset to apply. Default 0.1.
-
-Notes:
-
-* All curve geometries&apos; end points will be snapped together based on current model&apos;s tolerance.
 
 ---
 
 ## PO_AlignToGrid
 
-Align geometries (generic geometries or Pollination geometries) to a grid system.
-Non-planar faces will be triangulated.
+
 
 <div>
 <figure>
@@ -33,17 +18,6 @@ Non-planar faces will be triangulated.
   </figcaption>
 </figure>
 </div>
-
-### Options
-
-* **Threshold**
-
-  A distance tolerance for how far away from each grid line that a vertex should be affected and snapped to. Default 10x of document tolerance.
-
-* **Angle Tolerance**
-
-  A degree number from 0 to 360 to filter each input geometry edges that have a angle difference from the grids. Input -1 to disable checking the angle tolerance. Default to the current document angle tolerance.
-
 
 ### Video Tutorials
 

@@ -190,11 +190,11 @@ Select all visible shades in the current Rhino document. [Read more](./po_selsha
 
 #### <mark style="background-color:yellow;">PO\_Align2DPlans</mark>
 
-Rebuild all 2D plan curves by aligning them to Rhino grid. [Read more](./po_align2dplans.md).
+No description.
 
 #### <mark style="background-color:yellow;">PO\_AlignToGrid</mark>
 
-Align geometries (generic geometries or Pollination geometries) to a grid system. [Read more](./po_aligntogrid.md).
+No description.
 
 #### <mark style="background-color:yellow;">PO\_Check2DOrtho</mark>
 
