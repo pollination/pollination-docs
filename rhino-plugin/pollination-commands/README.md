@@ -316,7 +316,7 @@ This command brings up the energy Schedules manager for users to add/edit/remove
 
 #### <mark style="background-color:yellow;">PO\_HVACEditor</mark>
 
-Open an embedded gh file in HVAC Editor (Grasshopper). [Read more](./po_hvaceditor.md).
+No description.
 
 ### `Energy Validation`
 

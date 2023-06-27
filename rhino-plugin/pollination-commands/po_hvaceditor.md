@@ -1,6 +1,6 @@
 # PO_HVACEditor
 
-Open an embedded gh file in HVAC Editor (Grasshopper)
+
 
 ## Video Tutorials
 

@@ -200,7 +200,7 @@ This command brings up the energy Schedules manager for users to add/edit/remove
 
 ## PO_HVACEditor
 
-Open an embedded gh file in HVAC Editor (Grasshopper)
+
 
 ### Video Tutorials
 
