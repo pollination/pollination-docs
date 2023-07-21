@@ -2,11 +2,11 @@
 
 The validation process happens automatically upon importing a model to the Rhino plugin or whenever the [po\_validatemodel.md](../../../rhino-plugin/pollination-commands/po\_validatemodel.md "mention") command is run. It can also be run on a `.hbjson` file from the command line by installing [lbt-honeybee](https://pypi.org/project/lbt-honeybee/) and then running the [`honeybee validate model`](https://www.ladybug.tools/honeybee-core/docs/cli/validate.html) command.
 
-The validation process runs a number of tests on the model, each of which corresponds to a specific validation error code. A model failing a specific test will return this error code along with a message about the failing Model object. A model that passes all validation can usually be simulated in any engine that Honeybee connects to without error.
+The validation process runs a number of tests on the model, each of which corresponds to a specific validation error code. A model failing a specific test will return this error code along with a message about the failing Model object. A model that passes all validation can be simulated in the engines that Honeybee connects to without error (eg. OpenStudio/EnergyPlus, RAdiance, etc.). Validation is therefore meant to be a comprehensive check of all things that could make a model un-simulate-able, including things like compliance with [the 5 golden rules of honeybee schema geometry](https://github.com/ladybug-tools/honeybee-schema/wiki/2.1-Face3D-Schema#the-5-golden-rules-of-honeybee-schema-geometry) as well as engine-specific checks like adjacent constructions being in reverse order of materials for EnergyPlus simulation.
 
-Invalid models may still be simulate-able in some engines but not others. For this reason, it is helpful to check the consequences of each error code since it can sometimes be ok to ignore them. Furthermore, in the event that an error must be fixed, it is important to know how to fix it and errors sharing the same error code can usually be corrected with similar methods.
+Invalid models may still be simulate-able in some engines but not others. For this reason, it is helpful to check the consequences of each error code since it can sometimes be ok to ignore them. Furthermore, in the event that an error must be fixed, it is important to know how to fix it and errors sharing the same error code can usually be corrected with similar methods. This document describes all validation error codes used by Honeybee and Dragonfly and includes recommendations for how to fix them.
 
-**Note**: While a valid model can be simulated in any simulation engine, it is always the modeler's responsibility to ensure that the assumptions of the valid model align with the real building design that they are informing.
+**Note**: While a valid model can be simulated in simulation engines, it is always the modeler's responsibility to ensure that the assumptions of the valid model align with the real building design that they are informing.
 
 ## Validation Error Codes
 
@@ -90,6 +90,10 @@ There are two ways that a Room is not recognized as a solid:
 2. Non-manifold Edges - The Room has an edge that is shared by three or more Faces. This often means that there is a Face extending inward or outward from the Room volume, thereby interfering with the Room's volumetric calculations. Non-manifold edges can also result from tiny "sliver Faces" that are smaller than the Model tolerance and therefore collapse into a single edge shared by multiple Faces. Non-manifold edges should typically be fixed by deleting the sliver Face or the Face extending inward/outward from the Room volume.
 
 The message associated with the error should list the number of naked and non-manifold edges contained in the Room geometry.
+
+### 000107
+
+**Degenerate Room Volume** - There is a Room in the model that effectively has zero volume from the perspective of the Model tolerance. This can happen when all of the Faces of a Room are coplanar with one another, effectively making a "sliver" Room. It is a common side-effect of aligning small rooms to an axis in plan. Often, the best fix for this case is to simply delete the degenerate Room from the model.
 
 ### 000201
 
@@ -226,3 +230,77 @@ This issue should be fixed by finding the object with the duplicate identifier a
 **Mismatched Adjacent Constructions** - Two adjacent Faces, Apertures, or Doors do not have constructions with material layers that are in reversed order from each other, thereby making the order of material layers for the interior Wall, Floor, or Window ambiguous. This is illegal in EnergyPlus and typically results from applying the same asymmetric construction to an adjacent Face or Aperture pair. It can also happen if two adjacent geometry objects have completely different constructions from one another.
 
 The simplest way to fix the issue is to re-assign a symmetric construction to both adjacent objects. Symmetric constructions are ones where the reversed order of materials is the same as the non-reversed order. The issue can also be solved by taking an existing asymmetric construction, duplicating it, reversing its material order, giving it a new name/identifier, and assigning it to the other adjacent object.
+
+## Dragonfly Error Codes
+
+### 100001
+
+**Duplicate ContextShade Identifier** - Two or more ContextShades in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during the serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object. This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object.
+
+### 100002
+
+**Duplicate Room2D Identifier** - Two or more Rooms in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during the serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object. This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object.
+
+### 100003
+
+**Duplicate Story Identifier** - Two or more Stories in the model have the same identifier. This can result in errors during the serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object. This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object.
+
+### 100004
+
+**Duplicate Building Identifier** - Two or more Buildings in the model have the same identifier. This can result in errors during the serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object. This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object.
+
+### 100101
+
+**Degenerate Room Geometry** - There is a Room in the model that effectively has zero volume from the perspective of the Model tolerance. This can happen when all of the wall segments of a Room2D are colinear with one another, effectively making a "sliver" Room. It is a common side-effect of aligning small rooms. Often, the best fix for this case is to simply delete the degenerate room from the model.
+
+In the dragonfly Python libraries, the `Story.delete_degenerate_room_2ds()` method can be used to remove all degenerate Room2Ds from a Story.
+
+### 100102
+
+**Self-Intersecting Room Geometry** - There is a Room in the model with floor geometry that intersects itself (like a bowtie). This can cause issues when performing shading calculations in both Radiance and EnergyPlus and other interfaces like IES-VE, IDA-ICE, and eQuest will throw errors if they discover this type of condition.
+
+Note that duplicated vertices are still considered valid and vertices are considered duplicates if they are close to each other within the Model tolerance. So this error will typically only arise when the edges of the object noticeably intersect one another.
+
+Typically, the geometry must be redrawn in order to fix it, though it is sometimes possible to fix it simply by rearranging vertices.
+
+### 100103
+
+**Invalid Window Parameters** - Window parameters are formatted such that the resulting Apertures do not lie completely inside the parent Wall Face boundary. When the dragonfly geometry is translated to honeybee, the windows that are outside the boundary of the Walls will be automatically clipped. So this error does not produce an invalid Honeybee Model. However, it does mean that properties of the dragonfly Model like `exterior_aperture_area` will not be correct and, ideally, it should be corrected.
+
+Note that this error will still arise even when the window parameters produce an Aperture or Door that is only sharing an edge with the parent Wall Face, which is technically still acceptable for certain Energy simulations but will often cause issues in Radiance and will result in display issues for most model viewers.
+
+In the dragonfly Python libraries, the `Story.rebuild_detailed_windows()` method can be used to automatically clip detailed window parameters so they are bounded by the parent walls.
+
+### 100104
+
+**Overlapping Room Geometries** - Rooms of the same Story have floor geometries that overlap with one another in plan. Overlaps in Room floor geometries mean that the Room volumes collide with one another. While this condition is not necessarily un-simulate-able in EnergyPlus or Radiance, it represents a condition that would not be logical in reality and several other energy modeling interfaces like IES-VE, IDA-ICE, and eQuest will throw errors if they discover this type of condition.
+
+Note that this validation check accounts for the Model tolerance such that room overlaps smaller than the tolerance are ignored. So this validation error only arises for cases where the room floors noticeably overlap with one another or one room completely encompasses another.
+
+Typically, the Room geometry must either be redrawn or a different type of bounding element must be used to generate the rooms in order to fix it. Visualizing the rooms that overlap and finding the exact overlapping region can sometimes make it possible to fix the error just by moving the room polygon vertices.
+
+### 100105
+
+**Invalid Roof** - The geometries that make up the Story's Roof overlap with one another in plan. Overlaps in roof geometries make it unusable for translation from dragonfly to honeybee, meaning that the rooms underneath the roof will simply be extruded to their floor_to_ceiling_height instead of extending to the roof geometries.
+
+Note that this validation check accounts for the Model tolerance such that roof overlaps smaller than the tolerance are ignored. So this validation error only arises for cases where the roofs noticeably overlap with one another.
+
+Typically, the Roof geometry must be redrawn in order to fix it. Visualizing the geometries that overlap and finding the exact overlapping region can sometimes make it possible to fix the error just by moving the roof polygon vertices.
+
+### 100201
+
+**Mismatched Adjacency** - The model contains a Room2D with a Surface boundary condition that references the wall segment of another Room2D, which lacks a Surface boundary condition. The fact that the Surface boundary condition is not reciprocated may not result in a failure to translate the model from dragonfly to honeybee but it can cause unexpected results and validation errors in the resulting honeybee model like mis-matched area adjacencies.
+
+This error can usually be fixed by re-solving adjacencies with the intersection step selected in order to ensure any mismatched wall segments are correctly split with their neighboring geometry.
+
+### 100202
+
+**Mismatched WindowParameter Adjacency** - The model contains a Room2D with a Surface boundary condition referencing another Room2D wall segment that does not have the same window parameters. This can often happen if a previously existing Room2D has been deleted from the model or some change has been made to reset identifiers or boundary conditions in the model. Mis-matched window parameters will cause a failure to translate from dragonfly to honeybee by default. In this case, the `--bypass-adj-check` option can be used to get the translation to honeybee to proceed by replacing the illegal boundary condition with an Outdoors one.
+
+This error can usually be fixed by re-solving adjacency with the intersection step selected to erase the older invalid adjacencies.
+
+### 100203
+
+**Missing Adjacency** - The model contains a Room2D with a Surface boundary condition referencing another Room2D or wall segment that is not in the Story. This can often happen if a previously existing Room2D has been deleted from the model or some change has been made to reset identifiers or boundary conditions in the model. A missing adjacency will cause a failure to translate from dragonfly to honeybee by default. In this case, the `--bypass-adj-check` option can be used to get the translation to honeybee to proceed by replacing the illegal boundary condition with an Outdoors one.
+
+This error can usually be fixed by re-solving adjacency with the intersection step selected to erase the older invalid adjacencies.
