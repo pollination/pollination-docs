@@ -225,6 +225,36 @@ This issue should be fixed by finding the object with the duplicate identifier a
 
 This issue should be fixed by finding the object with the duplicate identifier and changing its identifier.
 
+### 020009
+
+**SHW System Room Not In Model** - The model contains a Service Hot Water (SHW) system that references a Room under its ambient\_condition, which is not present in the model. SHW Systems can be placed within Honeybee Rooms in order to model the heat loss from the hot water tank to the Room. In the case of heat pump water heaters, this is also used to model the fact that the water heater will pull heat from the room in order to heat the water in the tank. So this Room that contains the SHW system must be present in the model for it to be simulate-able.
+
+This issue is most easily fixed by changing the SHW Systems' ambient\_condition to a temperature value in Celsius or to a Room that is known to be within the model.
+
+### 020010
+
+**Multiple Vegetation Materials** - The model contains more than one Vegetation Material across its Constructions, which are used to model green roofs and approximate the temperatures of vegetated surfaces. EnergyPlus is unable to simulate models with more than one vegetation material because of its own internal limitations.
+
+The easiest way to fix the issue is to remove one of the vegetation materials or make sure that only one vegetation material is assigned to the geometry in the model.
+
+### 020011
+
+**Room With HVAC Lacks Setpoint** - The model contains a Room without a thermostat setpoint specification but with a detailed HVAC assigned to it. This creates a situation that cannot be simulated in EnergyPlus since it is unclear what temperature the assigned HVAC system should heated and cool the space to.
+
+This issue is most easily fixed by assigning a Program with a Setpoint specification to the Room with the HVAC. Alternatively, if the Room is actually unconditioned, then the HVAC assigned to the Room must be removed.
+
+### 020012
+
+**DetailedHVAC Rooms Not In Model** - The model contains a Detailed HVAC system, which references Rooms that are not in the model. This can happen when some of the original Rooms that the HVAC was assigned to have been deleted. The model will be un-simulate-able in EnergyPlus if the Detailed HVAC system continues to reference the non-existent Room.
+
+This issue can typically be fixed by editing the Detailed HVAC system and reassigning Rooms to it from the Model.
+
+### 020013
+
+**Room Referenced by Multiple Detailed HVAC** - The model contains two or more Detailed HVAC systems that reference the same Room. This can create situations where it is unclear which HVAC is intended to deliver the heating and cooling.
+
+This issue can typically be fixed by editing the Detailed HVAC systems of the model and reassigning Rooms to each system such that each Room has only one HVAC.
+
 ### 020201
 
 **Mismatched Adjacent Constructions** - Two adjacent Faces, Apertures, or Doors do not have constructions with material layers that are in reversed order from each other, thereby making the order of material layers for the interior Wall, Floor, or Window ambiguous. This is illegal in EnergyPlus and typically results from applying the same asymmetric construction to an adjacent Face or Aperture pair. It can also happen if two adjacent geometry objects have completely different constructions from one another.
