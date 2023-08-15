@@ -133,7 +133,7 @@ Select all visible Radiance views in the current Rhino document.
 
 ## PO_EnergyConstructionSets
 
-This command brings up the energy ConstructionSets manager for users to add/edit/remove energy construction sets.
+
 
 ### Useful Links
 
@@ -143,7 +143,7 @@ This command brings up the energy ConstructionSets manager for users to add/edit
 
 ## PO_EnergyConstructions
 
-This command brings up the energy Constructions manager for users to add/edit/remove energy constructions.
+
 
 ### Useful Links
 
@@ -153,7 +153,7 @@ This command brings up the energy Constructions manager for users to add/edit/re
 
 ## PO_EnergyHVACs
 
-This command brings up the energy HVACs manager for users to add/edit/remove energy HVACs.
+
 
 ### Useful Links
 
@@ -163,13 +163,13 @@ This command brings up the energy HVACs manager for users to add/edit/remove ene
 
 ## PO_EnergyMaterials
 
-This command brings up the energy materials manager for users to add/edit/remove energy materials.
+
 
 ---
 
 ## PO_EnergyProgramTypes
 
-This command brings up the energy ProgramTypes manager for users to add/edit/remove energy program types.
+
 
 <div>
 <figure>
@@ -188,13 +188,13 @@ This command brings up the energy ProgramTypes manager for users to add/edit/rem
 
 ## PO_EnergySHWs
 
-This command brings up the energy SHW manager for users to add/edit/remove energy service hot water systems.
+
 
 ---
 
 ## PO_EnergySchedules
 
-This command brings up the energy Schedules manager for users to add/edit/remove energy schedules.
+
 
 ---
 
@@ -316,7 +316,7 @@ Notes:
 
 ## PO_RadianceModifierSets
 
-This command brings up the energy RadianceModifierSets manager for users to add/edit/remove Radiance modifier sets.
+
 
 ### Useful Links
 
@@ -326,7 +326,7 @@ This command brings up the energy RadianceModifierSets manager for users to add/
 
 ## PO_RadianceModifiers
 
-This command brings up the energy RadianceModifiers manager for users to add/edit/remove Radiance modifiers.
+
 
 ### Useful Links
 

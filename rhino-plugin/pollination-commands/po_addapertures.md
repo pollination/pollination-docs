@@ -16,6 +16,10 @@ Add planar window surfaces to selected rooms or orphaned faces. For adding an or
 
   It shows a window where to set energy and radiance properties.
 
+* **NameByLayer**
+
+  Use layer&apos;s name for object&apos;s display name
+
 Notes:
 
 * Aperture surfaces will only be added to a room when it is coplanar to one of the room&apos;s faces.

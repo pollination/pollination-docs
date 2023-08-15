@@ -16,6 +16,10 @@ Add planar door surfaces to selected rooms or orhpaned faces. For adding an orph
 
   It shows a window where to set energy and radiance properties.
 
+* **NameByLayer**
+
+  Use layer&apos;s name for object&apos;s display name
+
 Notes:
 
 * Door surface will only be added to a room when it is co-planar to one of room walls.

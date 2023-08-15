@@ -194,9 +194,28 @@ Split rooms by selected cutters. The selected existing cutter has to cut through
 
 Add orphaned faces from selected geometries. Use &quot;Pollination&quot; command to open Orphaned Object Manager to check and edit each orphaned face.
 
+### Options
+
+* **Property**
+
+  Set energy and radiance properties.
+
+* **Default**
+
+  It inherits properties from the parent object.
+
+* **Custom**
+
+  It shows a window where to set energy and radiance properties.
+
+* **NameByLayer**
+
+  Use layer&apos;s name for object&apos;s display name
+
 Notes:
-- It works with planar geometry only.
-- It supports planar surfaces or brep with planar faces.
+
+* It works with planar geometry only.
+* It supports planar surfaces or brep with planar faces.
 
 ---
 
@@ -256,6 +275,10 @@ Add planar window surfaces to selected rooms or orphaned faces. For adding an or
 * **Custom**
 
   It shows a window where to set energy and radiance properties.
+
+* **NameByLayer**
+
+  Use layer&apos;s name for object&apos;s display name
 
 Notes:
 
@@ -347,6 +370,10 @@ Add planar door surfaces to selected rooms or orhpaned faces. For adding an orph
 * **Custom**
 
   It shows a window where to set energy and radiance properties.
+
+* **NameByLayer**
+
+  Use layer&apos;s name for object&apos;s display name
 
 Notes:
 
@@ -502,7 +529,8 @@ Notes:
 
 ## PO_OffsetChildObjects
 
-Offset all child objects (apertures and doors) of selected rooms to ensure they don&apos;t touch the edges of rooms
+Offset all child objects (apertures and doors) of selected rooms to ensure they don&apos;t touch the edges of rooms.
+Only child object&apos;s edges that are within the `OffsetDistance` from their host room face&apos;s edge will be offsetted.
 
 Notes:
 - If the aperture has an edge coincident to an edge of the room it is not valid for energy simulation.
@@ -515,6 +543,17 @@ Notes:
   </figcaption>
 </figure>
 </div>
+
+### Options
+
+* **IgnoreInsideEdges**
+
+  Set to Yes to ignore those edges are already inside the host room face boundary. Set to No to check all edges and ensure all of them are at least from the `OffsetDistance` of the host face boundary.
+
+* **OffsetDistance**
+
+  A value that defines how far from the host room face&apos;s boundary that limits child&apos;s object
+
 
 ### See Also
 
@@ -548,6 +587,13 @@ Notes:
 
 Select all visible apertures in the current Rhino document.
 
+### Options
+
+* **SelectBy**
+
+  All or Orientation
+
+
 ---
 
 ## PO_SelDoors
@@ -562,9 +608,16 @@ Select all visible doors in the current Rhino document.
 
 Add selected geometries as site contexts to model. This can be used to add trees, surrounding buildings, or site structures that are not directly attached to the building. Use &quot;Pollination&quot; command to open Orphaned Object Manager to check and edit each shade object.
 
+### Options
+
+* **NameByLayer**
+
+  Use layer&apos;s name for object&apos;s display name
+
 Notes:
-- The selection can be a brep or a series of surfaces.
-- If the selection contains a brep with curved brep faces they will be planarized automatically.
+
+* The selection can be a brep or a series of surfaces.
+* If the selection contains a brep with curved brep faces they will be planarized automatically.
 
 ---
 
@@ -629,15 +682,22 @@ Add shades to apertures. It works with two different modalities, BorderShades an
 
 Add selected shade surfaces to model. Use &quot;Pollination&quot; command to open Orphaned Object Manager to check and edit each shade.
 
-Notes:
-- The selection can be a brep or a series of planar surfaces.
-- If the selection contains a brep with curved brep faces they will be planarized automatically.
-
 <div>
 <figure>
   <img src="https://user-images.githubusercontent.com/2915573/209876725-19344820-b659-4d8a-acf3-51da517d2019.gif" alt="">
 </figure>
 </div>
+
+### Options
+
+* **NameByLayer**
+
+  Use layer&apos;s name for object&apos;s display name
+
+Notes:
+
+* The selection can be a brep or a series of planar surfaces.
+* If the selection contains a brep with curved brep faces they will be planarized automatically.
 
 ---
 

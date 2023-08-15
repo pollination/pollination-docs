@@ -288,31 +288,31 @@ Select all visible Radiance views in the current Rhino document. [Read more](./p
 
 #### <mark style="background-color:yellow;">PO\_EnergyConstructionSets</mark>
 
-This command brings up the energy ConstructionSets manager for users to add/edit/remove energy construction sets. [Read more](./po_energyconstructionsets.md).
+No description.
 
 #### <mark style="background-color:yellow;">PO\_EnergyConstructions</mark>
 
-This command brings up the energy Constructions manager for users to add/edit/remove energy constructions. [Read more](./po_energyconstructions.md).
+No description.
 
 #### <mark style="background-color:yellow;">PO\_EnergyHVACs</mark>
 
-This command brings up the energy HVACs manager for users to add/edit/remove energy HVACs. [Read more](./po_energyhvacs.md).
+No description.
 
 #### <mark style="background-color:yellow;">PO\_EnergyMaterials</mark>
 
-This command brings up the energy materials manager for users to add/edit/remove energy materials. [Read more](./po_energymaterials.md).
+No description.
 
 #### <mark style="background-color:yellow;">PO\_EnergyProgramTypes</mark>
 
-This command brings up the energy ProgramTypes manager for users to add/edit/remove energy program types. [Read more](./po_energyprogramtypes.md).
+No description.
 
 #### <mark style="background-color:yellow;">PO\_EnergySHWs</mark>
 
-This command brings up the energy SHW manager for users to add/edit/remove energy service hot water systems. [Read more](./po_energyshws.md).
+No description.
 
 #### <mark style="background-color:yellow;">PO\_EnergySchedules</mark>
 
-This command brings up the energy Schedules manager for users to add/edit/remove energy schedules. [Read more](./po_energyschedules.md).
+No description.
 
 #### <mark style="background-color:yellow;">PO\_HVACEditor</mark>
 
@@ -352,11 +352,11 @@ Validate the current model to ensure it is simulate-able for daylight or energy.
 
 #### <mark style="background-color:yellow;">PO\_RadianceModifierSets</mark>
 
-This command brings up the energy RadianceModifierSets manager for users to add/edit/remove Radiance modifier sets. [Read more](./po_radiancemodifiersets.md).
+No description.
 
 #### <mark style="background-color:yellow;">PO\_RadianceModifiers</mark>
 
-This command brings up the energy RadianceModifiers manager for users to add/edit/remove Radiance modifiers. [Read more](./po_radiancemodifiers.md).
+No description.
 
 ## Load, Visualize, and Export Results
 
