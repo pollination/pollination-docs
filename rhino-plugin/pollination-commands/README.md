@@ -188,13 +188,13 @@ Select all visible shades in the current Rhino document. [Read more](./po_selsha
 
 ## Model Alignment & Updates
 
-#### <mark style="background-color:yellow;">PO\_Align2DPlans</mark>
+#### <mark style="background-color:yellow;">PO\_AlignInPlan</mark>
 
-No description.
+Align geometries (generic geometries or Pollination geometries) to a grid system. [Read more](./po_aligninplan.md).
 
-#### <mark style="background-color:yellow;">PO\_AlignToGrid</mark>
+#### <mark style="background-color:yellow;">PO\_AlignToRoom</mark>
 
-No description.
+Align geometries (generic geometries or Pollination geometries) to a target room. [Read more](./po_aligntoroom.md).
 
 #### <mark style="background-color:yellow;">PO\_Check2DOrtho</mark>
 
