@@ -48,7 +48,7 @@ This issue should be fixed by finding the object with the duplicate identifier a
 
 This error must be fixed for simulation in both Radiance and EnergyPlus since these engines only accept planar geometry.
 
-If the non-planarity of the geometry is not that severe, it can sometimes be fixed by using the [PO\_AlignToGrid](../../../rhino-plugin/pollination-commands/po\_aligntogrid.md) command. Otherwise, more detailed editing of vertices on the individual geometry object may be required.
+If the non-planarity of the geometry is not that severe, it can sometimes be fixed by using the [PO\_RebuildRooms](../../../rhino-plugin/pollination-commands/po\_rebuildrooms.md) command with the `RebuildFaces` option or by using the [PO\_AlignInPlan](../../../rhino-plugin/pollination-commands/po\_aligninplan.md) command. Otherwise, more detailed editing of vertices on the individual geometry object may be required.
 
 ### 000102
 
@@ -94,6 +94,12 @@ The message associated with the error should list the number of naked and non-ma
 ### 000107
 
 **Degenerate Room Volume** - There is a Room in the model that effectively has zero volume from the perspective of the Model tolerance. This can happen when all of the Faces of a Room are coplanar with one another, effectively making a "sliver" Room. It is a common side-effect of aligning small rooms to an axis in plan. Often, the best fix for this case is to simply delete the degenerate Room from the model.
+
+### 000108
+
+**Colliding Room Volumes** - There are two Rooms in the Model with volumes that collide with one another such that each Room geometry extends into the other. While this will not cause a simulation failure for either EnergyPlus or Radiance, it may cause a failure to translate to IES-VE, eQuest, or IDA-ICE (or it will result in warnings when the model is opened in these programs). It's also generally considered poor modeling in the EnergyPlus documentation, even though it does not cause the simulation to stop.
+
+The issue can often be corrected by using the [PO\_AlignInPlan](../../../rhino-plugin/pollination-commands/po\_aligninplan.md) command or the [PO\_AlignToRoom](../../../rhino-plugin/pollination-commands/po\_aligntoroom.md) command in the Rhino plugin. In the Revit plugin, checking room bounding elements or using alignment lines can usually correct the issue.
 
 ### 000201
 
