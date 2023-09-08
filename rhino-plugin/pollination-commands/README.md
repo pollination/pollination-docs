@@ -188,9 +188,17 @@ Select all visible shades in the current Rhino document. [Read more](./po_selsha
 
 ## Model Alignment & Updates
 
+#### <mark style="background-color:yellow;">PO\_AlignInElevation</mark>
+
+Align geometries (generic geometries or Pollination geometries) to elevation reference lines. [Read more](./po_aligninelevation.md).
+
 #### <mark style="background-color:yellow;">PO\_AlignInPlan</mark>
 
 Align geometries (generic geometries or Pollination geometries) to a grid system. [Read more](./po_aligninplan.md).
+
+#### <mark style="background-color:yellow;">PO\_AlignInPlan2D</mark>
+
+Rebuild all 2D plan curves by aligning them to Rhino grid. [Read more](./po_aligninplan2d.md).
 
 #### <mark style="background-color:yellow;">PO\_AlignToRoom</mark>
 
@@ -207,6 +215,10 @@ Enter editing mode for a selected room or orphaned object. It is same as double 
 #### <mark style="background-color:yellow;">PO\_EditProperties</mark>
 
 Modify Honeybee properties for selected objects. [Read more](./po_editproperties.md).
+
+#### <mark style="background-color:yellow;">PO\_EmbedUserLibrary</mark>
+
+Embed all user&apos;s custom resources from the local library folder, so that this 3dm contains all resource objects and you can share this file without worrying about the missing resource objects on the other machine. [Read more](./po_embeduserlibrary.md).
 
 #### <mark style="background-color:yellow;">PO\_Extract2DPlans</mark>
 
@@ -228,9 +240,25 @@ Generate reference grids for alignments based on input geometries. [Read more](.
 
 Split room and generate core/perimeter rooms. [Read more](./po_genroomperimeters.md).
 
+#### <mark style="background-color:yellow;">PO\_ProjectSrf</mark>
+
+Check all child objects (apertures and doors) of selected rooms to ensure they are coplanar with their host faces. [Read more](./po_projectsrf.md).
+
+#### <mark style="background-color:yellow;">PO\_PurgeUserLibrary</mark>
+
+Use this command with caution!!! Purge the library of all user energy standards that it contains. This command calls &apos;honeybee-energy lib purge [OPTIONS]&apos;, see https://www.ladybug.tools/honeybee-energy/docs/cli/lib.html#honeybee-energy-lib-purge for more details. [Read more](./po_purgeuserlibrary.md).
+
+#### <mark style="background-color:yellow;">PO\_RebuildAperturesDoors</mark>
+
+Rebuild apertures and doors that are part of rooms (orphaned apertures and doors won&apos;t be processed in this command). [Read more](./po_rebuildaperturesdoors.md).
+
 #### <mark style="background-color:yellow;">PO\_RemoveProperties</mark>
 
 Remove all attached properties from selected geometries. [Read more](./po_removeproperties.md).
+
+#### <mark style="background-color:yellow;">PO\_RemoveShortSegments</mark>
+
+Removes short edges that have a length smaller than the minimum distance for selected solid geometries. [Read more](./po_removeshortsegments.md).
 
 #### <mark style="background-color:yellow;">PO\_ResetDisplayName</mark>
 
@@ -239,6 +267,18 @@ Reset an object&apos;s display name. You can also select partial room&apos;s sub
 #### <mark style="background-color:yellow;">PO\_ResetIdentifier</mark>
 
 Reset a honeybee object&apos;s identifier and boundary condition. You can also select partial room&apos;s sub-faces for resetting boundary conditions. [Read more](./po_resetidentifier.md).
+
+#### <mark style="background-color:yellow;">PO\_ResetResourceIDs</mark>
+
+Reset all resource objects&apos; identifiers across the entire model. If two objects of the same type have the same display_name, only one of them will be updated. This command calls &apos;honeybee-energy edit reset-resource-ids [OPTIONS] MODEL_FILE&apos;, see https://www.ladybug.tools/honeybee-energy/docs/cli/edit.html#honeybee-energy-edit-reset-resource-ids for more details. [Read more](./po_resetresourceids.md).
+
+#### <mark style="background-color:yellow;">PO\_SaveToUserLibrary</mark>
+
+Export and save all resource objects from the current model to local user&apos;s resource library. [Read more](./po_savetouserlibrary.md).
+
+#### <mark style="background-color:yellow;">PO\_SetRoomStoryByElevation</mark>
+
+Update selected rooms&apos;s story by their elevation. [Read more](./po_setroomstorybyelevation.md).
 
 #### <mark style="background-color:yellow;">PO\_SyncModel</mark>
 
@@ -286,37 +326,33 @@ Select all visible Radiance views in the current Rhino document. [Read more](./p
 
 ### `Energy Properties`
 
-#### <mark style="background-color:yellow;">PO\_EnergyConstructionSets</mark>
+#### <mark style="background-color:yellow;">PO\_ConstructionManager</mark>
 
-No description.
+This command brings up the energy Constructions manager for users to add/edit/remove energy constructions. [Read more](./po_constructionmanager.md).
 
-#### <mark style="background-color:yellow;">PO\_EnergyConstructions</mark>
+#### <mark style="background-color:yellow;">PO\_ConstructionSetManager</mark>
 
-No description.
+This command brings up the energy ConstructionSets manager for users to add/edit/remove energy construction sets. [Read more](./po_constructionsetmanager.md).
 
-#### <mark style="background-color:yellow;">PO\_EnergyHVACs</mark>
+#### <mark style="background-color:yellow;">PO\_HVACManager</mark>
 
-No description.
+This command brings up the energy HVACs manager for users to add/edit/remove energy HVACs. [Read more](./po_hvacmanager.md).
 
-#### <mark style="background-color:yellow;">PO\_EnergyMaterials</mark>
+#### <mark style="background-color:yellow;">PO\_MaterialManager</mark>
 
-No description.
+This command brings up the energy materials manager for users to add/edit/remove energy materials. [Read more](./po_materialmanager.md).
 
-#### <mark style="background-color:yellow;">PO\_EnergyProgramTypes</mark>
+#### <mark style="background-color:yellow;">PO\_ProgramTypeManager</mark>
 
-No description.
+This command brings up the energy ProgramTypes manager for users to add/edit/remove energy program types. [Read more](./po_programtypemanager.md).
 
-#### <mark style="background-color:yellow;">PO\_EnergySHWs</mark>
+#### <mark style="background-color:yellow;">PO\_SHWManager</mark>
 
-No description.
+This command brings up the energy SHW manager for users to add/edit/remove energy service hot water systems. [Read more](./po_shwmanager.md).
 
-#### <mark style="background-color:yellow;">PO\_EnergySchedules</mark>
+#### <mark style="background-color:yellow;">PO\_ScheduleManager</mark>
 
-No description.
-
-#### <mark style="background-color:yellow;">PO\_HVACEditor</mark>
-
-No description.
+This command brings up the energy Schedules manager for users to add/edit/remove energy schedules. [Read more](./po_schedulemanager.md).
 
 ### `Energy Validation`
 
@@ -350,13 +386,13 @@ Validate the current model to ensure it is simulate-able for daylight or energy.
 
 ### `Daylight Settings`
 
-#### <mark style="background-color:yellow;">PO\_RadianceModifierSets</mark>
+#### <mark style="background-color:yellow;">PO\_ModifierManager</mark>
 
-No description.
+This command brings up the energy RadianceModifiers manager for users to add/edit/remove Radiance modifiers. [Read more](./po_modifiermanager.md).
 
-#### <mark style="background-color:yellow;">PO\_RadianceModifiers</mark>
+#### <mark style="background-color:yellow;">PO\_ModifierSetManager</mark>
 
-No description.
+This command brings up the energy RadianceModifierSets manager for users to add/edit/remove Radiance modifier sets. [Read more](./po_modifiersetmanager.md).
 
 ## Load, Visualize, and Export Results
 

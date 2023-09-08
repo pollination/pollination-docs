@@ -12,6 +12,7 @@ Non-planar faces will be triangulated.
 </figure>
 </div>
 
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1GQwN4L0hVmVsVX0nDVwAIOQPWdJrlVCw/view" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 ## Options
 
 * **Threshold**
@@ -22,6 +23,12 @@ Non-planar faces will be triangulated.
 
   A degree number from 0 to 360 to filter each input geometry edges that have a angle difference from the grids. Input -1 to disable checking the angle tolerance. Default to the current document angle tolerance.
 
+
+## See Also
+
+* [PO_AlignToRoom](./po_aligntoroom.md)
+* [PO_RemoveShortSegments](./po_removeshortsegments.md)
+* [PO_AlignInElevation](./po_aligninelevation.md)
 
 ## Video Tutorials
 

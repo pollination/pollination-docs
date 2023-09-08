@@ -1,5 +1,28 @@
 # Model Alignment & Updates
 
+## PO_AlignInElevation
+
+Align geometries (generic geometries or Pollination geometries) to elevation reference lines.
+Non-planar faces will be triangulated.
+
+### Options
+
+* **Threshold**
+
+  A distance tolerance for how far away from each grid line that a vertex should be affected and snapped to. Default 10x of document tolerance.
+
+* **Angle Tolerance**
+
+  A degree number from 0 to 360 to filter each input geometry edges that have a angle difference from the grids. Input -1 to disable checking the angle tolerance. Default to the current document angle tolerance.
+
+
+### See Also
+
+* [PO_AlignInPlan](./po_aligninplan.md)
+* [PO_RemoveShortSegments](./po_removeshortsegments.md)
+
+---
+
 ## PO_AlignInPlan
 
 Align geometries (generic geometries or Pollination geometries) to a grid system.
@@ -14,6 +37,7 @@ Non-planar faces will be triangulated.
 </figure>
 </div>
 
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1GQwN4L0hVmVsVX0nDVwAIOQPWdJrlVCw/view" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 ### Options
 
 * **Threshold**
@@ -25,9 +49,40 @@ Non-planar faces will be triangulated.
   A degree number from 0 to 360 to filter each input geometry edges that have a angle difference from the grids. Input -1 to disable checking the angle tolerance. Default to the current document angle tolerance.
 
 
+### See Also
+
+* [PO_AlignToRoom](./po_aligntoroom.md)
+* [PO_RemoveShortSegments](./po_removeshortsegments.md)
+* [PO_AlignInElevation](./po_aligninelevation.md)
+
 ### Video Tutorials
 
 {% embed url="https://youtu.be/GrH6br4DQrg" %}Fix Models with Alignment Errors{% endembed %}
+
+---
+
+## PO_AlignInPlan2D
+
+Rebuild all 2D plan curves by aligning them to Rhino grid.
+
+### Options
+
+* **DeleteInputs**
+
+  Delete the selected planar curves.
+
+* **Threshold**
+
+  Minimum dimension of the offset to apply. Default 0.1.
+
+Notes:
+
+* All curve geometries&apos; end points will be snapped together based on current model&apos;s tolerance.
+
+### See Also
+
+* [PO_AlignInPlan](./po_aligninplan.md)
+* [PO_AlignToRoom](./po_aligntoroom.md)
 
 ---
 
@@ -36,12 +91,21 @@ Non-planar faces will be triangulated.
 Align geometries (generic geometries or Pollination geometries) to a target room.
 Non-planar faces will be triangulated.
 
+<div>
+</div>
+
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1LfpFUosXkFCl-8xsoj69kcGllQAz30DB/view" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 ### Options
 
 * **Threshold**
 
   A distance tolerance for how far away from each grid line that a vertex should be affected and snapped to. Default 10x of document tolerance.
 
+
+### See Also
+
+* [PO_AlignInPlan](./po_aligninplan.md)
+* [PO_RemoveShortSegments](./po_removeshortsegments.md)
 
 ---
 
@@ -74,6 +138,16 @@ Enter editing mode for a selected room or orphaned object. It is same as double 
 ## PO_EditProperties
 
 Modify Honeybee properties for selected objects.
+
+---
+
+## PO_EmbedUserLibrary
+
+Embed all user&apos;s custom resources from the local library folder, so that this 3dm contains all resource objects and you can share this file without worrying about the missing resource objects on the other machine.
+
+### Useful Links
+
+{% embed url="https://discourse.pollination.cloud/t/build-and-edit-a-library-of-reusable-constructions-schedules-programs-and-more/3097" %}
 
 ---
 
@@ -151,9 +225,54 @@ Split room and generate core/perimeter rooms.
 
 ---
 
+## PO_ProjectSrf
+
+Check all child objects (apertures and doors) of selected rooms to ensure they are coplanar with their host faces. 
+
+Notes:
+- This command will automatically project the child geometry to its host&apos;s plane.
+- It is important apertures and doors are coplanar to get a valid energy and radiance model.
+
+---
+
+## PO_PurgeUserLibrary
+
+Use this command with caution!!! Purge the library of all user energy standards that it contains. This command calls &apos;honeybee-energy lib purge [OPTIONS]&apos;, see https://www.ladybug.tools/honeybee-energy/docs/cli/lib.html#honeybee-energy-lib-purge for more details.
+
+### Useful Links
+
+{% embed url="https://discourse.pollination.cloud/t/build-and-edit-a-library-of-reusable-constructions-schedules-programs-and-more/3097" %}
+
+---
+
+## PO_RebuildAperturesDoors
+
+Rebuild apertures and doors that are part of rooms (orphaned apertures and doors won&apos;t be processed in this command).
+
+<div>
+</div>
+
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1LAbuvjCyiydwBs8iDhV86oUeM4uvgNSD/view" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+---
+
 ## PO_RemoveProperties
 
 Remove all attached properties from selected geometries.
+
+---
+
+## PO_RemoveShortSegments
+
+Removes short edges that have a length smaller than the minimum distance for selected solid geometries.
+
+<div>
+</div>
+
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1KruUxyUFsgBfTd8nM7zp6dC46Z5Tbi4M/view" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+### See Also
+
+* [PO_AlignInPlan](./po_aligninplan.md)
+* [PO_AlignToRoom](./po_aligntoroom.md)
 
 ---
 
@@ -212,6 +331,32 @@ Notes:
 ### Video Tutorials
 
 {% embed url="https://youtu.be/_Nyi8JTHpiA" %}How to use PO_ResetIdentifier command{% endembed %}
+
+---
+
+## PO_ResetResourceIDs
+
+Reset all resource objects&apos; identifiers across the entire model. If two objects of the same type have the same display_name, only one of them will be updated. This command calls &apos;honeybee-energy edit reset-resource-ids [OPTIONS] MODEL_FILE&apos;, see https://www.ladybug.tools/honeybee-energy/docs/cli/edit.html#honeybee-energy-edit-reset-resource-ids for more details.
+
+### Useful Links
+
+{% embed url="https://discourse.pollination.cloud/t/build-and-edit-a-library-of-reusable-constructions-schedules-programs-and-more/3097" %}
+
+---
+
+## PO_SaveToUserLibrary
+
+Export and save all resource objects from the current model to local user&apos;s resource library.
+
+### Useful Links
+
+{% embed url="https://discourse.pollination.cloud/t/build-and-edit-a-library-of-reusable-constructions-schedules-programs-and-more/3097" %}
+
+---
+
+## PO_SetRoomStoryByElevation
+
+Update selected rooms&apos;s story by their elevation
 
 ---
 

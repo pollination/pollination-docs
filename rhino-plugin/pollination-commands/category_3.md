@@ -131,19 +131,9 @@ Select all visible Radiance views in the current Rhino document.
 
 ## `Energy Properties`
 
-## PO_EnergyConstructionSets
+## PO_ConstructionManager
 
-
-
-### Useful Links
-
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/energy-modeling/assign-construction-sets" %}
-
----
-
-## PO_EnergyConstructions
-
-
+This command brings up the energy Constructions manager for users to add/edit/remove energy constructions.
 
 ### Useful Links
 
@@ -151,9 +141,19 @@ Select all visible Radiance views in the current Rhino document.
 
 ---
 
-## PO_EnergyHVACs
+## PO_ConstructionSetManager
 
+This command brings up the energy ConstructionSets manager for users to add/edit/remove energy construction sets.
 
+### Useful Links
+
+{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/energy-modeling/assign-construction-sets" %}
+
+---
+
+## PO_HVACManager
+
+This command brings up the energy HVACs manager for users to add/edit/remove energy HVACs.
 
 ### Useful Links
 
@@ -161,15 +161,15 @@ Select all visible Radiance views in the current Rhino document.
 
 ---
 
-## PO_EnergyMaterials
+## PO_MaterialManager
 
-
+This command brings up the energy materials manager for users to add/edit/remove energy materials.
 
 ---
 
-## PO_EnergyProgramTypes
+## PO_ProgramTypeManager
 
-
+This command brings up the energy ProgramTypes manager for users to add/edit/remove energy program types.
 
 <div>
 <figure>
@@ -186,25 +186,15 @@ Select all visible Radiance views in the current Rhino document.
 
 ---
 
-## PO_EnergySHWs
+## PO_SHWManager
 
-
-
----
-
-## PO_EnergySchedules
-
-
+This command brings up the energy SHW manager for users to add/edit/remove energy service hot water systems.
 
 ---
 
-## PO_HVACEditor
+## PO_ScheduleManager
 
-
-
-### Video Tutorials
-
-{% embed url="https://youtu.be/brM03MHlDVs" %}Custom HVAC Detailing in Pollination using Ironbug{% endembed %}
+This command brings up the energy Schedules manager for users to add/edit/remove energy schedules.
 
 ---
 
@@ -314,23 +304,23 @@ Notes:
 
 ## `Daylight Settings`
 
-## PO_RadianceModifierSets
+## PO_ModifierManager
 
-
-
-### Useful Links
-
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/assign-modifier-sets" %}
-
----
-
-## PO_RadianceModifiers
-
-
+This command brings up the energy RadianceModifiers manager for users to add/edit/remove Radiance modifiers.
 
 ### Useful Links
 
 {% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/assign-modifiers" %}
+
+---
+
+## PO_ModifierSetManager
+
+This command brings up the energy RadianceModifierSets manager for users to add/edit/remove Radiance modifier sets.
+
+### Useful Links
+
+{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/assign-modifier-sets" %}
 
 ---
 
