@@ -193,7 +193,11 @@ At the top of the version history, you should see the app being deployed with th
 
 After about 5-10 minutes the deployment will finish
 
-![](../.gitbook/assets/pollination-apps/github-manual/github\_pollination\_app\_pending.png)
+<div align="left">
+
+<img src="../.gitbook/assets/pollination-apps/github-manual/github_pollination_app_pending.png" alt="">
+
+</div>
 
 ![](../.gitbook/assets/pollination-apps/github-manual/github\_pollination\_app\_complete.png)
 

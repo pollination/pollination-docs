@@ -30,4 +30,3 @@ _Note:_ [_OpenStudio Standards_](https://github.com/NREL/openstudio-standards/) 
 
 ![](<../../.gitbook/assets/image (63).png>)
 
-***

@@ -2,10 +2,10 @@
 description: >-
   NOTE: Only owners of an organization can add new members and manage
   permissions. Once you add members to your organization, you still need to add
-  members to projects or CAD license pools to give them access to the resources.
+  members to projects or CAD license pools to give them
 ---
 
-# Add a Member to Your Account
+# 3. Add Team Members
 
 {% hint style="warning" %}
 You can only add additional members to your organization after purchasing additional seats. See [this page](purchase-additional-seats.md) for more information about purchasing additional seats.
