@@ -27,6 +27,8 @@ Align geometries (generic geometries or Pollination geometries) to a grid system
 <figure><img src="https://user-images.githubusercontent.com/9031066/211238032-5833de73-ac07-48e7-8bb7-d3289a81649a.gif" alt=""><figcaption><p>This command automatically triangulates non-planar surfaces.</p></figcaption></figure>
 
 {% embed url="https://drive.google.com/file/d/1GQwN4L0hVmVsVX0nDVwAIOQPWdJrlVCw/view" %}
+The command also accepts multiple rooms.
+{% endembed %}
 
 ### Options
 
