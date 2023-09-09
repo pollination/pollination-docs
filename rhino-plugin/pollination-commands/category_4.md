@@ -1,83 +1,80 @@
 # Load, Visualize, and Export Results
 
-## PO\_ColorByBoundaryCondition
+## PO_ColorByBoundaryCondition
 
-Color all objects by their boundary condition.
+Color all objects by their boundary condition. 
 
 Tips:
+- Rerun this command to turn off this mode.
 
-* Rerun this command to turn off this mode.
+---
 
+## PO_ColorByFaceNormal
 
-
-## PO\_ColorByFaceNormal
-
-Color all faces (including orphaned objects) by face normal.
+Color all faces (including orphaned objects) by face normal. 
 
 Notes:
+- Rerun this command to turn off this mode.
 
-* Rerun this command to turn off this mode.
+---
 
+## PO_ColorByFaceType
 
-
-## PO\_ColorByFaceType
-
-Color all rooms' faces by boundary condition.
+Color all rooms&apos; faces by boundary condition. 
 
 Tips:
+- Rerun this command to turn off this mode.
 
-* Rerun this command to turn off this mode.
+---
 
-
-
-## PO\_DownloadModel
+## PO_DownloadModel
 
 Download a model from the Pollination cloud.
 
 Notes:
+- It downloads the file in a specific folder on your machine.
+- It gives the option to open the model directly in Rhino.
 
-* It downloads the file in a specific folder on your machine.
-* It gives the option to open the model directly in Rhino.
+---
 
-
-
-## PO\_HideRoomNames
+## PO_HideRoomNames
 
 Hide room names
 
 ### See Also
 
-* [PO\_ShowRoomNames](po\_showroomnames.md)
+* [PO_ShowRoomNames](./po_showroomnames.md)
 
+---
 
-
-## PO\_LoadResults
+## PO_LoadResults
 
 Load results from previous submitted simulations. Download simulation assets if the job is executed on Pollination cloud.
 
+---
 
-
-## PO\_ResetLegendLocation
+## PO_ResetLegendLocation
 
 Move back all legends back to top-left of the view.
 
+---
 
+## PO_ShowObjectNotes
 
-## PO\_ShowObjectNotes
-
-Display a full report of object's notes which often is used for errors.
+Display a full report of object&apos;s notes which often is used for errors. 
 
 Notes:
+- Room is the only supported type now.
 
-* Room is the only supported type now.
+---
 
+## PO_ShowRoomNames
 
-
-## PO\_ShowRoomNames
-
-Show selected rooms' display name
+Show selected rooms&apos; display name
 
 ### See Also
 
-* [PO\_HideRoomNames](po\_hideroomnames.md)
+* [PO_HideRoomNames](./po_hideroomnames.md)
+
+---
 

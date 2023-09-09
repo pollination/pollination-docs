@@ -6,7 +6,8 @@ Non-planar faces will be triangulated.
 <div>
 </div>
 
-<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1LfpFUosXkFCl-8xsoj69kcGllQAz30DB/view" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+{% embed url="https://drive.google.com/file/d/1LfpFUosXkFCl-8xsoj69kcGllQAz30DB/view" %}
+
 ## Options
 
 * **Threshold**
