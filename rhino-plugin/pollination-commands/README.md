@@ -70,13 +70,17 @@ Merge multiple rooms into one room. [Read more](./po_mergerooms.md).
 
 Rebuild selected rooms with following options: 1) merge all coplanar faces; 2) rebuild all room faces; 3) reset all boundary conditions; In this command, it also checks all child objects (apertures and doors)&apos;s normal to be matched with their host surfaces. [Read more](./po_rebuildrooms.md).
 
+#### <mark style="background-color:yellow;">PO\_SelOpaqueFaces</mark>
+
+Select all visible orphaned faces in the current Rhino document. [Read more](./po_selopaquefaces.md).
+
+#### <mark style="background-color:yellow;">PO\_SelRoomFaces</mark>
+
+Select all visible rooms&apos;s faces in the current Rhino document. [Read more](./po_selroomfaces.md).
+
 #### <mark style="background-color:yellow;">PO\_SelRooms</mark>
 
 Select all visible rooms in the current Rhino document. [Read more](./po_selrooms.md).
-
-#### <mark style="background-color:yellow;">PO\_SplitRooms</mark>
-
-Split rooms by selected cutters. The selected existing cutter has to cut through the entire room so that it could perform a clean cut. [Read more](./po_splitrooms.md).
 
 ### `Surfaces`
 
@@ -280,6 +284,10 @@ Export and save all resource objects from the current model to local user&apos;s
 
 Update selected rooms&apos;s story by their elevation. [Read more](./po_setroomstorybyelevation.md).
 
+#### <mark style="background-color:yellow;">PO\_SimplifyApertures</mark>
+
+Merge all apertures of a room and generate one aperture per face based on the original window-wall-ratio. [Read more](./po_simplifyapertures.md).
+
 #### <mark style="background-color:yellow;">PO\_SyncModel</mark>
 
 Sync current model with a new updated Pollination model. [Read more](./po_syncmodel.md).
@@ -412,6 +420,10 @@ Color all rooms&apos; faces by boundary condition. [Read more](./po_colorbyfacet
 
 Download a model from the Pollination cloud. [Read more](./po_downloadmodel.md).
 
+#### <mark style="background-color:yellow;">PO\_HideNames</mark>
+
+Hide all Pollination object&apos;s display names. Use this command with PO_ShowNames. [Read more](./po_hidenames.md).
+
 #### <mark style="background-color:yellow;">PO\_HideRoomNames</mark>
 
 Hide room names. [Read more](./po_hideroomnames.md).
@@ -423,6 +435,10 @@ Load results from previous submitted simulations. Download simulation assets if 
 #### <mark style="background-color:yellow;">PO\_ResetLegendLocation</mark>
 
 Move back all legends back to top-left of the view. [Read more](./po_resetlegendlocation.md).
+
+#### <mark style="background-color:yellow;">PO\_ShowNames</mark>
+
+Show selected Pollination object&apos;s display name. Use this command with PO_HideNames. [Read more](./po_shownames.md).
 
 #### <mark style="background-color:yellow;">PO\_ShowObjectNotes</mark>
 

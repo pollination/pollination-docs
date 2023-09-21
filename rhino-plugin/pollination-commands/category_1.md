@@ -157,34 +157,25 @@ Rebuild selected rooms with following options: 1) merge all coplanar faces; 2) r
 
 ---
 
-## PO_SelRooms
+## PO_SelOpaqueFaces
 
-Select all visible rooms in the current Rhino document.
+Select all visible orphaned faces in the current Rhino document.
 
 ---
 
-## PO_SplitRooms
+## PO_SelRoomFaces
 
-Split rooms by selected cutters. The selected existing cutter has to cut through the entire room so that it could perform a clean cut.
+Select all visible rooms&apos;s faces in the current Rhino document.
 
-### Options
+### Video Tutorials
 
-* **SelectCutter**
+{% embed url="https://discourse.pollination.cloud/uploads/default/original/2X/7/72286149c608f510866d08f58837c73574bdc425.mp4" %}Select all Wall/AirBoundary type faces of rooms{% endembed %}
 
-  Select an existing cutter surface.
+---
 
-* **Surface**
+## PO_SelRooms
 
-  Draw a new cutter surface.
-
-* **Line**
-
-  On top view, draw a line as a cutter that cuts through vertically.
-
-* **Plane**
-
-  Draw a new infinite large plane as a cutter.
-
+Select all visible rooms in the current Rhino document.
 
 ---
 
