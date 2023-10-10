@@ -67,12 +67,15 @@ Add sensor grids for running Radiance grid based simulations. Use &quot;Pollinat
 
 Notes:
 
-* The input geometries can be Rhino surfaces (aperture, door, shade), sub-surface, rooms, orphaned faces, or a mesh. 
-* For rooms, only sub-surfaces with floor type will be used for generating sensor grids.
+* The input geometries can be Rhino surfaces (aperture, door, shade), sub-surface, rooms, orphaned faces, or a mesh.
 
 ### Useful Links
 
 {% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/add-sensor-grid" %}
+
+### Video Tutorials
+
+{% embed url="https://user-images.githubusercontent.com/9031066/273817127-250e60c3-75f3-45c1-b08a-d2b8a8962281.mp4" %}Add sensors to a Room and Room faces{% endembed %}
 
 ---
 
