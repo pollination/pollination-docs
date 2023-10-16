@@ -24,6 +24,10 @@ Non-planar faces will be triangulated.
 
   A degree number from 0 to 360 to filter each input geometry edges that have a angle difference from the grids. Input -1 to disable checking the angle tolerance. Default to the current document angle tolerance.
 
+* **Snap Corners**
+
+  snap all vertices within the range of threshold to a closest corner (end point), instead of perpendicular to the grid lines.
+
 
 ## See Also
 

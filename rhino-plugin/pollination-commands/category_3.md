@@ -65,6 +65,10 @@ Add sensor grids for running Radiance grid based simulations. Use &quot;Pollinat
 
   offset distance from the input geometries. (in Rhino&apos;s unit)
 
+* **MergeCoplanar**
+
+  set to true to merge all selected surfaces that are coplanar to create minimum amount of sensor grids as possible. (default: false)
+
 Notes:
 
 * The input geometries can be Rhino surfaces (aperture, door, shade), sub-surface, rooms, orphaned faces, or a mesh.

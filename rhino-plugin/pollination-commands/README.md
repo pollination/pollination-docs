@@ -58,6 +58,10 @@ Draw a room. [Read more](./po_drawroom.md).
 
 Edit room properties for one or more selected rooms. [Read more](./po_editroomproperties.md).
 
+#### <mark style="background-color:yellow;">PO\_GenRoomPerimeters</mark>
+
+Split room and generate core/perimeter rooms. [Read more](./po_genroomperimeters.md).
+
 #### <mark style="background-color:yellow;">PO\_MatchRoomProperties</mark>
 
 Duplicate all Honeybee properties from a source room to selected target rooms or solid Breps. [Read more](./po_matchroomproperties.md).
@@ -81,6 +85,10 @@ Select all visible rooms&apos;s faces in the current Rhino document. [Read more]
 #### <mark style="background-color:yellow;">PO\_SelRooms</mark>
 
 Select all visible rooms in the current Rhino document. [Read more](./po_selrooms.md).
+
+#### <mark style="background-color:yellow;">PO\_SplitRooms</mark>
+
+Split rooms by selected cutters. The selected existing cutter has to cut through the entire room so that it could perform a clean cut. [Read more](./po_splitrooms.md).
 
 ### `Surfaces`
 
@@ -239,10 +247,6 @@ Search globally and relink all child objects (Aperture and Door) with their host
 #### <mark style="background-color:yellow;">PO\_GenAlignGrids</mark>
 
 Generate reference grids for alignments based on input geometries. [Read more](./po_genaligngrids.md).
-
-#### <mark style="background-color:yellow;">PO\_GenRoomPerimeters</mark>
-
-Split room and generate core/perimeter rooms. [Read more](./po_genroomperimeters.md).
 
 #### <mark style="background-color:yellow;">PO\_ProjectSrf</mark>
 

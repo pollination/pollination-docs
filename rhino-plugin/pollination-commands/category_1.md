@@ -112,6 +112,25 @@ Edit room properties for one or more selected rooms.
 
 ---
 
+## PO_GenRoomPerimeters
+
+Split room and generate core/perimeter rooms.
+
+<div>
+<figure>
+  <img src="https://user-images.githubusercontent.com/9031066/212973442-61d5ecb7-32c0-48e4-867a-a699f6ba524e.gif" alt="">
+  <figcaption>
+    <p>Split a room to perimeter and core rooms</p>
+  </figcaption>
+</figure>
+</div>
+
+### See Also
+
+* [PO_SplitRooms](./po_splitrooms.md)
+
+---
+
 ## PO_MatchRoomProperties
 
 Duplicate all Honeybee properties from a source room to selected target rooms or solid Breps.
@@ -176,6 +195,39 @@ Select all visible rooms&apos;s faces in the current Rhino document.
 ## PO_SelRooms
 
 Select all visible rooms in the current Rhino document.
+
+---
+
+## PO_SplitRooms
+
+Split rooms by selected cutters. The selected existing cutter has to cut through the entire room so that it could perform a clean cut.
+
+### Options
+
+* **SelectCutter**
+
+  Select an existing cutter surface.
+
+* **Surface**
+
+  Draw a new cutter surface.
+
+* **Line**
+
+  On top view, draw a line as a cutter that cuts through vertically.
+
+* **Plane**
+
+  Draw a new infinite large plane as a cutter.
+
+
+### See Also
+
+* [PO_GenRoomPerimeters](./po_genroomperimeters.md)
+
+### Video Tutorials
+
+{% embed url="https://user-images.githubusercontent.com/9031066/275246664-313aac91-b941-46c0-8884-b993ba441bbf.mp4" %}Split a room by cutters{% endembed %}
 
 ---
 

@@ -49,6 +49,10 @@ Non-planar faces will be triangulated.
 
   A degree number from 0 to 360 to filter each input geometry edges that have a angle difference from the grids. Input -1 to disable checking the angle tolerance. Default to the current document angle tolerance.
 
+* **Snap Corners**
+
+  snap all vertices within the range of threshold to a closest corner (end point), instead of perpendicular to the grid lines.
+
 
 ### See Also
 
@@ -209,21 +213,6 @@ Generate reference grids for alignments based on input geometries
 ### Video Tutorials
 
 {% embed url="https://youtu.be/GrH6br4DQrg" %}Fix Models with Alignment Errors{% endembed %}
-
----
-
-## PO_GenRoomPerimeters
-
-Split room and generate core/perimeter rooms.
-
-<div>
-<figure>
-  <img src="https://user-images.githubusercontent.com/9031066/212973442-61d5ecb7-32c0-48e4-867a-a699f6ba524e.gif" alt="">
-  <figcaption>
-    <p>Split a room to perimeter and core rooms</p>
-  </figcaption>
-</figure>
-</div>
 
 ---
 
