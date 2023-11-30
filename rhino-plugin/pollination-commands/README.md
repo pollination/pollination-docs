@@ -280,6 +280,10 @@ Reset a honeybee object&apos;s identifier and boundary condition. You can also s
 
 Reset all resource objects&apos; identifiers across the entire model. If two objects of the same type have the same display_name, only one of them will be updated. This command calls &apos;honeybee-energy edit reset-resource-ids [OPTIONS] MODEL_FILE&apos;, see https://www.ladybug.tools/honeybee-energy/docs/cli/edit.html#honeybee-energy-edit-reset-resource-ids for more details. [Read more](./po_resetresourceids.md).
 
+#### <mark style="background-color:yellow;">PO\_ReverseConstruction</mark>
+
+Change geometry&apos;s construction with an inverted material order. [Read more](./po_reverseconstruction.md).
+
 #### <mark style="background-color:yellow;">PO\_SaveToUserLibrary</mark>
 
 Export and save all resource objects from the current model to local user&apos;s resource library. [Read more](./po_savetouserlibrary.md).
