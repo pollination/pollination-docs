@@ -112,11 +112,11 @@ Select all visible orphaned faces in the current Rhino document. [Read more](./p
 
 #### <mark style="background-color:yellow;">PO\_AddApertures</mark>
 
-Add planar window surfaces to selected rooms or orphaned faces. For adding an orphaned windows, press ENTER to skip selecting the host objects. Use &quot;Pollination&quot; command to open Room Manager or Orphaned Object Manager to check and edit each hosted window object or orphaned windows. [Read more](./po_addapertures.md).
+Add planar window surfaces to selected rooms or orphaned faces. For adding an orphaned apertures, press ENTER to skip selecting the host objects. Use &quot;Pollination&quot; command to open Room Manager or Orphaned Object Manager to check and edit each hosted window object or orphaned apertures. [Read more](./po_addapertures.md).
 
 #### <mark style="background-color:yellow;">PO\_AddAperturesByWWR</mark>
 
-Add windows by window to wall ratio for each outdoor walls of selected rooms. Use &quot;Pollination&quot; command to open Room Manager or Orphaned Object Manager to check and edit each hosted window object. [Read more](./po_addaperturesbywwr.md).
+Add apertures by window to wall ratio for each outdoor walls of selected rooms. Use &quot;Pollination&quot; command to open Room Manager or Orphaned Object Manager to check and edit each hosted window object. [Read more](./po_addaperturesbywwr.md).
 
 #### <mark style="background-color:yellow;">PO\_AddDoors</mark>
 

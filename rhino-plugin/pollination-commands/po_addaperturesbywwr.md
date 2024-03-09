@@ -1,6 +1,6 @@
 # PO_AddAperturesByWWR
 
-Add windows by window to wall ratio for each outdoor walls of selected rooms. Use &quot;Pollination&quot; command to open Room Manager or Orphaned Object Manager to check and edit each hosted window object.
+Add apertures by window to wall ratio for each outdoor walls of selected rooms. Use &quot;Pollination&quot; command to open Room Manager or Orphaned Object Manager to check and edit each hosted window object.
 
 <div>
 <figure>
@@ -28,7 +28,7 @@ Add windows by window to wall ratio for each outdoor walls of selected rooms. Us
 
 * **Subdivide**
 
-  Boolean to note whether to generate a single window in the center of each Face(False) or to generate a series of rectangular windows using the other inputs below (True). Default: No.
+  Boolean to note whether to generate a single window in the center of each Face(False) or to generate a series of rectangular apertures using the other inputs below (True). Default: No.
 
 * **Window_Height**
 

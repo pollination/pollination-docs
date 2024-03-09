@@ -303,7 +303,7 @@ Select all visible orphaned faces in the current Rhino document.
 
 ## PO_AddApertures
 
-Add planar window surfaces to selected rooms or orphaned faces. For adding an orphaned windows, press ENTER to skip selecting the host objects. Use &quot;Pollination&quot; command to open Room Manager or Orphaned Object Manager to check and edit each hosted window object or orphaned windows.
+Add planar window surfaces to selected rooms or orphaned faces. For adding an orphaned apertures, press ENTER to skip selecting the host objects. Use &quot;Pollination&quot; command to open Room Manager or Orphaned Object Manager to check and edit each hosted window object or orphaned apertures.
 
 ### Options
 
@@ -336,7 +336,7 @@ Notes:
 
 ## PO_AddAperturesByWWR
 
-Add windows by window to wall ratio for each outdoor walls of selected rooms. Use &quot;Pollination&quot; command to open Room Manager or Orphaned Object Manager to check and edit each hosted window object.
+Add apertures by window to wall ratio for each outdoor walls of selected rooms. Use &quot;Pollination&quot; command to open Room Manager or Orphaned Object Manager to check and edit each hosted window object.
 
 <div>
 <figure>
@@ -364,7 +364,7 @@ Add windows by window to wall ratio for each outdoor walls of selected rooms. Us
 
 * **Subdivide**
 
-  Boolean to note whether to generate a single window in the center of each Face(False) or to generate a series of rectangular windows using the other inputs below (True). Default: No.
+  Boolean to note whether to generate a single window in the center of each Face(False) or to generate a series of rectangular apertures using the other inputs below (True). Default: No.
 
 * **Window_Height**
 
