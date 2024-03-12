@@ -6,7 +6,7 @@ Effective date: March 11, 2024
 
 **Short version:** _We use these basic terms throughout the agreement, and they have specific meanings._
 
-1. The "Agreement" refers, collectively, to all the terms, conditions, and notices contained or referenced in this document (the "Terms of Service" or the "Terms"), and our Data Processing Addendum, and all other operating rules, policies, and procedures that we may publish from time to time on the Website.
+1. The "Agreement" refers, collectively, to all the terms, conditions, and notices contained or referenced in this document (the "Terms of Service" or the "Terms"), and our [Data Processing Addendum](./data_processing_addendum.md), and all other operating rules, policies, and procedures that we may publish from time to time on the Website.
 2. The "Service" refers to the applications, software, products, and services provided by Pollination.
 3. The "Website" refers to Pollination's website located at [pollination.cloud](https://pollination.cloud/), and all content, services, and products provided by Pollination at or through the Website. It also refers to Pollination-owned subdomains of pollination.cloud, such as app.pollination.cloud and ancillary websites, such as docs.pollination.cloud.
 4. "The User," "The Customer," "You," and "Your" refer to the individual person, company, or organization that has visited or is using the Website or Service; that accesses or uses any part of the account; or that directs the use of the account in the performance of its functions. Individual users must be at least 13 years of age.
@@ -125,7 +125,7 @@ You agree not to engage in activity that significantly harms our Users. We will 
 
 **Short version:** _We collect your information only with your consent. We only collect the minimum amount of personal information that is necessary to fulfill the purpose of your interaction with us. We don't sell your personal information to third parties and we only use it as this Agreement describes or as otherwise required by applicable law._
 
-Please see our Privacy Policy for more details.
+Please see our [Privacy Policy](./privacy_policy.md) for more details.
 
 ## E. User-Generated Content
 
