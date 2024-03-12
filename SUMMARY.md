@@ -193,6 +193,14 @@
 * [Create a Parametric Run](grasshopper-plugin/create-a-parametric-run.md)
 * [Visualize Results](grasshopper-plugin/visualize-results.md)
 
+## Legal
+
+* [Terms of Service](legal/terms_of_service.md)
+* [Privacy Policy](legal/privacy_policy.md)
+* [Subprocessors](legal/subprocessors.md)
+* [Data Processing Addendum](legal/data_processing_addendum.md)
+* [Service Level Agreement](legal/service_level_agreement.md)
+
 ## Apps
 
 * [Getting Started with Apps](apps/introduction.md)
