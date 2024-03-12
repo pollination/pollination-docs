@@ -2,13 +2,13 @@
 
 Effective date: March 11, 2024
 
-We collect your information only with your consent in accordance with our Terms of Service. We only collect personal information that is necessary to fulfill the purpose of your interaction with us. We don't sell your personal information to third parties, and we only use it as this Policy describes.
+We collect your information only with your consent in accordance with our [Terms of Service](./terms_of_service.md). We only collect personal information that is necessary to fulfill the purpose of your interaction with us. We don't sell your personal information to third parties, and we only use it as this Policy describes.
 
 For any questions about this Policy, please contact [support@pollination.cloud](mailto:support@pollination.cloud).
 
 ## 0. Definitions
 
-For definitions of terms, please see our Terms of Service.
+For definitions of terms, please see our [Terms of Service](./terms_of_service.md).
 
 ## 1. Information Pollination Collects
 
