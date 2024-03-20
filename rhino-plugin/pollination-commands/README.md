@@ -216,6 +216,10 @@ Rebuild all 2D plan curves by aligning them to Rhino grid. [Read more](./po_alig
 
 Align geometries (generic geometries or Pollination geometries) to a target room. [Read more](./po_aligntoroom.md).
 
+#### <mark style="background-color:yellow;">PO\_AperturesDoorsSwap</mark>
+
+Swap selected apertures and doors. All properties (modifier, construction, ventilation opening, etc) from the original geometries will be kept. [Read more](./po_aperturesdoorsswap.md).
+
 #### <mark style="background-color:yellow;">PO\_Check2DOrtho</mark>
 
 Analysis 2D plans (curves) and visualize non-orthogonal geometries based on a reference plane. [Read more](./po_check2dortho.md).

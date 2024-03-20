@@ -1,6 +1,7 @@
 # PO_AddSensorGrid
 
 Add sensor grids for running Radiance grid based simulations. Use &quot;Pollination&quot; command to open Radiance Object Manager to check and edit each sensor grid.
+The input geometries can be generic Rhino Brep/Mesh geometries, or Pollination geometries such as rooms, room&apos;s child surfaces (aperture, door, shade), sub-surface (room&apos;s wall, or other type of faces selected by Shift+Ctrl+Click), and orphaned faces.
 
 <div>
 <figure>
@@ -22,9 +23,11 @@ Add sensor grids for running Radiance grid based simulations. Use &quot;Pollinat
 
   set to true to merge all selected surfaces that are coplanar to create minimum amount of sensor grids as possible. (default: false)
 
-Notes:
+* **Filter**
 
-* The input geometries can be Rhino surfaces (aperture, door, shade), sub-surface, rooms, orphaned faces, or a mesh.
+  filter currently selected geometries based on types (Floor, Wall, Roof, Window, Skylight, Door) if possible. (default: bySelected)
+
+
 
 ## Useful Links
 
