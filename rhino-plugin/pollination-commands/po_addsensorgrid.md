@@ -27,6 +27,14 @@ The input geometries can be generic Rhino Brep/Mesh geometries, or Pollination g
 
   filter currently selected geometries based on types (Floor, Wall, Roof, Window, Skylight, Door) if possible. (default: bySelected)
 
+* **ShrinkDist**
+
+  shrink distance from the input geometries&apos; edges. (in Rhino&apos;s unit)
+
+* **QuadOnly**
+
+  set to true to only generate quad faces. (default: false)
+
 
 
 ## Useful Links
