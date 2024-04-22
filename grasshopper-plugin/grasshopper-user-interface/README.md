@@ -2,18 +2,15 @@
 
 ## Pollination Tab
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](<../../.gitbook/assets/image (21) (1).png>)
 
 ## Pollination Components
 
-* ![IMAGE](../../.gitbook/assets/Setup_Runs%20%281%29.png) [Setup Runs](setup_runs.md)
-* ![IMAGE](../../.gitbook/assets/User_Inputs%20%281%29.png) [User Inputs](user_inputs.md)
-* ![IMAGE](../../.gitbook/assets/Pollinate%20%281%29.png) [Pollinate](pollinate.md)
-* ![IMAGE](../../.gitbook/assets/Check_Job_Status%20%281%29.png) [Check Job Status](check_job_status.md)
-* ![IMAGE](../../.gitbook/assets/Check_Run_Inputs%20%281%29.png) [Check Run Inputs](check_run_inputs.md)
-* ![IMAGE](../../.gitbook/assets/Check_Run_Results%20%281%29.png) [Check Run Results](check_run_results.md)
-* ![IMAGE](../../.gitbook/assets/List_Jobs%20%281%29.png) [List Jobs](list_jobs.md)
-* ![IMAGE](../../.gitbook/assets/Load_Assets%20%281%29.png) [Load Assets](load_assets.md)
-
-
-
+* ![IMAGE](<../../.gitbook/assets/Setup\_Runs (1).png>) [Setup Runs](setup\_runs.md)
+* ![IMAGE](<../../.gitbook/assets/User\_Inputs (1).png>) [User Inputs](user\_inputs.md)
+* ![IMAGE](<../../.gitbook/assets/Pollinate (1).png>) [Pollinate](pollinate.md)
+* ![IMAGE](<../../.gitbook/assets/Check\_Job\_Status (1).png>) [Check Job Status](check\_job\_status.md)
+* ![IMAGE](<../../.gitbook/assets/Check\_Run\_Inputs (1).png>) [Check Run Inputs](check\_run\_inputs.md)
+* ![IMAGE](<../../.gitbook/assets/Check\_Run\_Results (1).png>) [Check Run Results](check\_run\_results.md)
+* ![IMAGE](<../../.gitbook/assets/List\_Jobs (1).png>) [List Jobs](list\_jobs.md)
+* ![IMAGE](<../../.gitbook/assets/Load\_Assets (1).png>) [Load Assets](load\_assets.md)

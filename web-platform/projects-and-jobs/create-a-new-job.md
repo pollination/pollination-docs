@@ -1,89 +1,39 @@
 # Create a New Study
 
-There are two ways to add a new job to a project, you can add a project from the Main Dashboard and from your Project Dashboard.
-
 {% hint style="info" %}
-\_When adding a Job from the Project Dashboard you can also add a recipe to a project. \_
+You can only create a study under the projects you have been granted write access to.
 {% endhint %}
 
-{% tabs %}
-{% tab title="Main Dashboard" %}
-#### Step 1
+## Step 1
 
-Click on the plus symbol on the upper right corner of the screen and select Job from the dropdown.
+[Create a new project](create-a-new-project.md) or select an existing project. Then click on the Studies tab.
 
-![](<../../.gitbook/assets/image (11).png>)
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-#### Step 2
+### Step 2
 
-Fill in the job information, select your organization, and project.
+Before running a new study, you must add the corresponding recipe to the project. See the next step, if the recipe is already added to the project.
 
-![](<../../.gitbook/assets/image (5).png>)
+If you don't see the recipe under the New Study section use the Add/Remove Recipes button to add new recipes. You can search for the recipes by name, and add them to the project. Each project can have as many recipes as needed.
 
-#### Step 3
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-Select a recipe.
+## Step 3
+
+Click on the recipe icon to select the recipe. It will expand the recipe, and show all the recipe inputs. Each recipe can have from 1 to many recipe inputs.&#x20;
 
 {% hint style="info" %}
-_NOTE: Only recipes that you've added to a project will show up in the drop down. You may also see multiple versions of the same recipe. A higher version number will indicate a more current version._
+You are only required to provide the Required Inputs to create a new study but it is good practice to also check all the Optional Inputs and ensure the default values are set correctly for your study.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (17).png>)
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-#### Step 4
+## Step 4
 
-You can only upload a single model for a job. If you'd like to test multiple models, you will need to create a new job. Based on how your files are organized, click on the folder icon to open a folder. If you don't see a folder icon, move onto step 5.
+Select all the inputs, and click on the <mark style="background-color:blue;">Create Study</mark> button. There are two options for assigning the file inputs. You can either upload the files or use the existing files in the project.
 
-![](<../../.gitbook/assets/image (25).png>)
+## Video Tutorial
 
-#### Step 5
+Here is a video recording that walks you through creating a new study in Pollination.
 
-Click on the paper icon to preview your geometry and confirm the model looks good. Click on the button to select the model you'd like to upload and then click OK.
-
-![](<../../.gitbook/assets/image (19).png>)
-
-#### Step 6
-
-Check your inputs and then click on Create.
-
-![](<../../.gitbook/assets/image (24).png>)
-{% endtab %}
-
-{% tab title="Project Dashboard" %}
-#### Step 1
-
-Click on New Job.
-
-![](<../../.gitbook/assets/image (29) (2) (2) (2) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
-
-#### Step 2
-
-Fill in the job Name, Description, and select a Recipe from the dropdown.
-
-![](<../../.gitbook/assets/image (38).png>)
-
-#### Step 3
-
-Based on how your files are organized, click on the folder icon to open a folder. If you don't see a folder icon, move onto step 4.
-
-![](<../../.gitbook/assets/image (37).png>)
-
-#### Step 4
-
-Click on the paper icon to preview your geometry and confirm the model looks good. Click on the button to select the model you'd like to upload and then click OK.
-
-![](<../../.gitbook/assets/image (36) (1) (1).png>)
-
-#### Step 5
-
-Upload a .wea file for the location of your project. (Similar to Step 3 + 4 you can find your file based on your file organization)
-
-![](<../../.gitbook/assets/image (46).png>)
-
-#### Step 6
-
-Check your inputs and then click on Create.
-
-![](<../../.gitbook/assets/image (31).png>)
-{% endtab %}
-{% endtabs %}
+{% embed url="https://youtu.be/er7O91amA4Y?si=RVi3CMYDHlOuceKt" %}

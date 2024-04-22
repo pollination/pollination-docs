@@ -20,9 +20,10 @@
 ## Web Platform
 
 * [Create a New Project](web-platform/projects-and-jobs/create-a-new-project.md)
-* [Add Recipes to a Project](web-platform/projects-and-jobs/add-recipes-to-a-project.md)
+* [Manage Access to a Project](web-platform/manage-access-to-a-project.md)
 * [Create a New Study](web-platform/projects-and-jobs/create-a-new-job.md)
 * [Create Teams](web-platform/account-setup/create-teams.md)
+* [Create an API key](web-platform/create-an-api-key.md)
 
 ## REVIT PLUGIN
 
@@ -74,11 +75,11 @@
   * [Rhino Plugin Errors](get-started/troubleshooting/rhino-plugin-errors/README.md)
   * [Validation Error Codes](get-started/troubleshooting/rhino-plugin-errors/help-with-modeling-error-codes.md)
 * [Pollination Commands](rhino-plugin/pollination-commands/README.md)
-  * [General](rhino-plugin/pollination-commands/category_0.md)
-  * [Geometry Setup](rhino-plugin/pollination-commands/category_1.md)
-  * [Model Alignment & Updates](rhino-plugin/pollination-commands/category_2.md)
-  * [Setup & Run Simulation](rhino-plugin/pollination-commands/category_3.md)
-  * [Load, Visualize, and Export Results](rhino-plugin/pollination-commands/category_4.md)
+  * [General](rhino-plugin/pollination-commands/category\_0.md)
+  * [Geometry Setup](rhino-plugin/pollination-commands/category\_1.md)
+  * [Model Alignment & Updates](rhino-plugin/pollination-commands/category\_2.md)
+  * [Setup & Run Simulation](rhino-plugin/pollination-commands/category\_3.md)
+  * [Load, Visualize, and Export Results](rhino-plugin/pollination-commands/category\_4.md)
   * [PO\_AddApertureShades](rhino-plugin/pollination-commands/po\_addapertureshades.md)
   * [PO\_AddApertures](rhino-plugin/pollination-commands/po\_addapertures.md)
   * [PO\_AddAperturesByWWR](rhino-plugin/pollination-commands/po\_addaperturesbywwr.md)
@@ -212,8 +213,8 @@
 
 ## Legal
 
-* [Terms of Service](legal/terms_of_service.md)
-* [Privacy Policy](legal/privacy_policy.md)
+* [Terms of Service](legal/terms\_of\_service.md)
+* [Privacy Policy](legal/privacy\_policy.md)
 * [Subprocessors](legal/subprocessors.md)
-* [Data Processing Addendum](legal/data_processing_addendum.md)
-* [Service Level Agreement](legal/service_level_agreement.md)
+* [Data Processing Addendum](legal/data\_processing\_addendum.md)
+* [Service Level Agreement](legal/service\_level\_agreement.md)
