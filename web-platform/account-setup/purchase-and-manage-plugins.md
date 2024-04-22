@@ -1,8 +1,8 @@
-# Purchase and Manage Plugins for an Organization
+# 4. Purchase and Manage CAD Licenses
 
 ## Purchasing the CAD Plugins
 
-Follow the instruction on [this page](../../get-started/purchase-and-manage-plugins.md) to purchase the CAD plugins. Make sure to purchase the licenses under your organization account.
+Follow the instructions on [this page](../../get-started/purchase-and-manage-plugins.md) to purchase the CAD plugins. Make sure to buy the licenses under your organization account as opposed to your personal account.
 
 ## Sharing the Floating Licenses
 

@@ -23,7 +23,7 @@
 * [Manage Access to a Project](web-platform/manage-access-to-a-project.md)
 * [Create a New Study](web-platform/projects-and-jobs/create-a-new-job.md)
 * [Create Teams](web-platform/account-setup/create-teams.md)
-* [Create an API key](web-platform/create-an-api-key.md)
+* [Create an API Key](web-platform/create-an-api-key.md)
 
 ## REVIT PLUGIN
 

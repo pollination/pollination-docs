@@ -8,11 +8,9 @@ Since all Pollination CAD licenses for an Organization are floating licenses, mu
 
 ## Step 1
 
-Click on your avatar and select _License Pools_ or click on the blue _Licenses_ button under the _Plugin Subscription_ section to bring up the license pool management page.
+Click on the dropdown menu next to your avatar and select _License Pools._
 
-{% embed url="https://github.com/pollination/pollination-docs/assets/2915573/87937f9d-fe66-4f4d-aed8-30bccdee0081" %}
-Click on your avatar and select License Pools
-{% endembed %}
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Click on the dropdown menue next to your avatar and select License Pools</p></figcaption></figure>
 
 ![Go to License Pools](../.gitbook/assets/organization-setup/licence-pool-members-tab-1.png)
 
