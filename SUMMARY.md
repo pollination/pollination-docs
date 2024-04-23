@@ -23,7 +23,6 @@
 * [Manage Access to a Project](web-platform/manage-access-to-a-project.md)
 * [Create a New Study](web-platform/projects-and-jobs/create-a-new-job.md)
 * [Create Teams](web-platform/account-setup/create-teams.md)
-* [Create an API Key](web-platform/create-an-api-key.md)
 
 ## REVIT PLUGIN
 
@@ -194,22 +193,26 @@
 * [Create a Parametric Run](grasshopper-plugin/create-a-parametric-run.md)
 * [Visualize Results](grasshopper-plugin/visualize-results.md)
 
-## Apps
+## Developers
 
-* [Getting Started with Apps](apps/introduction.md)
-* [Create a Simple Chart](apps/chart.md)
-* [Create a filtered Chart](apps/filtered-chart.md)
-* [Create a Study](apps/create-job.md)
-* [Check Study Status](apps/job-status.md)
-* [Download an Output](apps/download-output.md)
-* [Visualize Results on the Web](apps/visualize-web.md)
-* [Integrate Pollination Viewer](apps/integrating-the-pollination-viewer.md)
-* [Visualize Results in Rhino](apps/visualize-rhino.md)
-* [Prepare App folder](apps/app-folder.md)
-* [Deploy an App using Command Line](apps/deploy-app.md)
-* [Deploy an App using Github](apps/github-manual.md)
-* [Automate App Deployment](apps/github-automated.md)
-* [Update App](apps/update-app.md)
+* [Create an API Key](dev/create-an-api-key.md)
+* [API](dev/api/introduction.md)
+  * [Add Members to an Organization](dev/api/sample-code/add-members.md)
+  * [Schedule a Study on Pollination](dev/api/sample-code/run-simulation.md)
+* [Apps](apps/introduction.md)
+  * [Create a Simple Chart](apps/chart.md)
+  * [Create a filtered Chart](apps/filtered-chart.md)
+  * [Create a Study](apps/create-job.md)
+  * [Check Study Status](apps/job-status.md)
+  * [Download an Output](apps/download-output.md)
+  * [Visualize Results on the Web](apps/visualize-web.md)
+  * [Integrate the Pollination Viewer](apps/integrating-the-pollination-viewer.md)
+  * [Visualize Results in Rhino](apps/visualize-rhino.md)
+  * [Prepare an App folder](apps/app-folder.md)
+  * [Deploy an App using the Command Line](apps/deploy-app.md)
+  * [Deploy an App using Github](apps/github-manual.md)
+  * [Automate the App Deployment](apps/github-automated.md)
+  * [Update an App](apps/update-app.md)
 
 ## Legal
 
