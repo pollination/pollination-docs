@@ -4,10 +4,14 @@ description: Use the tabs to see instructions for each of our plugins.
 
 # Install CAD Plugins
 
+After [downloading the installers](download-plugins.md) you can install the plugin by following the following steps. See[ the link below](download-and-install-plugins.md#silent-installation) for silent installation.
+
 {% tabs %}
 {% tab title="Rhino" %}
 {% hint style="info" %}
-The Pollination Rhino plugin is designed for optimal compatibility with Rhino 7. If you are using Rhino 6, there is an incompatibility issue with the way Rhino 6 loads plugins. After installing Pollination, you will need to open and close Rhino **three times** to load the Pollination plugin.
+The Pollination Rhino plugin is designed for optimal compatibility with Rhino 7 and Rhino 8.
+
+If you are using Rhino 6, there is an incompatibility issue with the way Rhino 6 loads plugins. After installing Pollination, you will need to open and close Rhino **three times** to load the Pollination plugin.
 {% endhint %}
 
 **Step 1**
@@ -28,14 +32,14 @@ Follow the instructions in the Pollination Rhino Plugin Setup Wizard to install 
 
 ![](<../.gitbook/assets/image (149) (1) (1) (1).png>)
 
-#### Troubleshooting your Installation
+#### Troubleshooting your installation
 
 Visit our [troubleshooting](troubleshooting/ "mention") section to see common errors and installation issues.
 {% endtab %}
 
 {% tab title="Revit" %}
 {% hint style="info" %}
-The Pollination Revit plugin currently supports Revit 2019 - 2023. If you are using an older version of Revit, you will need to upgrade to a more recent Revit release to use Pollination.
+The Pollination Revit plugin currently supports Revit 2019 - 2024. If you are using an older version of Revit, you will need to upgrade to a more recent Revit release to use Pollination.
 {% endhint %}
 
 **Step 1**
@@ -71,3 +75,15 @@ Follow the prompts to install the plugin.
 ![](<../.gitbook/assets/image (35).png>)
 {% endtab %}
 {% endtabs %}
+
+## Silent Installation
+
+For silent machine-wide installation use the command below.
+
+```
+path-to-the-installer.exe --TargetDir "C:\Program Files\Pollination" --mode unattended --unattendedmodeui minimal
+```
+
+## License Population
+
+You do not need to populate the licenses after the installation. As long as the users have been [added to the license pool](manage-license-pool.md) they will be able to check out a license from inside the CAD plugins.
