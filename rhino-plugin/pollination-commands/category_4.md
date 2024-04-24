@@ -47,7 +47,7 @@ Hide all Pollination object's display names. Use this command with PO\_ShowNames
 
 ### See Also
 
-* [PO\_ShowNames](../po\_shownames.md)
+* [PO\_ShowNames](po\_shownames.md)
 
 ***
 
@@ -57,9 +57,9 @@ Hide room names
 
 ### See Also
 
-* [PO\_ShowRoomNames](../po\_showroomnames.md)
-* [PO\_ShowNames](../po\_shownames.md)
-* [PO\_HideNames](../po\_hidenames.md)
+* [PO\_ShowRoomNames](po\_showroomnames.md)
+* [PO\_ShowNames](po\_shownames.md)
+* [PO\_HideNames](po\_hidenames.md)
 
 ***
 
@@ -81,7 +81,7 @@ Show selected Pollination object's display name. Use this command with PO\_HideN
 
 ### See Also
 
-* [PO\_HideNames](../po\_hidenames.md)
+* [PO\_HideNames](po\_hidenames.md)
 
 ***
 
@@ -107,8 +107,8 @@ Show selected rooms' display name
 
 ### See Also
 
-* [PO\_HideRoomNames](../po\_hideroomnames.md)
-* [PO\_ShowNames](../po\_shownames.md)
-* [PO\_HideNames](../po\_hidenames.md)
+* [PO\_HideRoomNames](po\_hideroomnames.md)
+* [PO\_ShowNames](po\_shownames.md)
+* [PO\_HideNames](po\_hidenames.md)
 
 ***

@@ -22,8 +22,8 @@ Convert closed geometries to rooms. New created rooms contains default energy an
 
 ### See Also
 
-* [PO\_AddRoomsByLayer](../po\_addroomsbylayer.md)
-* [PO\_DrawRoom](../po\_drawroom.md)
+* [PO\_AddRoomsByLayer](po\_addroomsbylayer.md)
+* [PO\_DrawRoom](po\_drawroom.md)
 
 ***
 
@@ -39,8 +39,8 @@ Notes:
 
 ### See Also
 
-* [PO\_AddRooms](../po\_addrooms.md)
-* [PO\_DrawRoom](../po\_drawroom.md)
+* [PO\_AddRooms](po\_addrooms.md)
+* [PO\_DrawRoom](po\_drawroom.md)
 
 ***
 
@@ -71,8 +71,8 @@ Draw a room.
 
 ### See Also
 
-* [PO\_AddRooms](../po\_addrooms.md)
-* [PO\_AddRoomsByLayer](../po\_addroomsbylayer.md)
+* [PO\_AddRooms](po\_addrooms.md)
+* [PO\_AddRoomsByLayer](po\_addroomsbylayer.md)
 
 ### Useful Links
 
@@ -106,7 +106,7 @@ Split room and generate core/perimeter rooms.
 
 ### See Also
 
-* [PO\_SplitRooms](../po\_splitrooms.md)
+* [PO\_SplitRooms](po\_splitrooms.md)
 
 ***
 
@@ -198,7 +198,7 @@ Split rooms by selected cutters. The selected existing cutter has to cut through
 
 ### See Also
 
-* [PO\_GenRoomPerimeters](../po\_genroomperimeters.md)
+* [PO\_GenRoomPerimeters](po\_genroomperimeters.md)
 
 ### Video Tutorials
 
@@ -300,7 +300,7 @@ Notes:
 
 ### See Also
 
-* [PO\_DrawApertures](../po\_drawapertures.md)
+* [PO\_DrawApertures](po\_drawapertures.md)
 
 ***
 
@@ -346,7 +346,7 @@ Notes:
 
 ### See Also
 
-* [PO\_AddSkylightsByRatio](../po\_addskylightsbyratio.md)
+* [PO\_AddSkylightsByRatio](po\_addskylightsbyratio.md)
 
 ### Video Tutorials
 
@@ -406,7 +406,7 @@ Add skylights by ratio for each outdoor roof of selected rooms.
 
 ### See Also
 
-* [PO\_AddAperturesByWWR](../po\_addaperturesbywwr.md)
+* [PO\_AddAperturesByWWR](po\_addaperturesbywwr.md)
 
 ***
 
@@ -446,8 +446,8 @@ Draw apertures on a selected room's surface
 
 ### See Also
 
-* [PO\_AddApertures](../po\_addapertures.md)
-* [PO\_AddAperturesByWWR](../po\_addaperturesbywwr.md)
+* [PO\_AddApertures](po\_addapertures.md)
+* [PO\_AddAperturesByWWR](po\_addaperturesbywwr.md)
 
 ### Video Tutorials
 
@@ -532,7 +532,7 @@ Notes:
 
 ### See Also
 
-* [PO\_ProjectChildToHost](../po\_projectchildtohost.md)
+* [PO\_ProjectChildToHost](po\_projectchildtohost.md)
 
 ### Video Tutorials
 
@@ -553,7 +553,7 @@ Notes:
 
 ### See Also
 
-* [PO\_OffsetChildObjects](../po\_offsetchildobjects.md)
+* [PO\_OffsetChildObjects](po\_offsetchildobjects.md)
 
 ### Video Tutorials
 

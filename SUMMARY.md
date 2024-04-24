@@ -199,6 +199,7 @@
 * [Create an API Key](dev/create-an-api-key.md)
 * [API](dev/api/introduction.md)
   * [Add Members to an Organization](dev/api/sample-code/add-members.md)
+  * [Create a New Project](developers/introduction/create-a-new-project.md)
   * [Schedule a Study on Pollination](dev/api/sample-code/run-simulation.md)
 * [Apps](apps/introduction.md)
   * [Create a Simple Chart](apps/chart.md)

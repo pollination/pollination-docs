@@ -15,8 +15,8 @@ Align geometries (generic geometries or Pollination geometries) to elevation ref
 
 ### See Also
 
-* [PO\_AlignInPlan](../po\_aligninplan.md)
-* [PO\_RemoveShortSegments](../po\_removeshortsegments.md)
+* [PO\_AlignInPlan](po\_aligninplan.md)
+* [PO\_RemoveShortSegments](po\_removeshortsegments.md)
 
 ***
 
@@ -42,9 +42,9 @@ Align geometries (generic geometries or Pollination geometries) to a grid system
 
 ### See Also
 
-* [PO\_AlignToRoom](../po\_aligntoroom.md)
-* [PO\_RemoveShortSegments](../po\_removeshortsegments.md)
-* [PO\_AlignInElevation](../po\_aligninelevation.md)
+* [PO\_AlignToRoom](po\_aligntoroom.md)
+* [PO\_RemoveShortSegments](po\_removeshortsegments.md)
+* [PO\_AlignInElevation](po\_aligninelevation.md)
 
 ### Video Tutorials
 
@@ -73,8 +73,8 @@ Notes:
 
 ### See Also
 
-* [PO\_AlignInPlan](../po\_aligninplan.md)
-* [PO\_AlignToRoom](../po\_aligntoroom.md)
+* [PO\_AlignInPlan](po\_aligninplan.md)
+* [PO\_AlignToRoom](po\_aligntoroom.md)
 
 ***
 
@@ -92,8 +92,8 @@ Align geometries (generic geometries or Pollination geometries) to a target room
 
 ### See Also
 
-* [PO\_AlignInPlan](../po\_aligninplan.md)
-* [PO\_RemoveShortSegments](../po\_removeshortsegments.md)
+* [PO\_AlignInPlan](po\_aligninplan.md)
+* [PO\_RemoveShortSegments](po\_removeshortsegments.md)
 
 ***
 
@@ -247,8 +247,8 @@ Removes short edges that have a length smaller than the minimum distance for sel
 
 ### See Also
 
-* [PO\_AlignInPlan](../po\_aligninplan.md)
-* [PO\_AlignToRoom](../po\_aligntoroom.md)
+* [PO\_AlignInPlan](po\_aligninplan.md)
+* [PO\_AlignToRoom](po\_aligntoroom.md)
 
 ***
 
