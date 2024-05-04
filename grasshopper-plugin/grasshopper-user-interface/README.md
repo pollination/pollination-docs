@@ -1,16 +1,12 @@
-# Grasshopper User Interface
+# Grasshopper Plugin Categories
 
-## Pollination Tab
+{% hint style="info" %}
 
-![](<../../.gitbook/assets/image (21) (1).png>)
+`Primitives` and `Serialization` Categories are installed as part of the Pollination Rhino plugin. If you are only using the Grasshopper plugin you will only see the `Pollination` and `Parametric` categories.
 
-## Pollination Components
+{% endhint %}
 
-* ![IMAGE](<../../.gitbook/assets/Setup\_Runs (1).png>) [Setup Runs](setup\_runs.md)
-* ![IMAGE](<../../.gitbook/assets/User\_Inputs (1).png>) [User Inputs](user\_inputs.md)
-* ![IMAGE](<../../.gitbook/assets/Pollinate (1).png>) [Pollinate](pollinate.md)
-* ![IMAGE](<../../.gitbook/assets/Check\_Job\_Status (1).png>) [Check Job Status](check\_job\_status.md)
-* ![IMAGE](<../../.gitbook/assets/Check\_Run\_Inputs (1).png>) [Check Run Inputs](check\_run\_inputs.md)
-* ![IMAGE](<../../.gitbook/assets/Check\_Run\_Results (1).png>) [Check Run Results](check\_run\_results.md)
-* ![IMAGE](<../../.gitbook/assets/List\_Jobs (1).png>) [List Jobs](list\_jobs.md)
-* ![IMAGE](<../../.gitbook/assets/Load\_Assets (1).png>) [Load Assets](load\_assets.md)
+* [Primitives](categories/1_Primitives.md)
+* [Pollination](categories/2_Pollination.md)
+* [Parametric](categories/3_Parametric.md)
+* [Serialization](categories/4_Serialization.md)
