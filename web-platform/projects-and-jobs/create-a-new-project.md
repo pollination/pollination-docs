@@ -30,7 +30,7 @@ Then click on the plus symbol on the top right of the screen.
 
 Fill in the details and click on Create.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 _Private projects are only available to organizations. All the projects under the personal accounts will be public, and visible on Pollination._
