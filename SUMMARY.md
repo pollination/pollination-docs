@@ -226,9 +226,9 @@
 * [Create a Parametric Run](grasshopper-plugin/create-a-parametric-run.md)
 * [Visualize Results](grasshopper-plugin/visualize-results.md)
 
-***
+## Model Editor
 
-* [MODEL EDITOR](model-editor/README.md)
+  * [What is Pollination Model Editor](model-editor/README.md)
   * [Getting Started](model-editor/getting-started.md)
   * [Commands](model-editor/commands.md)
 
