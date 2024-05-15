@@ -32,7 +32,7 @@ To purchase additional cloud computing for your organization:
 4.  Select the Quantity and Billing Period. The billing period is set to a yearly subscription by default which gives you a month of subscription for free.\
 
 
-    <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 5.  Click on the `Subscribe` button and continue with the purchase.\
 
 

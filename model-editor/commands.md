@@ -6,7 +6,7 @@ description: >-
 
 # Commands
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Model Editor Commands</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Model Editor Commands</p></figcaption></figure>
 
 ## Room Commands
 
