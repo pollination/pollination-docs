@@ -7,7 +7,7 @@ description: >-
 
 # What is Pollination Model Editor
 
-You can access the Snapshot online at https://editor.pollination.cloud. The snapshot comes with a sample model that you can use to test the model editor functionalities or create a snapshot from your model using the Rhino or Revit plugins.
+{% embed url="https://editor.pollination.cloud" %}
 
 ## Model Editor UI
 
@@ -27,7 +27,7 @@ You can also try one of the sample files to familiarize yourself with the model 
 
 ### Rhino
 
-In Rhino you can create a snapshot by using the `PO_TakeSnapshot` command. Use the `PO_SnapshotManager` command to edit the snapshot information, and open the snapshot in the editor.
+In Rhino you can create a snapshot by using the `PO_TakeSnapshot` command. You can create a snapshot from the whole model or a selected number of rooms and shades. Use the `PO_SnapshotManager` command to edit the snapshot information, and open the snapshot in the editor.
 
 ### Revit
 
