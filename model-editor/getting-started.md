@@ -6,6 +6,10 @@ description: Getting started with using the model editor!
 
 Here is a video that shows how one can use the new features to clean up the advanced Revit sample model. I tried to use all the available functionalities in one way or another. I hope you agree that it has never been this easy and quick to clean up your analytical models!
 
+{% hint style="info" %}
+You can follow this video [using the online version of the model editor](https://editor.pollination.cloud).
+{% endhint %}
+
 {% embed url="https://youtu.be/nVxovNxlacQ" %}
 
 ### Video content

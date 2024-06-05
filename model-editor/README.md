@@ -1,17 +1,17 @@
 ---
 description: >-
-  Pollination Model Editor is a modern user interface for editing Pollination
-  Snapshots. The model editor is integrated into Rhino and Revit plugins and is
-  accessible from the web.
+  Pollination Model Editor is an easy-to-use interface for editing Pollination
+  models. It helps you automatically fix all the common issues in energy model
+  geometries.
 ---
 
 # What is Pollination Model Editor
 
-{% embed url="https://editor.pollination.cloud" %}
+Model Editor is the outcome of cleaning up hundreds of Revit models. It helps you automatically fix all the common issues in energy model geometries. See the link below to try the Model Editor with Revit sample models.
 
 ## Model Editor UI
 
-The screenshot below shows the different sections of the model editor. When the model editor is accessed from inside the CAD plugins you will see a `Snapshots` button in the bottom left corner. Click on the button to open the snapshot manager that shows all the available snapshots.
+The screenshot below shows the different sections of the model editor. When the model editor is accessed from inside the Revit plugin you will see a `Snapshots` button in the bottom left corner. Click on the button to open the snapshot manager that shows all the available snapshots.
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -23,13 +23,7 @@ You can also try one of the sample files to familiarize yourself with the model 
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-## How to create a snapshot
-
-### Rhino
-
-In Rhino you can create a snapshot by using the `PO_TakeSnapshot` command. You can create a snapshot from the whole model or a selected number of rooms and shades. Use the `PO_SnapshotManager` command to edit the snapshot information, and open the snapshot in the editor.
-
-### Revit
+## How to create a snapshot in Revit
 
 In Revit, press the `Export Model` button and follow the steps for exporting the model. Click on the Snapshot button to create a snapshot from the selected rooms.
 
