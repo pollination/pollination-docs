@@ -16,7 +16,7 @@ Add planar window surfaces to selected rooms or orphaned faces. For adding an or
 
   It shows a window where to set energy and radiance properties.
 
-* **NameByLayer**
+* **NameBy**
 
   Use layer&apos;s name for object&apos;s display name
 
