@@ -228,9 +228,10 @@
 
 ## Model Editor
 
-  * [What is Pollination Model Editor](model-editor/README.md)
-  * [Getting Started](model-editor/getting-started.md)
-  * [Commands](model-editor/commands.md)
+* [What is Pollination Model Editor](model-editor/README.md)
+* [Getting Started](model-editor/getting-started.md)
+* [Commands](model-editor/commands.md)
+* [Export](model-editor/export.md)
 
 ## Developers
 
