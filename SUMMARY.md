@@ -232,6 +232,7 @@
 * [Getting Started](model-editor/getting-started.md)
 * [Commands](model-editor/commands.md)
 * [Export](model-editor/export.md)
+* [Changelog](model-editor/changelog.md)
 
 ## Developers
 
