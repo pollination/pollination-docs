@@ -6,7 +6,7 @@ description: >-
 
 # Commands
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Model Editor Commands</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Model Editor Commands</p></figcaption></figure>
 
 ## Room Commands
 
@@ -18,7 +18,7 @@ Align the selected rooms' vertices to the selected lines/polylines if the room v
 
 This command is primarily useful for fixing the misalignments between rooms, which are common in the raw export of Revit rooms. It is also useful for adjusting the exterior boundary around entire stories, enabling you to align rooms to the inside or outside wall finish instead of using the wall centerline as is typical when exporting Revit rooms. See the Create Boundary command for more information.
 
-{% embed url="https://drive.google.com/open?id=1XSuB7fxBHFProkxYEnD0t5r0vHvfw-yC&usp=drive_fs" %}
+{% embed url="https://drive.google.com/open?id=1JxeHaCoO7B52SQADS9FlJoE-4fQ7i9uJ&usp=drive_fs" %}
 
 This command is only visible when at least one room and one alignment line/polyline are selected.
 
@@ -70,6 +70,10 @@ Join Coplanar Faces
 
 Rebuild the apertures of the rooms by merging the colliding apertures and trimming those that extend past the parent Face. The `Rectangle` option can be used to further simplify non-rectangular apertures into rectangular shapes.
 
+### Simplify windows
+
+Use this command to simplify windows and skylights. This command merges the windows on each face into a single window located in the center of the face.
+
 ### Solve adjacency
 
 Solve adjacency between selected rooms by assigning interior boundary conditions where rooms touch one another. You can optionally turn off the `Ceiling Adjacency` if you are primarily interested in simulating each Story as a distinct unit with adiabatic floors and ceilings. This command will only be visible when more than one room is selected.
@@ -102,9 +106,21 @@ Create core and perimeter rooms for a selected room. This is particularly useful
 Split core and perimeter
 {% endembed %}
 
+### Split rooms
+
+Split the rooms by the selected lines.
+
+### Subtract rooms
+
+Subtract one room from another room. Use this command to clean up colliding rooms by subtracting one room from another.
+
 ### Validate model
 
 Run the validation routine for the selected rooms. Valid models should export to any of the supported BEM engines without errors. Invalid models will have their errors presented in a table with the option to zoom in on the part of the model where the error originates so that it can be fixed.
+
+{% embed url="https://drive.google.com/open?id=1K4iUHPC9lKHDfJenTkUSycjKys9rvw_j&usp=drive_fs" %}
+Validate Model
+{% endembed %}
 
 ### 3D preview
 
@@ -124,7 +140,7 @@ Offset the selected lines and/or polylines. The `Offset Distance` can be either 
 Offset
 {% endembed %}
 
-### Create room
+### Create rooms
 
 Create room from selected closed polylines. Set the room display name, and adjust the `Floor Height` and `Floor to Ceiling Height` if needed. By default, the command uses the heights of the current active story.
 
@@ -136,15 +152,15 @@ Create Room
 
 Remove colinear vertices from a polyline.
 
+### Explode polyline
+
+Explode a polyline into several line segments.
+
+### Join segments
+
+Join several segments into one or more polylines.
+
 ## Upcoming commands
-
-### Subtract rooms
-
-Subtract one room from another room. Use this command to clean up colliding rooms by subtracting one room from another.
-
-### Split room
-
-Split a room into smaller rooms by using a line or polyline.
 
 ### Generate alignment lines
 

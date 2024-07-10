@@ -230,8 +230,16 @@
 
 * [What is Pollination Model Editor](model-editor/README.md)
 * [Getting Started](model-editor/getting-started.md)
+* [Model Editor Workflows](model-editor/model-editor-workflows.md)
 * [Commands](model-editor/commands.md)
-* [Export](model-editor/export.md)
+* [Supported File Formats](model-editor/supported-file-formats/README.md)
+  * [Export](model-editor/supported-file-formats/export.md)
+  * [Import](model-editor/supported-file-formats/import.md)
+* [Python Script Editor](model-editor/python-script-editor/README.md)
+  * [Your First Python Script](model-editor/python-script-editor/your-first-python-script.md)
+  * [Editor Class API Documentation](model-editor/python-script-editor/editor-class-api-documentation.md)
+  * [Available Python Libraries](model-editor/python-script-editor/available-python-libraries.md)
+* [FAQ](model-editor/faq.md)
 * [Changelog](model-editor/changelog.md)
 
 ## Developers
