@@ -7,7 +7,7 @@ description: >-
 
 # What is Pollination Model Editor
 
-Model Editor is the outcome of cleaning up hundreds of Revit models using the Pollination Revit plugin. The Model Editor helps you automatically fix all the common issues in energy model geometries. If there is a common issue with the Revit model, [we have a workflow for you to fix it](model-editor-workflows.md)!
+Model Editor is the outcome of cleaning up hundreds of Revit models using the Pollination Revit plugin. The Model Editor helps you automatically fix all the common issues in energy model geometries. If there is a common issue with the Revit model, [we have a workflow for you to fix it](workflows.md)!
 
 Moreover, unlike the other tools in the market, Pollination's wide array of supported file formats makes it the interoperability tool of choice for creating building performance simulation geometries. Most tools lock you into one or two proprietary formats, but Pollination is set to change this once and for all. When you have a valid model in any Pollination interface, including the Model Editor, you can export it to your favorite building performance simulation software including but not limited to IES VE, eQuest, OpenStudio, EnergyPlus, Ladybug Tools Honeybee, and IDA ICE.
 
