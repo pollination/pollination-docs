@@ -16,11 +16,11 @@ You can export your model to gbXML if the native format of your target software 
 
 ### All Interior Floors
 
-Set to True to export all the interior floors.
+Notes whether all interior horizontal faces should be written with the InteriorFloor type instead of the combination of InteriorFloor and Ceiling that happens by default with OpenStudio gbXML serialization. By default, this option is set to False. Set this option to True if you are exporting your model to [Lesosai](https://lesosai.com/logiciel/bim-bem/). See [this topic](https://discourse.pollination.cloud/t/gbxml-export-surface-type-issues/3677/15) for the background behind adding this option.
 
 ### Full Geometry
 
-You most likely want to leave it as False.
+Notes whether space boundaries and shell geometry should be included in the exported gbXML as opposed to just the minimal required non-manifold geometry. Setting to True to include the full geometry will increase file size without adding much new information. However, some gbXML interfaces need this geometry in order to properly represent and display room volumes. In most case, you should leave this option as False.
 
 ***
 
@@ -30,15 +30,15 @@ Use the IDF file to export the model to EnergyPlus.
 
 ### Simplified IDF
 
-A boolean to only export the geometry. It is faster but doesn't include all the information.
+A boolean to export a simplified version of the IDF file. This method is faster than exporting the full IDF but the exported IDF will not include the HVAC systems if any of them are present in your model.
 
 ### Geometry Names
 
-Use Geometry names as opposed to identifiers.
+Notes whether a cleaned version of all geometry display names should be used instead of identifiers when translating the Model to IDF. Using this flag will affect all Rooms, Faces, Apertures, Doors, and Shades. It will generally result in more readable names in the IDF but this means that it will not be easy to map the EnergyPlus results back to the original Model. Cases of duplicate IDs resulting from non-unique names will be resolved by adding integers to the ends of the new IDs that are derived from the name.
 
 ### Resource Names
 
-User Resource names as opposed to identifiers.
+Notes whether a cleaned version of all resource display names should be used instead of identifiers when translating the Model to IDF. Using this flag will affect all Materials, Constructions, ConstructionSets, Schedules, Loads, and ProgramTypes. It will generally result in more readable names for the resources in the IDF. Cases of duplicate IDs resulting from non-unique names will be resolved by adding integers to the ends of the new IDs that are derived from the name.
 
 ***
 
@@ -46,9 +46,9 @@ User Resource names as opposed to identifiers.
 
 Use this format to export to IDA ICE. Currently, we only support version 4.8. We will add support for version 5.0 soon.
 
-### Merge Distance
+### **Interior Wall Thickness**
 
-The distance in meters.
+Maximum thickness of the interior walls. This can include the units of the distance (eg. 1.5ft) or, if no units are provided, the value will be assumed to be in meters (the native units of IDA-ICE). This value will be used to generate the IDA-ICE building body that dictates which Room Faces are exterior vs. interior. This is necessary because IDA-ICE expects the input model to have gaps between the rooms that represent the wall thickness. This value input here must be smaller than the smallest Room that is expected in the resulting IDA-ICE model and it should never be greater than 0.5m in order to avoid creating invalid building bodies for IDA-ICE. For models where the walls are touching each other, use a value of 0. The default is set to 0.4m.
 
 ***
 
@@ -58,11 +58,11 @@ OpenStudio file format. The version of the OSM file is aligned with the latest v
 
 ### Geometry Names
 
-Use Geometry names as opposed to identifiers.
+Notes whether a cleaned version of all geometry display names should be used instead of identifiers when translating the Model to OSM. Using this flag will affect all Rooms, Faces, Apertures, Doors, and Shades. It will generally result in more readable names in the OSM and IDF but this means that it may not be easy to map the EnergyPlus results back to the original Model. Cases of duplicate IDs resulting from non-unique names will be resolved by adding integers to the ends of the new IDs that are derived from the name.
 
 ### Resource Names
 
-User Resource names as opposed to identifiers.
+Notes whether a cleaned version of all resource display names should be used instead of identifiers when translating the Model to OSM. Using this flag will affect all Materials, Constructions, ConstructionSets, Schedules, Loads, and ProgramTypes. It will generally result in more readable names for the resources in the OSM. Cases of duplicate IDs resulting from non-unique names will be resolved by adding integers to the ends of the new IDs that are derived from the name.
 
 ***
 
@@ -75,6 +75,10 @@ Use DFJSON format to export the model as a Dragonfly file. This file format is c
 ## GEM
 
 Use the GEM file to export the model to IES VE. The GEM file format only supports exporting the geometry information for rooms and shades.
+
+We are currently in the process of developing an alternative workflow to export constructions and program types in addition to the geometry.
+
+{% embed url="https://discourse.pollination.cloud/uploads/default/original/2X/2/2ed18f1737d4d5d49b62f4a3402128a375acf028.mp4" %}
 
 ***
 
@@ -94,7 +98,7 @@ Indicates how HVAC systems should be assigned to the exported model. "Story" wil
 
 ### **eQuest version**
 
-The exporter supports versions 3.65 and 3.64.
+Indicates the desired version of eQuest. The exporter supports versions 3.64 and 3.65.
 
 ### **Exclude Interior Walls**
 
