@@ -10,7 +10,7 @@ description: >-
 
 ## Room Commands
 
-### Align
+### ![](../.gitbook/assets/align.svg) Align
 
 Align the selected rooms' vertices to the selected lines/polylines if the room vertices lie within the specified `Alignment Distance`. Using the `Snap Vertices` option will perform an additional operation that tries to snap the vertices to line/polyline vertices after running the alignment.
 
@@ -22,7 +22,7 @@ This command is primarily useful for fixing the misalignments between rooms, whi
 
 This command is only visible when at least one room and one alignment line/polyline are selected.
 
-### Pull to room
+### ![](../.gitbook/assets/pull-to-room.svg) Pull to room
 
 Pull the vertices of one or more rooms to the first "target" room in the selection. The operation of pulling can be thought of as aligning the rooms to the target room's segments and then snapping to its vertices. Using the `Coordinate Vertices` option will run an additional operation to adjust the number of vertices in the rooms that were pulled. This results in better matching of segments between the rooms like so:
 
@@ -34,7 +34,7 @@ Pull the vertices of one or more rooms to the first "target" room in the selecti
 pull to room multi segment lines
 {% endembed %}
 
-### Snap to grid
+### ![](../.gitbook/assets/snap-to-grid.svg) Snap to grid
 
 Snap the selected rooms to a cartesian grid defined by a `Grid Increment` distance, which sets the resolution of the grid. This command is particularly useful for IES VE users who often need the model to be snapped to a grid.
 
@@ -42,7 +42,7 @@ Snap the selected rooms to a cartesian grid defined by a `Grid Increment` distan
 Snap to Grid
 {% endembed %}
 
-### Remove short segments
+### ![](../.gitbook/assets/remove-short-segments.svg) Remove short segments
 
 Remove the segments of the room polygon that are smaller than a certain specified `Segment Distance`. Use this command to remove column holes and other unwanted small segments at the edges of the rooms.
 
@@ -50,7 +50,7 @@ Remove the segments of the room polygon that are smaller than a certain specifie
 Remove Columns at the Edge
 {% endembed %}
 
-### Remove holes
+### ![](../.gitbook/assets/remove-small-holes.svg) Remove holes
 
 Remove the holes inside the room that are smaller than a certain specified `Area Threshold`. Use this command to remove column and duct holes from inside rooms.
 
@@ -70,19 +70,19 @@ Join Coplanar Faces
 
 Rebuild the apertures of the rooms by merging the colliding apertures and trimming those that extend past the parent Face. The `Rectangle` option can be used to further simplify non-rectangular apertures into rectangular shapes.
 
-### Simplify windows
+### ![](../.gitbook/assets/simplify-windows.svg) Simplify windows
 
 Use this command to simplify windows and skylights. This command merges the windows on each face into a single window located in the center of the face.
 
-### Solve adjacency
+### ![](../.gitbook/assets/solve-adjacency.svg) Solve adjacency
 
 Solve adjacency between selected rooms by assigning interior boundary conditions where rooms touch one another. You can optionally turn off the `Ceiling Adjacency` if you are primarily interested in simulating each Story as a distinct unit with adiabatic floors and ceilings. This command will only be visible when more than one room is selected.
 
-### Reset adjacency
+### ![](../.gitbook/assets/reset-adjacency.svg) Reset adjacency
 
 Reset all of the wall boundary conditions to outdoors. Use this command to create a clean starting point for running "solve adjacency" or "alignment" commands.
 
-### Merge rooms
+### ![](../.gitbook/assets/merge-rooms.svg) Merge rooms
 
 Merge several rooms into a single room. Setting a `Merge Distance` that is larger than 0 will allow you to merge rooms that have gaps in between them (crossing gaps up to the specified distance). This option is particularly useful for IDA ICE users who must work with rooms that are exported at the interior wall finish.
 
@@ -106,15 +106,15 @@ Create core and perimeter rooms for a selected room. This is particularly useful
 Split core and perimeter
 {% endembed %}
 
-### Split rooms
+### ![](../.gitbook/assets/split-room.svg) Split rooms
 
 Split the rooms by the selected lines.
 
-### Subtract rooms
+### ![](../.gitbook/assets/subtract-rooms.svg) Subtract rooms
 
 Subtract one room from another room. Use this command to clean up colliding rooms by subtracting one room from another.
 
-### Validate model
+### ![](../.gitbook/assets/validate-model.svg) Validate model
 
 Run the validation routine for the selected rooms. Valid models should export to any of the supported BEM engines without errors. Invalid models will have their errors presented in a table with the option to zoom in on the part of the model where the error originates so that it can be fixed.
 
@@ -122,7 +122,7 @@ Run the validation routine for the selected rooms. Valid models should export to
 Validate Model
 {% endembed %}
 
-### 3D preview
+### ![](../.gitbook/assets/3d-preview.svg) 3D preview
 
 Show the selected rooms in 3D. The 3D preview shows up in a new floating window.
 
@@ -132,7 +132,7 @@ Show the selected rooms in 3D. The 3D preview shows up in a new floating window.
 
 ## Line Commands
 
-### Offset
+### ![](../.gitbook/assets/offset.svg) Offset
 
 Offset the selected lines and/or polylines. The `Offset Distance` can be either positive or negative and positive values will be interpreted as offsetting outwards or "to the right" while negative numbers will be offset inwards to "to the left".
 
@@ -140,7 +140,7 @@ Offset the selected lines and/or polylines. The `Offset Distance` can be either 
 Offset
 {% endembed %}
 
-### Create rooms
+### ![](../.gitbook/assets/create-room.svg) Create rooms
 
 Create room from selected closed polylines. Set the room display name, and adjust the `Floor Height` and `Floor to Ceiling Height` if needed. By default, the command uses the heights of the current active story.
 
@@ -148,15 +148,15 @@ Create room from selected closed polylines. Set the room display name, and adjus
 Create Room
 {% endembed %}
 
-### Remove colinear vertices
+### ![](../.gitbook/assets/remove-colinear-vertices.svg) Remove colinear vertices
 
 Remove colinear vertices from a polyline.
 
-### Explode polyline
+### ![](../.gitbook/assets/explode-polyline.svg) Explode polyline
 
 Explode a polyline into several line segments.
 
-### Join segments
+### ![](../.gitbook/assets/join-segments.svg) Join segments
 
 Join several segments into one or more polylines.
 
