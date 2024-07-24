@@ -6,6 +6,15 @@ description: >-
 
 # Changelog
 
+### v1.13 (July 24, 2024)
+
+* Added support for exporting the model to HTML.
+
+### v1.12 (July 08, 2024)
+
+* Speeded up running the preview by using a runtime Python environment.
+* Added support for exporting the model to SDDXML
+
 ### v1.11 (July 03, 2024)
 
 * Renamed the TypeScript SDK to pollination-moldel-editor SDK.

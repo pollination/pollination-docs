@@ -16,11 +16,11 @@ description: >-
 
 <summary>Options</summary>
 
-#### Align Distance
+**Align Distance**
 
 The maximum distance between a room vertex and the line/polyline at which point the vertex will be aligned to the line.
 
-#### Snap Vertices
+**Snap Vertices**
 
 Select to snap the room vertices to the line/polyline vertices after the initial alignment operation is complete.
 
@@ -42,11 +42,11 @@ This command is only visible when at least one room and one alignment line/polyl
 
 <summary>Options</summary>
 
-#### Coordinate Vertices
+**Coordinate Vertices**
 
 Select to further coordinate the vertices after the initial pulling operation is complete. Coordination means that any vertices of the target room that lie within the specified distance to a pulled room but were NOT matched to a vertex on that room will be inserted into the pulled room.
 
-#### Pull Distance
+**Pull Distance**
 
 The maximum distance between a room vertex and the target room edges at which point the vertex will be pulled to the target room.
 
@@ -68,7 +68,7 @@ pull to room multi segment lines
 
 <summary>Options</summary>
 
-#### Grid Increment
+**Grid Increment**
 
 A positive number for dimension of each grid cell. This should be less than the smallest detail to resolve on the rooms. NOTE that this value can be different from the grid size in the preview.
 
@@ -86,7 +86,7 @@ Snap to Grid
 
 <summary>Options</summary>
 
-#### Segment Distance
+**Segment Distance**
 
 The maximum length of a segment below which it will be removed.
 
@@ -104,7 +104,7 @@ Remove Columns at the Edge
 
 <summary>Options</summary>
 
-#### Area Threshold
+**Area Threshold**
 
 The maximum area for a hole below which it will be removed.
 
@@ -124,17 +124,17 @@ Join coplanar walls of the room, effectively removing colinear vertices from the
 Join Coplanar Faces
 {% endembed %}
 
-### Rebuild apertures
+### Fix windows
 
 <details>
 
 <summary>Options</summary>
 
-#### Parent Edge Offset
+**Parent Edge Offset**
 
 A number for the distance from the parent face edges to which windows will be trimmed. Entering a non-zero number here can ensure that space is left on parent faces to account for window frames.
 
-#### Rectangle
+**Rectangle**
 
 Select to have overlapping window geometries resolved by replacing them with a boundary rectangle around the overlapped group instead of boolean unioning the overlapped geometries. Useful in cases where a dozen or more geometries overlap with one another such that the unioned result is not as clean/desirable as a bounding rectangle.
 
@@ -150,23 +150,23 @@ For intentionally simplifying the window geometry for either simulation speed or
 
 <summary>Options</summary>
 
-#### Single Window
+**Single Window**
 
 Select to have the windows simplified to a single window within the center of each wall, which matches the overall area of the original windows.
 
-#### Merge Distance
+**Merge Distance**
 
 The maximum distance between window polygons at which point they will be merged into a single geometry. Typically, this value is slightly larger than the window frame and is used to merge neighboring windows together. Note that this input has no effect when the "Single Window" option is used.
 
-#### Delete Interior
+**Delete Interior**
 
 Select to have the interior windows removed from the rooms, which can increase simulation speed in several BEM platforms.
 
-#### Ignore Skylights
+**Ignore Skylights**
 
 Select to have the skylights left exactly as they are during the process of simplifying windows.
 
-#### Ignore Windows
+**Ignore Windows**
 
 Select to have the windows left exactly as they are during the process of simplifying skylights.
 
@@ -182,22 +182,13 @@ Note that this command is not intended to fix invalid or un-simulate-able window
 
 <summary>Options</summary>
 
-#### Intersect
-
-Select to have the walls of adjacent rooms intersected with one another before solving adjacency between them. This option should always be selected unless your input model already has the correct intersections.
-
-#### Ceiling Adjacencies
+**Ceiling Adjacencies**
 
 Select to have the adjacency between the stories solved (in addition to matching walls together within each story). If this is unselected, the interior floors and ceilings of the model will be adiabatic instead of supporting heat flow from one story to another.
-
 
 </details>
 
 Solve adjacency between selected rooms by assigning interior boundary conditions where rooms touch one another. You can optionally turn off the `Ceiling Adjacency` if you are primarily interested in simulating each Story as a distinct unit with adiabatic floors and ceilings. This command will only be visible when more than one room is selected.
-
-### ![](../.gitbook/assets/reset-adjacency.svg) Reset adjacency
-
-Reset all of the wall boundary conditions to outdoors. Use this command to erase any existing ground or adiabatic boundary conditions assigned to walls.
 
 ### ![](../.gitbook/assets/merge-rooms.svg) Merge rooms
 
@@ -205,15 +196,15 @@ Reset all of the wall boundary conditions to outdoors. Use this command to erase
 
 <summary>Options</summary>
 
-#### Merge Distance
+**Merge Distance**
 
 The maximum distance between rooms at which point they will be merged together. Setting a non-zero value here will allow you to merge rooms that have gaps in between them (crossing gaps up to the specified distance). This option is particularly useful for IDA-ICE users who must work with rooms that are exported at the interior wall finish.
 
-#### Simplify Windows
+**Simplify Windows**
 
 Select to have the windows simplified when merging rooms.
 
-#### Join Faces
+**Join Faces**
 
 Select to have the coplanar walls should joined together when merging rooms.
 
@@ -231,11 +222,11 @@ Merge Rooms
 
 <summary>Options</summary>
 
-#### Mode
+**Mode**
 
 The calculation mode for creating boundaries. The options are `Include Holes`, `Exclude Holes` , and `Holes Only`.
 
-#### Merge Distance
+**Merge Distance**
 
 The maximum distance between rooms below which the boundary will be drawn around the rooms together (instead of being separate for each room). Setting a non-zero value here will allow you to draw boundaries around rooms that have gaps in between them (crossing gaps up to the specified distance).
 
@@ -253,11 +244,11 @@ Create Boundary
 
 <summary>Options</summary>
 
-#### Offset Distance
+**Offset Distance**
 
 The distance that the perimeter of the rooms will be offset.
 
-#### Air Boundary
+**Air Boundary**
 
 Select to have the new separation walls between the core and perimeter rooms set to `Air Boundary`.
 
@@ -285,18 +276,17 @@ The first room of the selection is the room to be subtracted from and all follow
 
 <summary>Options</summary>
 
-#### Name
+**Name**
 
 Text to set the name of the generated rooms. In the case of multiple holes being filled, this input will be a base name and an integer will be automatically added to the end of each new room name.
 
-#### Area Threshold
+**Area Threshold**
 
 The minimum area for a hole above which it will be filled with a new room. This can be used to make sure that very small holes like columns are not unintentionally filled with rooms.
 
 </details>
 
 Fill any holes across a selection of rooms with new rooms.
-
 
 ### ![](../.gitbook/assets/validate-model.svg) Validate model
 
@@ -312,9 +302,9 @@ Validate Model
 
 <summary>Options</summary>
 
-#### Color by\*
+**Color by\***
 
-A dropdown to indicate what should be used for coloring the geometry in 3D preview. The default is `Face type`. Other options are `Boundary condition`, `Program type`, `Construction` , and `HVAC`.&#x20;
+A dropdown to indicate what should be used for coloring the geometry in 3D preview. The default is `Face type`. Other options are `Boundary condition`, `Program type`, `Construction` , and `HVAC`.
 
 \*This option is currently not available in the web-based version.
 
@@ -334,11 +324,11 @@ Visualize the selected rooms in 3D. The 3D preview shows up in a new floating wi
 
 <summary>Options</summary>
 
-#### Offset Distance
+**Offset Distance**
 
 The distance that the selected line/polyline will be offset. This can be either positive or negative and positive values will be interpreted as offsetting outwards or "to the right" while negative numbers will be offset inwards or to "to the left".
 
-#### Perimeter Polygons
+**Perimeter Polygons**
 
 Select to have the output be a series of closed perimeter polygons instead of a single offset line/polyline. Perimeter polygons can be used to split rooms into core/perimeter.
 
@@ -356,11 +346,11 @@ Offset
 
 <summary>Options</summary>
 
-#### Name
+**Name**
 
 Base name for the room(s). This name can be modified later in the rooms' table.
 
-#### Use Current Story Height
+**Use Current Story Height**
 
 Select to use the current story height for the newly created room. Unselect this option to be able to have specify the room height and floor elevation explicitly.
 
@@ -378,7 +368,7 @@ Create Room
 
 <summary>Options</summary>
 
-#### Tolerance
+**Tolerance**
 
 The maximum distance between a polyline vertex and the line drawn between neighboring vertices below which it is considered colinear.
 
@@ -399,4 +389,3 @@ Join several segments into one or more polylines.
 ### Generate alignment lines
 
 Generate a collection of proposed alignment lines for selected rooms by evaluating the common axes across the rooms' polygon segments.
-
