@@ -21,7 +21,7 @@ The Model Editor is available as an embedded application inside the Pollination 
 
 The web-based edition of the Model Editor is only meant to be used for testing the Model Editor and practice using the sample models.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Use the Model Editor from Revit to access the full functionalities.
 
@@ -31,15 +31,15 @@ Use the Model Editor from Revit to access the full functionalities.
 
 The screenshot below shows the different sections of the model editor. When the model editor is accessed from inside the Revit plugin you will see a `Snapshots` button in the bottom left corner. Click on the button to open the snapshot manager that shows all the available snapshots.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## How to create a snapshot in Revit
 
 In Revit, press the `Export Model` button and follow the steps for exporting the model. Click on the Snapshot button to create a snapshot from the selected rooms.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Creating a Sanpshot in Revit</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Creating a Sanpshot in Revit</p></figcaption></figure>
 
 You can then click on the `Snapshot Manager` button to open the model editor.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Click on the Snapshot Manager Button to Open the manager and the model editor</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Click on the Snapshot Manager Button to Open the manager and the model editor</p></figcaption></figure>
 
