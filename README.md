@@ -8,7 +8,7 @@ description: Use this manual to get started with the Pollination products.
 
 This manual includes what you will need to use different Pollination products.
 
-<img src="grasshopper-plugin/images/icons/Login.png" alt="" data-size="line"> Pollination is a fully integrated suite of building performance simulation products to address the inefficiencies in the building performance simulation process and support industry professionals' goal of speeding up the feedback loop while maintaining their quality of work.
+<img src="grasshopper-plugin/images/icons/Login.png" alt="" data-size="line"> Pollination is a fully integrated suite of building performance simulation products to address the inefficiencies in the building performance simulation process and support industry professionals' goal of speeding up the feedback loop while maintaining their quality of woWe have helped hundreds of customers use pollinationrk.
 
 Among other products, Pollination has developed plugins for Revit and Rhino to address the first and one of the most challenging steps of the process: preparing a valid energy simulation model, we have come a long way in the process. Our customers from all around the world have been using Pollination<img src=".gitbook/assets/revit_plugin.png" alt="" data-size="line">Revit and <img src=".gitbook/assets/rhino_plugin.png" alt="" data-size="line"> Rhino plugins to get from an architectural model in Revit or Rhino to a valid simulation model in a fraction of the time and focus on the more enjoyable steps of the process that need their professional expertise. "None of us went to school hoping to spend most of our time tracing over plan drawings!"
 
@@ -30,7 +30,7 @@ Here are the 3 facts about Revit models for energy modelers:
 
 1. You will never ever ever receive a Revit model from an Architect ready to be exported as an energy model. Just get over it!
 2. Revit models are prepared for a different purpose than energy modeling. Mostly, documentation. This will not change because you don't like it.
-3. Even though Revit models are imperfect and messy, they are full of useful information. That's why the last model that you built was traced over a PDF that was generated from Revit!
+3. Even though Revit models are imperfect and messy, they are full of useful information. That's why the last model that you built was traced over a PDF generated from Revit!
 
 Knowing these facts, we have developed the plugin not to _try to be smart_ but to help you save a significant amount of time with a minimum but necessary user interaction.&#x20;
 
@@ -85,9 +85,29 @@ We understand that trying yet another building energy modeling plugin for Revit 
 
 We know not everyone is lucky to have access to a Revit Model. You might get only 2D CAD drawings, or 3D models in Rhino or SketchUp. In those cases, you should use the Pollination Rhino plugin. The combination of Rhino's robust geometry library and Pollination's commands for setting up and fixing models has made the Rhino plugin "the best tool for generating building performance geometry" in the market.&#x20;
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Moreover, its combination with the Pollination <img src=".gitbook/assets/grasshopper_plugin.png" alt="" data-size="line">Grasshopper Plugin allows you to reuse the Pollination Rhino models as input for your favorite Grasshopper and Ladybug Tools workflows.
+### What are the unique aspects of the Pollination Rhino plugin?
+
+The main advantage of using the Rhino plugin is that you can slash the time that is spent on creating the model in comparison to the standard energy modeling tools so it doesn't block all the main simulation workflows that rely on a valid simulation model. The larger the project, and the more complex the geometry the more the benefit of using the Rhin oplugin. Here are a few examples of models with complex geometry built using the Pollination Rhino plugin.
+
+<figure><img src=".gitbook/assets/cloud-city.jpg" alt=""><figcaption><p>Credits: Cloud City by Thornton Tomasetti and Studio Tomás Saraceno</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (173).png" alt=""><figcaption><p>Credits: <a href="https://vripack.com/project-zero/">https://vripack.com/project-zero/<br></a></p></figcaption></figure>
+
+The combination of the [validation routine](get-started/troubleshooting/rhino-plugin-errors/help-with-modeling-error-codes.md) and the [commands to find and fix the possible issues](rhino-plugin/pollination-commands/by-use-case.md) in the model slashes the time for getting from zero to a valid reliable model.
+
+Similar to the Revit plugin, you can export a Pollination Rhino model to other building energy simulation tools using their native file formats such as .GEM for IES VE, .INP for eQuest, .OSM for OpenStudio, .IDF for EnergyPlus, and .IDM for IDA-ICE. We still rely on .gbXML for some of the simulation tools such as DesignBuilder and TRACE 3D Plus but we are closely working with both of them to ensure the models are imported to their platforms reliably.
+
+<figure><img src=".gitbook/assets/image (172).png" alt="" width="563"><figcaption><p>Unparalleled Interoperability</p></figcaption></figure>
+
+In addition,  you can also import OSM, IDF, and GEM files to the Rhino plugin which introduces new opportunities for re-using the same model across different simulation tools.
+
+{% embed url="https://www.youtube.com/watch?v=Sop5CYSAY1c" %}
+
+Moreover, its combination with the Pollination <img src=".gitbook/assets/grasshopper_plugin.png" alt="" data-size="line">Grasshopper Plugin allows you to reuse the Pollination Rhino models as input for your favorite Grasshopper and Ladybug Tools workflows. Here is an example of using the Pollination Rhino in combination with Ladybug Tools plugins to move quickly from a Revit model to being able to run hundreds of parametric studies.
+
+<figure><img src=".gitbook/assets/rhino-plugin/pollination-rhino-with-ladybug-tools.png" alt="" width="453"><figcaption></figcaption></figure>
 
 ## Other products
 
