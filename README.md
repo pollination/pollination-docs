@@ -49,9 +49,9 @@ To ensure we can deliver reliable workflows:
 
 <figure><img src=".gitbook/assets/pollination-revit-ad.png" alt=""><figcaption><p>Said no energy modeler, ever!</p></figcaption></figure>
 
-That's why we are confident that any valid Pollination model will be exported to any of the supported building performance simulation tools with no issues. Otherwise, we will give all your money back! The days of getting exploded gbXML models from Revit are over! Those were before the Pollination Revit plugin.
+That's why we are confident that any valid Pollination model will be exported to any of the supported building performance simulation tools with no issues. If you find an issue in the process that we cannot fix, we will give you all your money back! The days of getting exploded gbXML models from Revit are over! Those were before the Pollination Revit plugin.
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Before and after Pollination</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>An analytical model exported from the exact same Revit model with and without using Pollination. Pollination provides a useful starting point even with no model clean up.</p></figcaption></figure>
 
 ### What is the process of exporting the model?
 
