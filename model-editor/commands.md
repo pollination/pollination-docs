@@ -124,7 +124,7 @@ Join coplanar walls of the room, effectively removing colinear vertices from the
 Join Coplanar Faces
 {% endembed %}
 
-### Fix windows
+### Repair windows
 
 <details>
 
