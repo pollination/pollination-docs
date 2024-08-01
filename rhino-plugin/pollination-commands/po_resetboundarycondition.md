@@ -1,7 +1,7 @@
 # PO_ResetBoundaryCondition
 
-Reset a room to reset all child faces&apos; boundary condition. You can also select partial room&apos;s sub-faces for resetting boundary condition.
+Resets the boundary condition for all child faces of a room or for selected child faces. You can select specific sub-faces of a room by holding the Shift + Ctrl keys.
 
 Notes:
-- All geometries&apos; boundary condition will be reset to Outdoor, unless geometry touches the ground (0) and then it will be set to Ground.
+- The boundary condition for all geometries will be reset to Outdoor, except for geometries touching the ground (0), which will be set to Ground.
 
