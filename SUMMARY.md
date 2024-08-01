@@ -17,13 +17,6 @@
 * [Purchase and Manage CAD Plugins](get-started/purchase-and-manage-plugins.md)
 * [The Difference between CAD Licenses and Organization Seats](web-platform/account-setup/seats-vs-licenses.md)
 
-## Web Platform
-
-* [Create a New Project](web-platform/projects-and-jobs/create-a-new-project.md)
-* [Manage Access to a Project](web-platform/manage-access-to-a-project.md)
-* [Create a New Study](web-platform/projects-and-jobs/create-a-new-job.md)
-* [Create Teams](web-platform/account-setup/create-teams.md)
-
 ## REVIT PLUGIN
 
 * [Getting Started in Revit](revit-plugin/getting-started.md)
@@ -33,6 +26,22 @@
   * [Windows](revit-plugin/modeling-best-practices/windows-and-doors.md)
 * [Export Analytical Model](revit-plugin/export-analytical-model.md)
 * [Running Simulations](revit-plugin/running-simulations.md)
+
+## Model Editor
+
+* [What is Pollination Model Editor](model-editor/README.md)
+* [Getting Started](model-editor/getting-started.md)
+* [Workflows](model-editor/workflows.md)
+* [Commands](model-editor/commands.md)
+* [Supported File Formats](model-editor/supported-file-formats/README.md)
+  * [Export](model-editor/supported-file-formats/export.md)
+  * [Import](model-editor/supported-file-formats/import.md)
+* [Python Script Editor](model-editor/python-script-editor/README.md)
+  * [Your First Python Script](model-editor/python-script-editor/your-first-python-script.md)
+  * [Editor Class API Documentation](model-editor/python-script-editor/editor-class-api-documentation.md)
+  * [Available Python Libraries](model-editor/python-script-editor/available-python-libraries.md)
+* [FAQ](model-editor/faq.md)
+* [Changelog](model-editor/changelog.md)
 
 ## Rhino Plugin
 
@@ -226,21 +235,12 @@
 * [Create a Parametric Run](grasshopper-plugin/create-a-parametric-run.md)
 * [Visualize Results](grasshopper-plugin/visualize-results.md)
 
-## Model Editor
+## Web Platform
 
-* [What is Pollination Model Editor](model-editor/README.md)
-* [Getting Started](model-editor/getting-started.md)
-* [Workflows](model-editor/workflows.md)
-* [Commands](model-editor/commands.md)
-* [Supported File Formats](model-editor/supported-file-formats/README.md)
-  * [Export](model-editor/supported-file-formats/export.md)
-  * [Import](model-editor/supported-file-formats/import.md)
-* [Python Script Editor](model-editor/python-script-editor/README.md)
-  * [Your First Python Script](model-editor/python-script-editor/your-first-python-script.md)
-  * [Editor Class API Documentation](model-editor/python-script-editor/editor-class-api-documentation.md)
-  * [Available Python Libraries](model-editor/python-script-editor/available-python-libraries.md)
-* [FAQ](model-editor/faq.md)
-* [Changelog](model-editor/changelog.md)
+* [Create a New Project](web-platform/projects-and-jobs/create-a-new-project.md)
+* [Manage Access to a Project](web-platform/manage-access-to-a-project.md)
+* [Create a New Study](web-platform/projects-and-jobs/create-a-new-job.md)
+* [Create Teams](web-platform/account-setup/create-teams.md)
 
 ## Developers
 
