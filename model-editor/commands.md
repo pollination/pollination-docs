@@ -316,6 +316,24 @@ Visualize the selected rooms in 3D. The 3D preview shows up in a new floating wi
 3D Preview
 {% endembed %}
 
+### ![](../.gitbook/assets/3d-preview.svg) Find Adjacency Gaps
+
+<details>
+
+<summary>Options</summary>
+
+**Gap Distance**
+
+The maximum distance between two rooms that is considered an unwanted adjacency gap. Differences between rooms that are higher than this distance are considered meaningful separations between rooms that should be preserved. Typical recommended values might be around 15 cm or 6".
+
+</details>
+
+Identify gaps smaller than a specified gap distance.
+
+Such gaps typically do not make the model invalid or un-simulate-able but they can create cases where adjacency solving fails to set interior boundary conditions where they likely should be, effectively leaving the walls with outdoor boundary conditions. Small gaps can also result in sliver geometries for floors/ceilings in the case the ceiling adjacencies are solved.
+
+This command will find all of such cases of potential failed adjacency and sliver geometries provided that the gap distance is a reasonable value (larger than the tolerance but smaller than the largest gap that you would otherwise miss without the command). Once identified in the scene, such gaps can be fixed with the other commands (typically, "Align" and/or "Pull to Room").
+
 ## Line Commands
 
 ### ![](../.gitbook/assets/offset.svg) Offset
