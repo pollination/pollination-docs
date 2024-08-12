@@ -24,6 +24,10 @@ The maximum distance between a room vertex and the line/polyline at which point 
 
 Select to snap the room vertices to the line/polyline vertices after the initial alignment operation is complete.
 
+**Constrain Edges**
+
+Select to have all axes of the room edges that were not aligned be preserved.
+
 </details>
 
 Align the selected rooms' vertices to the selected lines/polylines if the room vertices lie within the specified `Alignment Distance`. Using the `Snap Vertices` option will perform an additional operation that snaps the vertices to line/polyline vertices after the initial alignment operation is complete.
@@ -42,13 +46,17 @@ This command is only visible when at least one room and one alignment line/polyl
 
 <summary>Options</summary>
 
+**Pull Distance**
+
+The maximum distance between a room vertex and the target room edges at which point the vertex will be pulled to the target room.
+
 **Coordinate Vertices**
 
 Select to further coordinate the vertices after the initial pulling operation is complete. Coordination means that any vertices of the target room that lie within the specified distance to a pulled room but were NOT matched to a vertex on that room will be inserted into the pulled room.
 
-**Pull Distance**
+**Constrain Edges**
 
-The maximum distance between a room vertex and the target room edges at which point the vertex will be pulled to the target room.
+Select to have all axes of the room edges that were not pulled to the adjacent room be preserved.
 
 </details>
 
