@@ -67,7 +67,7 @@ Once you have the snapshot you are ready to clean it up in the <img src=".gitboo
 
 Here is a video that walks you through the whole process in less than 30 minutes. See [this page](revit-plugin/export-analytical-model/) for more in-depth tutorials.
 
-{% embed url="https://www.youtube.com/watch?v=LAF5xUpm4uA&list=PLHnzKQMrclYkBZu6eicBIhuU-9xwigZRz&index=2" %}
+{% embed url="https://youtu.be/MLOLOXlPaPA" %}
 
 Once you are done with the cleaning up you can [export the model to any of the supported file formats](model-editor/supported-file-formats/export.md).
 
