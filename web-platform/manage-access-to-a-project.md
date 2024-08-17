@@ -14,7 +14,7 @@ It is required to [create a team](account-setup/create-teams.md) first before be
 
 Click on the dropdown menu and go to the Projects page.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 2
 

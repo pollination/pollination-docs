@@ -1,4 +1,4 @@
-# Create an Organization
+# 1. Create an Organization
 
 An organization account is the only account type that supports multiple users and the ability to create teams. An organization can be a company, an association, a joint venture, or any other entity.
 
@@ -23,5 +23,5 @@ Congrats! Your Pollination organization is created. It is time to add new team m
 {% endhint %}
 
 {% hint style="info" %}
-An organization does not have additional seats or cloud resources by default. Learn more about [purchasing CAD plugin licenses](../../get-started/purchase-and-manage-plugins.md) and [managing the Licenses](../../get-started/manage-license-pool.md). You can always [purchase additional seats](purchase-additional-seats.md) or [add computing resources](purchase-additional-compute-resources.md) to the organization.
+An organization does not have additional seats or cloud resources by default. Learn more about [purchasing CAD plugin licenses](../../get-started/setting-up-rhino-grasshopper-and-revit-plugins/purchase-and-manage-plugins.md) and [managing the Licenses](../../get-started/manage-license-pool.md). You can always [purchase additional seats](purchase-additional-seats.md) or [add computing resources](purchase-additional-compute-resources.md) to the organization.
 {% endhint %}

@@ -6,9 +6,9 @@ description: >-
 
 # Commands
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Model Editor Commands</p></figcaption></figure>
-
 ## Room Commands
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Room Commands</p></figcaption></figure>
 
 ### ![](../.gitbook/assets/align.svg) Align
 
@@ -118,7 +118,7 @@ The maximum area for a hole below which it will be removed.
 
 </details>
 
-Remove holes inside a room that are smaller than a specified `Area Threshold`. This can remove small column and duct holes from inside rooms.
+Remove holes inside a room that are smaller than a specified `Area Threshold`. This can remove small columns and duct holes from inside rooms.
 
 {% embed url="https://drive.google.com/open?id=1Xnfv6pGbWf0-XdxtkmtCiZRpd79a3o0G&usp=drive_fs" %}
 Remove holes
@@ -278,7 +278,7 @@ Subtract one room from another room. Useful for resolving colliding room geometr
 
 The first room of the selection is the room to be subtracted from and all following rooms in the selection will be used for subtraction.
 
-### ![](../.gitbook/assets/fill-holes.svg) Fill holes
+### ![](../.gitbook/assets/find-holes.svg) Fill holes
 
 <details>
 
@@ -324,7 +324,7 @@ Visualize the selected rooms in 3D. The 3D preview shows up in a new floating wi
 3D Preview
 {% endembed %}
 
-### ![](../.gitbook/assets/3d-preview.svg) Find Adjacency Gaps
+### ![](../.gitbook/assets/find-adjacency-gaps.svg)Find Adjacency Gaps
 
 <details>
 
@@ -344,6 +344,8 @@ This command will find all of such cases of potential failed adjacency and slive
 
 ## Line Commands
 
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Line commands</p></figcaption></figure>
+
 ### ![](../.gitbook/assets/offset.svg) Offset
 
 <details>
@@ -360,7 +362,7 @@ Select to have the output be a series of closed perimeter polygons instead of a 
 
 </details>
 
-Offset the selected lines and/or polylines. The `Offset Distance` can be either positive or negative and positive values will be interpreted as offsetting outwards or "to the right" while negative numbers will be offset inwards or to "to the left". The `Perimeter Polygons` option can be used to generate polygons from the offset, which can split rooms into core/perimeter.
+Offset the selected lines and/or polylines. The `Offset Distance` can be either positive or negative and positive values will be interpreted as offsetting outwards or "to the right" while negative numbers will be offset inwards or "to the left". The `Perimeter Polygons` option can be used to generate polygons from the offset, which can split rooms into core/perimeter.
 
 {% embed url="https://drive.google.com/open?id=1XnHe7jOAKEczKa-G_h015L-AFxmyh8A1&usp=drive_fs" %}
 Offset

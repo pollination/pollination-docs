@@ -1,10 +1,11 @@
 ---
 description: >-
-  This section covers the most common editing workflows that are used in the
-  process of cleaning a model.
+  This page covers the most common editing workflows that are used in the
+  process of cleaning a model. Let us know if you need any additional workflows
+  missing from this page.
 ---
 
-# Model Editor Workflows
+# Workflows
 
 ## Removing column holes
 

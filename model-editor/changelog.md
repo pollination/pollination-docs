@@ -6,7 +6,15 @@ description: >-
 
 # Changelog
 
-### v1.13 (July 24, 2024)
+### v1.15 (August 13, 2024)
+
+* Added support for saving PoMF in unlicensed mode.
+
+### v1.14 (July 26, 2024)
+
+* Added support for generating 3D previews from HBJSON format using the runtime Python.
+
+### v1.13 (July 23, 2024)
 
 * Added support for exporting the model to HTML.
 

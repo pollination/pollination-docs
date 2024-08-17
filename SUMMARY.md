@@ -12,20 +12,19 @@
   * [4. Purchase and Manage CAD Licenses](web-platform/account-setup/purchase-and-manage-plugins.md)
   * [5. Manage License Pools](get-started/manage-license-pool.md)
   * [6. Add Additional Computing Resources](web-platform/account-setup/purchase-additional-compute-resources.md)
-* [Download CAD Plugins](get-started/download-plugins.md)
-* [Install CAD Plugins](get-started/download-and-install-plugins.md)
-* [Purchase and Manage CAD Plugins](get-started/purchase-and-manage-plugins.md)
-* [The Difference between CAD Licenses and Organization Seats](web-platform/account-setup/seats-vs-licenses.md)
+* [Setting up Rhino, Grasshopper and Revit Plugins](get-started/setting-up-rhino-grasshopper-and-revit-plugins/README.md)
+  * [Download CAD Plugins](get-started/setting-up-rhino-grasshopper-and-revit-plugins/download-plugins.md)
+  * [Install CAD Plugins](get-started/setting-up-rhino-grasshopper-and-revit-plugins/download-and-install-plugins.md)
+  * [Purchase and Manage CAD Plugins](get-started/setting-up-rhino-grasshopper-and-revit-plugins/purchase-and-manage-plugins.md)
+  * [The Difference between CAD Licenses and Organization Seats](get-started/setting-up-rhino-grasshopper-and-revit-plugins/seats-vs-licenses.md)
 
 ## REVIT PLUGIN
 
 * [Getting Started in Revit](revit-plugin/getting-started.md)
-* [Modeling Best Practices](revit-plugin/modeling-best-practices/README.md)
-  * [Rooms and Room Separation Lines](revit-plugin/modeling-best-practices/rooms.md)
-  * [Walls and Curtain Walls](revit-plugin/modeling-best-practices/walls-and-curtain-walls.md)
-  * [Windows](revit-plugin/modeling-best-practices/windows-and-doors.md)
-* [Export Analytical Model](revit-plugin/export-analytical-model.md)
-* [Running Simulations](revit-plugin/running-simulations.md)
+* [Modeling Best Practices](revit-plugin/modeling-best-practices.md)
+* [Exporting Energy Models from Revit](revit-plugin/export-analytical-model/README.md)
+  * [Creating Snapshots](revit-plugin/export-analytical-model/creating-snapshots.md)
+  * [Editing and Exporting Snapshots](revit-plugin/export-analytical-model/editing-and-exporting-snapshots.md)
 
 ## Model Editor
 

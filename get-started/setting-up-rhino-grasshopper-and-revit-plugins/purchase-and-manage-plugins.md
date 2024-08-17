@@ -12,26 +12,26 @@ You have the option to buy the CAD plugins under your personal account or an org
 
 Click on your avatar on the top right of the page, and select the correct account. If you want to share the license among several users it must be purchased under an organization account.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>Switch to the organization account</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Switch to the organization account</p></figcaption></figure>
 
 ### Step 2
 
 Click on the dropdown menu and select Your Subscriptions. \
 
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3
 
 Scroll down to the Plugin Subscriptions section. You can purchase the licenses for Rhino and Revit plugins separately or buy a bundled license at a lower price.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Plugins Subscriptions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Plugins Subscriptions</p></figcaption></figure>
 
 ### Step 4
 
 Select the billing period, and choose the number of floating licenses, and click on the `Subscribe` button.
 
-<figure><img src="../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The annual billing offers a free month of subscription.
@@ -45,7 +45,7 @@ If you are buying plugins for multiple CAD software, you'll have to repeat Steps
 
 Input your information in the payment form and press `Continue`.
 
-![CAD Plugins Cards](../.gitbook/assets/organization-setup/buy-org-cad-plugins-3.png)
+![CAD Plugins Cards](../../.gitbook/assets/organization-setup/buy-org-cad-plugins-3.png)
 
 If you have a coupon code, add it to your cart by clicking on `+ Add discount` before completing your purchase.
 
@@ -61,7 +61,7 @@ Once you complete payment, you will receive an email from Ladybug Tools (via Pad
 
 Once you buy the CAD licenses you can use the license pools to manage the licenses. There are 4 tabs
 
-![CAD Plugins Cards](../.gitbook/assets/organization-setup/subscriptions-tabs.png)
+![CAD Plugins Cards](../../.gitbook/assets/organization-setup/subscriptions-tabs.png)
 
 * **Subscription**: Under _Subscription_, you can see the information about your current subscription.
 * **Manage**: Under _Manage_, you can update or cancel your current subscription. You can cancel your subscription at any point in time but we will not be able to provide prorated refunds for your cancellation. See below for more information.
@@ -76,4 +76,4 @@ Updating the number of licenses also removes any coupons that might be applied t
 
 ## Sharing Floating Licenses
 
-For organizations, you can share the license between the organization members. See [this page](manage-license-pool.md) for more information.
+For organizations, you can share the license between the organization members. See [this page](../manage-license-pool.md) for more information.

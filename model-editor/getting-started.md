@@ -4,10 +4,10 @@ description: Getting started with using the model editor!
 
 # Getting Started
 
-Here is a video that shows how one can use the new features to clean up the advanced Revit sample model. I tried to use all the available functionalities in one way or another. I hope you agree that it has never been this easy and quick to clean up your analytical models!
+This page includes several videos that walks you through the process of cleaning up the advanced Revit sample model. You don't need the sample snapshot or the Revit plugin to follow this video. You can use the online version of the Model Editor and select the sample model by clicking on the Pollination logo on the bottom right side of the screen and selecting `About`.
 
 {% hint style="info" %}
-You can follow this video [using the online version of the model editor](https://editor.pollination.cloud).
+See [this page](../revit-plugin/export-analytical-model/creating-snapshots.md) to learn how to create this snapshot using the Pollination Revit plugin.
 {% endhint %}
 
 {% embed url="https://youtu.be/nVxovNxlacQ" %}
@@ -20,7 +20,7 @@ You can follow this video [using the online version of the model editor](https:/
 * [5:30](https://www.youtube.com/watch?v=nVxovNxlacQ\&t=330s) Pull rooms to a room
 * [6:05](https://www.youtube.com/watch?v=nVxovNxlacQ\&t=365s) Grid size control
 * [6:42](https://www.youtube.com/watch?v=nVxovNxlacQ\&t=402s) Align rooms in multi-level to a line
-* [8:50](https://www.youtube.com/watch?v=nVxovNxlacQ\&t=530s) Drawomh local alignment lines
+* [8:50](https://www.youtube.com/watch?v=nVxovNxlacQ\&t=530s) Draw local alignment lines
 * [10:28](https://www.youtube.com/watch?v=nVxovNxlacQ\&t=628s) Stories table overview
 * [11:00](https://www.youtube.com/watch?v=nVxovNxlacQ\&t=660s) Place missing rooms
 * [13:36](https://www.youtube.com/watch?v=nVxovNxlacQ\&t=816s) Merge all the rooms on a level without clean-up
