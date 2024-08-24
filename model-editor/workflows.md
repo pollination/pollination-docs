@@ -15,7 +15,7 @@ Most of the models that are exported from Revit have many holes in them. Some ar
 
 Removing the column holes from inside the rooms is straightforward. Use the [remove holes](commands.md#remove-holes) command to remove the holes smaller than a certain area. Input the maximum area threshold as the input, and press run. You can apply the command to multiple rooms at once.
 
-{% embed url="https://drive.google.com/open?id=1Ju8fwhGLbY7zIJ6NqAVSd01zFHEfjUPf&usp=drive_fs" %}
+{% embed url="https://drive.google.com/file/d/1_kYb7HzS-V5kR__8yfFd2nDPi06tJ9rv/view?usp=sharing" %}
 
 ### Removing column holes on the facade
 
@@ -34,7 +34,9 @@ You can add the missing rooms in two steps:
 
 Keep in mind that the hole area should be fully bounded. You might need to use the [Pull to Room](commands.md#pull-to-room) or [Align](commands.md#align) command to clean the rooms around the hole ensuring the hole is fully bound before adding a new room.
 
-In case of a missing room on the edge of the building, we suggest inserting the rooms in Revit. You can also use a combination of alignment commands and the [Split Rooms](commands.md#split-rooms) command to fill the missing area and then split it into a new room.
+In case of a missing room on the edge of the building, we suggest inserting the rooms in Revit. You can also use alignment commands and the [Split Rooms](commands.md#split-rooms) command to fill the missing area and then split it into a new room.
+
+{% embed url="https://drive.google.com/open?id=1_kr2VCgtq-n0W1u-7Fif6y7C-MNbLIao&usp=drive_fs" %}
 
 ## Dealing with gaps and misalignments
 
@@ -42,16 +44,20 @@ Gaps and misalignments between the rooms and spaces are common in models. Either
 
 ### Finding the gaps
 
-You can find the gaps in the model by selecting the rooms and running the [Find Adjacency Gaps](commands.md#find-adjacency-gaps) command. Set the `Gap Distance` to a reasonable value to find the unwanted gaps between the rooms. The command generates red dots where there are issues.
+You can find the gaps in the model by selecting the rooms and running the [Find Adjacency Gaps](commands.md#find-adjacency-gaps) command. Set a reasonable value for finding the unwanted gaps between the rooms. The command generates red dots where there are issues.
 
 To delete the points:
 
 1. Right-click on the canvas, and click on `Select all points`.
 2. Click on the `Delete` button to delete the points.
 
+{% embed url="https://drive.google.com/open?id=1_rFeXKSS4PyATZb_D2PpRDnjsJzRs8zp&usp=drive_fs" %}
+
 ### Finding orthogonality issues
 
-Find adjacency gaps should find all the unwanted gaps in your model but that is not always enough. In some cases, there are slightly non-orthogonal walls in the model that are fully aligned with other walls. Use `Alt + O` to highlight those walls in your model.
+Find adjacency gaps should find all the unwanted gaps in your model but that is not always enough. In some cases, the model has slightly non-orthogonal walls that are fully aligned with other walls. Use `Alt + O` to highlight those walls in your model.
+
+{% embed url="https://drive.google.com/open?id=1_n7f7T5GkBpkykE_1dFY8HiRZPiR-Px7&usp=drive_fs" %}
 
 ### Fixing misalignments between the rooms
 
@@ -63,13 +69,15 @@ There are 3 different commands to help you with fixing the misalignments between
 
 Depending on the case you may need to use one or all of these commands.
 
-{% embed url="https://drive.google.com/open?id=1JxeHaCoO7B52SQADS9FlJoE-4fQ7i9uJ&usp=drive_fs" %}
-Align rooms to lines
-{% endembed %}
+{% embed url="https://drive.google.com/open?id=1_q_t68x1LYdvxO10bLLUU2gJWkGRUNqW&usp=drive_fs" %}
+
+{% embed url="https://drive.google.com/open?id=1_qCkYqgEhJ3wtULccb1HKiuyE5xjl3TB&usp=drive_fs" %}
 
 {% embed url="https://drive.google.com/open?id=1XXNms4EwkrQteXZpxaFP7laQxpouSK74&usp=drive_fs" %}
 Pull to Room
 {% endembed %}
+
+{% embed url="https://drive.google.com/open?id=1_rSiuGc7GnIzVDB3OE9Y06SEYNiXMQpx&usp=drive_fs" %}
 
 ## Snapping model to grid
 
@@ -85,11 +93,13 @@ It is common for energy modelers to simplify the architectural models before exp
 
 You can merge several rooms into a single room by selecting the rooms and using the [Merge Rooms](commands.md#merge-rooms) command. The command also provides options for simplifying the walls or the windows as part of the merge process.
 
-{% embed url="https://drive.google.com/open?id=1XYSAAKmYcU_iv8MBsa7OAZytVL86evNB&usp=drive_fs" %}
+{% embed url="https://drive.google.com/open?id=1_mlbM3efgGvLu_FsPAo8CcKB3rsShO99&usp=drive_fs" %}
 
 ### Simplify windows
 
 You can simplify windows and skylights in your model using the [Simplify Windows](commands.md#simplify-windows) command.
+
+{% embed url="https://drive.google.com/open?id=1_jHDm-RsARELTTLdQ_ZcB1TY1ZMUZ1XL&usp=drive_fs" %}
 
 ## Modifying model geometry
 
