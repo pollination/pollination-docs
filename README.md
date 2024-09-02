@@ -117,13 +117,13 @@ Unlink other companies, our pricing [is on our website](https://www.pollination.
 
 ### What would be a good starting package?
 
-The answer depends on the number of people who want to use the Pollination products. Most offices start with monthly subscriptions for 10 organization seats and a single bundled Revit and Rhino license.
+The answer depends on the number of people who want to use the Pollination products. Most offices start with monthly subscriptions for 10 organization seats and a single bundled Revit and Rhino license. After testing the plugins for a couple of months they change the subscriptions to annual.
 
 See [this page](get-started/setting-up-rhino-grasshopper-and-revit-plugins/seats-vs-licenses.md) for the difference between seats and licenses and [this page](web-platform/account-setup/) for setting up your organization.
 
 ## Getting in touch
 
-We will always be happy to hear from others who are interested in adopting more efficient workflows. You can always post your questions on [Pollination Discourse](https://discourse.pollination.cloud/) or email our co-founder directly at mostapha \[at] ladybug.tools
+We will always be happy to hear from others interested in adopting more efficient workflows. You can always post your questions on [Pollination Discourse](https://discourse.pollination.cloud/) or email our co-founder directly at mostapha \[at] ladybug.tools
 
 {% hint style="info" %}
 As you use this manual to navigate Pollination, you may notice some incomplete sections or screenshots don't look 100% the same on your computer. Since we are still testing and improving our platform things are changing rapidly. We'll try our best to update changes as we make them!

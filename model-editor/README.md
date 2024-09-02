@@ -7,7 +7,11 @@ description: >-
 
 # What is Pollination Model Editor
 
-Model Editor is the outcome of cleaning up hundreds of Revit models using the Pollination Revit plugin. The Model Editor helps you automatically fix all the common issues in energy model geometries. If there is a common issue with the Revit model, [we have a workflow for you to fix it](workflows.md)!
+Model Editor is the outcome of cleaning up hundreds of Revit models using the Pollination Revit plugin. The Model Editor helps you automatically find and fix all the common issues in energy model geometries. If there is a common issue with the Revit model, [we have a workflow for you to fix it](workflows.md)! Most of the fixes involve just a few clicks.
+
+{% embed url="https://drive.google.com/open?id=1_tj7fqFqljrZM7FNKnh_X6NEAyWFONN4&usp=drive_fs" %}
+Finding and fixing gaps with a few clicks
+{% endembed %}
 
 Moreover, unlike the other tools in the market, Pollination's wide array of supported file formats makes it the interoperability tool of choice for creating building performance simulation geometries. Most tools lock you into one or two proprietary formats, but Pollination is set to change this once and for all. When you have a valid model in any Pollination interface, including the Model Editor, you can export it to your favorite building performance simulation software including but not limited to IES VE, eQuest, OpenStudio, EnergyPlus, Ladybug Tools Honeybee, and IDA ICE.
 
@@ -17,7 +21,7 @@ See the [supported file formats](supported-file-formats/) section for the full l
 
 ## The embedded version vs the web-based version
 
-The Model Editor is available as an embedded application inside the Pollination Revit plugin, as well as a standalone web application hosted at https://editor.pollination.cloud.
+The Model Editor is available as an embedded application inside the Pollination Revit plugin and a standalone web application hosted at https://editor.pollination.cloud.
 
 The web-based edition of the Model Editor is only meant to be used for testing the Model Editor and practice using the sample models.
 
