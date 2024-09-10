@@ -1,6 +1,6 @@
-# Getting Started with Apps
+# Apps
 
-![](../.gitbook/assets/pollination-apps/logos.png)
+![](../../.gitbook/assets/pollination-apps/logos.png)
 
 ### Introduction
 

@@ -38,4 +38,4 @@ st.plotly_chart(figure, use_container_width=True)
 
 You should see an annual heatmap appear in the Streamlit app.&#x20;
 
-![](../.gitbook/assets/pollination-apps/dbt.png)
+![](../../.gitbook/assets/pollination-apps/dbt.png)

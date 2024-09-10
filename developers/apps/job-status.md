@@ -1,8 +1,6 @@
-# Check the status of a Job on Pollination
+# Check Study Status
 
-On Pollination, a job's status can be checked by using the job's id, owner name,
-project name, and the API key. You get a job's id once the job is created and submitted
-to Pollination. Check [here](create-job.md) to learn how to create and submit a job.
+On Pollination, a job's status can be checked by using the job's id, owner name, project name, and the API key. You get a job's id once the job is created and submitted to Pollination. Check [here](create-job.md) to learn how to create and submit a job.
 
 Install the following libraries first
 
@@ -76,9 +74,8 @@ def get_job_status(api_key: str, owner: str, project: str,
 
 The Streamlit form above will render the following interface;
 
-![](../.gitbook/assets/pollination-apps/job_status.png)
+![](../../.gitbook/assets/pollination-apps/job\_status.png)
 
-Providing API key, owner, project and job_id in the form above will serve the following
-result;
+Providing API key, owner, project and job\_id in the form above will serve the following result;
 
-![](../.gitbook/assets/pollination-apps/job_status_result.png)
+![](../../.gitbook/assets/pollination-apps/job\_status\_result.png)

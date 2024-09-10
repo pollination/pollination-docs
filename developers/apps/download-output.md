@@ -64,8 +64,8 @@ with st.form('download-result'):
 
 The streamlit form above will render the following interface;
 
-![](../.gitbook/assets/pollination-apps/download\_job.png)
+![](../../.gitbook/assets/pollination-apps/download\_job.png)
 
 Providing the following inputs will download a file named "daylight\_factor.vtkjs" in your current working directory;
 
-![](../.gitbook/assets/pollination-apps/download\_job\_query.png)
+![](../../.gitbook/assets/pollination-apps/download\_job\_query.png)

@@ -50,6 +50,6 @@ st.title("Dry bulb temperature")
 st.plotly_chart(figure, use_container_width=True)
 ```
 
-You should see a filtered annual heatmap appear in the Streamlit app.&#x20;
+You should see a filtered annual heatmap appear in the Streamlit app.
 
-![](../.gitbook/assets/pollination-apps/dbt_custom.png)
+![](../../.gitbook/assets/pollination-apps/dbt\_custom.png)
