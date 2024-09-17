@@ -6,6 +6,10 @@ description: >-
 
 # Changelog
 
+### v1.16 (September 9, 2024)
+
+* Added support for exporting the model to TRACE XML.
+
 ### v1.15 (August 13, 2024)
 
 * Added support for saving PoMF in unlicensed mode.
