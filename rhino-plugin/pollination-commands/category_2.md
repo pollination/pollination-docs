@@ -163,7 +163,7 @@ Embed all user&apos;s custom resources from the local library folder, so that th
 
 ### Useful Links
 
-{% embed url="https://discourse.pollination.cloud/t/build-and-edit-a-library-of-reusable-constructions-schedules-programs-and-more/3097" %}
+{% embed url="https://discourse.pollination.solutions/t/build-and-edit-a-library-of-reusable-constructions-schedules-programs-and-more/3097" %}
 
 ---
 
@@ -242,7 +242,7 @@ Use this command with caution!!! Purge the library of all user energy standards 
 
 ### Useful Links
 
-{% embed url="https://discourse.pollination.cloud/t/build-and-edit-a-library-of-reusable-constructions-schedules-programs-and-more/3097" %}
+{% embed url="https://discourse.pollination.solutions/t/build-and-edit-a-library-of-reusable-constructions-schedules-programs-and-more/3097" %}
 
 ---
 
@@ -343,7 +343,7 @@ Reset all resource objects&apos; identifiers across the entire model. If two obj
 
 ### Useful Links
 
-{% embed url="https://discourse.pollination.cloud/t/build-and-edit-a-library-of-reusable-constructions-schedules-programs-and-more/3097" %}
+{% embed url="https://discourse.pollination.solutions/t/build-and-edit-a-library-of-reusable-constructions-schedules-programs-and-more/3097" %}
 
 ---
 
@@ -364,7 +364,7 @@ Export and save all resource objects from the current model to local user&apos;s
 
 ### Useful Links
 
-{% embed url="https://discourse.pollination.cloud/t/build-and-edit-a-library-of-reusable-constructions-schedules-programs-and-more/3097" %}
+{% embed url="https://discourse.pollination.solutions/t/build-and-edit-a-library-of-reusable-constructions-schedules-programs-and-more/3097" %}
 
 ---
 

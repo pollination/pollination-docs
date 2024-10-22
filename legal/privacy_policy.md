@@ -4,7 +4,7 @@ Effective date: March 11, 2024
 
 We collect your information only with your consent in accordance with our [Terms of Service](./terms_of_service.md). We only collect personal information that is necessary to fulfill the purpose of your interaction with us. We don't sell your personal information to third parties, and we only use it as this Policy describes.
 
-For any questions about this Policy, please contact [support@pollination.cloud](mailto:support@pollination.cloud).
+For any questions about this Policy, please contact [support@pollination.solutions](mailto:support@pollination.solutions).
 
 ## 0. Definitions
 
@@ -101,6 +101,6 @@ Depending on your residence location, you may have specific legal rights regardi
 * The right to withdraw consent, where processing is based on your consent
 * The right to receive your collected Personal Data in a structured, commonly used, and machine-readable format to facilitate its transfer to another company, where technically feasible
 
-To exercise these rights, please send an email to [support@pollination.cloud](mailto:support@pollination.cloud) and follow the instructions provided. To verify your identity for security, we may request extra information before addressing your data-related request.
+To exercise these rights, please send an email to [support@pollination.solutions](mailto:support@pollination.solutions) and follow the instructions provided. To verify your identity for security, we may request extra information before addressing your data-related request.
 
 We aim to promptly respond to requests in compliance with legal requirements. Please note that we may retain certain data as necessary for legal obligations or for establishing, exercising, or defending legal claims.

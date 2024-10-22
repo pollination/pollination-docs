@@ -36,7 +36,7 @@ Draw a room.
 
 ## Useful Links
 
-{% embed url="https://discourse.pollination.cloud/t/po-drawroom-suggestions/1397" %}
+{% embed url="https://discourse.pollination.solutions/t/po-drawroom-suggestions/1397" %}
 
 ## Video Tutorials
 

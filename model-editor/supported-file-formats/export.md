@@ -16,7 +16,7 @@ You can export your model to gbXML if the native format of your target software 
 
 ### All Interior Floors
 
-Notes whether all interior horizontal faces should be written with the InteriorFloor type instead of the combination of InteriorFloor and Ceiling that happens by default with OpenStudio gbXML serialization. By default, this option is set to False. Set this option to True if you are exporting your model to [Lesosai](https://lesosai.com/logiciel/bim-bem/). See [this topic](https://discourse.pollination.cloud/t/gbxml-export-surface-type-issues/3677/15) for the background behind adding this option.
+Notes whether all interior horizontal faces should be written with the InteriorFloor type instead of the combination of InteriorFloor and Ceiling that happens by default with OpenStudio gbXML serialization. By default, this option is set to False. Set this option to True if you are exporting your model to [Lesosai](https://lesosai.com/logiciel/bim-bem/). See [this topic](https://discourse.pollination.solutions/t/gbxml-export-surface-type-issues/3677/15) for the background behind adding this option.
 
 ### Full Geometry
 
@@ -78,7 +78,7 @@ Use the GEM file to export the model to IES VE. The GEM file format only support
 
 We are currently in the process of developing an alternative workflow to export constructions and program types in addition to the geometry.
 
-{% embed url="https://discourse.pollination.cloud/uploads/default/original/2X/2/2ed18f1737d4d5d49b62f4a3402128a375acf028.mp4" %}
+{% embed url="https://discourse.pollination.solutions/uploads/default/original/2X/2/2ed18f1737d4d5d49b62f4a3402128a375acf028.mp4" %}
 
 ***
 

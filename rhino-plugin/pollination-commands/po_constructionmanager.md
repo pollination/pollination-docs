@@ -4,5 +4,5 @@ This command brings up the energy Constructions manager for users to add/edit/re
 
 ## Useful Links
 
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/energy-modeling/assign-construction-sets" %}
+{% embed url="https://docs.pollination.solutions/user-manual/rhino-plugin/energy-modeling/assign-construction-sets" %}
 

@@ -1,6 +1,6 @@
 # Create an API key
 
-You will need an API key to communicate with the Pollination server using [Pollination SDKs](https://github.com/pollination/?q=SDK\&type=public\&language=\&sort=) or [Pollination API](https://api.pollination.cloud/).
+You will need an API key to communicate with the Pollination server using [Pollination SDKs](https://github.com/pollination/?q=SDK\&type=public\&language=\&sort=) or [Pollination API](https://api.pollination.solutions/).
 
 {% hint style="danger" %}
 An API Key is like your username and password. NEVER share your API Key with others. If you use the API Key in a code or a GitHub action treat it as a secret, and use a secret manager to keep it hidden from others.

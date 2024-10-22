@@ -39,7 +39,7 @@ The input geometries can be generic Rhino Brep/Mesh geometries, or Pollination g
 
 ## Useful Links
 
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/add-sensor-grid" %}
+{% embed url="https://docs.pollination.solutions/user-manual/rhino-plugin/daylight-modeling/add-sensor-grid" %}
 
 ## Video Tutorials
 

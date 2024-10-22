@@ -36,7 +36,7 @@ Upload the current model to Pollination cloud. [Read more](./po_uploadmodel.md).
 
 #### <mark style="background-color:yellow;">PO\_UserManual</mark>
 
-Open https://docs.pollination.cloud/user-manual/rhino-plugin/getting-started. [Read more](./po_usermanual.md).
+Open https://docs.pollination.solutions/user-manual/rhino-plugin/getting-started. [Read more](./po_usermanual.md).
 
 ## Geometry Setup
 
