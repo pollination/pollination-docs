@@ -20,7 +20,7 @@ They are both using the same technology under the hood but the web-based version
 
 ## I encountered an error. What is the best way to get help?
 
-The best way to get help is to open a new topic on [Pollination discourse](https://discourse.pollination.cloud/). You should provide enough information including an explanation of how to recreate the error message and screenshots of the error message and the logs. You can download the logs by clicking on the Pollination logo at the bottom right corner of the screen and selecting Advanced > Download logs.
+The best way to get help is to open a new topic on [Pollination discourse](https://discourse.pollination.solutions/). You should provide enough information including an explanation of how to recreate the error message and screenshots of the error message and the logs. You can download the logs by clicking on the Pollination logo at the bottom right corner of the screen and selecting Advanced > Download logs.
 
 <figure><img src="../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure>
 
