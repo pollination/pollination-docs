@@ -9,4 +9,4 @@ If you prefer using SDKs instead of interacting with the endpoints directly, we 
 * [Pollination Javascript SDK](https://www.npmjs.com/package/@pollination-solutions/pollination-sdk)
 * [Pollination C# SDK](https://www.nuget.org/packages/PollinationSDK)
 
-This section includes some sample codes for getting you started. If you can't find what you need, feel free to open a requests for more sample code on [Pollination Discourse](https://discourse.pollination.cloud/c/scripting/11).
+This section includes some sample codes for getting you started. If you can't find what you need, feel free to open a requests for more sample code on [Pollination Discourse](https://discourse.pollination.solutions/c/scripting/11).
