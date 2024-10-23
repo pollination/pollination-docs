@@ -4,5 +4,5 @@ Reset all resource objects&apos; identifiers across the entire model. If two obj
 
 ## Useful Links
 
-{% embed url="https://discourse.pollination.cloud/t/build-and-edit-a-library-of-reusable-constructions-schedules-programs-and-more/3097" %}
+{% embed url="https://discourse.pollination.solutions/t/build-and-edit-a-library-of-reusable-constructions-schedules-programs-and-more/3097" %}
 

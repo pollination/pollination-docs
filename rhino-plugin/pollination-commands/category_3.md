@@ -6,8 +6,8 @@ Start submitting a new simulation job.
 
 ### Useful Links
 
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/energy-modeling/run-simulation-and-load-results" %}
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/run-simulation-and-visualize-daylighting-results" %}
+{% embed url="https://docs.pollination.solutions/user-manual/rhino-plugin/energy-modeling/run-simulation-and-load-results" %}
+{% embed url="https://docs.pollination.solutions/user-manual/rhino-plugin/daylight-modeling/run-simulation-and-visualize-daylighting-results" %}
 
 ---
 
@@ -86,7 +86,7 @@ The input geometries can be generic Rhino Brep/Mesh geometries, or Pollination g
 
 ### Useful Links
 
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/add-sensor-grid" %}
+{% embed url="https://docs.pollination.solutions/user-manual/rhino-plugin/daylight-modeling/add-sensor-grid" %}
 
 ### Video Tutorials
 
@@ -115,7 +115,7 @@ Setting up the camera view for running Radiance view based simulations. Use &quo
 
 ### Useful Links
 
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/add-view" %}
+{% embed url="https://docs.pollination.solutions/user-manual/rhino-plugin/daylight-modeling/add-view" %}
 
 ---
 
@@ -131,7 +131,7 @@ Edit view properties for selected objects.
 
 ### Useful Links
 
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/add-view" %}
+{% embed url="https://docs.pollination.solutions/user-manual/rhino-plugin/daylight-modeling/add-view" %}
 
 ---
 
@@ -155,7 +155,7 @@ This command brings up the energy Constructions manager for users to add/edit/re
 
 ### Useful Links
 
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/energy-modeling/assign-construction-sets" %}
+{% embed url="https://docs.pollination.solutions/user-manual/rhino-plugin/energy-modeling/assign-construction-sets" %}
 
 ---
 
@@ -165,7 +165,7 @@ This command brings up the energy ConstructionSets manager for users to add/edit
 
 ### Useful Links
 
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/energy-modeling/assign-construction-sets" %}
+{% embed url="https://docs.pollination.solutions/user-manual/rhino-plugin/energy-modeling/assign-construction-sets" %}
 
 ---
 
@@ -175,7 +175,7 @@ This command brings up the energy HVACs manager for users to add/edit/remove ene
 
 ### Useful Links
 
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/energy-modeling/assign-hvac-systems" %}
+{% embed url="https://docs.pollination.solutions/user-manual/rhino-plugin/energy-modeling/assign-hvac-systems" %}
 
 ---
 
@@ -200,7 +200,7 @@ This command brings up the energy ProgramTypes manager for users to add/edit/rem
 
 ### Useful Links
 
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/energy-modeling/assign-program-types" %}
+{% embed url="https://docs.pollination.solutions/user-manual/rhino-plugin/energy-modeling/assign-program-types" %}
 
 ---
 
@@ -332,7 +332,7 @@ This command brings up the energy RadianceModifiers manager for users to add/edi
 
 ### Useful Links
 
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/assign-modifiers" %}
+{% embed url="https://docs.pollination.solutions/user-manual/rhino-plugin/daylight-modeling/assign-modifiers" %}
 
 ---
 
@@ -342,7 +342,7 @@ This command brings up the energy RadianceModifierSets manager for users to add/
 
 ### Useful Links
 
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/assign-modifier-sets" %}
+{% embed url="https://docs.pollination.solutions/user-manual/rhino-plugin/daylight-modeling/assign-modifier-sets" %}
 
 ---
 

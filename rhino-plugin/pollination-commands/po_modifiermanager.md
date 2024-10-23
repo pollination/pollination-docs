@@ -4,5 +4,5 @@ This command brings up the energy RadianceModifiers manager for users to add/edi
 
 ## Useful Links
 
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/assign-modifiers" %}
+{% embed url="https://docs.pollination.solutions/user-manual/rhino-plugin/daylight-modeling/assign-modifiers" %}
 

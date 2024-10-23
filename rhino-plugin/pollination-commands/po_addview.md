@@ -19,5 +19,5 @@ Setting up the camera view for running Radiance view based simulations. Use &quo
 
 ## Useful Links
 
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/daylight-modeling/add-view" %}
+{% embed url="https://docs.pollination.solutions/user-manual/rhino-plugin/daylight-modeling/add-view" %}
 
