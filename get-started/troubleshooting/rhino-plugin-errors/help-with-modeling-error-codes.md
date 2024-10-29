@@ -317,11 +317,15 @@ Typically, the Room geometry must either be redrawn or a different type of bound
 
 ### 100105
 
-**Invalid Roof** - The geometries that make up the Story's Roof overlap with one another in plan. Overlaps in roof geometries make it unusable for translation from dragonfly to honeybee, meaning that the rooms underneath the roof will simply be extruded to their floor_to_ceiling_height instead of extending to the roof geometries.
+**Invalid Roof** - The geometries that make up the Story's Roof are below the floors of the Story's Room2Ds. Roofs that lie below Room2Ds can result in invalid Honeybee Rooms with self-intersecting walls. As a result, these Room2Ds are translated to Honeybee simply by extruding the floor plat to the floor_to_ceiling_height instead of extending walls to the roof geometries.
 
-Note that this validation check accounts for the Model tolerance such that roof overlaps smaller than the tolerance are ignored. So this validation error only arises for cases where the roofs noticeably overlap with one another.
+Correcting this error often involves deleting the roof geometries that are below the Room2Ds or running the routine that resolves the roof geometry's overlaps.
 
-Typically, the Roof geometry must be redrawn in order to fix it. Visualizing the geometries that overlap and finding the exact overlapping region can sometimes make it possible to fix the error just by moving the roof polygon vertices.
+### 100106
+
+**Invalid Room Floor Elevation** - The Story has Room2D floor elevations that are too different from one another to be a part of the same Story. Oftentimes, this can happen because all of the Room2Ds of a Building were accidentally added to the same Story when they should have been placed on separate Stories. However, it can also happen if floor elevations of certain Room2Ds in the Story were edited to the point that it no longer makes sense to have them on the same Story as the other Room2Ds.
+
+The validation error message(s) should give detailed information about the fastest way to make the Story valid by changing the smallest number of Room2D floor heights. These recommendations may be useful in the case where floor elevations of a few Room2Ds in the Story were edited. However, in situations where this error arose by accidentally adding all of the Room2Ds of a Building to the same Story, separating the Room2Ds into different Stories is likely the better approach.
 
 ### 100201
 
