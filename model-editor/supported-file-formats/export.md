@@ -7,7 +7,7 @@ description: A summary of supported export formats in Model Editor.
 One of the most loved aspects of the Model Editor is its ability to export the model to several building energy and daylight simulation formats. Our pact with our users is if you get your model to be valid, we will translate it to BEM software without errors. If you find any errors, we consider it a bug and fix it. If we cannot fix it, we will refund your money!
 
 {% hint style="info" %}
-The gbXML, IDM, and OSM formats are not currently available on the web-based version of the Model Editor. The support for IDF in the editor is limited. See the IDF export section below for more information.
+The gbXML, TRACEXML, IDM, and OSM formats are not currently available on the web-based version of the Model Editor. The support for IDF in the editor is limited. See the IDF export section below for more information.
 {% endhint %}
 
 ## gbXML
@@ -32,11 +32,11 @@ Use the IDF file to export the model to EnergyPlus.
 
 A boolean to export a simplified version of the IDF file. This method is faster than exporting the full IDF but the exported IDF will not include the HVAC systems if any of them are present in your model.
 
-### Geometry Names
+### Use Geometry Names
 
 Notes whether a cleaned version of all geometry display names should be used instead of identifiers when translating the Model to IDF. Using this flag will affect all Rooms, Faces, Apertures, Doors, and Shades. It will generally result in more readable names in the IDF but this means that it will not be easy to map the EnergyPlus results back to the original Model. Cases of duplicate IDs resulting from non-unique names will be resolved by adding integers to the ends of the new IDs that are derived from the name.
 
-### Resource Names
+### Use Resource Names
 
 Notes whether a cleaned version of all resource display names should be used instead of identifiers when translating the Model to IDF. Using this flag will affect all Materials, Constructions, ConstructionSets, Schedules, Loads, and ProgramTypes. It will generally result in more readable names for the resources in the IDF. Cases of duplicate IDs resulting from non-unique names will be resolved by adding integers to the ends of the new IDs that are derived from the name.
 
@@ -56,11 +56,11 @@ Maximum thickness of the interior walls. This can include the units of the dista
 
 OpenStudio file format. The version of the OSM file is aligned with the latest version of the OpenStudio SDK that is used in Pollination products (currently OpenStudio v3.7). We are working on a solution to provide support for older versions of OpenStudio using Pollination recipes.
 
-### Geometry Names
+### Use Geometry Names
 
 Notes whether a cleaned version of all geometry display names should be used instead of identifiers when translating the Model to OSM. Using this flag will affect all Rooms, Faces, Apertures, Doors, and Shades. It will generally result in more readable names in the OSM and IDF but this means that it may not be easy to map the EnergyPlus results back to the original Model. Cases of duplicate IDs resulting from non-unique names will be resolved by adding integers to the ends of the new IDs that are derived from the name.
 
-### Resource Names
+### Use Resource Names
 
 Notes whether a cleaned version of all resource display names should be used instead of identifiers when translating the Model to OSM. Using this flag will affect all Materials, Constructions, ConstructionSets, Schedules, Loads, and ProgramTypes. It will generally result in more readable names for the resources in the OSM. Cases of duplicate IDs resulting from non-unique names will be resolved by adding integers to the ends of the new IDs that are derived from the name.
 
@@ -117,4 +117,46 @@ Use the RAD export to export the model to Radiance.
 ### M**inimal File**
 
 Option for whether the file should have as few line breaks as possible or should use the longer format for Radiance objects. Minimal files are smaller but can be less readable. (Default: True).
+
+***
+
+## SDDXML
+
+Use the SDDXML export to export the model to [California Building Energy Code Compliance (CBECC)](https://www.energy.ca.gov/programs-and-topics/programs/building-energy-efficiency-standards/2022-building-energy-efficiency-1) software.
+
+### Use Geometry Names
+
+Flag to note whether a cleaned version of all geometry display names should be used instead of identifiers when translating the Model to SDD. Using this flag will affect all Rooms, Faces, Apertures, Doors, and Shades. It will generally result in more readable names in the SDD but this means that it will not be easy to map the EnergyPlus results back to the original Honeybee Model. Cases of duplicate IDs resulting from non-unique names will be resolved by adding integers to the ends of the new IDs that are derived from the name.
+
+### Use Resource Names
+
+Flag to note whether a cleaned version of all resource display names should be used instead of identifiers when translating the Model to SDD. Using this flag will affect all Materials, Constructions, ConstructionSets, Schedules, Loads, and ProgramTypes. It will generally result in more readable names for the resources in the SDD. Cases of duplicate IDs resulting from non-unique names will be resolved by adding integers to the ends of the new IDs that are derived from the name.
+
+***
+
+## TRACEXML
+
+Use the TRACEXML export to export the model to TRACE 3D Plus and TRACE 700.
+
+### Rectangular Subdivision Distance
+
+A number for the resolution at which non-rectangular Apertures will be subdivided into smaller rectangular units. This is required as TRACE 3D Plus cannot model non-rectangular geometries.
+
+### Frame Merge Distance
+
+A number for the maximum distance between non-rectangular Apertures at which point the Apertures will be merged into a single rectangular geometry. This is often helpful when several triangular Apertures together make a rectangle when they are merged across their frames.
+
+### Single Window Merge
+
+Flag to note whether all windows within walls should be converted to a single window with an area that matches the original geometry. (Default: True).
+
+***
+
+## HTML
+
+Export your Pollination model as a standalone HTML file.
+
+### Color By
+
+An option to indicate what should be used for coloring the geometry in 3D preview. The default is Face type. Other options are Boundary condition, Program type, Construction, and HVAC.
 
