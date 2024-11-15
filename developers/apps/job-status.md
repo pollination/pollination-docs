@@ -53,7 +53,7 @@ def get_job_status(api_key: str, owner: str, project: str,
               job_id,
               client=ApiClient(api_token=api_key))
 
-    url = f'https://app.pollination.cloud/projects/{owner}/{project}/jobs/{job_id}'
+    url = f'https://app.pollination.solutions/projects/{owner}/{project}/jobs/{job_id}'
 
     if job.status.status in [
             JobStatusEnum.pre_processing,

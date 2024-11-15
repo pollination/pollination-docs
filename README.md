@@ -111,9 +111,9 @@ If you are using any of our CAD plugins or using EnergyPluss, OpenStudio, or Rad
 
 ## Pricing
 
-Unlink other companies, our pricing [is on our website](https://www.pollination.cloud/pricing#cad-plugins). Both Rhino and Revit plugins come with a 14-day free trial. We also offer a monthly subscription for all of our products. This makes it easy to get started with a minimum investment.
+Unlink other companies, our pricing [is on our website](https://www.pollination.solutions/pricing#cad-plugins). Both Rhino and Revit plugins come with a 14-day free trial. We also offer a monthly subscription for all of our products. This makes it easy to get started with a minimum investment.
 
-{% embed url="https://www.pollination.cloud/pricing#cad-plugins" %}
+{% embed url="https://www.pollination.solutions/pricing#cad-plugins" %}
 
 ### What would be a good starting package?
 
@@ -123,10 +123,10 @@ See [this page](get-started/setting-up-rhino-grasshopper-and-revit-plugins/seats
 
 ## Getting in touch
 
-We will always be happy to hear from others interested in adopting more efficient workflows. You can always post your questions on [Pollination Discourse](https://discourse.pollination.cloud/) or email our co-founder directly at mostapha \[at] ladybug.tools
+We will always be happy to hear from others interested in adopting more efficient workflows. You can always post your questions on [Pollination Discourse](https://discourse.pollination.solutions/) or email our co-founder directly at mostapha \[at] ladybug.tools
 
 {% hint style="info" %}
 As you use this manual to navigate Pollination, you may notice some incomplete sections or screenshots don't look 100% the same on your computer. Since we are still testing and improving our platform things are changing rapidly. We'll try our best to update changes as we make them!
 {% endhint %}
 
-**Get started today by creating a** [**Pollination account**](https://app.pollination.cloud/)**!**
+**Get started today by creating a** [**Pollination account**](https://app.pollination.solutions/)**!**

@@ -236,4 +236,4 @@ The second strategy: don't set the `subscribe` toggle unless you absolutely need
 
 ### Report Bugs
 
-These software are both under active development, please report bugs on the [Pollination forum](https://discourse.pollination.cloud/).
+These software are both under active development, please report bugs on the [Pollination forum](https://discourse.pollination.solutions/).

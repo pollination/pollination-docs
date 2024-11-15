@@ -172,7 +172,7 @@ Once you deploy the app, you should see the following message appear on the comm
 
 ```
 Congrats! The "wind-rose" app is successfully scheduled for deployment.
-It can take up to 10 minutes before the new version of the app is deployed to Pollination. You can check the app at this URL: https://app.pollination.cloud/YOUR_USERNAME/applications/wind-rose
+It can take up to 10 minutes before the new version of the app is deployed to Pollination. You can check the app at this URL: https://app.pollination.solutions/YOUR_USERNAME/applications/wind-rose
 ```
 
 If you reached here, congratulations! You have successfully deployed the app to Pollination Cloud. Go to the **wind-rose** app under the **Apps** tab on your profile and check the live app after 10 minutes of deployment. You should see the wind-rose app live on Pollination cloud.

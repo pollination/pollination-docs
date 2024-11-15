@@ -13,7 +13,7 @@ def create_project(
         ):
     headers = {'x-pollination-token': api_key}
     # create the project
-    url = f'https://api.pollination.cloud/projects/{owner}'
+    url = f'https://api.pollination.solutions/projects/{owner}'
     data = {
         'name': name,
         'description': description if description else '',
@@ -26,7 +26,7 @@ def create_project(
 
     # add the recipes if any
     recipes = recipes or []
-    recipe_url = f'https://api.pollination.cloud/projects/{owner}/{name}/recipes/filters'
+    recipe_url = f'https://api.pollination.solutions/projects/{owner}/{name}/recipes/filters'
     for recipe in recipes:
         # each recipe should be formatted as
         # {'owner': 'owner', 'name':'name, 'tag': 'tag'}
@@ -48,7 +48,7 @@ if __name__ == '__main__':
     name = 'Sample Project'
     description = 'This project is created automatically using the API.'
     # see this link for the list of available recipes
-    # https://app.pollination.cloud/recipes
+    # https://app.pollination.solutions/recipes
     recipes = [
         {'owner': 'ladybug-tools', 'name': 'annual-daylight', 'tag': 'latest'},
         {'owner': 'ladybug-tools', 'name': 'annual-energy-use', 'tag': 'latest'}

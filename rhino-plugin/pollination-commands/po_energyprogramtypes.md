@@ -13,5 +13,5 @@
 
 ## Useful Links
 
-{% embed url="https://docs.pollination.cloud/user-manual/rhino-plugin/energy-modeling/assign-program-types" %}
+{% embed url="https://docs.pollination.solutions/user-manual/rhino-plugin/energy-modeling/assign-program-types" %}
 

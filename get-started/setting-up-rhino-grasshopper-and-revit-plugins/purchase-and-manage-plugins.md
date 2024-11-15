@@ -1,6 +1,6 @@
 # Purchase and Manage CAD Plugins
 
-Pollination plugins are required if you would like to use Pollination from within your CAD/BIM software. If you plan to use Pollination across more than one software package, you will need to purchase and download multiple installation files. For plugin pricing, please visit our [pricing page](https://www.pollination.cloud/pricing#cad-plugins).
+Pollination plugins are required if you would like to use Pollination from within your CAD/BIM software. If you plan to use Pollination across more than one software package, you will need to purchase and download multiple installation files. For plugin pricing, please visit our [pricing page](https://www.pollination.solutions/pricing#cad-plugins).
 
 ## Purchasing the CAD Plugins
 
@@ -69,7 +69,7 @@ Once you buy the CAD licenses you can use the license pools to manage the licens
 * **Payments**: Under _Payment_, you can access both upcoming payments and past payments with links to a copy of your invoice.
 
 {% hint style="warning" %}
-Please review our cancellation policy in our [Terms of Service](https://www.pollination.cloud/terms-of-service) as we are unable to provide prorated refunds for subscription changes that occur earlier than the renewal date. All changes are effective immediately, so if you cancel or update the number of licenses you have, please do so as close to your renewal date as possible.
+Please review our cancellation policy in our [Terms of Service](https://www.pollination.solutions/terms-of-service) as we are unable to provide prorated refunds for subscription changes that occur earlier than the renewal date. All changes are effective immediately, so if you cancel or update the number of licenses you have, please do so as close to your renewal date as possible.
 
 Updating the number of licenses also removes any coupons that might be applied to your original subscription.
 {% endhint %}

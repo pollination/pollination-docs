@@ -32,7 +32,7 @@ Select to have all axes of the room edges that were not aligned be preserved.
 
 Align the selected rooms' vertices to the selected lines/polylines if the room vertices lie within the specified `Alignment Distance`. Using the `Snap Vertices` option will perform an additional operation that snaps the vertices to line/polyline vertices after the initial alignment operation is complete.
 
-{% embed url="https://discourse.pollination.cloud/uploads/default/original/2X/8/8e6e3a3b509e68779943c53f7c161534f3b87806.png" %}
+{% embed url="https://discourse.pollination.solutions/uploads/default/original/2X/8/8e6e3a3b509e68779943c53f7c161534f3b87806.png" %}
 
 This command is primarily used for fixing misalignments between rooms, which are common in raw exports from Revit. It is also useful for adjusting the exterior boundary around entire stories, enabling you to align rooms to the inside or outside wall finish instead of using the wall centerline as is typical when exporting Revit rooms. See the Create Boundary command for more information.
 
@@ -62,9 +62,9 @@ Select to have all axes of the room edges that were not pulled to the adjacent r
 
 Pull the vertices of one or more rooms to the first "target" room in the selection. The operation of pulling can be thought of as aligning the rooms to the target room's segments and then snapping to its vertices. Using the `Coordinate Vertices` option will run an additional operation to adjust the number of vertices in the rooms that were pulled. This can result in better matching of segments between the rooms like so:
 
-{% embed url="https://discourse.pollination.cloud/uploads/default/original/2X/2/203c04e13aa5d1bda5a9e0da5897ac86b340005e.png" fullWidth="false" %}
+{% embed url="https://discourse.pollination.solutions/uploads/default/original/2X/2/203c04e13aa5d1bda5a9e0da5897ac86b340005e.png" fullWidth="false" %}
 
-{% embed url="https://discourse.pollination.cloud/uploads/default/original/2X/6/6a6d98e42f285051859279a07c419502d653d24f.png" %}
+{% embed url="https://discourse.pollination.solutions/uploads/default/original/2X/6/6a6d98e42f285051859279a07c419502d653d24f.png" %}
 
 {% embed url="https://drive.google.com/open?id=1XXNms4EwkrQteXZpxaFP7laQxpouSK74&usp=drive_fs" %}
 pull to room multi segment lines

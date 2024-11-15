@@ -12,7 +12,7 @@ A Pollination app is a way to capture a workflow in a web application. Examples 
 
 ### Pollination App Examples
 
-[These](https://app.pollination.cloud/apps) are some of the public apps developed by the Pollination team. Try one or many of these apps in your web browser and get trial [licenses](https://app.pollination.cloud/cad-plugins) from Pollination to see how these apps work inside your CAD environments.
+[These](https://app.pollination.solutions/apps) are some of the public apps developed by the Pollination team. Try one or many of these apps in your web browser and get trial [licenses](https://app.pollination.solutions/cad-plugins) from Pollination to see how these apps work inside your CAD environments.
 
 ### How do you share an app with your organization or your users?
 
@@ -20,7 +20,7 @@ Pollination handles the distribution of apps for you. Once you have written an a
 
 ### What are the prerequisites for developing a Pollination app?
 
-1. You need to have a Pollination account. If you don't have one, you can create one for free by following the steps [here](https://docs.pollination.cloud/user-manual/get-started/create-a-pollination-account).
+1. You need to have a Pollination account. If you don't have one, you can create one for free by following the steps [here](https://docs.pollination.solutions/user-manual/get-started/create-a-pollination-account).
 2. You need to know enough python to work with the API of [Ladybug Tools](https://discourse.ladybug.tools/pub/ladybug-tools-core-sdk-documentation) and [Streamlit](https://docs.streamlit.io/library/api-reference) and any other library you wish to use in your app.
 3. You need to know how to write and run a Streamlit app. Look [here](https://docs.streamlit.io/library/get-started) to get started.
 

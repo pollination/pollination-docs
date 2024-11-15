@@ -15,7 +15,7 @@ The annual billing offers a free month of subscription.
 ![](../../.gitbook/assets/cloud\_computing\_updated\_pricing.jpg)
 
 {% hint style="info" %}
-We might introduce new computing packages. You can always check our [pricing page](https://www.pollination.cloud/pricing#cloud-computing) to learn more about the latest available options.
+We might introduce new computing packages. You can always check our [pricing page](https://www.pollination.solutions/pricing#cloud-computing) to learn more about the latest available options.
 {% endhint %}
 
 To purchase additional cloud computing for your organization:

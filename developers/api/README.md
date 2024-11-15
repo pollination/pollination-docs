@@ -2,7 +2,7 @@
 
 You can use the Pollination public Application Programming Interface (API) to interact with the Pollination server from inside your apps or scripts.
 
-You can interact with the API directly using our [OpenAPI client](https://api.pollination.cloud/docs) or read the documentation for each endpoint [here](https://api.pollination.cloud/redoc).
+You can interact with the API directly using our [OpenAPI client](https://api.pollination.solutions/docs) or read the documentation for each endpoint [here](https://api.pollination.solutions/redoc).
 
 If you prefer using SDKs instead of interacting with the endpoints directly, we also generate and maintain several SDKs from the OpenAPI specification.
 

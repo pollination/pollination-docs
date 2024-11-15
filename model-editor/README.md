@@ -21,7 +21,7 @@ See the [supported file formats](supported-file-formats/) section for the full l
 
 ## The embedded version vs the web-based version
 
-The Model Editor is available as an embedded application inside the Pollination Revit plugin and a standalone web application hosted at https://editor.pollination.cloud.
+The Model Editor is available as an embedded application inside the Pollination Revit plugin and a standalone web application hosted at https://editor.pollination.solutions.
 
 The web-based edition of the Model Editor is only meant to be used for testing the Model Editor and practice using the sample models.
 

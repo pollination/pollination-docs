@@ -36,11 +36,11 @@ Recipe tag: The version tag of the recipe you want to use for the job.
 
 ### Step-4: Recipe Inputs
 
-Visit any [recipe](https://app.pollination.cloud/recipes) on Pollination to find out the inputs for the recipe
+Visit any [recipe](https://app.pollination.solutions/recipes) on Pollination to find out the inputs for the recipe
 
 ### Step-5: Scheduling a Job
 
-We will create a job on Pollination to run the [daylight-factor](https://app.pollination.cloud/ladybug-tools/recipes/daylight-factor) recipe on the gridbased model that ships with Ladybug Tools.
+We will create a job on Pollination to run the [daylight-factor](https://app.pollination.solutions/ladybug-tools/recipes/daylight-factor) recipe on the gridbased model that ships with Ladybug Tools.
 
 Install the following libraries first
 
@@ -154,4 +154,4 @@ The above code will render the following Streamlit form that can be used to subm
 
 ![](../../.gitbook/assets/pollination-apps/create\_job.png)
 
-A job submitted using this form can be accessed [here](https://app.pollination.cloud/devang/projects/demo/jobs/53498657-5da8-4308-86ce-e9fb4b9c0fc8).
+A job submitted using this form can be accessed [here](https://app.pollination.solutions/devang/projects/demo/jobs/53498657-5da8-4308-86ce-e9fb4b9c0fc8).

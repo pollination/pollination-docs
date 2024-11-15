@@ -4,11 +4,11 @@ This page shows an example code for creating a single study with multiple runs o
 
 This code was originally posted on Discourse in response to this topic. You can download the sample files from Discourse.
 
-{% embed url="https://discourse.pollination.cloud/t/how-to-submit-an-energy-simulation-to-pollination-using-the-api/2753/9" %}
+{% embed url="https://discourse.pollination.solutions/t/how-to-submit-an-energy-simulation-to-pollination-using-the-api/2753/9" %}
 
 Here is the study that is submitted to Pollination using the sample code:
 
-{% embed url="https://app.pollination.cloud/mostapha/projects/agent-based-energy-simulation/studies/bd4a3192-50a8-43ad-a09d-b02cf9f0b172?tab=details&perPage=5&status=null&page=1" %}
+{% embed url="https://app.pollination.solutions/mostapha/projects/agent-based-energy-simulation/studies/bd4a3192-50a8-43ad-a09d-b02cf9f0b172?tab=details&perPage=5&status=null&page=1" %}
 
 ```python
 """
@@ -75,7 +75,7 @@ def submit_study(
     # # create the study
     running_study = new_study.create()
 
-    job_url = f'https://app.pollination.cloud/{running_study.owner}/projects/{running_study.project}/jobs/{running_study.id}'
+    job_url = f'https://app.pollination.solutions/{running_study.owner}/projects/{running_study.project}/jobs/{running_study.id}'
     print(job_url)
     time.sleep(5)
     return running_study
@@ -124,7 +124,7 @@ def _download_results(
         ):
     print(f'Downloading page {page}')
     per_page = 25
-    url = f'https://api.pollination.cloud/projects/{owner}/{project}/runs'
+    url = f'https://api.pollination.solutions/projects/{owner}/{project}/runs'
     params = {
         'job_id': study_id,
         'status': 'Succeeded',
@@ -152,7 +152,7 @@ def _download_results(
             print(f'downloading {input_id}.json to {out_file.as_posix()}')
             run_folder.mkdir(parents=True, exist_ok=True)
             download_folder.mkdir(parents=True, exist_ok=True)
-            url = f'https://api.pollination.cloud/projects/{owner}/{project}/runs/{run_id}/outputs/eui'
+            url = f'https://api.pollination.solutions/projects/{owner}/{project}/runs/{run_id}/outputs/eui'
             signed_url = requests.get(url, headers=api_client.headers)
             output = api_client.download_artifact(signed_url=signed_url.json())
             with zipfile.ZipFile(output) as zip_folder:
