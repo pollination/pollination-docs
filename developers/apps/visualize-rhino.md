@@ -211,7 +211,7 @@ http://localhost:8501/
 
 ### Running the App inside Rhino
 
-If you don't have already, download the Pollination Rhino plugin from [here](https://www.pollination.cloud/rhino-plugin). Once you install the Rhino plugin, you should see the tabs for "Pollination" and "Pollination.Apps" in the sidebar of Rhino. If you don't, click on the gear icon shown in the image below;
+If you don't have already, download the Pollination Rhino plugin from [here](https://www.pollination.solutions/rhino-plugin). Once you install the Rhino plugin, you should see the tabs for "Pollination" and "Pollination.Apps" in the sidebar of Rhino. If you don't, click on the gear icon shown in the image below;
 
 ![](../../.gitbook/assets/pollination-apps/rhino\_start.png)
 
