@@ -247,7 +247,7 @@ Advertising Content, like all Content, must not violate the law or these Terms o
 
 ### 1\. Pricing
 
-Our pricing and payment terms are available at [pollination.cloud/pricing](https://pollination.cloud/pricing) (unless otherwise negotiated by both parties and stated in an order form). If you agree to a subscription price, that will remain your price for the duration of the payment term; however, prices are subject to change at the end of a payment term.
+Our pricing and payment terms are available at [pollination.solutions/pricing](https://pollination.solutions/pricing) (unless otherwise negotiated by both parties and stated in an order form). If you agree to a subscription price, that will remain your price for the duration of the payment term; however, prices are subject to change at the end of a payment term.
 
 ### 2\. Upgrades, Downgrades, and Changes
 
