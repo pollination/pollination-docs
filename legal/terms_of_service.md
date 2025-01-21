@@ -45,7 +45,7 @@ You are responsible for keeping your account secure while you use our Service.
 
 * You are responsible for all content posted and activity that occurs under your account (even if the content is posted by others).
 * You are responsible for maintaining the security of your account. Pollination cannot and will not be liable for any loss or damage from your failure to comply with this security obligation.
-* You will promptly notify Pollination if you become aware of any unauthorized use of, or access to, our Service through your Account, by sending an email to [support@pollination.cloud](mailto:support@pollination.cloud).
+* You will promptly notify Pollination if you become aware of any unauthorized use of, or access to, our Service through your Account, by sending an email to [support@pollination.solutions](mailto:support@pollination.solutions).
 
 ## C. Acceptable Use
 
@@ -202,7 +202,7 @@ In complying with court orders and similar legal processes, we strive for transp
 
 ## G. Copyright Infringement and DMCA Policy
 
-If you are a copyright owner and you believe that content on Pollination violates your copyright, please contact us by emailing [support@pollination.cloud](mailto:support@pollination.cloud). There may be legal consequences for sending a false or frivolous takedown notice under the Digital Millennium Copyright Act. Before sending a takedown request, you must consider legal uses such as fair use and licensed uses.
+If you are a copyright owner and you believe that content on Pollination violates your copyright, please contact us by emailing [support@pollination.solutions](mailto:support@pollination.solutions). There may be legal consequences for sending a false or frivolous takedown notice under the Digital Millennium Copyright Act. Before sending a takedown request, you must consider legal uses such as fair use and licensed uses.
 
 It is the policy of Pollination, in appropriate circumstances and in its sole discretion, to disable and/or terminate the accounts of users who repeatedly infringe upon the copyrights or other intellectual property rights of Pollination and/or others.
 
@@ -217,7 +217,7 @@ To send a takedown request under the Digital Millennium Copyright Act, you must:
 7. Also include the following statement: "I swear, under penalty of perjury, that the information in this notification is accurate and that I am the copyright owner, or am authorized to act on behalf of the owner, of an exclusive right that is allegedly infringed."
 8. Include your physical or electronic signature.
 
-Email your takedown notice, including elements 1 through 8 above, to [support@pollination.cloud](mailto:support@pollination.cloud).
+Email your takedown notice, including elements 1 through 8 above, to [support@pollination.solutions](mailto:support@pollination.solutions).
 
 ## H. Intellectual Property Notice
 
@@ -270,7 +270,7 @@ By agreeing to these Terms, you are giving us permission to charge your on-file 
 
 ### 5\. Responsibility for Payment
 
-You are responsible for all fees, including taxes, associated with your use of the Service. By using the Service, you agree to pay Pollination any charge incurred in connection with your use of the Service. If you dispute the matter, contact [support@pollination.cloud](mailto:support@pollination.cloud). You are responsible for providing us with a valid means of payment for paid Accounts. Free Accounts are not required to provide payment information.
+You are responsible for all fees, including taxes, associated with your use of the Service. By using the Service, you agree to pay Pollination any charge incurred in connection with your use of the Service. If you dispute the matter, contact [support@pollination.solutions](mailto:support@pollination.solutions). You are responsible for providing us with a valid means of payment for paid Accounts. Free Accounts are not required to provide payment information.
 
 ## K. Cancellation and Termination
 
@@ -278,9 +278,9 @@ You are responsible for all fees, including taxes, associated with your use of t
 
 ### 1\. Account Cancellation or Deletion
 
-It is your responsibility to properly cancel your account with Pollination. You may request cancellation or deletion of your User Account by emailing [support@pollination.cloud](mailto:support@pollination.cloud) from the email address associated with your account.
+It is your responsibility to properly cancel your account with Pollination. You may request cancellation or deletion of your User Account by emailing [support@pollination.solutions](mailto:support@pollination.solutions) from the email address associated with your account.
 
-You can cancel your paid Account at any time by going into the subscriptions from your account's profile page. The organization settings provide a simple, no-questions-asked cancellation link. To delete your account, email the request to [support@pollination.cloud](mailto:support@pollination.cloud) from an owner's email address.
+You can cancel your paid Account at any time by going into the subscriptions from your account's profile page. The organization settings provide a simple, no-questions-asked cancellation link. To delete your account, email the request to [support@pollination.solutions](mailto:support@pollination.solutions) from an owner's email address.
 
 ### 2\. Upon Cancellation
 
@@ -361,7 +361,7 @@ You agree to indemnify us, defend us, and hold us harmless from and against any 
 
 We reserve the right, at our sole discretion, to amend these Terms of Service at any time and will update these Terms of Service in the event of any such amendments. We will notify our Users of material changes to this Agreement, such as price increases, at least 30 days prior to the change taking effect by posting a notice on our Website or sending email to the primary email address specified in your Pollination account. Customer's continued use of the Service after those 30 days constitutes agreement to those revisions of this Agreement. For any other modifications, your continued use of the Website constitutes agreement to our revisions of these Terms of Service.
 
-Should you choose to terminate your annual subscription due to disagreement with the Terms of Service changes, we will offer a pro-rated refund for the unused portion of your remaining subscription period. Please note that monthly subscriptions are not eligible for refunds. To apply for the partial refund, email the request to [support@pollination.cloud](mailto:support@pollination.cloud) from an owner's email address.
+Should you choose to terminate your annual subscription due to disagreement with the Terms of Service changes, we will offer a pro-rated refund for the unused portion of your remaining subscription period. Please note that monthly subscriptions are not eligible for refunds. To apply for the partial refund, email the request to [support@pollination.solutions](mailto:support@pollination.solutions) from an owner's email address.
 
 We reserve the right at any time and from time to time to modify or discontinue, temporarily or permanently, the Website (or any part of it) with or without notice.
 
@@ -389,11 +389,11 @@ This Agreement may only be modified by a written amendment signed by an authoriz
 
 ### 6\. Publicity
 
-If you publicly display the name of your company or organization on your Account or otherwise publicly display its trademarks or logos on your User or Organization profile page or buy a cloud computing package or a Pollination CAD plugin license using an email address from your company domain, you allow us to use your company's or organization's name to identify you as a Pollination customer in our promotional materials. You may revoke this permission by removing your company or organization name from public display and notifying us at [support@pollination.cloud](mailto:support@pollination.cloud) to stop using your organization's name in our promotional materials. However, Pollination will have no obligation to remove or recall any prior use or distribution of the promotional materials.
+If you publicly display the name of your company or organization on your Account or otherwise publicly display its trademarks or logos on your User or Organization profile page or buy a cloud computing package or a Pollination CAD plugin license using an email address from your company domain, you allow us to use your company's or organization's name to identify you as a Pollination customer in our promotional materials. You may revoke this permission by removing your company or organization name from public display and notifying us at [support@pollination.solutions](mailto:support@pollination.solutions) to stop using your organization's name in our promotional materials. However, Pollination will have no obligation to remove or recall any prior use or distribution of the promotional materials.
 
 ### 7\. Questions
 
-Questions about the Terms of Service? Contact us at [support@pollination.cloud](mailto:support@pollination.cloud).
+Questions about the Terms of Service? Contact us at [support@pollination.solutions](mailto:support@pollination.solutions).
 
 ### 8\. Thanks
 
