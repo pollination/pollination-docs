@@ -12,7 +12,7 @@ from typing import List
 
 def get_current_users(api_key: str, org_name: str) -> List[str]:
     """This functions returns an empty list if the api_key doesn't belong to an organization owner."""
-    url = f'https://api.pollination.cloud/orgs/{org_name}/members'
+    url = f'https://api.pollination.solutions/orgs/{org_name}/members'
     response = requests.get(
             url=url,
             headers={'x-pollination-token': api_key}
@@ -42,7 +42,7 @@ def add_users_to_org(
             print(f'{handle} is already a member of {org_name}')
             continue
         print(f'Adding {handle} to {org_name} as a {role}')
-        url = f'https://api.pollination.cloud/orgs/{org_name}/members/{handle}/{role}'
+        url = f'https://api.pollination.solutions/orgs/{org_name}/members/{handle}/{role}'
         response = requests.patch(
             url=url,
             headers={'x-pollination-token': api_key}

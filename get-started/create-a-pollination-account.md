@@ -2,9 +2,9 @@
 
 You'll need a Pollination account to access all features of the Pollination ecosystem. This includes, joining an organization, downloading plugins, using cloud computing resources, and participating in the forum. Luckily you can join for **free** with a **Starter** account! The Starter account gives you a limited amount of cloud computing resources and access to the Pollination ecosystem. To get the most out of Pollination, consider creating an **Organization** account and add additional seats or computing packages.
 
-Check out our [pricing page](https://www.pollination.cloud/pricing-platform) to learn more about the Pollination products!
+Check out our [pricing page](https://www.pollination.solutions/pricing-platform) to learn more about the Pollination products!
 
-Visit [https://app.pollination.cloud/](https://app.pollination.cloud/) and choose your preferred method for signing up. We currently support sign-up via email, with a Google account, or a GitHub account.
+Visit [https://app.pollination.solutions/](https://app.pollination.solutions/) and choose your preferred method for signing up. We currently support sign-up via email, with a Google account, or a GitHub account.
 
 ![Log In Page](../.gitbook/assets/web-application/create-an-account.png)
 
@@ -20,6 +20,6 @@ We have also seem that some IT department block this email from Firebase. You ma
 
 ## Create a Discourse Account
 
-After creating your Pollination account you also need to log-in to [Pollination Discourse](https://discourse.pollination.cloud) page to be able to post your questions, interact with the other Pollination users. Go to the address above and click on the log-in button on the top right of the screen. Use the same method and information that you used to create your Pollination account to log-in to Discourse.
+After creating your Pollination account you also need to log-in to [Pollination Discourse](https://discourse.pollination.solutions) page to be able to post your questions, interact with the other Pollination users. Go to the address above and click on the log-in button on the top right of the screen. Use the same method and information that you used to create your Pollination account to log-in to Discourse.
 
 ![Discourse Log In Page](../.gitbook/assets/web-application/discourse-log-in-page.png)

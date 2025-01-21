@@ -2,7 +2,7 @@
 
 ## Download
 
-Visit the [Pollination Grasshopper Plugin](https://www.pollination.cloud/grasshopper-plugin) website and click on "Download the Latest Version".    
+Visit the [Pollination Grasshopper Plugin](https://www.pollination.solutions/grasshopper-plugin) website and click on "Download the Latest Version".    
 
 ![](../.gitbook/assets/image%20%2853%29.png)
 
