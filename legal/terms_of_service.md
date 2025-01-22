@@ -1,6 +1,6 @@
 # The Pollination Terms of Service
 
-Effective date: March 11, 2024
+Effective date: May 20, 2025
 
 ## A. Definitions
 
