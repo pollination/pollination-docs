@@ -31,7 +31,7 @@
 * [What is Pollination Model Editor](model-editor/README.md)
 * [Getting Started](model-editor/getting-started.md)
 * [Workflows](model-editor/workflows.md)
-* [Commands](model-editor/commands.md)
+* [Commands](model-editor/commands/README.md)
 * [Supported File Formats](model-editor/supported-file-formats/README.md)
   * [Export](model-editor/supported-file-formats/export.md)
   * [Import](model-editor/supported-file-formats/import.md)
