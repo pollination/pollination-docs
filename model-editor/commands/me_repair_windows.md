@@ -1,4 +1,4 @@
-# ![](../../.gitbook/assets/repair-windows.svg) Repair windows
+# ![](../../.gitbook/assets/repair-windows.svg#thumbnail) Repair windows
 
 Fix the windows of the rooms by merging the colliding windows and trimming those that extend past the parent Face. The Rectangle option can be used to further simplify non-rectangular windows into rectangular shapes.
 
@@ -21,3 +21,10 @@ Fix the windows of the rooms by merging the colliding windows and trimming those
 This command is intended to fix such issues while being faithful to the original window geometry. It trims windows that extend past their parent face and merges overlapping windows by either boolean-unioning them or replacing them with a rectangle around the group (if the `Rectangle` option is selected).
 
 For intentionally simplifying the window geometry for either simulation speed or overall model cleanliness, see the "Simplify windows" command.
+
+<style>
+img[src*="#thumbnail"] {
+   width:50px;
+   height:50px;
+}
+</style>

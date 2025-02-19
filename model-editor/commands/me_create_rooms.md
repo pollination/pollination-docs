@@ -1,4 +1,4 @@
-# ![](../../.gitbook/assets/create-room.svg) Create rooms
+# ![](../../.gitbook/assets/create-room.svg#thumbnail) Create rooms
 
 Create a room from the selected closed polylines. Set the room name and adjust the `Floor Height` and `Floor to Ceiling Height` if needed. By default, the command uses the heights of the current active story.
 
@@ -25,3 +25,10 @@ Create a room from the selected closed polylines. Set the room name and adjust t
 {% embed url="https://drive.google.com/open?id=1XeG30cXVSHu2TiNZN3ZKgAH351YQvlFe&usp=drive_fs" %}
 Create Room
 {% endembed %}
+
+<style>
+img[src*="#thumbnail"] {
+   width:50px;
+   height:50px;
+}
+</style>

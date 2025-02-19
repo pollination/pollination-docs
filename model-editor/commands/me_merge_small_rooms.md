@@ -1,4 +1,4 @@
-# Merge Small Rooms
+# ![](../../.gitbook/assets/merge-with-filter.svg#thumbnail) Merge Small Rooms
 
 Merge small rooms in the selection into the larger adjacent rooms. Small rooms are always merged into the adjacent large room with which they share the most perimeter.
 
@@ -7,3 +7,10 @@ Merge small rooms in the selection into the larger adjacent rooms. Small rooms a
 * **Area Threshold**
 
   The floor area below which rooms are considered small and should be merged into larger rooms of the selection.
+
+<style>
+img[src*="#thumbnail"] {
+   width:50px;
+   height:50px;
+}
+</style>

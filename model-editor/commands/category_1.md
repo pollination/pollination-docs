@@ -1,32 +1,6 @@
 # Line Commands
 
-## ![](../../.gitbook/assets/offset.svg) Offset
-
-Offset the selected lines and/or polylines by a specified distance.
-
-<details>
-
-<summary>Options</summary>
-
-**Offset Distance**
-
-  The distance that the selected line/polyline will be offset. This can be either positive or negative and positive values will be interpreted as offsetting outwards or 'to the right' while negative numbers will be offset inwards or to 'to the left'
-
-**Perimeter Polygons**
-
-  Select to have the output be a series of closed perimeter polygons instead of a single offset line or polyline. Perimeter polygons can be used to split rooms into core and perimeter
-
-</details>
-
-The `Offset Distance` can be either positive or negative and positive values will be interpreted as offsetting outwards or "to the right" while negative numbers will be offset inwards or "to the left". The `Perimeter Polygons` option can be used to generate polygons from the offset, which can split rooms into core/perimeter.
-
-{% embed url="https://drive.google.com/open?id=1XnHe7jOAKEczKa-G_h015L-AFxmyh8A1&usp=drive_fs" %}
-Offset
-{% endembed %}
-
----
-
-## ![](../../.gitbook/assets/create-room.svg) Create rooms
+## ![](../../.gitbook/assets/create-room.svg#thumbnail) Create rooms
 
 Create a room from the selected closed polylines. Set the room name and adjust the `Floor Height` and `Floor to Ceiling Height` if needed. By default, the command uses the heights of the current active story.
 
@@ -58,7 +32,45 @@ Create Room
 
 ---
 
-## ![](../../.gitbook/assets/remove-colinear-vertices.svg) Remove colinear vertices
+## ![](../../.gitbook/assets/explode-polyline.svg#thumbnail) Explode polyline
+
+Explode a polyline into several line segments.
+
+---
+
+## ![](../../.gitbook/assets/join-segments.svg#thumbnail) Join segments
+
+Join several segments into one or more polylines.
+
+---
+
+## ![](../../.gitbook/assets/offset.svg#thumbnail) Offset
+
+Offset the selected lines and/or polylines by a specified distance.
+
+<details>
+
+<summary>Options</summary>
+
+**Offset Distance**
+
+  The distance that the selected line/polyline will be offset. This can be either positive or negative and positive values will be interpreted as offsetting outwards or 'to the right' while negative numbers will be offset inwards or to 'to the left'
+
+**Perimeter Polygons**
+
+  Select to have the output be a series of closed perimeter polygons instead of a single offset line or polyline. Perimeter polygons can be used to split rooms into core and perimeter
+
+</details>
+
+The `Offset Distance` can be either positive or negative and positive values will be interpreted as offsetting outwards or "to the right" while negative numbers will be offset inwards or "to the left". The `Perimeter Polygons` option can be used to generate polygons from the offset, which can split rooms into core/perimeter.
+
+{% embed url="https://drive.google.com/open?id=1XnHe7jOAKEczKa-G_h015L-AFxmyh8A1&usp=drive_fs" %}
+Offset
+{% endembed %}
+
+---
+
+## ![](../../.gitbook/assets/remove-colinear-vertices.svg#thumbnail) Remove colinear vertices
 
 Remove colinear vertices from a polyline.
 
@@ -74,14 +86,9 @@ Remove colinear vertices from a polyline.
 
 ---
 
-## ![](../../.gitbook/assets/explode-polyline.svg) Explode polyline
-
-Explode a polyline into several line segments.
-
----
-
-## ![](../../.gitbook/assets/join-segments.svg) Join segments
-
-Join several segments into one or more polylines.
-
----
+<style>
+img[src*="#thumbnail"] {
+   width:30px;
+   height:30px;
+}
+</style>

@@ -1,4 +1,4 @@
-# ![](../../.gitbook/assets/simplify-windows.svg) Simplify windows
+# ![](../../.gitbook/assets/simplify-windows.svg#thumbnail) Simplify windows
 
 Simplify the windows and skylights of a room for either simulation speed or overall model cleanliness.
 
@@ -27,3 +27,10 @@ Simplify the windows and skylights of a room for either simulation speed or over
 ## Details
 
 Note that this command is not intended to fix invalid or un-simulate-able windows and the "Repair windows" command should be used for these purposes.
+
+<style>
+img[src*="#thumbnail"] {
+   width:50px;
+   height:50px;
+}
+</style>

@@ -1,4 +1,4 @@
-# ![](../../.gitbook/assets/merge-rooms.svg) Merge rooms
+# ![](../../.gitbook/assets/merge-rooms.svg#thumbnail) Merge rooms
 
 Merge several rooms into a single room. Setting a Merge Distance that is larger than 0 will allow you to merge rooms that have gaps in between them - crossing gaps up to the specified distance.
 
@@ -21,5 +21,10 @@ Merge several rooms into a single room. Setting a Merge Distance that is larger 
 Useful for cases where multiple rooms in a Revit model should be represented as a single zone in the energy model.
 
 {% embed url="https://drive.google.com/open?id=1XYSAAKmYcU_iv8MBsa7OAZytVL86evNB&usp=drive_fs" %}
-Merge Rooms
-{% endembed %}
+
+<style>
+img[src*="#thumbnail"] {
+   width:50px;
+   height:50px;
+}
+</style>

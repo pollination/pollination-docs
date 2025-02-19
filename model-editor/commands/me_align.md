@@ -1,4 +1,4 @@
-# ![](../../.gitbook/assets/align.svg) Align
+# ![](../../.gitbook/assets/align.svg#thumbnail) Align
 
 Align the selected rooms' vertices to the selected lines/polylines if the room vertices lie within the specified Alignment Distance.
 
@@ -27,3 +27,10 @@ This command is primarily used for fixing misalignments between rooms, which are
 {% embed url="https://drive.google.com/open?id=1JxeHaCoO7B52SQADS9FlJoE-4fQ7i9uJ&usp=drive_fs" %}
 
 This command is only visible when at least one room and one alignment line/polyline are selected.
+
+<style>
+img[src*="#thumbnail"] {
+   width:50px;
+   height:50px;
+}
+</style>
