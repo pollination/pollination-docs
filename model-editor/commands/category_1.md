@@ -1,6 +1,6 @@
 # Line Commands
 
-## ![](../.gitbook/assets/offset.svg) Offset
+## ![](../../.gitbook/assets/offset.svg) Offset
 
 Offset the selected lines and/or polylines by a specified distance.
 
@@ -26,7 +26,7 @@ Offset
 
 ---
 
-## ![](../.gitbook/assets/create-room.svg) Create rooms
+## ![](../../.gitbook/assets/create-room.svg) Create rooms
 
 Create a room from the selected closed polylines. Set the room name and adjust the `Floor Height` and `Floor to Ceiling Height` if needed. By default, the command uses the heights of the current active story.
 
@@ -58,7 +58,7 @@ Create Room
 
 ---
 
-## ![](../.gitbook/assets/remove-colinear-vertices.svg) Remove colinear vertices
+## ![](../../.gitbook/assets/remove-colinear-vertices.svg) Remove colinear vertices
 
 Remove colinear vertices from a polyline.
 
@@ -74,13 +74,13 @@ Remove colinear vertices from a polyline.
 
 ---
 
-## ![](../.gitbook/assets/explode-polyline.svg) Explode polyline
+## ![](../../.gitbook/assets/explode-polyline.svg) Explode polyline
 
 Explode a polyline into several line segments.
 
 ---
 
-## ![](../.gitbook/assets/join-segments.svg) Join segments
+## ![](../../.gitbook/assets/join-segments.svg) Join segments
 
 Join several segments into one or more polylines.
 

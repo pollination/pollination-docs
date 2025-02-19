@@ -1,4 +1,4 @@
-# ![](../.gitbook/assets/solve-adjacency.svg) Solve adjacency
+# ![](../../.gitbook/assets/solve-adjacency.svg) Solve adjacency
 
 Solve adjacency between selected rooms by assigning interior boundary conditions where rooms touch one another
 

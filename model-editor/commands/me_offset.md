@@ -1,4 +1,4 @@
-# ![](../.gitbook/assets/offset.svg) Offset
+# ![](../../.gitbook/assets/offset.svg) Offset
 
 Offset the selected lines and/or polylines by a specified distance.
 

@@ -1,4 +1,4 @@
-# ![](../.gitbook/assets/subtract-rooms.svg) Subtract rooms
+# ![](../../.gitbook/assets/subtract-rooms.svg) Subtract rooms
 
 Subtract one room from another room. Useful for resolving colliding room geometries.
 

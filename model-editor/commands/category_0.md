@@ -1,6 +1,6 @@
 # Room Commands
 
-## ![](../.gitbook/assets/align.svg) Align
+## ![](../../.gitbook/assets/align.svg) Align
 
 Align the selected rooms' vertices to the selected lines/polylines if the room vertices lie within the specified Alignment Distance.
 
@@ -34,7 +34,7 @@ This command is only visible when at least one room and one alignment line/polyl
 
 ---
 
-## ![](../.gitbook/assets/pull-to-room.svg) Pull to room
+## ![](../../.gitbook/assets/pull-to-room.svg) Pull to room
 
 Pull the vertices of one or more rooms to the first 'target' room in the selection. The operation of pulling can be thought of as aligning the rooms to the target room's segments and then snapping to its vertices.
 
@@ -72,7 +72,7 @@ pull to room multi segment lines
 
 ---
 
-## ![](../.gitbook/assets/snap-to-grid.svg) Snap to grid
+## ![](../../.gitbook/assets/snap-to-grid.svg) Snap to grid
 
 Snap the selected rooms to a cartesian grid defined by a Grid Increment distance, which sets the resolution of the grid. This command is useful for IES VE modelers who need geometry on a grid for ease of edit-ability.
 
@@ -96,7 +96,7 @@ Snap to Grid
 
 ---
 
-## ![](../.gitbook/assets/remove-short-segments.svg) Remove short segments
+## ![](../../.gitbook/assets/remove-short-segments.svg) Remove short segments
 
 Remove the segments of the room polygon that are smaller than a certain specified Segment Distance. Use this command to remove column holes and other unwanted small segments at the edges of the rooms.
 
@@ -116,7 +116,7 @@ Remove Columns at the Edge
 
 ---
 
-## ![](../.gitbook/assets/remove-small-holes.svg) Remove holes
+## ![](../../.gitbook/assets/remove-small-holes.svg) Remove holes
 
 Remove the holes inside the room that are smaller than a certain specified Area Threshold. Use this command to remove column and duct holes from inside rooms.
 
@@ -136,7 +136,7 @@ Remove holes
 
 ---
 
-## ![](../.gitbook/assets/join-coplanar-faces.svg) Join coplanar faces
+## ![](../../.gitbook/assets/join-coplanar-faces.svg) Join coplanar faces
 
 Join coplanar walls of the room, effectively removing colinear vertices from the room polygon. Use this command to simplify the geometry and clean up the model before running 'solve adjacency' or 'alignment' commands.
 
@@ -146,7 +146,7 @@ Join Coplanar Faces
 
 ---
 
-## ![](../.gitbook/assets/repair-windows.svg) Repair windows
+## ![](../../.gitbook/assets/repair-windows.svg) Repair windows
 
 Fix the windows of the rooms by merging the colliding windows and trimming those that extend past the parent Face. The Rectangle option can be used to further simplify non-rectangular windows into rectangular shapes.
 
@@ -174,7 +174,7 @@ For intentionally simplifying the window geometry for either simulation speed or
 
 ---
 
-## ![](../.gitbook/assets/simplify-windows.svg) Simplify windows
+## ![](../../.gitbook/assets/simplify-windows.svg) Simplify windows
 
 Simplify the windows and skylights of a room for either simulation speed or overall model cleanliness.
 
@@ -208,7 +208,7 @@ Note that this command is not intended to fix invalid or un-simulate-able window
 
 ---
 
-## ![](../.gitbook/assets/solve-adjacency.svg) Solve adjacency
+## ![](../../.gitbook/assets/solve-adjacency.svg) Solve adjacency
 
 Solve adjacency between selected rooms by assigning interior boundary conditions where rooms touch one another
 
@@ -226,7 +226,7 @@ You can optionally turn off the `Ceiling Adjacency` if you are planing to export
 
 ---
 
-## ![](../.gitbook/assets/merge-rooms.svg) Merge rooms
+## ![](../../.gitbook/assets/merge-rooms.svg) Merge rooms
 
 Merge several rooms into a single room. Setting a Merge Distance that is larger than 0 will allow you to merge rooms that have gaps in between them - crossing gaps up to the specified distance.
 
@@ -256,7 +256,7 @@ Merge Rooms
 
 ---
 
-## ![](../.gitbook/assets/unite-square-duotone.svg) Create boundary
+## ![](../../.gitbook/assets/unite-square-duotone.svg) Create boundary
 
 Create polyline boundaries around a selection of rooms. The command can return polylines for either the exterior border around the rooms or just the holes (or both).
 
@@ -282,7 +282,7 @@ Create Boundary
 
 ---
 
-## ![](../.gitbook/assets/core-pr.svg) Split core and perimeter
+## ![](../../.gitbook/assets/core-pr.svg) Split core and perimeter
 
 Create core and perimeter rooms for a selected room. This is particularly useful for creating models according to typical zoning practices, where each façade orientation is a separate zone
 
@@ -308,7 +308,7 @@ Split core and perimeter
 
 ---
 
-## ![](../.gitbook/assets/subtract-rooms.svg) Subtract rooms
+## ![](../../.gitbook/assets/subtract-rooms.svg) Subtract rooms
 
 Subtract one room from another room. Useful for resolving colliding room geometries.
 
@@ -316,7 +316,7 @@ The first room of the selection is the room to be subtracted from and all follow
 
 ---
 
-## ![](../.gitbook/assets/fill-holes-with-rooms.svg) Fill holes
+## ![](../../.gitbook/assets/fill-holes-with-rooms.svg) Fill holes
 
 Fill holes and gaps across the selected rooms with new rooms (or existing rooms that are adjacent to each hole)
 
@@ -336,7 +336,7 @@ Fill holes and gaps across the selected rooms with new rooms (or existing rooms 
 
 ---
 
-## ![](../.gitbook/assets/validate-model.svg) Validate model
+## ![](../../.gitbook/assets/validate-model.svg) Validate model
 
 Check whether the selected rooms are valid/simulate-able. Valid models should export to any of the supported BEM engines without errors. Invalid models will have their errors presented in a table with the option to select the part of the model where the error originates so that it can be fixed.
 
@@ -346,7 +346,7 @@ Validate Model
 
 ---
 
-## ![](../.gitbook/assets/3d-preview.svg) 3D preview
+## ![](../../.gitbook/assets/3d-preview.svg) 3D preview
 
 Show the selected rooms and shades in 3D. The preview shows up in a new floating window.
 
