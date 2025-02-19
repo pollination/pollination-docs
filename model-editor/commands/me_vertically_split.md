@@ -1,10 +1,3 @@
-# ![](../../.gitbook/assets/separate-plenums.svg#thumbnail) Vertically split
+# <img src="../../.gitbook/assets/separate-plenums.svg" width="50" height="50"> Vertically split
 
 Split the selected rooms vertically if they are tall enough to cross multiple stories in the model.
-
-<style>
-img[src*="#thumbnail"] {
-   width:50px;
-   height:50px;
-}
-</style>

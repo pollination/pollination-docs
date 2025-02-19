@@ -1,4 +1,4 @@
-# ![](../../.gitbook/assets/core-pr.svg#thumbnail) Split core and perimeter
+# <img src="../../.gitbook/assets/core-pr.svg" width="50" height="50"> Split core and perimeter
 
 Create core and perimeter rooms for a selected room. This is particularly useful for creating models according to typical zoning practices, where each façade orientation is a separate zone
 
@@ -19,10 +19,3 @@ The perimeter rooms will have a depth equal to the specified `Offset Distance` a
 {% embed url="https://drive.google.com/open?id=1XlQxN6N1M2LqzQdGNJ4h_Wuw39b3NXc5&usp=drive_fs" %}
 Split core and perimeter
 {% endembed %}
-
-<style>
-img[src*="#thumbnail"] {
-   width:50px;
-   height:50px;
-}
-</style>

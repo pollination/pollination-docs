@@ -1,10 +1,3 @@
-# ![](../../.gitbook/assets/explode-polyline.svg#thumbnail) Explode polyline
+# <img src="../../.gitbook/assets/explode-polyline.svg" width="50" height="50"> Explode polyline
 
 Explode a polyline into several line segments.
-
-<style>
-img[src*="#thumbnail"] {
-   width:50px;
-   height:50px;
-}
-</style>

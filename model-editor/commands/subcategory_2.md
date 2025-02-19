@@ -1,6 +1,6 @@
 # Room New Commands
 
-## ![](../../.gitbook/assets/fill-holes-with-rooms.svg#thumbnail) Fill holes
+## <img src="../../.gitbook/assets/fill-holes-with-rooms.svg" width="30" height="30"> Fill holes
 
 Fill holes and gaps across the selected rooms with new rooms (or existing rooms that are adjacent to each hole)
 
@@ -20,7 +20,7 @@ Fill holes and gaps across the selected rooms with new rooms (or existing rooms 
 
 ---
 
-## ![](../../.gitbook/assets/merge-with-filter.svg#thumbnail) Merge Small Rooms
+## <img src="../../.gitbook/assets/merge-with-filter.svg" width="30" height="30"> Merge Small Rooms
 
 Merge small rooms in the selection into the larger adjacent rooms. Small rooms are always merged into the adjacent large room with which they share the most perimeter.
 
@@ -36,7 +36,7 @@ Merge small rooms in the selection into the larger adjacent rooms. Small rooms a
 
 ---
 
-## ![](../../.gitbook/assets/merge-rooms.svg#thumbnail) Merge rooms
+## <img src="../../.gitbook/assets/merge-rooms.svg" width="30" height="30"> Merge rooms
 
 Merge several rooms into a single room. Setting a Merge Distance that is larger than 0 will allow you to merge rooms that have gaps in between them - crossing gaps up to the specified distance.
 
@@ -64,13 +64,13 @@ Useful for cases where multiple rooms in a Revit model should be represented as 
 
 ---
 
-## ![](../../.gitbook/assets/split-room.svg#thumbnail) Split
+## <img src="../../.gitbook/assets/split-room.svg" width="30" height="30"> Split
 
 Split rooms or roofs by the selected lines/polylines.
 
 ---
 
-## ![](../../.gitbook/assets/core-pr.svg#thumbnail) Split core and perimeter
+## <img src="../../.gitbook/assets/core-pr.svg" width="30" height="30"> Split core and perimeter
 
 Create core and perimeter rooms for a selected room. This is particularly useful for creating models according to typical zoning practices, where each façade orientation is a separate zone
 
@@ -96,15 +96,8 @@ Split core and perimeter
 
 ---
 
-## ![](../../.gitbook/assets/separate-plenums.svg#thumbnail) Vertically split
+## <img src="../../.gitbook/assets/separate-plenums.svg" width="30" height="30"> Vertically split
 
 Split the selected rooms vertically if they are tall enough to cross multiple stories in the model.
 
 ---
-
-<style>
-img[src*="#thumbnail"] {
-   width:30px;
-   height:30px;
-}
-</style>
