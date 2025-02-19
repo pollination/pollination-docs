@@ -1,10 +1,3 @@
-# ![](../../.gitbook/assets/air-boundaries.svg#thumbnail) Set air boundaries
+# <img src="../../.gitbook/assets/air-boundaries.svg" width="50" height="50"> Set air boundaries
 
 Set the adjacencies between the selected rooms to use air boundaries. Note that adjacencies should be solved between rooms before running this method in order for it to have any effect. If lines are selected while running this command, they will be used to set air boundaries for only the adjacencies that are coincident with those lines.
-
-<style>
-img[src*="#thumbnail"] {
-   width:50px;
-   height:50px;
-}
-</style>

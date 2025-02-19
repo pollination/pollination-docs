@@ -1,6 +1,6 @@
 # Room Windows Commands
 
-## ![](../../.gitbook/assets/offset-windows.svg#thumbnail) Offset windows
+## <img src="../../.gitbook/assets/offset-windows.svg" width="30" height="30"> Offset windows
 
 Offset all windows and/or skylights by a certain distance. This is useful for translating between interfaces that expect the window frame to be included within or excluded from the geometry.
 
@@ -24,7 +24,7 @@ Offset all windows and/or skylights by a certain distance. This is useful for tr
 
 ---
 
-## ![](../../.gitbook/assets/repair-windows.svg#thumbnail) Repair windows
+## <img src="../../.gitbook/assets/repair-windows.svg" width="30" height="30"> Repair windows
 
 Fix the windows of the rooms by merging the colliding windows and trimming those that extend past the parent Face. The Rectangle option can be used to further simplify non-rectangular windows into rectangular shapes.
 
@@ -52,7 +52,7 @@ For intentionally simplifying the window geometry for either simulation speed or
 
 ---
 
-## ![](../../.gitbook/assets/simplify-windows.svg#thumbnail) Simplify windows
+## <img src="../../.gitbook/assets/simplify-windows.svg" width="30" height="30"> Simplify windows
 
 Simplify the windows and skylights of a room for either simulation speed or overall model cleanliness.
 
@@ -85,10 +85,3 @@ Simplify the windows and skylights of a room for either simulation speed or over
 Note that this command is not intended to fix invalid or un-simulate-able windows and the "Repair windows" command should be used for these purposes.
 
 ---
-
-<style>
-img[src*="#thumbnail"] {
-   width:30px;
-   height:30px;
-}
-</style>

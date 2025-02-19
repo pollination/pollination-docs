@@ -1,10 +1,3 @@
-# ![](../../.gitbook/assets/resolve-roof-overlaps.svg#thumbnail) Resolve roof overlaps
+# <img src="../../.gitbook/assets/resolve-roof-overlaps.svg" width="50" height="50"> Resolve roof overlaps
 
 Clean up roof geometries across the model.
-
-<style>
-img[src*="#thumbnail"] {
-   width:50px;
-   height:50px;
-}
-</style>

@@ -1,4 +1,4 @@
-# ![](../../.gitbook/assets/remove-short-segments.svg#thumbnail) Remove short segments
+# <img src="../../.gitbook/assets/remove-short-segments.svg" width="50" height="50"> Remove short segments
 
 Remove the segments of the room polygon that are smaller than a certain specified Segment Distance. Use this command to remove column holes and other unwanted small segments at the edges of the rooms.
 
@@ -13,10 +13,3 @@ Remove the segments of the room polygon that are smaller than a certain specifie
 {% embed url="https://drive.google.com/open?id=1XZt4b8qwogVWW-4qQ5bLBV1w9Saul_nw&usp=drive_fs" %}
 Remove Columns at the Edge
 {% endembed %}
-
-<style>
-img[src*="#thumbnail"] {
-   width:50px;
-   height:50px;
-}
-</style>

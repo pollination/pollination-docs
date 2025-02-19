@@ -1,10 +1,3 @@
-# ![](../../.gitbook/assets/split-room.svg#thumbnail) Split
+# <img src="../../.gitbook/assets/split-room.svg" width="50" height="50"> Split
 
 Split rooms or roofs by the selected lines/polylines.
-
-<style>
-img[src*="#thumbnail"] {
-   width:50px;
-   height:50px;
-}
-</style>

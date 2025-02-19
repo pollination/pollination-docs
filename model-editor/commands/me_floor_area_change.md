@@ -15,10 +15,3 @@ Visualize the change in floor area that has happened as a result of editing oper
 * **Color Scheme**
 
   The color scheme for the visualization
-
-<style>
-img[src*="#thumbnail"] {
-   width:50px;
-   height:50px;
-}
-</style>

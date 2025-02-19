@@ -1,4 +1,4 @@
-# ![](../../.gitbook/assets/unite-square-duotone.svg#thumbnail) Create boundary
+# <img src="../../.gitbook/assets/unite-square-duotone.svg" width="50" height="50"> Create boundary
 
 Create polyline boundaries around a selection of rooms. The command can return polylines for either the exterior border around the rooms or just the holes (or both).
 
@@ -19,10 +19,3 @@ You can use the generated borders for aligning the existing rooms or creating ne
 {% embed url="https://drive.google.com/open?id=1XXLZWxD-9Q2Dy1BSkQw8Iz9hK_gyKEMV&usp=drive_fs" %}
 Create Boundary
 {% endembed %}
-
-<style>
-img[src*="#thumbnail"] {
-   width:50px;
-   height:50px;
-}
-</style>

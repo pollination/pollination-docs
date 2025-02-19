@@ -1,4 +1,4 @@
-# ![](../../.gitbook/assets/pull-to-room.svg#thumbnail) Pull to room
+# <img src="../../.gitbook/assets/pull-to-room.svg" width="50" height="50"> Pull to room
 
 Pull the vertices of one or more rooms to the first 'target' room in the selection. The operation of pulling can be thought of as aligning the rooms to the target room's segments and then snapping to its vertices.
 
@@ -31,10 +31,3 @@ Using the `Coordinate Vertices` option will run an additional operation to adjus
 {% embed url="https://drive.google.com/open?id=1XXNms4EwkrQteXZpxaFP7laQxpouSK74&usp=drive_fs" %}
 pull to room multi segment lines
 {% endembed %}
-
-<style>
-img[src*="#thumbnail"] {
-   width:50px;
-   height:50px;
-}
-</style>

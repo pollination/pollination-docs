@@ -1,4 +1,4 @@
-# ![](../../.gitbook/assets/offset.svg#thumbnail) Offset
+# <img src="../../.gitbook/assets/offset.svg" width="50" height="50"> Offset
 
 Offset the selected lines and/or polylines by a specified distance.
 
@@ -19,10 +19,3 @@ The `Offset Distance` can be either positive or negative and positive values wil
 {% embed url="https://drive.google.com/open?id=1XnHe7jOAKEczKa-G_h015L-AFxmyh8A1&usp=drive_fs" %}
 Offset
 {% endembed %}
-
-<style>
-img[src*="#thumbnail"] {
-   width:50px;
-   height:50px;
-}
-</style>
