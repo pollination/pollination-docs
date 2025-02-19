@@ -7,67 +7,67 @@ description: >-
 
 # Room Commands
 
-#### ![](../.gitbook/assets/align.svg) <mark style="background-color:yellow;">Align</mark>
+#### ![](../../.gitbook/assets/align.svg) <mark style="background-color:yellow;">Align</mark>
 
 Align the selected rooms' vertices to the selected lines/polylines if the room vertices lie within the specified Alignment Distance. [Read more](./me_align.md).
 
-#### ![](../.gitbook/assets/pull-to-room.svg) <mark style="background-color:yellow;">Pull to room</mark>
+#### ![](../../.gitbook/assets/pull-to-room.svg) <mark style="background-color:yellow;">Pull to room</mark>
 
 Pull the vertices of one or more rooms to the first 'target' room in the selection. The operation of pulling can be thought of as aligning the rooms to the target room's segments and then snapping to its vertices. [Read more](./me_pull_to_room.md).
 
-#### ![](../.gitbook/assets/snap-to-grid.svg) <mark style="background-color:yellow;">Snap to grid</mark>
+#### ![](../../.gitbook/assets/snap-to-grid.svg) <mark style="background-color:yellow;">Snap to grid</mark>
 
 Snap the selected rooms to a cartesian grid defined by a Grid Increment distance, which sets the resolution of the grid. This command is useful for IES VE modelers who need geometry on a grid for ease of edit-ability. [Read more](./me_snap_to_grid.md).
 
-#### ![](../.gitbook/assets/remove-short-segments.svg) <mark style="background-color:yellow;">Remove short segments</mark>
+#### ![](../../.gitbook/assets/remove-short-segments.svg) <mark style="background-color:yellow;">Remove short segments</mark>
 
 Remove the segments of the room polygon that are smaller than a certain specified Segment Distance. Use this command to remove column holes and other unwanted small segments at the edges of the rooms. [Read more](./me_remove_short_segments.md).
 
-#### ![](../.gitbook/assets/remove-small-holes.svg) <mark style="background-color:yellow;">Remove holes</mark>
+#### ![](../../.gitbook/assets/remove-small-holes.svg) <mark style="background-color:yellow;">Remove holes</mark>
 
 Remove the holes inside the room that are smaller than a certain specified Area Threshold. Use this command to remove column and duct holes from inside rooms. [Read more](./me_remove_holes.md).
 
-#### ![](../.gitbook/assets/join-coplanar-faces.svg) <mark style="background-color:yellow;">Join coplanar faces</mark>
+#### ![](../../.gitbook/assets/join-coplanar-faces.svg) <mark style="background-color:yellow;">Join coplanar faces</mark>
 
 Join coplanar walls of the room, effectively removing colinear vertices from the room polygon. Use this command to simplify the geometry and clean up the model before running 'solve adjacency' or 'alignment' commands. [Read more](./me_join_coplanar_faces.md).
 
-#### ![](../.gitbook/assets/repair-windows.svg) <mark style="background-color:yellow;">Repair windows</mark>
+#### ![](../../.gitbook/assets/repair-windows.svg) <mark style="background-color:yellow;">Repair windows</mark>
 
 Fix the windows of the rooms by merging the colliding windows and trimming those that extend past the parent Face. The Rectangle option can be used to further simplify non-rectangular windows into rectangular shapes. [Read more](./me_repair_windows.md).
 
-#### ![](../.gitbook/assets/simplify-windows.svg) <mark style="background-color:yellow;">Simplify windows</mark>
+#### ![](../../.gitbook/assets/simplify-windows.svg) <mark style="background-color:yellow;">Simplify windows</mark>
 
 Simplify the windows and skylights of a room for either simulation speed or overall model cleanliness. [Read more](./me_simplify_windows.md).
 
-#### ![](../.gitbook/assets/solve-adjacency.svg) <mark style="background-color:yellow;">Solve adjacency</mark>
+#### ![](../../.gitbook/assets/solve-adjacency.svg) <mark style="background-color:yellow;">Solve adjacency</mark>
 
 Solve adjacency between selected rooms by assigning interior boundary conditions where rooms touch one another [Read more](./me_solve_adjacency.md).
 
-#### ![](../.gitbook/assets/merge-rooms.svg) <mark style="background-color:yellow;">Merge rooms</mark>
+#### ![](../../.gitbook/assets/merge-rooms.svg) <mark style="background-color:yellow;">Merge rooms</mark>
 
 Merge several rooms into a single room. Setting a Merge Distance that is larger than 0 will allow you to merge rooms that have gaps in between them - crossing gaps up to the specified distance. [Read more](./me_merge_rooms.md).
 
-#### ![](../.gitbook/assets/unite-square-duotone.svg) <mark style="background-color:yellow;">Create boundary</mark>
+#### ![](../../.gitbook/assets/unite-square-duotone.svg) <mark style="background-color:yellow;">Create boundary</mark>
 
 Create polyline boundaries around a selection of rooms. The command can return polylines for either the exterior border around the rooms or just the holes (or both). [Read more](./me_create_boundary.md).
 
-#### ![](../.gitbook/assets/core-pr.svg) <mark style="background-color:yellow;">Split core and perimeter</mark>
+#### ![](../../.gitbook/assets/core-pr.svg) <mark style="background-color:yellow;">Split core and perimeter</mark>
 
 Create core and perimeter rooms for a selected room. This is particularly useful for creating models according to typical zoning practices, where each façade orientation is a separate zone [Read more](./me_split_core_and_perimeter.md).
 
-#### ![](../.gitbook/assets/subtract-rooms.svg) <mark style="background-color:yellow;">Subtract rooms</mark>
+#### ![](../../.gitbook/assets/subtract-rooms.svg) <mark style="background-color:yellow;">Subtract rooms</mark>
 
 Subtract one room from another room. Useful for resolving colliding room geometries. [Read more](./me_subtract_rooms.md).
 
-#### ![](../.gitbook/assets/fill-holes-with-rooms.svg) <mark style="background-color:yellow;">Fill holes</mark>
+#### ![](../../.gitbook/assets/fill-holes-with-rooms.svg) <mark style="background-color:yellow;">Fill holes</mark>
 
 Fill holes and gaps across the selected rooms with new rooms (or existing rooms that are adjacent to each hole) [Read more](./me_fill_holes.md).
 
-#### ![](../.gitbook/assets/validate-model.svg) <mark style="background-color:yellow;">Validate model</mark>
+#### ![](../../.gitbook/assets/validate-model.svg) <mark style="background-color:yellow;">Validate model</mark>
 
 Check whether the selected rooms are valid/simulate-able. Valid models should export to any of the supported BEM engines without errors. Invalid models will have their errors presented in a table with the option to select the part of the model where the error originates so that it can be fixed. [Read more](./me_validate_model.md).
 
-#### ![](../.gitbook/assets/3d-preview.svg) <mark style="background-color:yellow;">3D preview</mark>
+#### ![](../../.gitbook/assets/3d-preview.svg) <mark style="background-color:yellow;">3D preview</mark>
 
 Show the selected rooms and shades in 3D. The preview shows up in a new floating window. [Read more](./me_3d_preview.md).
 
@@ -109,29 +109,29 @@ Split the selected rooms vertically if they are tall enough to cross multiple st
 
 # Line Commands
 
-#### ![](../.gitbook/assets/offset.svg) <mark style="background-color:yellow;">Offset</mark>
+#### ![](../../.gitbook/assets/offset.svg) <mark style="background-color:yellow;">Offset</mark>
 
 Offset the selected lines and/or polylines by a specified distance. [Read more](./me_offset.md).
 
-#### ![](../.gitbook/assets/create-room.svg) <mark style="background-color:yellow;">Create rooms</mark>
+#### ![](../../.gitbook/assets/create-room.svg) <mark style="background-color:yellow;">Create rooms</mark>
 
 Create a room from the selected closed polylines. Set the room name and adjust the `Floor Height` and `Floor to Ceiling Height` if needed. By default, the command uses the heights of the current active story. [Read more](./me_create_rooms.md).
 
-#### ![](../.gitbook/assets/remove-colinear-vertices.svg) <mark style="background-color:yellow;">Remove colinear vertices</mark>
+#### ![](../../.gitbook/assets/remove-colinear-vertices.svg) <mark style="background-color:yellow;">Remove colinear vertices</mark>
 
 Remove colinear vertices from a polyline. [Read more](./me_remove_colinear_vertices.md).
 
-#### ![](../.gitbook/assets/explode-polyline.svg) <mark style="background-color:yellow;">Explode polyline</mark>
+#### ![](../../.gitbook/assets/explode-polyline.svg) <mark style="background-color:yellow;">Explode polyline</mark>
 
 Explode a polyline into several line segments. [Read more](./me_explode_polyline.md).
 
-#### ![](../.gitbook/assets/join-segments.svg) <mark style="background-color:yellow;">Join segments</mark>
+#### ![](../../.gitbook/assets/join-segments.svg) <mark style="background-color:yellow;">Join segments</mark>
 
 Join several segments into one or more polylines. [Read more](./me_join_segments.md).
 
 # Roof Commands
 
-#### ![](../.gitbook/assets/prev-roof.svg) <mark style="background-color:yellow;">Preview roofs</mark>
+#### ![](../../.gitbook/assets/prev-roof.svg) <mark style="background-color:yellow;">Preview roofs</mark>
 
 Show the selected roofs in 3D. The 3D preview shows up in a new floating window. [Read more](./me_preview_roofs.md).
 

@@ -1,4 +1,4 @@
-# ![](../.gitbook/assets/align.svg) Align
+# ![](../../.gitbook/assets/align.svg) Align
 
 Align the selected rooms' vertices to the selected lines/polylines if the room vertices lie within the specified Alignment Distance.
 
