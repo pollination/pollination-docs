@@ -1,4 +1,4 @@
-# ![](../../.gitbook/assets/fill-holes-with-rooms.svg) Fill holes
+# ![](../../.gitbook/assets/fill-holes-with-rooms.svg#thumbnail) Fill holes
 
 Fill holes and gaps across the selected rooms with new rooms (or existing rooms that are adjacent to each hole)
 
@@ -11,3 +11,10 @@ Fill holes and gaps across the selected rooms with new rooms (or existing rooms 
 * **New Room Name**
 
   Text to set the name of newly-generated rooms. In the case of multiple holes being filled, this input will be a base name and an integer will be automatically added to the end of each new room name
+
+<style>
+img[src*="#thumbnail"] {
+   width:50px;
+   height:50px;
+}
+</style>

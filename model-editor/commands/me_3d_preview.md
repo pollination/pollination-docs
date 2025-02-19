@@ -1,4 +1,4 @@
-# ![](../../.gitbook/assets/3d-preview.svg) 3D preview
+# ![](../../.gitbook/assets/3d-preview.svg#thumbnail) 3D preview
 
 Show the selected rooms and shades in 3D. The preview shows up in a new floating window.
 
@@ -17,3 +17,10 @@ Show the selected rooms and shades in 3D. The preview shows up in a new floating
 {% embed url="https://drive.google.com/open?id=1XXyLpIH1oNf8FZ4CV9fvfH15tyQ8E5Ty&usp=drive_fs" %}
 3D Preview
 {% endembed %}
+
+<style>
+img[src*="#thumbnail"] {
+   width:50px;
+   height:50px;
+}
+</style>

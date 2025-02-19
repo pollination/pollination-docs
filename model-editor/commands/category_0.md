@@ -1,6 +1,6 @@
 # Room Commands
 
-## ![](../../.gitbook/assets/align.svg) Align
+## ![](../../.gitbook/assets/align.svg#thumbnail) Align
 
 Align the selected rooms' vertices to the selected lines/polylines if the room vertices lie within the specified Alignment Distance.
 
@@ -34,7 +34,41 @@ This command is only visible when at least one room and one alignment line/polyl
 
 ---
 
-## ![](../../.gitbook/assets/pull-to-room.svg) Pull to room
+## ![](../../.gitbook/assets/auto-align.svg#thumbnail) Auto align
+
+Automatically align selected rooms to common axes identified across them. The command is intended to automatically perform most of the alignments that would typically be done manually. Note that having a line selected while running this command will force the generated alignment axes to be generated only in the plane of that line.
+
+<details>
+
+<summary>Options</summary>
+
+**Distance**
+
+  The distance with which room vertices will be aligned to common axes. No vertex in the input rooms will be moved more than this distance
+
+**Exclude Angle**
+
+  A positive number in degrees for the maximum difference that a geometry segment can differ from the alignment axes for it to be ignored/excluded from alignment
+
+**Axes Only**
+
+  Select to have this command only output the common axes of the selected rooms into the scene and not perform any auto-alignment of rooms with these axes. This can give more control over which axes are or are not used by allowing manual selection and aligning with desired axes
+
+</details>
+
+---
+
+## ![](../../.gitbook/assets/merge-coplanar.svg#thumbnail) Join coplanar faces
+
+Join coplanar walls of the room, effectively removing colinear vertices from the room polygon. Use this command to simplify the geometry and clean up the model before running 'solve adjacency' or 'alignment' commands.
+
+{% embed url="https://drive.google.com/open?id=1Xa9pMIRnK8V09I8LgFAQI7zbKuqrLmMb&usp=drive_fs" %}
+Join Coplanar Faces
+{% endembed %}
+
+---
+
+## ![](../../.gitbook/assets/pull-to-room.svg#thumbnail) Pull to room
 
 Pull the vertices of one or more rooms to the first 'target' room in the selection. The operation of pulling can be thought of as aligning the rooms to the target room's segments and then snapping to its vertices.
 
@@ -72,7 +106,63 @@ pull to room multi segment lines
 
 ---
 
-## ![](../../.gitbook/assets/snap-to-grid.svg) Snap to grid
+## ![](../../.gitbook/assets/remove-small-holes.svg#thumbnail) Remove holes
+
+Remove the holes inside the room that are smaller than a certain specified Area Threshold. Use this command to remove column and duct holes from inside rooms.
+
+<details>
+
+<summary>Options</summary>
+
+**Area Threshold**
+
+  The maximum area for a hole below which it will be removed
+
+</details>
+
+{% embed url="https://drive.google.com/open?id=1Xnfv6pGbWf0-XdxtkmtCiZRpd79a3o0G&usp=drive_fs" %}
+Remove holes
+{% endembed %}
+
+---
+
+## ![](../../.gitbook/assets/remove-short-segments.svg#thumbnail) Remove short segments
+
+Remove the segments of the room polygon that are smaller than a certain specified Segment Distance. Use this command to remove column holes and other unwanted small segments at the edges of the rooms.
+
+<details>
+
+<summary>Options</summary>
+
+**Segment Distance**
+
+  The maximum length of a segment below which it will be removed
+
+</details>
+
+{% embed url="https://drive.google.com/open?id=1XZt4b8qwogVWW-4qQ5bLBV1w9Saul_nw&usp=drive_fs" %}
+Remove Columns at the Edge
+{% endembed %}
+
+---
+
+## ![](../../.gitbook/assets/simplify-curved-room.svg#thumbnail) Simplify Curved Edges
+
+Simplify and reduce the number of vertices defining curved edges of rooms.
+
+<details>
+
+<summary>Options</summary>
+
+**Deviation Distance**
+
+  The distance that a curved part of the room is allowed to differ from a straight line. Lower tolerance values correspond to a higher resolution of curvature with more vertices
+
+</details>
+
+---
+
+## ![](../../.gitbook/assets/snap-to-grid.svg#thumbnail) Snap to grid
 
 Snap the selected rooms to a cartesian grid defined by a Grid Increment distance, which sets the resolution of the grid. This command is useful for IES VE modelers who need geometry on a grid for ease of edit-ability.
 
@@ -96,57 +186,39 @@ Snap to Grid
 
 ---
 
-## ![](../../.gitbook/assets/remove-short-segments.svg) Remove short segments
+## ![](../../.gitbook/assets/subtract-rooms.svg#thumbnail) Subtract rooms
 
-Remove the segments of the room polygon that are smaller than a certain specified Segment Distance. Use this command to remove column holes and other unwanted small segments at the edges of the rooms.
+Subtract one room from another room. Useful for resolving colliding room geometries.
+
+The first room of the selection is the room to be subtracted from and all following rooms in the selection will be used for subtraction.
+
+---
+
+## ![](../../.gitbook/assets/offset-windows.svg#thumbnail) Offset windows
+
+Offset all windows and/or skylights by a certain distance. This is useful for translating between interfaces that expect the window frame to be included within or excluded from the geometry.
 
 <details>
 
 <summary>Options</summary>
 
-**Segment Distance**
+**Offset Distance**
 
-  The maximum length of a segment below which it will be removed
+  Offset all windows and/or skylights by a certain distance. This is useful for translating between interfaces that expect the window frame to be included within or excluded from the geometry
 
-</details>
+**Ignore Windows**
 
-{% embed url="https://drive.google.com/open?id=1XZt4b8qwogVWW-4qQ5bLBV1w9Saul_nw&usp=drive_fs" %}
-Remove Columns at the Edge
-{% endembed %}
+  Select to have the windows left as they are during the offset operation
 
----
+**Ignore Skylights**
 
-## ![](../../.gitbook/assets/remove-small-holes.svg) Remove holes
-
-Remove the holes inside the room that are smaller than a certain specified Area Threshold. Use this command to remove column and duct holes from inside rooms.
-
-<details>
-
-<summary>Options</summary>
-
-**Area Threshold**
-
-  The maximum area for a hole below which it will be removed
+  Select to have the skylights left as they are during the offset operation
 
 </details>
 
-{% embed url="https://drive.google.com/open?id=1Xnfv6pGbWf0-XdxtkmtCiZRpd79a3o0G&usp=drive_fs" %}
-Remove holes
-{% endembed %}
-
 ---
 
-## ![](../../.gitbook/assets/join-coplanar-faces.svg) Join coplanar faces
-
-Join coplanar walls of the room, effectively removing colinear vertices from the room polygon. Use this command to simplify the geometry and clean up the model before running 'solve adjacency' or 'alignment' commands.
-
-{% embed url="https://drive.google.com/open?id=1Xa9pMIRnK8V09I8LgFAQI7zbKuqrLmMb&usp=drive_fs" %}
-Join Coplanar Faces
-{% endembed %}
-
----
-
-## ![](../../.gitbook/assets/repair-windows.svg) Repair windows
+## ![](../../.gitbook/assets/repair-windows.svg#thumbnail) Repair windows
 
 Fix the windows of the rooms by merging the colliding windows and trimming those that extend past the parent Face. The Rectangle option can be used to further simplify non-rectangular windows into rectangular shapes.
 
@@ -174,7 +246,7 @@ For intentionally simplifying the window geometry for either simulation speed or
 
 ---
 
-## ![](../../.gitbook/assets/simplify-windows.svg) Simplify windows
+## ![](../../.gitbook/assets/simplify-windows.svg#thumbnail) Simplify windows
 
 Simplify the windows and skylights of a room for either simulation speed or overall model cleanliness.
 
@@ -208,25 +280,43 @@ Note that this command is not intended to fix invalid or un-simulate-able window
 
 ---
 
-## ![](../../.gitbook/assets/solve-adjacency.svg) Solve adjacency
+## ![](../../.gitbook/assets/fill-holes-with-rooms.svg#thumbnail) Fill holes
 
-Solve adjacency between selected rooms by assigning interior boundary conditions where rooms touch one another
+Fill holes and gaps across the selected rooms with new rooms (or existing rooms that are adjacent to each hole)
 
 <details>
 
 <summary>Options</summary>
 
-**Ceiling Adjacencies**
+**Area Threshold**
 
-  Select to have the adjacency between the stories solved
+  The area below which a hole gets merged into adjacent rooms and above which it will be filled with a new room. To fill all holes with new rooms, set the area threshold to zero. To have all holes merged into neighboring rooms, set the area threshold to a high number
+
+**New Room Name**
+
+  Text to set the name of newly-generated rooms. In the case of multiple holes being filled, this input will be a base name and an integer will be automatically added to the end of each new room name
 
 </details>
 
-You can optionally turn off the `Ceiling Adjacency` if you are planing to export to a platform with it's own adjacency-solving routine (eg. IES-VE) or you are primarily interested in simulating each Story as a distinct unit with adiabatic floors and ceilings. This command will only be visible when more than one room is selected.
+---
+
+## ![](../../.gitbook/assets/merge-with-filter.svg#thumbnail) Merge Small Rooms
+
+Merge small rooms in the selection into the larger adjacent rooms. Small rooms are always merged into the adjacent large room with which they share the most perimeter.
+
+<details>
+
+<summary>Options</summary>
+
+**Area Threshold**
+
+  The floor area below which rooms are considered small and should be merged into larger rooms of the selection.
+
+</details>
 
 ---
 
-## ![](../../.gitbook/assets/merge-rooms.svg) Merge rooms
+## ![](../../.gitbook/assets/merge-rooms.svg#thumbnail) Merge rooms
 
 Merge several rooms into a single room. Setting a Merge Distance that is larger than 0 will allow you to merge rooms that have gaps in between them - crossing gaps up to the specified distance.
 
@@ -251,38 +341,16 @@ Merge several rooms into a single room. Setting a Merge Distance that is larger 
 Useful for cases where multiple rooms in a Revit model should be represented as a single zone in the energy model.
 
 {% embed url="https://drive.google.com/open?id=1XYSAAKmYcU_iv8MBsa7OAZytVL86evNB&usp=drive_fs" %}
-Merge Rooms
-{% endembed %}
 
 ---
 
-## ![](../../.gitbook/assets/unite-square-duotone.svg) Create boundary
+## ![](../../.gitbook/assets/split-room.svg#thumbnail) Split
 
-Create polyline boundaries around a selection of rooms. The command can return polylines for either the exterior border around the rooms or just the holes (or both).
-
-<details>
-
-<summary>Options</summary>
-
-**Mode**
-
-  The calculation mode for creating boundaries. The options are Include Holes, Exclude Holes , and Holes Only
-
-**Merge Distance**
-
-  The maximum distance between rooms below which the boundary will be drawn around the rooms together (instead of being separate for each room). Setting a non-zero value here will allow you to draw boundaries around rooms that have gaps in between them (crossing gaps up to the specified distance)
-
-</details>
-
-You can use the generated borders for aligning the existing rooms or creating new rooms. See the line commands for the full list of the available commands.
-
-{% embed url="https://drive.google.com/open?id=1XXLZWxD-9Q2Dy1BSkQw8Iz9hK_gyKEMV&usp=drive_fs" %}
-Create Boundary
-{% endembed %}
+Split rooms or roofs by the selected lines/polylines.
 
 ---
 
-## ![](../../.gitbook/assets/core-pr.svg) Split core and perimeter
+## ![](../../.gitbook/assets/core-pr.svg#thumbnail) Split core and perimeter
 
 Create core and perimeter rooms for a selected room. This is particularly useful for creating models according to typical zoning practices, where each façade orientation is a separate zone
 
@@ -308,45 +376,83 @@ Split core and perimeter
 
 ---
 
-## ![](../../.gitbook/assets/subtract-rooms.svg) Subtract rooms
+## ![](../../.gitbook/assets/separate-plenums.svg#thumbnail) Vertically split
 
-Subtract one room from another room. Useful for resolving colliding room geometries.
-
-The first room of the selection is the room to be subtracted from and all following rooms in the selection will be used for subtraction.
+Split the selected rooms vertically if they are tall enough to cross multiple stories in the model.
 
 ---
 
-## ![](../../.gitbook/assets/fill-holes-with-rooms.svg) Fill holes
+## ![](../../.gitbook/assets/air-boundaries.svg#thumbnail) Set air boundaries
 
-Fill holes and gaps across the selected rooms with new rooms (or existing rooms that are adjacent to each hole)
+Set the adjacencies between the selected rooms to use air boundaries. Note that adjacencies should be solved between rooms before running this method in order for it to have any effect. If lines are selected while running this command, they will be used to set air boundaries for only the adjacencies that are coincident with those lines.
+
+---
+
+## ![](../../.gitbook/assets/solve-adjacency.svg#thumbnail) Solve adjacency
+
+Solve adjacency between selected rooms by assigning interior boundary conditions where rooms touch one another
 
 <details>
 
 <summary>Options</summary>
 
-**Area Threshold**
+**Ceiling Adjacencies**
 
-  The area below which a hole gets merged into adjacent rooms and above which it will be filled with a new room. To fill all holes with new rooms, set the area threshold to zero. To have all holes merged into neighboring rooms, set the area threshold to a high number
+  Select to have the adjacency between the stories solved
 
-**New Room Name**
+</details>
 
-  Text to set the name of newly-generated rooms. In the case of multiple holes being filled, this input will be a base name and an integer will be automatically added to the end of each new room name
+You can optionally turn off the `Ceiling Adjacency` if you are planing to export to a platform with it's own adjacency-solving routine (eg. IES-VE) or you are primarily interested in simulating each Story as a distinct unit with adiabatic floors and ceilings. This command will only be visible when more than one room is selected.
+
+---
+
+## ![](../../.gitbook/assets/unite-square-duotone.svg#thumbnail) Create boundary
+
+Create polyline boundaries around a selection of rooms. The command can return polylines for either the exterior border around the rooms or just the holes (or both).
+
+<details>
+
+<summary>Options</summary>
+
+**Mode**
+
+  The calculation mode for creating boundaries. The options are Include Holes, Exclude Holes , and Holes Only
+
+**Merge Distance**
+
+  The maximum distance between rooms below which the boundary will be drawn around the rooms together (instead of being separate for each room). Setting a non-zero value here will allow you to draw boundaries around rooms that have gaps in between them (crossing gaps up to the specified distance)
+
+</details>
+
+You can use the generated borders for aligning the existing rooms or creating new rooms. See the line commands for the full list of the available commands.
+
+{% embed url="https://drive.google.com/open?id=1XXLZWxD-9Q2Dy1BSkQw8Iz9hK_gyKEMV&usp=drive_fs" %}
+Create Boundary
+{% endembed %}
+
+---
+
+## ![](../../.gitbook/assets/gen-align-axes.svg#thumbnail) Generate alignment axes
+
+Generate suggested alignment axes for rooms using a selected line to specify the alignment direction. All generated axes will be parallel to the selected line and will fall along the common axes of the selected rooms.
+
+<details>
+
+<summary>Options</summary>
+
+**Distance**
+
+  The distance with which room vertices will be aligned to common axes. This dictates the resolution with which common axes will be generated
+
+**All Common Axes**
+
+  Select to have this command output all common axes of the rooms regardless of whether the rooms are already aligned to the axes. By default, only common axes to which the rooms are not already aligned are output
 
 </details>
 
 ---
 
-## ![](../../.gitbook/assets/validate-model.svg) Validate model
-
-Check whether the selected rooms are valid/simulate-able. Valid models should export to any of the supported BEM engines without errors. Invalid models will have their errors presented in a table with the option to select the part of the model where the error originates so that it can be fixed.
-
-{% embed url="https://drive.google.com/open?id=1K4iUHPC9lKHDfJenTkUSycjKys9rvw_j&usp=drive_fs" %}
-Validate Model
-{% endembed %}
-
----
-
-## ![](../../.gitbook/assets/3d-preview.svg) 3D preview
+## ![](../../.gitbook/assets/3d-preview.svg#thumbnail) 3D preview
 
 Show the selected rooms and shades in 3D. The preview shows up in a new floating window.
 
@@ -370,31 +476,7 @@ Show the selected rooms and shades in 3D. The preview shows up in a new floating
 
 ---
 
-## Auto align
-
-Automatically align selected rooms to common axes identified across them. The command is intended to automatically perform most of the alignments that would typically be done manually. Note that having a line selected while running this command will force the generated alignment axes to be generated only in the plane of that line.
-
-<details>
-
-<summary>Options</summary>
-
-**Distance**
-
-  The distance with which room vertices will be aligned to common axes. No vertex in the input rooms will be moved more than this distance
-
-**Exclude Angle**
-
-  A positive number in degrees for the maximum difference that a geometry segment can differ from the alignment axes for it to be ignored/excluded from alignment
-
-**Axes Only**
-
-  Select to have this command only output the common axes of the selected rooms into the scene and not perform any auto-alignment of rooms with these axes. This can give more control over which axes are or are not used by allowing manual selection and aligning with desired axes
-
-</details>
-
----
-
-## Find adjacency gaps
+## ![](../../.gitbook/assets/find-adjacency-gaps.svg#thumbnail) Find adjacency gaps
 
 Identify gaps smaller than a specified gap distance. Such gaps typically do not make the model invalid or un-simulate-able but they can create cases where adjacency solving fails to set interior boundary conditions where they likely should be. Small gaps can also result in sliver geometries for floors/ceilings in the case the ceiling adjacencies are solved.
 
@@ -410,96 +492,43 @@ Identify gaps smaller than a specified gap distance. Such gaps typically do not 
 
 ---
 
-## Generate alignment axes
+## Floor area change
 
-Generate suggested alignment axes for rooms using a selected line to specify the alignment direction. All generated axes will be parallel to the selected line and will fall along the common axes of the selected rooms.
-
-<details>
-
-<summary>Options</summary>
-
-**Distance**
-
-  The distance with which room vertices will be aligned to common axes. This dictates the resolution with which common axes will be generated
-
-**All Common Axes**
-
-  Select to have this command output all common axes of the rooms regardless of whether the rooms are already aligned to the axes. By default, only common axes to which the rooms are not already aligned are output
-
-</details>
-
----
-
-## Merge Small Rooms
-
-Merge small rooms in the selection into the larger adjacent rooms. Small rooms are always merged into the adjacent large room with which they share the most perimeter.
+Visualize the change in floor area that has happened as a result of editing operations.
 
 <details>
 
 <summary>Options</summary>
 
-**Area Threshold**
+**Legend Min**
 
-  The floor area below which rooms are considered small and should be merged into larger rooms of the selection.
+  The minimum value of the legend for the change in floor area
 
-</details>
+**Legend Max**
 
----
+  The maximum value of the legend for the change in floor area
 
-## Offset windows
+**Color Scheme**
 
-Offset all windows and/or skylights by a certain distance. This is useful for translating between interfaces that expect the window frame to be included within or excluded from the geometry.
-
-<details>
-
-<summary>Options</summary>
-
-**Offset Distance**
-
-  Offset all windows and/or skylights by a certain distance. This is useful for translating between interfaces that expect the window frame to be included within or excluded from the geometry
-
-**Ignore Windows**
-
-  Select to have the windows left as they are during the offset operation
-
-**Ignore Skylights**
-
-  Select to have the skylights left as they are during the offset operation
+  The color scheme for the visualization
 
 </details>
 
 ---
 
-## Set air boundaries
+## ![](../../.gitbook/assets/validate-model.svg#thumbnail) Validate model
 
-Set the adjacencies between the selected rooms to use air boundaries. Note that adjacencies should be solved between rooms before running this method in order for it to have any effect. If lines are selected while running this command, they will be used to set air boundaries for only the adjacencies that are coincident with those lines.
+Check whether the selected rooms are valid/simulate-able. Valid models should export to any of the supported BEM engines without errors. Invalid models will have their errors presented in a table with the option to select the part of the model where the error originates so that it can be fixed.
 
----
-
-## Simplify Curved Edges
-
-Simplify and reduce the number of vertices defining curved edges of rooms.
-
-<details>
-
-<summary>Options</summary>
-
-**Deviation Distance**
-
-  The distance that a curved part of the room is allowed to differ from a straight line. Lower tolerance values correspond to a higher resolution of curvature with more vertices
-
-</details>
+{% embed url="https://drive.google.com/open?id=1K4iUHPC9lKHDfJenTkUSycjKys9rvw_j&usp=drive_fs" %}
+Validate Model
+{% endembed %}
 
 ---
 
-## Split
-
-Split rooms or roofs by the selected lines/polylines.
-
----
-
-## Vertically split
-
-Split the selected rooms vertically if they are tall enough to cross multiple stories in the model.
-
----
+<style>
+img[src*="#thumbnail"] {
+   width:30px;
+   height:30px;
+}
+</style>

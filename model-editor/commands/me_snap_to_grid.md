@@ -1,4 +1,4 @@
-# ![](../../.gitbook/assets/snap-to-grid.svg) Snap to grid
+# ![](../../.gitbook/assets/snap-to-grid.svg#thumbnail) Snap to grid
 
 Snap the selected rooms to a cartesian grid defined by a Grid Increment distance, which sets the resolution of the grid. This command is useful for IES VE modelers who need geometry on a grid for ease of edit-ability.
 
@@ -17,3 +17,10 @@ Snap the selected rooms to a cartesian grid defined by a Grid Increment distance
 {% embed url="https://drive.google.com/open?id=1XiU0mR1sLE7yBO51psrl-vOsI9ne74fD&usp=drive_fs" %}
 Snap to Grid
 {% endembed %}
+
+<style>
+img[src*="#thumbnail"] {
+   width:50px;
+   height:50px;
+}
+</style>

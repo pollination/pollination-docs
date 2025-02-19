@@ -1,4 +1,4 @@
-# ![](../../.gitbook/assets/solve-adjacency.svg) Solve adjacency
+# ![](../../.gitbook/assets/solve-adjacency.svg#thumbnail) Solve adjacency
 
 Solve adjacency between selected rooms by assigning interior boundary conditions where rooms touch one another
 
@@ -11,3 +11,10 @@ Solve adjacency between selected rooms by assigning interior boundary conditions
 ## Details
 
 You can optionally turn off the `Ceiling Adjacency` if you are planing to export to a platform with it's own adjacency-solving routine (eg. IES-VE) or you are primarily interested in simulating each Story as a distinct unit with adiabatic floors and ceilings. This command will only be visible when more than one room is selected.
+
+<style>
+img[src*="#thumbnail"] {
+   width:50px;
+   height:50px;
+}
+</style>
