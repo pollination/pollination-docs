@@ -1,4 +1,5 @@
-# ![](../../.gitbook/assets/import-roofs.svg) Import roofs
+# Import roofs
+<img src="images/import-roofs.svg" width="50" height="50"> 
 
 Import roofs from a HBJSON file. Import roofs translates all the orphaned shades in the HBJSON file to roof elements.
 

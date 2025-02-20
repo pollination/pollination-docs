@@ -1,6 +1,8 @@
 # Room Visualize Commands
 
-## <img src="../../.gitbook/assets/3d-preview.svg" width="30" height="30"> 3D preview
+Below are the commands that visualize the rooms or properties of the rooms.
+
+## <img src="images/3d-preview.svg" width="30" height="30"> 3D preview
 
 Show the selected rooms and shades in 3D. The preview shows up in a new floating window.
 
@@ -24,7 +26,7 @@ Show the selected rooms and shades in 3D. The preview shows up in a new floating
 
 ---
 
-## <img src="../../.gitbook/assets/find-adjacency-gaps.svg" width="30" height="30"> Find adjacency gaps
+## <img src="images/find-adjacency-gaps.svg" width="30" height="30"> Find adjacency gaps
 
 Identify gaps smaller than a specified gap distance. Such gaps typically do not make the model invalid or un-simulate-able but they can create cases where adjacency solving fails to set interior boundary conditions where they likely should be. Small gaps can also result in sliver geometries for floors/ceilings in the case the ceiling adjacencies are solved.
 
@@ -40,31 +42,7 @@ Identify gaps smaller than a specified gap distance. Such gaps typically do not 
 
 ---
 
-## <img src="../../.gitbook/assets/find-adjacency-gaps.svg" width="30" height="30"> Floor area change
-
-Visualize the change in floor area that has happened as a result of editing operations.
-
-<details>
-
-<summary>Options</summary>
-
-**Legend Min**
-
-  The minimum value of the legend for the change in floor area
-
-**Legend Max**
-
-  The maximum value of the legend for the change in floor area
-
-**Color Scheme**
-
-  The color scheme for the visualization
-
-</details>
-
----
-
-## <img src="../../.gitbook/assets/validate-model.svg" width="30" height="30"> Validate model
+## <img src="images/validate-model.svg" width="30" height="30"> Validate model
 
 Check whether the selected rooms are valid/simulate-able. Valid models should export to any of the supported BEM engines without errors. Invalid models will have their errors presented in a table with the option to select the part of the model where the error originates so that it can be fixed.
 

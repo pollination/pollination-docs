@@ -1,6 +1,8 @@
 # Room Edit Commands
 
-## <img src="../../.gitbook/assets/align.svg" width="30" height="30"> Align
+Below are the commands that edit room floor geometry without creating new rooms.
+
+## <img src="images/align.svg" width="30" height="30"> Align
 
 Align the selected rooms' vertices to the selected lines/polylines if the room vertices lie within the specified Alignment Distance.
 
@@ -34,7 +36,7 @@ This command is only visible when at least one room and one alignment line/polyl
 
 ---
 
-## <img src="../../.gitbook/assets/auto-align.svg" width="30" height="30"> Auto align
+## <img src="images/auto-align.svg" width="30" height="30"> Auto align
 
 Automatically align selected rooms to common axes identified across them. The command is intended to automatically perform most of the alignments that would typically be done manually. Note that having a line selected while running this command will force the generated alignment axes to be generated only in the plane of that line.
 
@@ -58,7 +60,7 @@ Automatically align selected rooms to common axes identified across them. The co
 
 ---
 
-## <img src="../../.gitbook/assets/merge-coplanar.svg" width="30" height="30"> Join coplanar faces
+## <img src="images/merge-coplanar.svg" width="30" height="30"> Join coplanar faces
 
 Join coplanar walls of the room, effectively removing colinear vertices from the room polygon. Use this command to simplify the geometry and clean up the model before running 'solve adjacency' or 'alignment' commands.
 
@@ -68,7 +70,7 @@ Join Coplanar Faces
 
 ---
 
-## <img src="../../.gitbook/assets/pull-to-room.svg" width="30" height="30"> Pull to room
+## <img src="images/pull-to-room.svg" width="30" height="30"> Pull to room
 
 Pull the vertices of one or more rooms to the first 'target' room in the selection. The operation of pulling can be thought of as aligning the rooms to the target room's segments and then snapping to its vertices.
 
@@ -106,7 +108,7 @@ pull to room multi segment lines
 
 ---
 
-## <img src="../../.gitbook/assets/remove-small-holes.svg" width="30" height="30"> Remove holes
+## <img src="images/remove-small-holes.svg" width="30" height="30"> Remove holes
 
 Remove the holes inside the room that are smaller than a certain specified Area Threshold. Use this command to remove column and duct holes from inside rooms.
 
@@ -126,7 +128,7 @@ Remove holes
 
 ---
 
-## <img src="../../.gitbook/assets/remove-short-segments.svg" width="30" height="30"> Remove short segments
+## <img src="images/remove-short-segments.svg" width="30" height="30"> Remove short segments
 
 Remove the segments of the room polygon that are smaller than a certain specified Segment Distance. Use this command to remove column holes and other unwanted small segments at the edges of the rooms.
 
@@ -146,7 +148,7 @@ Remove Columns at the Edge
 
 ---
 
-## <img src="../../.gitbook/assets/simplify-curved-room.svg" width="30" height="30"> Simplify Curved Edges
+## <img src="images/simplify-curved-room.svg" width="30" height="30"> Simplify Curved Edges
 
 Simplify and reduce the number of vertices defining curved edges of rooms.
 
@@ -162,7 +164,7 @@ Simplify and reduce the number of vertices defining curved edges of rooms.
 
 ---
 
-## <img src="../../.gitbook/assets/snap-to-grid.svg" width="30" height="30"> Snap to grid
+## <img src="images/snap-to-grid.svg" width="30" height="30"> Snap to grid
 
 Snap the selected rooms to a cartesian grid defined by a Grid Increment distance, which sets the resolution of the grid. This command is useful for IES VE modelers who need geometry on a grid for ease of edit-ability.
 
@@ -186,7 +188,7 @@ Snap to Grid
 
 ---
 
-## <img src="../../.gitbook/assets/subtract-rooms.svg" width="30" height="30"> Subtract rooms
+## <img src="images/subtract-rooms.svg" width="30" height="30"> Subtract rooms
 
 Subtract one room from another room. Useful for resolving colliding room geometries.
 

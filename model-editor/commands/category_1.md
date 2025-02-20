@@ -1,8 +1,10 @@
 # Line Commands
 
-## <img src="../../.gitbook/assets/create-room.svg" width="30" height="30"> Create rooms
+Below are all commands that operate on lines/polylines.
 
-Create a room from the selected closed polylines. Set the room name and adjust the `Floor Height` and `Floor to Ceiling Height` if needed. By default, the command uses the heights of the current active story.
+## <img src="images/create-room.svg" width="30" height="30"> Create rooms
+
+Create room from selected closed polylines. Set the room display name, and adjust the Floor Height and Floor to Ceiling Height if needed. By default, the command uses the heights of the current active story.
 
 <details>
 
@@ -32,19 +34,19 @@ Create Room
 
 ---
 
-## <img src="../../.gitbook/assets/explode-polyline.svg" width="30" height="30"> Explode polyline
+## <img src="images/explode-polyline.svg" width="30" height="30"> Explode polyline
 
 Explode a polyline into several line segments.
 
 ---
 
-## <img src="../../.gitbook/assets/join-segments.svg" width="30" height="30"> Join segments
+## <img src="images/join-segments.svg" width="30" height="30"> Join segments
 
 Join several segments into one or more polylines.
 
 ---
 
-## <img src="../../.gitbook/assets/offset.svg" width="30" height="30"> Offset
+## <img src="images/offset.svg" width="30" height="30"> Offset
 
 Offset the selected lines and/or polylines by a specified distance.
 
@@ -70,7 +72,7 @@ Offset
 
 ---
 
-## <img src="../../.gitbook/assets/remove-colinear-vertices.svg" width="30" height="30"> Remove colinear vertices
+## <img src="images/remove-colinear-vertices.svg" width="30" height="30"> Remove colinear vertices
 
 Remove colinear vertices from a polyline.
 

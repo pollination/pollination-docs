@@ -1,6 +1,7 @@
-# ![](../../.gitbook/assets/fill-holes-with-rooms.svg) Fill holes
+# Fill holes
+<img src="images/fill-holes-with-rooms.svg" width="50" height="50"> 
 
-Fill holes and gaps across the selected rooms with new rooms (or existing rooms that are adjacent to each hole)
+Fill holes and gaps across the selected rooms with new rooms (or existing rooms that are adjacent to each hole).
 
 ## Options
 
