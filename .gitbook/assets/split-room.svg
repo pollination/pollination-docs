@@ -1,1 +1,23 @@
-<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" height="22" width="22" xmlns="http://www.w3.org/2000/svg" style="position: absolute;"><path d="M208,56V200a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8H200A8,8,0,0,1,208,56Z" opacity="0.2"></path><path d="M200,40H56A16,16,0,0,0,40,56V200a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40ZM56,56h64V200H56ZM200,200H136V56h64V200Z"></path></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 30 29" version="1.1">
+<defs>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="30" height="29" style="fill:rgb(0%,0%,0%);fill-opacity:0.2;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="30" height="29"/>
+</clipPath>
+<g id="surface5" clip-path="url(#clip1)">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 24.375 6.34375 L 24.375 22.65625 C 24.375 23.15625 23.957031 23.5625 23.4375 23.5625 L 6.5625 23.5625 C 6.042969 23.5625 5.625 23.15625 5.625 22.65625 L 5.625 6.34375 C 5.625 5.84375 6.042969 5.4375 6.5625 5.4375 L 23.4375 5.4375 C 23.957031 5.4375 24.375 5.84375 24.375 6.34375 Z M 24.375 6.34375 "/>
+</g>
+</defs>
+<g id="surface1">
+<use xlink:href="#surface5" mask="url(#mask0)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 23.4375 4.53125 L 6.5625 4.53125 C 5.527344 4.53125 4.6875 5.34375 4.6875 6.34375 L 4.6875 22.65625 C 4.6875 23.65625 5.527344 24.46875 6.5625 24.46875 L 23.4375 24.46875 C 24.472656 24.46875 25.3125 23.65625 25.3125 22.65625 L 25.3125 6.34375 C 25.3125 5.34375 24.472656 4.53125 23.4375 4.53125 Z M 6.5625 6.34375 L 14.0625 6.34375 L 14.0625 22.65625 L 6.5625 22.65625 Z M 23.4375 22.65625 L 15.9375 22.65625 L 15.9375 6.34375 L 23.4375 6.34375 Z M 23.4375 22.65625 "/>
+</g>
+</svg>

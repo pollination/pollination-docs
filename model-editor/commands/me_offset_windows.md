@@ -1,4 +1,4 @@
-# <img src="../../.gitbook/assets/offset-windows.svg" width="50" height="50"> Offset windows
+# ![](../../.gitbook/assets/offset-windows.svg) Offset windows
 
 Offset all windows and/or skylights by a certain distance. This is useful for translating between interfaces that expect the window frame to be included within or excluded from the geometry.
 

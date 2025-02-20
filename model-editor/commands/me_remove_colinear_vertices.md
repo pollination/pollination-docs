@@ -1,4 +1,4 @@
-# <img src="../../.gitbook/assets/remove-colinear-vertices.svg" width="50" height="50"> Remove colinear vertices
+# ![](../../.gitbook/assets/remove-colinear-vertices.svg) Remove colinear vertices
 
 Remove colinear vertices from a polyline.
 

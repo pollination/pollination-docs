@@ -1,4 +1,4 @@
-# <img src="../../.gitbook/assets/find-adjacency-gaps.svg" width="50" height="50"> Find roof gaps
+# ![](../../.gitbook/assets/find-adjacency-gaps.svg) Find roof gaps
 
 Identify gaps smaller than a specified gap distance.
 

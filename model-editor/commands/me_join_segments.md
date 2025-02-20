@@ -1,3 +1,3 @@
-# <img src="../../.gitbook/assets/join-segments.svg" width="50" height="50"> Join segments
+# ![](../../.gitbook/assets/join-segments.svg) Join segments
 
 Join several segments into one or more polylines.

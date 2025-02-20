@@ -1,4 +1,4 @@
-# <img src="../../.gitbook/assets/3d-preview.svg" width="50" height="50"> 3D preview
+# ![](../../.gitbook/assets/3d-preview.svg) 3D preview
 
 Show the selected rooms and shades in 3D. The preview shows up in a new floating window.
 
