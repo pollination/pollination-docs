@@ -1,4 +1,4 @@
-# <img src="../../.gitbook/assets/gen-align-axes.svg" width="50" height="50"> Generate alignment axes
+# ![](../../.gitbook/assets/gen-align-axes.svg) Generate alignment axes
 
 Generate suggested alignment axes for rooms using a selected line to specify the alignment direction. All generated axes will be parallel to the selected line and will fall along the common axes of the selected rooms.
 

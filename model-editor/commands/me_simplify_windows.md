@@ -1,4 +1,4 @@
-# <img src="../../.gitbook/assets/simplify-windows.svg" width="50" height="50"> Simplify windows
+# ![](../../.gitbook/assets/simplify-windows.svg) Simplify windows
 
 Simplify the windows and skylights of a room for either simulation speed or overall model cleanliness.
 

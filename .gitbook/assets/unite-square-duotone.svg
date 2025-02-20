@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polygon points="96 216 216 216 216 96 160 96 160 40 40 40 40 160 96 160 96 216" opacity="0.0"/><polygon points="96 216 216 216 216 96 160 96 160 40 40 40 40 160 96 160 96 216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 30 30" version="1.1">
+<g id="surface1">
+<path style="fill:none;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 96 216 L 216 216 L 216 96 L 160 96 L 160 40 L 40 40 L 40 160 L 96 160 Z M 96 216 " transform="matrix(0.117188,0,0,0.117188,0,0)"/>
+</g>
+</svg>

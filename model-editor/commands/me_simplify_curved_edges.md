@@ -1,4 +1,4 @@
-# <img src="../../.gitbook/assets/simplify-curved-room.svg" width="50" height="50"> Simplify Curved Edges
+# ![](../../.gitbook/assets/simplify-curved-room.svg) Simplify Curved Edges
 
 Simplify and reduce the number of vertices defining curved edges of rooms.
 

@@ -1,1 +1,8 @@
-<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="18" width="18" xmlns="http://www.w3.org/2000/svg" style="position: absolute;"><path d="M20 6v4a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1z"></path><path d="M10 16l4 4"></path><path d="M10 20l4 -4"></path></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 30 30" version="1.1">
+<g id="surface1">
+<path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 20 6 L 20 10 C 20 10.553125 19.553125 11 19 11 L 5 11 C 4.446875 11 4 10.553125 4 10 L 4 6 C 4 5.446875 4.446875 5 5 5 L 19 5 C 19.553125 5 20 5.446875 20 6 Z M 20 6 " transform="matrix(1.25,0,0,1.25,0,0)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 10 16 L 14 20 " transform="matrix(1.25,0,0,1.25,0,0)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 10 20 L 14 16 " transform="matrix(1.25,0,0,1.25,0,0)"/>
+</g>
+</svg>

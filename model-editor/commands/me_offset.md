@@ -1,4 +1,4 @@
-# <img src="../../.gitbook/assets/offset.svg" width="50" height="50"> Offset
+# ![](../../.gitbook/assets/offset.svg) Offset
 
 Offset the selected lines and/or polylines by a specified distance.
 
