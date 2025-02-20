@@ -1,6 +1,8 @@
 # Room Commands
 
-## <img src="../../.gitbook/assets/align.svg" width="30" height="30"> Align
+Below are all commands that operate on rooms.
+
+## <img src="images/align.svg" width="30" height="30"> Align
 
 Align the selected rooms' vertices to the selected lines/polylines if the room vertices lie within the specified Alignment Distance.
 
@@ -34,7 +36,7 @@ This command is only visible when at least one room and one alignment line/polyl
 
 ---
 
-## <img src="../../.gitbook/assets/auto-align.svg" width="30" height="30"> Auto align
+## <img src="images/auto-align.svg" width="30" height="30"> Auto align
 
 Automatically align selected rooms to common axes identified across them. The command is intended to automatically perform most of the alignments that would typically be done manually. Note that having a line selected while running this command will force the generated alignment axes to be generated only in the plane of that line.
 
@@ -58,7 +60,7 @@ Automatically align selected rooms to common axes identified across them. The co
 
 ---
 
-## <img src="../../.gitbook/assets/merge-coplanar.svg" width="30" height="30"> Join coplanar faces
+## <img src="images/merge-coplanar.svg" width="30" height="30"> Join coplanar faces
 
 Join coplanar walls of the room, effectively removing colinear vertices from the room polygon. Use this command to simplify the geometry and clean up the model before running 'solve adjacency' or 'alignment' commands.
 
@@ -68,7 +70,7 @@ Join Coplanar Faces
 
 ---
 
-## <img src="../../.gitbook/assets/pull-to-room.svg" width="30" height="30"> Pull to room
+## <img src="images/pull-to-room.svg" width="30" height="30"> Pull to room
 
 Pull the vertices of one or more rooms to the first 'target' room in the selection. The operation of pulling can be thought of as aligning the rooms to the target room's segments and then snapping to its vertices.
 
@@ -106,7 +108,7 @@ pull to room multi segment lines
 
 ---
 
-## <img src="../../.gitbook/assets/remove-small-holes.svg" width="30" height="30"> Remove holes
+## <img src="images/remove-small-holes.svg" width="30" height="30"> Remove holes
 
 Remove the holes inside the room that are smaller than a certain specified Area Threshold. Use this command to remove column and duct holes from inside rooms.
 
@@ -126,7 +128,7 @@ Remove holes
 
 ---
 
-## <img src="../../.gitbook/assets/remove-short-segments.svg" width="30" height="30"> Remove short segments
+## <img src="images/remove-short-segments.svg" width="30" height="30"> Remove short segments
 
 Remove the segments of the room polygon that are smaller than a certain specified Segment Distance. Use this command to remove column holes and other unwanted small segments at the edges of the rooms.
 
@@ -146,7 +148,7 @@ Remove Columns at the Edge
 
 ---
 
-## <img src="../../.gitbook/assets/simplify-curved-room.svg" width="30" height="30"> Simplify Curved Edges
+## <img src="images/simplify-curved-room.svg" width="30" height="30"> Simplify Curved Edges
 
 Simplify and reduce the number of vertices defining curved edges of rooms.
 
@@ -162,7 +164,7 @@ Simplify and reduce the number of vertices defining curved edges of rooms.
 
 ---
 
-## <img src="../../.gitbook/assets/snap-to-grid.svg" width="30" height="30"> Snap to grid
+## <img src="images/snap-to-grid.svg" width="30" height="30"> Snap to grid
 
 Snap the selected rooms to a cartesian grid defined by a Grid Increment distance, which sets the resolution of the grid. This command is useful for IES VE modelers who need geometry on a grid for ease of edit-ability.
 
@@ -186,7 +188,7 @@ Snap to Grid
 
 ---
 
-## <img src="../../.gitbook/assets/subtract-rooms.svg" width="30" height="30"> Subtract rooms
+## <img src="images/subtract-rooms.svg" width="30" height="30"> Subtract rooms
 
 Subtract one room from another room. Useful for resolving colliding room geometries.
 
@@ -194,7 +196,7 @@ The first room of the selection is the room to be subtracted from and all follow
 
 ---
 
-## <img src="../../.gitbook/assets/offset-windows.svg" width="30" height="30"> Offset windows
+## <img src="images/offset-windows.svg" width="30" height="30"> Offset windows
 
 Offset all windows and/or skylights by a certain distance. This is useful for translating between interfaces that expect the window frame to be included within or excluded from the geometry.
 
@@ -218,9 +220,9 @@ Offset all windows and/or skylights by a certain distance. This is useful for tr
 
 ---
 
-## <img src="../../.gitbook/assets/repair-windows.svg" width="30" height="30"> Repair windows
+## <img src="images/repair-windows.svg" width="30" height="30"> Repair windows
 
-Fix the windows of the rooms by merging the colliding windows and trimming those that extend past the parent Face. The Rectangle option can be used to further simplify non-rectangular windows into rectangular shapes.
+Fix the windows of the rooms by merging the colliding windows and trimming those that extend past the parent Face. The Rectangle option can be used to further simplify non-rectangular windows into rectangular shapes
 
 <details>
 
@@ -246,7 +248,7 @@ For intentionally simplifying the window geometry for either simulation speed or
 
 ---
 
-## <img src="../../.gitbook/assets/simplify-windows.svg" width="30" height="30"> Simplify windows
+## <img src="images/simplify-windows.svg" width="30" height="30"> Simplify windows
 
 Simplify the windows and skylights of a room for either simulation speed or overall model cleanliness.
 
@@ -280,9 +282,9 @@ Note that this command is not intended to fix invalid or un-simulate-able window
 
 ---
 
-## <img src="../../.gitbook/assets/fill-holes-with-rooms.svg" width="30" height="30"> Fill holes
+## <img src="images/fill-holes-with-rooms.svg" width="30" height="30"> Fill holes
 
-Fill holes and gaps across the selected rooms with new rooms (or existing rooms that are adjacent to each hole)
+Fill holes and gaps across the selected rooms with new rooms (or existing rooms that are adjacent to each hole).
 
 <details>
 
@@ -300,7 +302,7 @@ Fill holes and gaps across the selected rooms with new rooms (or existing rooms 
 
 ---
 
-## <img src="../../.gitbook/assets/merge-with-filter.svg" width="30" height="30"> Merge Small Rooms
+## <img src="images/merge-with-filter.svg" width="30" height="30"> Merge Small Rooms
 
 Merge small rooms in the selection into the larger adjacent rooms. Small rooms are always merged into the adjacent large room with which they share the most perimeter.
 
@@ -316,7 +318,7 @@ Merge small rooms in the selection into the larger adjacent rooms. Small rooms a
 
 ---
 
-## <img src="../../.gitbook/assets/merge-rooms.svg" width="30" height="30"> Merge rooms
+## <img src="images/merge-rooms.svg" width="30" height="30"> Merge rooms
 
 Merge several rooms into a single room. Setting a Merge Distance that is larger than 0 will allow you to merge rooms that have gaps in between them - crossing gaps up to the specified distance.
 
@@ -344,15 +346,15 @@ Useful for cases where multiple rooms in a Revit model should be represented as 
 
 ---
 
-## <img src="../../.gitbook/assets/split-room.svg" width="30" height="30"> Split
+## <img src="images/split-room.svg" width="30" height="30"> Split
 
 Split rooms or roofs by the selected lines/polylines.
 
 ---
 
-## <img src="../../.gitbook/assets/core-pr.svg" width="30" height="30"> Split core and perimeter
+## <img src="images/core-pr.svg" width="30" height="30"> Split core and perimeter
 
-Create core and perimeter rooms for a selected room. This is particularly useful for creating models according to typical zoning practices, where each façade orientation is a separate zone
+Create core and perimeter rooms for a selected room. This is particularly useful for creating models according to typical zoning practices, where each façade orientation is a separate zone.
 
 <details>
 
@@ -376,21 +378,21 @@ Split core and perimeter
 
 ---
 
-## <img src="../../.gitbook/assets/separate-plenums.svg" width="30" height="30"> Vertically split
+## <img src="images/separate-plenums.svg" width="30" height="30"> Vertically split
 
 Split the selected rooms vertically if they are tall enough to cross multiple stories in the model.
 
 ---
 
-## <img src="../../.gitbook/assets/air-boundaries.svg" width="30" height="30"> Set air boundaries
+## <img src="images/air-boundaries.svg" width="30" height="30"> Set air boundaries
 
 Set the adjacencies between the selected rooms to use air boundaries. Note that adjacencies should be solved between rooms before running this method in order for it to have any effect. If lines are selected while running this command, they will be used to set air boundaries for only the adjacencies that are coincident with those lines.
 
 ---
 
-## <img src="../../.gitbook/assets/solve-adjacency.svg" width="30" height="30"> Solve adjacency
+## <img src="images/solve-adjacency.svg" width="30" height="30"> Solve adjacency
 
-Solve adjacency between selected rooms by assigning interior boundary conditions where rooms touch one another
+Solve adjacency between selected rooms by assigning interior boundary conditions where rooms touch one another.
 
 <details>
 
@@ -406,7 +408,7 @@ You can optionally turn off the `Ceiling Adjacency` if you are planing to export
 
 ---
 
-## <img src="../../.gitbook/assets/unite-square-duotone.svg" width="30" height="30"> Create boundary
+## <img src="images/unite-square-duotone.svg" width="30" height="30"> Create boundary
 
 Create polyline boundaries around a selection of rooms. The command can return polylines for either the exterior border around the rooms or just the holes (or both).
 
@@ -432,7 +434,7 @@ Create Boundary
 
 ---
 
-## <img src="../../.gitbook/assets/gen-align-axes.svg" width="30" height="30"> Generate alignment axes
+## <img src="images/gen-align-axes.svg" width="30" height="30"> Generate alignment axes
 
 Generate suggested alignment axes for rooms using a selected line to specify the alignment direction. All generated axes will be parallel to the selected line and will fall along the common axes of the selected rooms.
 
@@ -452,7 +454,7 @@ Generate suggested alignment axes for rooms using a selected line to specify the
 
 ---
 
-## <img src="../../.gitbook/assets/3d-preview.svg" width="30" height="30"> 3D preview
+## <img src="images/3d-preview.svg" width="30" height="30"> 3D preview
 
 Show the selected rooms and shades in 3D. The preview shows up in a new floating window.
 
@@ -476,7 +478,7 @@ Show the selected rooms and shades in 3D. The preview shows up in a new floating
 
 ---
 
-## <img src="../../.gitbook/assets/find-adjacency-gaps.svg" width="30" height="30"> Find adjacency gaps
+## <img src="images/find-adjacency-gaps.svg" width="30" height="30"> Find adjacency gaps
 
 Identify gaps smaller than a specified gap distance. Such gaps typically do not make the model invalid or un-simulate-able but they can create cases where adjacency solving fails to set interior boundary conditions where they likely should be. Small gaps can also result in sliver geometries for floors/ceilings in the case the ceiling adjacencies are solved.
 
@@ -492,31 +494,7 @@ Identify gaps smaller than a specified gap distance. Such gaps typically do not 
 
 ---
 
-## <img src="../../.gitbook/assets/find-adjacency-gaps.svg" width="30" height="30"> Floor area change
-
-Visualize the change in floor area that has happened as a result of editing operations.
-
-<details>
-
-<summary>Options</summary>
-
-**Legend Min**
-
-  The minimum value of the legend for the change in floor area
-
-**Legend Max**
-
-  The maximum value of the legend for the change in floor area
-
-**Color Scheme**
-
-  The color scheme for the visualization
-
-</details>
-
----
-
-## <img src="../../.gitbook/assets/validate-model.svg" width="30" height="30"> Validate model
+## <img src="images/validate-model.svg" width="30" height="30"> Validate model
 
 Check whether the selected rooms are valid/simulate-able. Valid models should export to any of the supported BEM engines without errors. Invalid models will have their errors presented in a table with the option to select the part of the model where the error originates so that it can be fixed.
 

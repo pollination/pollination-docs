@@ -1,6 +1,8 @@
 # Room Windows Commands
 
-## <img src="../../.gitbook/assets/offset-windows.svg" width="30" height="30"> Offset windows
+Below are the commands that edit the room window geometry without changing floor geometry.
+
+## <img src="images/offset-windows.svg" width="30" height="30"> Offset windows
 
 Offset all windows and/or skylights by a certain distance. This is useful for translating between interfaces that expect the window frame to be included within or excluded from the geometry.
 
@@ -24,9 +26,9 @@ Offset all windows and/or skylights by a certain distance. This is useful for tr
 
 ---
 
-## <img src="../../.gitbook/assets/repair-windows.svg" width="30" height="30"> Repair windows
+## <img src="images/repair-windows.svg" width="30" height="30"> Repair windows
 
-Fix the windows of the rooms by merging the colliding windows and trimming those that extend past the parent Face. The Rectangle option can be used to further simplify non-rectangular windows into rectangular shapes.
+Fix the windows of the rooms by merging the colliding windows and trimming those that extend past the parent Face. The Rectangle option can be used to further simplify non-rectangular windows into rectangular shapes
 
 <details>
 
@@ -52,7 +54,7 @@ For intentionally simplifying the window geometry for either simulation speed or
 
 ---
 
-## <img src="../../.gitbook/assets/simplify-windows.svg" width="30" height="30"> Simplify windows
+## <img src="images/simplify-windows.svg" width="30" height="30"> Simplify windows
 
 Simplify the windows and skylights of a room for either simulation speed or overall model cleanliness.
 

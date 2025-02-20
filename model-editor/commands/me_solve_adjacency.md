@@ -1,6 +1,7 @@
-# ![](../../.gitbook/assets/solve-adjacency.svg) Solve adjacency
+# Solve adjacency
+<img src="images/solve-adjacency.svg" width="50" height="50"> 
 
-Solve adjacency between selected rooms by assigning interior boundary conditions where rooms touch one another
+Solve adjacency between selected rooms by assigning interior boundary conditions where rooms touch one another.
 
 ## Options
 
