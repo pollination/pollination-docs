@@ -163,7 +163,7 @@ Rebuild selected rooms with following options: 1) merge all coplanar faces; 2) r
 
 * **RebuildFaces**
 
-  when set to true, this option recreates each planar face from the duplicated naked edge curves of the original geometry. It is also useful for removing tiny &quot;invalid&quot; face with an area smaller than tolerance squared. Additionally, setting this to true will reset the face type based on its normal. (default:false)
+  when set to true, this option recreates each planar face from the duplicated naked edge curves of the original geometry. It is also useful for removing tiny &quot;invalid&quot; face with an area smaller than tolerance squared. Additionally, setting this to true will reset the face type based on its normal. Face type with AirBoundary will be kept even RebuildFaces is set to True. You can use PO_ResetFaceType command to reset all room faces including air boundaries. (default:false)
 
 * **ResetBoundaryConditon**
 
