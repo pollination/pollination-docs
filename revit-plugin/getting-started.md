@@ -5,14 +5,14 @@
 Here is a short checklist, before getting started with the Pollination Revit plugin:
 
 1. If you haven't already installed the Revit plugin you need to [download](../get-started/setting-up-rhino-grasshopper-and-revit-plugins/download-plugins.md) and [install the plugin](../get-started/setting-up-rhino-grasshopper-and-revit-plugins/download-and-install-plugins.md) on your computer.
-2. You need to [purchase a license](../get-started/setting-up-rhino-grasshopper-and-revit-plugins/purchase-and-manage-plugins.md) if you have already used the 14-day trial period.
+2. You need to [purchase a license](../get-started/account-setup/purchase-and-manage-plugins.md) if you have already used the 14-day trial period.
 3. If you will be using a license from a Pollination organization, ensure you have been added to the correct license pool. See [this page](../get-started/manage-license-pool.md) for more information.
 
 ## Navigating the Tab
 
 Once Revit opens, you can find a tab for Pollination in the ribbon. The Pollination tab has 4 sections, Plugin, Resources, Model, and Simulation.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 Below is the list of different sections and buttons
 
@@ -34,7 +34,7 @@ Use the User Manual button to access the Pollination Revit user manual (this pag
 
 Use the About button to see the information about the libraries installed in the Revit plugin.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <img src="../.gitbook/assets/managePollination.png" alt="" data-size="line"> Enable/Disable Pollination
 
