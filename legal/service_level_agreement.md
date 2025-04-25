@@ -20,12 +20,12 @@ A **"Service Credit"** is a credit denominated in USD, calculated as set forth b
 
 Credits are issued as a financial reimbursement if the Service Provider does not meet the Service Provider SLA for the monthly billing cycle in which the Downtime occurred. Upon approval of a claim we will provide the applicable remedy set forth below:
 
-| Monthly Uptime Percentage    | Service Credit         |
-| ---------------------------- | ---------------------- |
+| Monthly Uptime Percentage | Service Credit |
+| --- | --- |
 | Less than 99.5% but >= 99.0% | 10% of the monthly fee |
 | Less than 99.0% but >= 95.0% | 30% of the monthly fee |
 | Less than 95.0% but >= 90.0% | 50% of the monthly fee |
-| Less than 90.0%              | 75% of the monthly fee |
+| Less than 90.0% | 75% of the monthly fee |
 
 We will apply any Service Credits only against future payments otherwise due from you. Service Credits will not entitle the Customer to any refund or other payment from the Service Provider. A Service Credit will be applicable and issued only if the credit amount for the applicable monthly billing cycle is greater than $1 USD. Service Credits may not be transferred or applied to any other account. Unless otherwise provided in the Terms of Service, the Customer's sole and exclusive remedy for any unavailability, non-performance, or other failures by the Service Provider to provide the Service Provider's cloud-based services is the receipt of a Service Credit (if eligible) in accordance with the terms of this SLA.
 
@@ -47,6 +47,7 @@ Service unavailability caused by scheduled maintenance of the platform used to p
 
 Service unavailability caused by events outside of the direct control of the Service Provider or its subcontractor(s), including any force majeure event, the failure or unavailability of the Customer's systems, the Internet, and the failure of any other technology or equipment used to connect to or access the service.
 
-Service unavailability that resulted from any actions or inactions of Customer or any third party (other than the Service Providers direct hosting subcontractor); Service unavailability that resulted from Customer's equipment, software, or other technology and/or third-party equipment, software, or other technology (other than third-party equipment within our direct control);
+Service unavailability that resulted from any actions or inactions of Customer or any third party (other than the Service Providers direct hosting subcontractor);
+Service unavailability that resulted from Customer's equipment, software, or other technology and/or third-party equipment, software, or other technology (other than third-party equipment within our direct control);
 
 Service unavailability arising from our suspension and termination of Customer's right to use Service Provider's cloud-based services in connection with any breach by you of the Terms of Service or otherwise in accordance with the Terms of Service. If availability is impacted by factors other than those used in our Monthly Uptime Percentage calculation, then we may issue a Service Credit considering such factors at our discretion.

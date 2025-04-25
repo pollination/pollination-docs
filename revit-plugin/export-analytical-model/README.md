@@ -12,4 +12,4 @@ Before we start the process, here are the 3 facts about Revit models for energy 
 
 That means every export process requires a minimum amount of work. To speed up this process, we have developed to help you save a significant amount of time with a minimum but necessary user interaction.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
