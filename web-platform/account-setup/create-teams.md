@@ -14,17 +14,17 @@ Click on the plus symbol on the upper right corner of the screen and select <mar
 Teams are only available for organizations. If you are part of an organization but don't see the New Team option, click on your avatar and switch the organization.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 2
 
 {% hint style="info" %}
-You must be one of the organization owners to create teams.&#x20;
+You must be one of the organization owners to create teams.
 {% endhint %}
 
 Input the team name and description. Naming is hard but try to pick a name that is easy to understand by yourself and other organization owners.
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 3
 

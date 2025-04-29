@@ -12,12 +12,11 @@ You have the option to buy the CAD plugins under your personal account or an org
 
 Click on your avatar on the top right of the page, and select the correct account. If you want to share the license among several users it must be purchased under an organization account.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Switch to the organization account</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>Switch to the organization account</p></figcaption></figure>
 
 ### Step 2
 
-Click on the dropdown menu and select Your Subscriptions. \
-
+Click on the dropdown menu and select Your Subscriptions. \\
 
 <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 

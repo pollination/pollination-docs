@@ -21,10 +21,13 @@
 ## REVIT PLUGIN
 
 * [Getting Started in Revit](revit-plugin/getting-started.md)
-* [Modeling Best Practices](revit-plugin/modeling-best-practices.md)
 * [Exporting Energy Models from Revit](revit-plugin/export-analytical-model/README.md)
+  * [Understanding the Export Process](revit-plugin/export-analytical-model/understanding-the-export-process.md)
+  * [Managing Pollination Revit License](revit-plugin/export-analytical-model/managing-pollination-revit-license.md)
+  * [Setting Up Linked Models](revit-plugin/export-analytical-model/setting-up-linked-models.md)
   * [Creating Snapshots](revit-plugin/export-analytical-model/creating-snapshots.md)
   * [Editing and Exporting Snapshots](revit-plugin/export-analytical-model/editing-and-exporting-snapshots.md)
+* [Modeling Best Practices](revit-plugin/modeling-best-practices.md)
 
 ## Model Editor
 

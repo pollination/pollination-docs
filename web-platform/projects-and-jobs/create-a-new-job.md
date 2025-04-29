@@ -8,7 +8,7 @@ You can only create a study under the projects you have been granted write acces
 
 [Create a new project](create-a-new-project.md) or select an existing project. Then click on the Studies tab.
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2
 
@@ -16,7 +16,7 @@ Before running a new study, you must add the corresponding recipe to the project
 
 If you don't see the recipe under the New Study section use the Add/Remove Recipes button to add new recipes. You can search for the recipes by name, and add them to the project. Each project can have as many recipes as needed.
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 3
 
@@ -26,7 +26,7 @@ Click on the recipe icon to select the recipe. It will expand the recipe, and sh
 You are only required to provide the Required Inputs to create a new study but it is good practice to also check all the Optional Inputs and ensure the default values are set correctly for your study.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 4
 

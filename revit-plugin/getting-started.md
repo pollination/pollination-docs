@@ -12,7 +12,7 @@ Here is a short checklist, before getting started with the Pollination Revit plu
 
 Once Revit opens, you can find a tab for Pollination in the ribbon. The Pollination tab has 4 sections, Plugin, Resources, Model, and Simulation.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 Below is the list of different sections and buttons
 
@@ -34,7 +34,7 @@ Use the User Manual button to access the Pollination Revit user manual (this pag
 
 Use the About button to see the information about the libraries installed in the Revit plugin.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### <img src="../.gitbook/assets/managePollination.png" alt="" data-size="line"> Enable/Disable Pollination
 

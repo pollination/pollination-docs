@@ -34,7 +34,7 @@ For more information about the Editor class, see the Editor API documentation [h
 
 For your first script, let's use this feature request from Heath as an example. She is looking for an option to add the level name in front of the rooms. We have heard several versions of this request over the years, and it is a great use case of using a Python script.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p><a href="https://discourse.pollination.solutions/t/pollination-model-editor-is-almost-ready/3871/5?u=mostapha">https://discourse.pollination.solutions/t/pollination-model-editor-is-almost-ready/3871/5</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p><a href="https://discourse.pollination.solutions/t/pollination-model-editor-is-almost-ready/3871/5?u=mostapha">https://discourse.pollination.solutions/t/pollination-model-editor-is-almost-ready/3871/5</a></p></figcaption></figure>
 
 {% hint style="danger" %}
 You should already know the answer if you read the previous section! #spoiler
@@ -101,6 +101,6 @@ editor.update()
 
 The Python script editor is currently very limited and doesn't provide many functionalities for debugging the code. The error messages should be printed out to the logger but our suggestion for now is to test your code in a standard Python editor on a Dragonfly model before using it in the Model Editor.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>You can select show logger from the user settings menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>You can select show logger from the user settings menu</p></figcaption></figure>
 
 The good news is that you can always use Ctrl + Z to undo the change if you don't like the outcome of running your script.
