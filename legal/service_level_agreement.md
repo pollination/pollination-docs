@@ -31,7 +31,7 @@ We will apply any Service Credits only against future payments otherwise due fro
 
 ## 4. Claim Procedure
 
-To receive a Service Credit, the Customer must submit a claim by sending an email to `support@pollination.cloud`. To be eligible, the credit request must be received by us by the end of the second billing cycle after which the incident occurred and must include the following information:
+To receive a Service Credit, the Customer must submit a claim by sending an email to `support@pollination.solutions`. To be eligible, the credit request must be received by us by the end of the second billing cycle after which the incident occurred and must include the following information:
 
 * Customer name, registered email address.
 * The name of the service to which the claim relates
