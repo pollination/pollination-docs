@@ -267,6 +267,25 @@ This issue can typically be fixed by editing the Detailed HVAC systems of the mo
 
 The simplest way to fix the issue is to re-assign a symmetric construction to both adjacent objects. Symmetric constructions are ones where the reversed order of materials is the same as the non-reversed order. The issue can also be solved by taking an existing asymmetric construction, duplicating it, reversing its material order, giving it a new name/identifier, and assigning it to the other adjacent object.
 
+
+## DOE-2 Error Codes
+
+### 030001
+
+**Room Exceeds Maximum Vertex Count** - The room's floor plate is defined by more than 120 unique vertices. The DOE-2 engine currently does not support such rooms and limits the total number of vertices to 120.
+
+The easiest way to address the issue is to use the [Split](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_split) command to split the room into two or more rooms, each of which should have less than 120 unique vertices. Depending on the exact reason for the high number of vertices, it may also be possible ot fix it using commands like [Remove Short Segments](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_remove_short_segments) and [Align](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_align) to remove small segments that are inconsequential to the energy simulation.
+
+**Room Contains Holes** - The room's floor plate has one or more holes in it. EQuest currently has no way to represent such rooms so, if the issue is not addressed, the hole will simply be removed as part of the process of exporting to an INP file.
+
+The easiest way to address the issue is to use the [Split](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_split) command to split the room into two or more rooms through the hole(s).
+
+**Story Floor Plate Contains Courtyards** - The floor plate of the story has one or more holes in it as would be expected for a building with (a) courtyard(s). EQuest currently has no way to represent such courtyards so, if the issue is not addressed, the courtyards will simply be removed as part of the process of exporting to an INP file.
+
+The easiest way to address the issue is to create a small gap (at least a half of a foot wide) that cuts a line from the outer-most boundary of the story to the courtyard, effectively joining the courtyard to the outer boundary. This is the officially recommended workaround from the eQuest developers as is illustrated in the eQuest Schematic Design Wizard when, on the second page, “Rectangular Atrium” is selected for the building shape.
+
+The [Split](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_split) command can be used to establish a line from the courtyard to outer boundary. Then, after the line has been used to split the rooms, the line can be [Offset](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_offset) and used to [Align](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_align) the rooms to the offset line.
+
 ## Dragonfly Error Codes
 
 ### 100001
@@ -287,60 +306,76 @@ The simplest way to fix the issue is to re-assign a symmetric construction to bo
 
 ### 100101
 
-**Degenerate Room Geometry** - There is a Room in the model that effectively has zero volume from the perspective of the Model tolerance. This can happen when all of the wall segments of a Room2D are colinear with one another, effectively making a "sliver" Room. It is a common side-effect of aligning small rooms. Often, the best fix for this case is to simply delete the degenerate room from the model.
+**Degenerate Room Geometry** - There is a Room in the model that effectively has zero volume from the perspective of the Model tolerance. This can happen when all of the wall segments of a Room2D are colinear with one another, effectively making a "sliver" Room. It is a common side-effect of aligning small rooms.
 
-In the dragonfly Python libraries, the `Story.delete_degenerate_room_2ds()` method can be used to remove all degenerate Room2Ds from a Story.
+Often, the best fix for this case is to simply delete the degenerate room from the model.
 
 ### 100102
 
 **Self-Intersecting Room Geometry** - There is a Room in the model with floor geometry that intersects itself (like a bowtie). This can cause issues when performing shading calculations in both Radiance and EnergyPlus and other interfaces like IES-VE, IDA-ICE, and eQuest will throw errors if they discover this type of condition.
 
-Note that duplicated vertices are still considered valid and vertices are considered duplicates if they are close to each other within the Model tolerance. So this error will typically only arise when the edges of the object noticeably intersect one another.
+Oftentimes, such rooms are not meant to be in the destination simulation engine so they can be simply be deleted. In the case that the room represents geometry that is supposed to be in the simulation engine, the room geometry must typically be redrawn in order to fix it. However, it is sometimes possible to fix it simply by rearranging the room vertices.
 
-Typically, the geometry must be redrawn in order to fix it, though it is sometimes possible to fix it simply by rearranging vertices.
+Note that duplicated vertices are still considered valid and vertices are considered duplicates if they are close to each other within the Model tolerance. So this validation error will only arise when the edges of the object noticeably intersect one another.
 
 ### 100103
 
-**Invalid Window Parameters** - Window parameters are formatted such that the resulting Apertures do not lie completely inside the parent Wall Face boundary. When the dragonfly geometry is translated to honeybee, the windows that are outside the boundary of the Walls will be automatically clipped. So this error does not produce an invalid Honeybee Model. However, it does mean that properties of the dragonfly Model like `exterior_aperture_area` will not be correct and, ideally, it should be corrected.
+**Invalid Window Parameters** - Windows or Skylights are formatted such that the resulting geometries overlap with one another, are degenerate/self-intersecting (like a bowtie), or they extend past the parent face. When the window or skylight geometry is translated to into a complete 3D Honeybee model, the resulting Apertures or Doors will be invalid, creating issues with shading calculations in both Radiance and EnergyPlus and throwing errors in other interfaces like IES-VE, IDA-ICE, and eQuest.
 
-Note that this error will still arise even when the window parameters produce an Aperture or Door that is only sharing an edge with the parent Wall Face, which is technically still acceptable for certain Energy simulations but will often cause issues in Radiance and will result in display issues for most model viewers.
-
-In the dragonfly Python libraries, the `Story.rebuild_detailed_windows()` method can be used to automatically clip detailed window parameters so they are bounded by the parent walls.
+In the model editor, the easiest way to fix these cases is to run the [Repair Windows](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_repair_windows) command, which will delete degenerate windows, offset windows from the parent face edges, and offers options for resolving overlaps between the window geometries. 
 
 ### 100104
 
-**Overlapping Room Geometries** - Rooms of the same Story have floor geometries that overlap with one another in plan. Overlaps in Room floor geometries mean that the Room volumes collide with one another. While this condition is not necessarily un-simulate-able in EnergyPlus or Radiance, it represents a condition that would not be logical in reality and several other energy modeling interfaces like IES-VE, IDA-ICE, and eQuest will throw errors if they discover this type of condition.
+**Overlapping Room Geometries** - Rooms of the same Story have floor geometries that overlap with one another in plan. Overlaps in Room floor geometries mean that the Room volumes collide with one another. While this condition is not necessarily un-simulate-able in EnergyPlus or Radiance, it will often create improper exterior boundary conditions around the collision. Also, several other energy modeling interfaces like IES-VE, IDA-ICE, and eQuest will throw errors when they discover this type of condition.
 
-Note that this validation check accounts for the Model tolerance such that room overlaps smaller than the tolerance are ignored. So this validation error only arises for cases where the room floors noticeably overlap with one another or one room completely encompasses another.
+In the model editor, this situation can almost always be fixed by using the [Subtract Rooms](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_subtract_rooms) command with the two rooms that overlap, which will perform a boolean subtraction operation with the room floor plates to eliminate the overlap. Alternatively, if the overlap is small, this situation can typically be corrected by moving the Room vertices or [Aligning](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_align) the two rooms around the area where they overlap.
 
-Typically, the Room geometry must either be redrawn or a different type of bounding element must be used to generate the rooms in order to fix it. Visualizing the rooms that overlap and finding the exact overlapping region can sometimes make it possible to fix the error just by moving the room polygon vertices.
+Note that the validation check for this case accounts for the Model tolerance such that room overlaps smaller than the tolerance are ignored. So this validation error only arises for cases where the room floors noticeably overlap with one another or one room completely encompasses the other.
 
 ### 100105
 
-**Invalid Roof** - The geometries that make up the Story's Roof are below the floors of the Story's Room2Ds. Roofs that lie below Room2Ds can result in invalid Honeybee Rooms with self-intersecting walls. As a result, these Room2Ds are translated to Honeybee simply by extruding the floor plat to the floor_to_ceiling_height instead of extending walls to the roof geometries.
+**Invalid Roof** - The geometries that make up the Story's Roof extend below the floors of the Story's rooms. Roofs that lie below or intersect the room floor plates will cause an invalid calculation of the Room volume when translated to Honeybee, often producing self-intersecting walls. Note that the floors of room plenums can also trigger this error if they lie below or intersect with the roof geometry.
 
-Correcting this error often involves deleting the roof geometries that are below the Room2Ds or running the routine that resolves the roof geometry's overlaps.
+Strategies for correcting this error are different depending on on what criteria triggered it. Sometimes, it is obvious that the roof geometry which triggered the error is inconsequential or is not meant to exist in the simulation model (especially if the roof lies completely below the room). In this case, the roof geometry can be simply be deleted. In other cases where the case of room plenum floors triggering the error, the issue can often be fixed by just setting the room's plenum depths to zero. If the room plenum depths are already zero and the roof geometry is clearly important to the simulation, then resolving the problem typically involves editing the room boundary. For example, [Offsetting](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_offset) the room from the edges where it intersects the roof so that roof/room intersection no longer occurs. Moving the room floor elevation down can also typically resolve the error, though this is often not the desired approach given that it can make the simulation geometry significantly different than the design geometry.
+
+Note that roofs touching the edges of floor plates within the tolerance are permitted and can be translated to closed 3D Room volumes. So this error is only triggered in the case that roofs intersect the room floor plate or lie completely below it.
 
 ### 100106
 
-**Invalid Room Floor Elevation** - The Story has Room2D floor elevations that are too different from one another to be a part of the same Story. Oftentimes, this can happen because all of the Room2Ds of a Building were accidentally added to the same Story when they should have been placed on separate Stories. However, it can also happen if floor elevations of certain Room2Ds in the Story were edited to the point that it no longer makes sense to have them on the same Story as the other Room2Ds.
+**Invalid Room Floor Elevation** - The Story has room floor elevations that are too different from one another for them to be a part of the same Story. Oftentimes, this can happen because all of the rooms of a Building were accidentally added to the same Story when they should have been placed on separate Stories. However, it can also happen if floor elevations of certain Room2Ds in the Story were edited to the point that it no longer makes sense to have them on the same Story as the other Room2Ds.
 
-The validation error message(s) should give detailed information about the fastest way to make the Story valid by changing the smallest number of Room2D floor heights. These recommendations may be useful in the case where floor elevations of a few Room2Ds in the Story were edited. However, in situations where this error arose by accidentally adding all of the Room2Ds of a Building to the same Story, separating the Room2Ds into different Stories is likely the better approach.
+In the case where editing the room floor elevations triggered the error, the validation error message(s) should give detailed information about the fastest way to make the Story valid by changing the smallest number of Room2D floor heights.
+
+However, in situations where this error arose by accidentally adding all of the Room2Ds of a Building to the same Story (resulting in very long validation error messages), separating the Room2Ds into different Stories is likely the better approach.
+
+### 100107
+
+**Invalid Room Plenum Depths** - The combination of the floor and ceiling plenum depths assigned to the room exceed the room's floor-to-ceiling height. This error may also be raised if the existence of a plenum depth contradicts the fact that the room does not have a floor or a ceiling.
+
+The validation error message(s) will give information about what exactly triggered the error. To solve the error, the plenum depths typically just need to be set to zero or, in the case of a contradiction with having a floor/ceiling, it can be corrected by just adding back the floor/ceiling.
+
+### 100108
+
+**Colliding Rooms Between Stories** - Room volumes of two different stories collide with one another in 3D space. While this condition is not necessarily un-simulate-able in EnergyPlus or Radiance, it will often create improper exterior boundary conditions around the collision. Also, several other energy modeling interfaces like IES-VE, IDA-ICE, and eQuest will throw errors when they discover this type of condition.
+
+Much like the error for "Overlapping Room Geometries", this error can almost always be resolved by using the [Subtract Rooms](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_subtract_rooms) command with the two rooms that overlap. However, because this error happens between stories, simply subtracting one room from another may not produce the desired result. Instead, it is sometimes better to resolve the error by changing the room floor-to-ceiling heights or floor elevations. For cases of complex collisions, the best result might be achieved by [Creating a Boundary](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_create_boundary) around one of the two rooms, using that boundary to [Split](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_split) the other room, and then adjusting the floor-to-ceiling height (or floor elevation) of the portion that was split so that it no longer collides with the room above (or below) it.
+
+Note that the validation check for this case accounts for the Model tolerance such that room collisions smaller than the tolerance are ignored. So this validation error only arises for cases where the room floors noticeably collide with one another.
 
 ### 100201
 
-**Mismatched Adjacency** - The model contains a Room2D with a Surface boundary condition that references the wall segment of another Room2D, which lacks a Surface boundary condition. The fact that the Surface boundary condition is not reciprocated may not result in a failure to translate the model from dragonfly to honeybee but it can cause unexpected results and validation errors in the resulting honeybee model like mis-matched area adjacencies.
+**Mismatched Adjacency** - The room contains a wall with an interior boundary condition that is adjacent to the wall of another room, which lacks the interior boundary condition. The fact that the interior boundary condition is not reciprocated can cause failures and unexpected results in simulation engines that use EnergyPlus including DesignBuilder, OpenStudio, and TRACE. Models exported to eQuest will also have errors if they contain this situation.
 
-This error can usually be fixed by re-solving adjacencies with the intersection step selected in order to ensure any mismatched wall segments are correctly split with their neighboring geometry.
+This error typically happens from editing room geometry after adjacencies had been solved. It can usually be fixed by [Joining Coplanar Faces](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_join_coplanar_faces) and re-[Solving adjacency](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_solve_adjacency) across the model.
 
 ### 100202
 
-**Mismatched WindowParameter Adjacency** - The model contains a Room2D with a Surface boundary condition referencing another Room2D wall segment that does not have the same window parameters. This can often happen if a previously existing Room2D has been deleted from the model or some change has been made to reset identifiers or boundary conditions in the model. Mis-matched window parameters will cause a failure to translate from dragonfly to honeybee by default. In this case, the `--bypass-adj-check` option can be used to get the translation to honeybee to proceed by replacing the illegal boundary condition with an Outdoors one.
+**Mismatched WindowParameter Adjacency** - The room contains a wall with interior windows that is adjacent to a wall that does not have the same windows. This can happen when one of the walls with the windows has been edited without the same edits being performed to the adjacent wall. Mis-matched window parameters will cause the interior boundary condition to be ignored when exporting the model, replacing it with an outdoor boundary condition that will simulate in destination engines but won't yield desired results, especially for exterior conduction.
 
-This error can usually be fixed by re-solving adjacency with the intersection step selected to erase the older invalid adjacencies.
+The error can usually be fixed by [Joining Coplanar Faces](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_join_coplanar_faces) and re-[Solving adjacency](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_solve_adjacency) across the model.
 
 ### 100203
 
-**Missing Adjacency** - The model contains a Room2D with a Surface boundary condition referencing another Room2D or wall segment that is not in the Story. This can often happen if a previously existing Room2D has been deleted from the model or some change has been made to reset identifiers or boundary conditions in the model. A missing adjacency will cause a failure to translate from dragonfly to honeybee by default. In this case, the `--bypass-adj-check` option can be used to get the translation to honeybee to proceed by replacing the illegal boundary condition with an Outdoors one.
+**Missing Adjacency** - The room contains a wall with an interior boundary condition that is adjacent to another room or wall that is not in the Story. This can often happen if a previously existing room has been deleted from the model or moved to a different story. A missing adjacency will cause the interior boundary condition to be ignored when exporting the model, replacing it with an outdoor boundary condition. This may be the desired result but the best practice is to represent these cases accurately in the model and use outdoor boundary conditions instead of interior adjacent ones.
 
-This error can usually be fixed by re-solving adjacency with the intersection step selected to erase the older invalid adjacencies.
+The error can usually be fixed by [Joining Coplanar Faces](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_join_coplanar_faces) and re-[Solving adjacency](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_solve_adjacency) across the model.
