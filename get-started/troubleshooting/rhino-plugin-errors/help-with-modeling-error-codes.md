@@ -270,15 +270,19 @@ The simplest way to fix the issue is to re-assign a symmetric construction to bo
 
 ## DOE-2 Error Codes
 
-### 030001
+### 030101
 
 **Room Exceeds Maximum Vertex Count** - The room's floor plate is defined by more than 120 unique vertices. The DOE-2 engine currently does not support such rooms and limits the total number of vertices to 120.
 
 The easiest way to address the issue is to use the [Split](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_split) command to split the room into two or more rooms, each of which should have less than 120 unique vertices. Depending on the exact reason for the high number of vertices, it may also be possible ot fix it using commands like [Remove Short Segments](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_remove_short_segments) and [Align](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_align) to remove small segments that are inconsequential to the energy simulation.
 
+### 030102
+
 **Room Contains Holes** - The room's floor plate has one or more holes in it. EQuest currently has no way to represent such rooms so, if the issue is not addressed, the hole will simply be removed as part of the process of exporting to an INP file.
 
 The easiest way to address the issue is to use the [Split](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_split) command to split the room into two or more rooms through the hole(s).
+
+### 030103
 
 **Story Floor Plate Contains Courtyards** - The floor plate of the story has one or more holes in it as would be expected for a building with (a) courtyard(s). EQuest currently has no way to represent such courtyards so, if the issue is not addressed, the courtyards will simply be removed as part of the process of exporting to an INP file.
 
