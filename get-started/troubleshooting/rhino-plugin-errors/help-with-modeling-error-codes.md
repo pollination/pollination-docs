@@ -261,13 +261,11 @@ This issue can typically be fixed by editing the Detailed HVAC systems of the mo
 
 The easiest way to solve the issue is to remove the HVAC that is not supposed to belong from the rooms in the zone, leaving only one "correct" system assigned to one or more of the rooms. If the zone is actually supposed to have a sophisticated setup with more than one piece of heating/cooling equipment, then this must be set up as a detailed Ironbug system such that controls for which system takes priority can be specified. Once constructed, such a detailed system can be applied to all rooms in the zone in order to simulate correctly.
 
-
 ### 020101
 
 **Building Height Exceeds Max Elevation** - The model is more than a kilometer above the ground plane. EnergyPlus computes wind speeds, air pressures, and adjusts outdoor temperatures to account for the height above the ground using the Z values of the geometry coordinates. This is an important consideration when modeling skyscrapers but it can be detrimental when a building has been modeled with its coordinates at the height above sea level and the location is significantly above sea level (eg. Denver, Colorado).
 
-The easiest way to solve the issue is to just move all of the model geometry down so that the scene origin generally aligns with where ground boundary conditions exist in the model. In the event that you are modeling a Jetsons-style space city in the stratosphere, then it is safe to ignore this validation error.
-
+The easiest way to solve the issue is to just move all of the model geometry down so that the scene origin generally aligns with where ground boundary conditions exist in the model. In the event that you are modeling a Jetsons-style space city in the stratosphere, then it is safe to ignore this validation error but note that EnergyPlus will not simulate the model if it is more than 12 km above the origin.
 
 ### 020201
 
