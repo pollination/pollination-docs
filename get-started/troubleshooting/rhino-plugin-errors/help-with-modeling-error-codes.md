@@ -137,12 +137,6 @@ This error can usually be fixed by re-solving adjacencies with the intersection 
 
 The error might be fixed by re-solving adjacency or, if the erroneous AirBoundary Face is not between two Rooms, then it should be changed to a different face type like a Wall, Roof, or Floor.
 
-### 000207
-
-**Room Composed Entirely of AirBoundaries** - The model contains a Room composed entirely of AirBoundary Faces. This condition is currently illegal in EnergyPlus since EnergyPlus is not equipped to model Rooms that contain no "real" geometry (Walls, Roofs, and Floors). This may change in the future depending on the outcome of [this issue](https://github.com/NREL/EnergyPlus/issues/9335) and this condition is currently completely valid for Radiance simulation.
-
-It should be fixed by merging the Room composed entirely of AirBoundaries into a neighboring Room that contains "real" geometry (Walls, Roofs, and Floors).
-
 ## Radiance Error Codes
 
 ### 010001
@@ -260,6 +254,20 @@ This issue can typically be fixed by editing the Detailed HVAC system and reassi
 **Room Referenced by Multiple Detailed HVAC** - The model contains two or more Detailed HVAC systems that reference the same Room. This can create situations where it is unclear which HVAC is intended to deliver the heating and cooling.
 
 This issue can typically be fixed by editing the Detailed HVAC systems of the model and reassigning Rooms to each system such that each Room has only one HVAC.
+
+### 020014
+
+**Zone with Different Room HVACs** - The model contains rooms that have two different HVAC systems but they are a part of the same zone. Trying to simulate Multiple HVAC systems serving one zone typically causes EnergyPlus simulation failures given that one system needs to have a clear priority over the other in order to function. So, if this error exists in the model, the OpenStudio/EnergyPlus exporters will simply ignore all but one of the HVAC systems assigned to the zone (chosen at random).
+
+The easiest way to solve the issue is to remove the HVAC that is not supposed to belong from the rooms in the zone, leaving only one "correct" system assigned to one or more of the rooms. If the zone is actually supposed to have a sophisticated setup with more than one piece of heating/cooling equipment, then this must be set up as a detailed Ironbug system such that controls for which system takes priority can be specified. Once constructed, such a detailed system can be applied to all rooms in the zone in order to simulate correctly.
+
+
+### 020101
+
+**Building Height Exceeds Max Elevation** - The model is more than a kilometer above the ground plane. EnergyPlus computes wind speeds, air pressures, and adjusts outdoor temperatures to account for the height above the ground using the Z values of the geometry coordinates. This is an important consideration when modeling skyscrapers but it can be detrimental when a building has been modeled with its coordinates at the height above sea level and the location is significantly above sea level (eg. Denver, Colorado).
+
+The easiest way to solve the issue is to just move all of the model geometry down so that the scene origin generally aligns with where ground boundary conditions exist in the model. In the event that you are modeling a Jetsons-style space city in the stratosphere, then it is safe to ignore this validation error.
+
 
 ### 020201
 
