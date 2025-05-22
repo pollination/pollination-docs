@@ -146,6 +146,10 @@ Import roofs from a HBJSON file. Import roofs translates all the orphaned shades
 
 Show the selected roofs in 3D. The 3D preview shows up in a new floating window. [Read more](./me_preview_roofs.md).
 
+#### <img src="images/reassign-roofs.svg" width="20" height="20"> **Reassign roofs**
+
+Reassign the model's roof geometries to the stories to which they are most applicable. This is useful after splitting roof geometries with story boundaries such that different roof elements are now applicable to different stories. [Read more](./me_reassign_roofs.md).
+
 #### <img src="images/resolve-roof-overlaps.svg" width="20" height="20"> **Resolve roof overlaps**
 
 Clean up roof geometries across the model. [Read more](./me_resolve_roof_overlaps.md).
