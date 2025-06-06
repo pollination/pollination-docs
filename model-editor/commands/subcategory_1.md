@@ -2,6 +2,32 @@
 
 Below are the commands that edit the room window geometry without changing floor geometry.
 
+## <img src="images/export-windows.svg" width="30" height="30"> Export windows
+
+Export windows and doors to HBJSON. Use this file to edit the geometry in Pollination Rhino plugin. You can then use the import windows button to import the edited windows back to Model Editor.
+
+---
+
+## <img src="images/import-windows.svg" width="30" height="30"> Import windows
+
+Import windows from a HBJSON file.
+
+<details>
+
+<summary>Options</summary>
+
+**Projection Distance**
+
+  The distance used to project the window/door geometry onto parent rooms. Set to zero to have windows/doors only be added if they are coplanar with a room wall or roof.
+
+**Is Revit Sourced**
+
+  Select if the HBJSON file with windows has been exported directly from the Revit model. If so, the window geometry will be synchronized with the model's units and coordinate system if they have changed from the original Revit model.
+
+</details>
+
+---
+
 ## <img src="images/offset-windows.svg" width="30" height="30"> Offset windows
 
 Offset all windows and/or skylights by a certain distance. This is useful for translating between interfaces that expect the window frame to be included within or excluded from the geometry.

@@ -38,6 +38,14 @@ Snap the selected rooms to a cartesian grid defined by a Grid Increment distance
 
 Subtract one room from another room. Useful for resolving colliding room geometries. [Read more](./me_subtract_rooms.md).
 
+#### <img src="images/export-windows.svg" width="20" height="20"> **Export windows**
+
+Export windows and doors to HBJSON. Use this file to edit the geometry in Pollination Rhino plugin. You can then use the import windows button to import the edited windows back to Model Editor. [Read more](./me_export_windows.md).
+
+#### <img src="images/import-windows.svg" width="20" height="20"> **Import windows**
+
+Import windows from a HBJSON file. [Read more](./me_import_windows.md).
+
 #### <img src="images/offset-windows.svg" width="20" height="20"> **Offset windows**
 
 Offset all windows and/or skylights by a certain distance. This is useful for translating between interfaces that expect the window frame to be included within or excluded from the geometry. [Read more](./me_offset_windows.md).
@@ -128,7 +136,7 @@ Remove colinear vertices from a polyline. [Read more](./me_remove_colinear_verti
 
 #### <img src="images/export-roofs.svg" width="20" height="20"> **Export roofs**
 
-Export roofs to HBJSON. Use this file to edit the roofs in Pollination Rhino plugin. You can then use the import roofs to import the edited roofs back to Model Editor. [Read more](./me_export_roofs.md).
+Export roofs to HBJSON. Use this file to edit the roofs in Pollination Rhino plugin. You can then use the import roofs button to import the edited roofs back to Model Editor. [Read more](./me_export_roofs.md).
 
 #### <img src="images/find-adjacency-gaps.svg" width="20" height="20"> **Find roof gaps**
 
@@ -140,7 +148,11 @@ Find the intersection between two or more roof geometries in 3D space and draw a
 
 #### <img src="images/import-roofs.svg" width="20" height="20"> **Import roofs**
 
-Import roofs from a HBJSON file. Import roofs translates all the orphaned shades in the HBJSON file to roof elements. [Read more](./me_import_roofs.md).
+Import roofs from a HBJSON file. All orphaned shades in the HBJSON file are translated to roof elements. [Read more](./me_import_roofs.md).
+
+#### <img src="images/merge-roofs.svg" width="20" height="20"> **Merge roofs**
+
+Merge coplanar roofs together that are on the same story and touching edges. [Read more](./me_merge_roofs.md).
 
 #### <img src="images/prev-roof.svg" width="20" height="20"> **Preview roofs**
 
@@ -164,7 +176,7 @@ Show tilt of the roof temporarily. [Read more](./me_show_tilt.md).
 
 #### <img src="images/diff-roof.svg" width="20" height="20"> **Subtract roofs**
 
-Subtract one roof part from another one. Use this command to clean up colliding roofs where faces overlap in plan and the user wants the taller of the two roof geometries in the overlap to be used. [Read more](./me_subtract_roofs.md).
+Subtract one roof part from another one. [Read more](./me_subtract_roofs.md).
 
 # Model Commands
 

@@ -4,7 +4,7 @@ Below are all commands that operate on roofs.
 
 ## <img src="images/export-roofs.svg" width="30" height="30"> Export roofs
 
-Export roofs to HBJSON. Use this file to edit the roofs in Pollination Rhino plugin. You can then use the import roofs to import the edited roofs back to Model Editor.
+Export roofs to HBJSON. Use this file to edit the roofs in Pollination Rhino plugin. You can then use the import roofs button to import the edited roofs back to Model Editor.
 
 ---
 
@@ -32,7 +32,7 @@ Find the intersection between two or more roof geometries in 3D space and draw a
 
 ## <img src="images/import-roofs.svg" width="30" height="30"> Import roofs
 
-Import roofs from a HBJSON file. Import roofs translates all the orphaned shades in the HBJSON file to roof elements.
+Import roofs from a HBJSON file. All orphaned shades in the HBJSON file are translated to roof elements.
 
 <details>
 
@@ -42,7 +42,17 @@ Import roofs from a HBJSON file. Import roofs translates all the orphaned shades
 
   Select to have all of the roofs currently within the model replaced by the new roof geometries in the imported HBJSON file. If deselected, the roofs will simply be added to the current roof geometries in the model.
 
+**Is Revit Sourced**
+
+  Select if the HBJSON file with roofs has been exported directly from the Revit model. If so, the roof geometry will be synchronized with the model's units and coordinate system if they have changed from the original Revit model.
+
 </details>
+
+---
+
+## <img src="images/merge-roofs.svg" width="30" height="30"> Merge roofs
+
+Merge coplanar roofs together that are on the same story and touching edges.
 
 ---
 
@@ -78,6 +88,6 @@ Show tilt of the roof temporarily.
 
 ## <img src="images/diff-roof.svg" width="30" height="30"> Subtract roofs
 
-Subtract one roof part from another one. Use this command to clean up colliding roofs where faces overlap in plan and the user wants the taller of the two roof geometries in the overlap to be used.
+Subtract one roof part from another one.
 
 ---

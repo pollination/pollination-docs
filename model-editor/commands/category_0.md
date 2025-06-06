@@ -200,6 +200,32 @@ The first room of the selection is the room to be subtracted from and all follow
 
 ---
 
+## <img src="images/export-windows.svg" width="30" height="30"> Export windows
+
+Export windows and doors to HBJSON. Use this file to edit the geometry in Pollination Rhino plugin. You can then use the import windows button to import the edited windows back to Model Editor.
+
+---
+
+## <img src="images/import-windows.svg" width="30" height="30"> Import windows
+
+Import windows from a HBJSON file.
+
+<details>
+
+<summary>Options</summary>
+
+**Projection Distance**
+
+  The distance used to project the window/door geometry onto parent rooms. Set to zero to have windows/doors only be added if they are coplanar with a room wall or roof.
+
+**Is Revit Sourced**
+
+  Select if the HBJSON file with windows has been exported directly from the Revit model. If so, the window geometry will be synchronized with the model's units and coordinate system if they have changed from the original Revit model.
+
+</details>
+
+---
+
 ## <img src="images/offset-windows.svg" width="30" height="30"> Offset windows
 
 Offset all windows and/or skylights by a certain distance. This is useful for translating between interfaces that expect the window frame to be included within or excluded from the geometry.
@@ -501,6 +527,16 @@ Identify gaps smaller than a specified gap distance. Such gaps typically do not 
 ## <img src="images/validate-model.svg" width="30" height="30"> Validate model
 
 Check whether the selected rooms are valid/simulate-able. Valid models should export to any of the supported BEM engines without errors. Invalid models will have their errors presented in a table with the option to select the part of the model where the error originates so that it can be fixed.
+
+<details>
+
+<summary>Options</summary>
+
+**Destination Engine**
+
+  The destination engine for which validation will be performed. Selecting an option here will ignore checks that are not relevant for the engine. Use the 'All' option to validate for all engines.
+
+</details>
 
 {% embed url="https://drive.google.com/open?id=1K4iUHPC9lKHDfJenTkUSycjKys9rvw_j&usp=drive_fs" %}
 Validate Model
