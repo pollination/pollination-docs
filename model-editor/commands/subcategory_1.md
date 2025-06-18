@@ -10,7 +10,7 @@ Export windows and doors to HBJSON. Use this file to edit the geometry in Pollin
 
 ## <img src="images/import-windows.svg" width="30" height="30"> Import windows
 
-Import windows from a HBJSON file.
+Import windows and doors from a HBJSON file, replacing the currently-assigned windows. If rooms are selected while running this command, only the windows and doors of the selected rooms will be updated.
 
 <details>
 

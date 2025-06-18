@@ -208,7 +208,7 @@ Export windows and doors to HBJSON. Use this file to edit the geometry in Pollin
 
 ## <img src="images/import-windows.svg" width="30" height="30"> Import windows
 
-Import windows from a HBJSON file.
+Import windows and doors from a HBJSON file, replacing the currently-assigned windows. If rooms are selected while running this command, only the windows and doors of the selected rooms will be updated.
 
 <details>
 
@@ -380,6 +380,16 @@ Useful for cases where multiple rooms in a Revit model should be represented as 
 
 Split rooms or roofs by the selected lines/polylines.
 
+<details>
+
+<summary>Options</summary>
+
+**Gap Distance**
+
+  An optional distance value to introduce a gap along the line/polyline that is splitting. This should almost always be zero except when using this command to work around eQuest's lack of support for courtyard buildings. In this case, the gap distance can be used to create a gap that connects the building exterior to the courtyard.
+
+</details>
+
 ---
 
 ## <img src="images/core-pr.svg" width="30" height="30"> Split core and perimeter
@@ -534,7 +544,7 @@ Check whether the selected rooms are valid/simulate-able. Valid models should ex
 
 **Destination Engine**
 
-  The destination engine for which validation will be performed. Selecting an option here will ignore checks that are not relevant for the engine. Use the 'All' option to validate for all engines.
+  The destination engine for which validation will be performed. Selecting an option here will ignore checks that are not relevant for the engine. Use the 'Generic' option if the intention is to make a model for multiple engines.
 
 </details>
 

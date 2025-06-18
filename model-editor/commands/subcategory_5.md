@@ -52,7 +52,7 @@ Check whether the selected rooms are valid/simulate-able. Valid models should ex
 
 **Destination Engine**
 
-  The destination engine for which validation will be performed. Selecting an option here will ignore checks that are not relevant for the engine. Use the 'All' option to validate for all engines.
+  The destination engine for which validation will be performed. Selecting an option here will ignore checks that are not relevant for the engine. Use the 'Generic' option if the intention is to make a model for multiple engines.
 
 </details>
 
