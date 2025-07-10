@@ -20,6 +20,10 @@ Import windows and doors from a HBJSON file, replacing the currently-assigned wi
 
   The distance used to project the window/door geometry onto parent rooms. Set to zero to have windows/doors only be added if they are coplanar with a room wall or roof.
 
+**Angle Tolerance**
+
+  Angle tolerance in degrees, which sets the maximum angle difference between the normal vectors of the window and wall at which point the window will be projected onto the wall and assigned to it.
+
 **Is Revit Sourced**
 
   Select if the HBJSON file with windows has been exported directly from the Revit model. If so, the window geometry will be synchronized with the model's units and coordinate system if they have changed from the original Revit model.
@@ -28,9 +32,33 @@ Import windows and doors from a HBJSON file, replacing the currently-assigned wi
 
 ---
 
-## <img src="images/offset-windows.svg" width="30" height="30"> Offset windows
+## <img src="images/make-windows-flush.svg" width="30" height="30"> Make windows flush
 
-Offset all windows and/or skylights by a certain distance. This is useful for translating between interfaces that expect the window frame to be included within or excluded from the geometry.
+Make the edges of nearby windows flush with one another. Useful for cleaning up overlapping windows in a way that does not merge them together like 'Repair Windows' or removing gaps between windows without offsetting all edges like 'Offset windows for frame'.
+
+<details>
+
+<summary>Options</summary>
+
+**Distance**
+
+  The maximin distance that the edges of nearby windows will be moved in order to make them flush with one another
+
+**Ignore Windows**
+
+  Select to have the windows left as they are during the operation
+
+**Ignore Skylights**
+
+  Select to have the skylights left as they are during the operation
+
+</details>
+
+---
+
+## <img src="images/offset-windows.svg" width="30" height="30"> Offset windows for frame
+
+Offset the edges of all windows and/or skylights by a certain distance. Useful for translating between interfaces that expect the window frame to be included within or excluded from the geometry.
 
 <details>
 
@@ -38,7 +66,11 @@ Offset all windows and/or skylights by a certain distance. This is useful for tr
 
 **Offset Distance**
 
-  Offset all windows and/or skylights by a certain distance. This is useful for translating between interfaces that expect the window frame to be included within or excluded from the geometry
+  The distance to offset the edges all windows and/or skylights. Positive values will offset the windows outwards (adding frame). Negative will offset the windows inwards (removing frame)
+
+**Overlap Resolve Method**
+
+  The method that should be used for resolving overlaps between windows if offsetting causes them to collide. 'Offset To Flush' will make window edges flush at the centerline between windows that are closer than 2 times the offset distance. 'Offset And Merge' will join windows together that overlap after offsetting. 'Make Flush Only' will only make close windows flush without performing any additional offset of the boundary around each flush group.
 
 **Ignore Windows**
 
@@ -52,9 +84,45 @@ Offset all windows and/or skylights by a certain distance. This is useful for tr
 
 ---
 
-## <img src="images/repair-windows.svg" width="30" height="30"> Repair windows
+## <img src="images/rectangularize-windows.svg" width="30" height="30"> Rectangularize windows
 
-Fix the windows of the rooms by merging the colliding windows and trimming those that extend past the parent Face. The Rectangle option can be used to further simplify non-rectangular windows into rectangular shapes
+Convert windows and/or skylights to rectangles. Useful for cleaning Revit-exported window families that are supposed to be rectangular.
+
+<details>
+
+<summary>Options</summary>
+
+**Ignore Windows**
+
+  Select to have the windows left as they are during the rectangularize operation
+
+**Ignore Skylights**
+
+  Select to have the skylights left as they are during the rectangularize operation
+
+</details>
+
+---
+
+## <img src="images/remove-windows.svg" width="30" height="30"> Remove small windows
+
+Remove windows of the room that are smaller than a certain specified Area Threshold.
+
+<details>
+
+<summary>Options</summary>
+
+**Area Threshold**
+
+  The maximum area of a window below which it will be removed.
+
+</details>
+
+---
+
+## <img src="images/repair-windows.svg" width="30" height="30"> Repair invalid windows
+
+Fix invalid windows by merging overlapping windows together, trimming windows that extend past the parent face, and deleting self-intersecting windows
 
 <details>
 
@@ -64,25 +132,17 @@ Fix the windows of the rooms by merging the colliding windows and trimming those
 
   A number for the distance from the parent face edges to which windows will be trimmed. Entering a non-zero number here can ensure that space is left on parent faces to account for window frames
 
-**Small Area Threshold**
-
-  The maximum area of a window below which it will be removed. Set to zero to keep all windows no matter their size or their validity.
-
 **Rectangle**
 
   Select to have overlapping window geometries resolved by replacing them with a boundary rectangle around the overlapped group instead of boolean unioning the overlapped geometries. Useful in cases where a dozen or more geometries overlap with one another such that the unioned result is not as clean or desirable as a bounding rectangle
 
 </details>
 
-This command is intended to fix such issues while being faithful to the original window geometry. It trims windows that extend past their parent face and merges overlapping windows by either boolean-unioning them or replacing them with a rectangle around the group (if the `Rectangle` option is selected).
-
-For intentionally simplifying the window geometry for either simulation speed or overall model cleanliness, see the "Simplify windows" command.
-
 ---
 
 ## <img src="images/simplify-windows.svg" width="30" height="30"> Simplify windows
 
-Simplify the windows and skylights of a room for either simulation speed or overall model cleanliness.
+Simplify and reduce the number of windows and/or skylights while maintaining the overall exterior window/skylight area. Useful for improving simulation speed without significantly changing energy use results.
 
 <details>
 
@@ -90,7 +150,7 @@ Simplify the windows and skylights of a room for either simulation speed or over
 
 **Merge Distance**
 
-  The maximum distance between rooms at which point they will be merged together. Setting a non-zero value here will allow you to merge rooms that have gaps in between them (crossing gaps up to the specified distance). This option is particularly useful for IDA-ICE users who must work with rooms that are exported at the interior wall finish
+  The maximum distance between windows at which point they will be merged together into a single simpler window
 
 **Single Window**
 
@@ -98,7 +158,7 @@ Simplify the windows and skylights of a room for either simulation speed or over
 
 **Delete Interior**
 
-  Select to have the interior windows removed from the rooms, which can increase simulation speed in several BEM platforms
+  Select to have the interior windows and doors removed from the rooms, which often have a negligible impact on overall building energy use
 
 **Ignore Skylights**
 

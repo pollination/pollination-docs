@@ -7,15 +7,15 @@ Change units and/or tolerance.
 
 * **Units**
 
-  Units to apply
+  Model units system
 
 * **Angle Tolerance**
 
-  Angle tolerance to apply
+  Model angle tolerance in degrees
 
 * **Tolerance**
 
-  Tolerance to apply
+  Model absolute tolerance
 
 * **Reset Coordinate System**
 

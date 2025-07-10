@@ -1,13 +1,13 @@
 # Simplify windows
 <img src="images/simplify-windows.svg" width="50" height="50"> 
 
-Simplify the windows and skylights of a room for either simulation speed or overall model cleanliness.
+Simplify and reduce the number of windows and/or skylights while maintaining the overall exterior window/skylight area. Useful for improving simulation speed without significantly changing energy use results.
 
 ## Options
 
 * **Merge Distance**
 
-  The maximum distance between rooms at which point they will be merged together. Setting a non-zero value here will allow you to merge rooms that have gaps in between them (crossing gaps up to the specified distance). This option is particularly useful for IDA-ICE users who must work with rooms that are exported at the interior wall finish
+  The maximum distance between windows at which point they will be merged together into a single simpler window
 
 * **Single Window**
 
@@ -15,7 +15,7 @@ Simplify the windows and skylights of a room for either simulation speed or over
 
 * **Delete Interior**
 
-  Select to have the interior windows removed from the rooms, which can increase simulation speed in several BEM platforms
+  Select to have the interior windows and doors removed from the rooms, which often have a negligible impact on overall building energy use
 
 * **Ignore Skylights**
 

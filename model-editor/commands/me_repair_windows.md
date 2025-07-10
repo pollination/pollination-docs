@@ -11,7 +11,7 @@ Fix the windows of the rooms by merging the colliding windows and trimming those
 
 * **Small Area Threshold**
 
-  The maximum area of a window below which it will be removed. Set to zero to keep all windows no matter their size or their validity.
+  The maximum area of a window below which it will be removed
 
 * **Rectangle**
 

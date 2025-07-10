@@ -46,17 +46,29 @@ Export windows and doors to HBJSON. Use this file to edit the geometry in Pollin
 
 Import windows and doors from a HBJSON file, replacing the currently-assigned windows. If rooms are selected while running this command, only the windows and doors of the selected rooms will be updated. [Read more](./me_import_windows.md).
 
-#### <img src="images/offset-windows.svg" width="20" height="20"> **Offset windows**
+#### <img src="images/make-windows-flush.svg" width="20" height="20"> **Make windows flush**
 
-Offset all windows and/or skylights by a certain distance. This is useful for translating between interfaces that expect the window frame to be included within or excluded from the geometry. [Read more](./me_offset_windows.md).
+Make the edges of nearby windows flush with one another. Useful for cleaning up overlapping windows in a way that does not merge them together like 'Repair Windows' or removing gaps between windows without offsetting all edges like 'Offset windows for frame'. [Read more](./me_make_windows_flush.md).
 
-#### <img src="images/repair-windows.svg" width="20" height="20"> **Repair windows**
+#### <img src="images/offset-windows.svg" width="20" height="20"> **Offset windows for frame**
 
-Fix the windows of the rooms by merging the colliding windows and trimming those that extend past the parent Face. The Rectangle option can be used to further simplify non-rectangular windows into rectangular shapes [Read more](./me_repair_windows.md).
+Offset the edges of all windows and/or skylights by a certain distance. Useful for translating between interfaces that expect the window frame to be included within or excluded from the geometry. [Read more](./me_offset_windows_for_frame.md).
+
+#### <img src="images/rectangularize-windows.svg" width="20" height="20"> **Rectangularize windows**
+
+Convert windows and/or skylights to rectangles. Useful for cleaning Revit-exported window families that are supposed to be rectangular. [Read more](./me_rectangularize_windows.md).
+
+#### <img src="images/remove-windows.svg" width="20" height="20"> **Remove small windows**
+
+Remove windows of the room that are smaller than a certain specified Area Threshold. [Read more](./me_remove_small_windows.md).
+
+#### <img src="images/repair-windows.svg" width="20" height="20"> **Repair invalid windows**
+
+Fix invalid windows by merging overlapping windows together, trimming windows that extend past the parent face, and deleting self-intersecting windows [Read more](./me_repair_invalid_windows.md).
 
 #### <img src="images/simplify-windows.svg" width="20" height="20"> **Simplify windows**
 
-Simplify the windows and skylights of a room for either simulation speed or overall model cleanliness. [Read more](./me_simplify_windows.md).
+Simplify and reduce the number of windows and/or skylights while maintaining the overall exterior window/skylight area. Useful for improving simulation speed without significantly changing energy use results. [Read more](./me_simplify_windows.md).
 
 #### <img src="images/fill-holes-with-rooms.svg" width="20" height="20"> **Fill holes**
 
@@ -180,9 +192,9 @@ Subtract one roof part from another one. [Read more](./me_subtract_roofs.md).
 
 # Model Commands
 
-#### <img src="images/auto-top-ground.svg" width="20" height="20"> **Auto top ground**
+#### <img src="images/auto-top-ground.svg" width="20" height="20"> **Auto top-ground**
 
-Automatically assign top exposed properties to any rooms with no room above them and assign ground contact to all rooms of the bottom story. [Read more](./me_auto_top_ground.md).
+Automatically assign top exposed properties to any rooms with no room above them and assign ground contact to all rooms of the bottom story. [Read more](./me_auto_top-ground.md).
 
 #### **Change units**
 

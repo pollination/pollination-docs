@@ -2,7 +2,7 @@
 
 Below are all commands that only operate on the entire model at once.
 
-## <img src="images/auto-top-ground.svg" width="30" height="30"> Auto top ground
+## <img src="images/auto-top-ground.svg" width="30" height="30"> Auto top-ground
 
 Automatically assign top exposed properties to any rooms with no room above them and assign ground contact to all rooms of the bottom story.
 
@@ -28,15 +28,15 @@ Change units and/or tolerance.
 
 **Units**
 
-  Units to apply
+  Model units system
 
 **Angle Tolerance**
 
-  Angle tolerance to apply
+  Model angle tolerance in degrees
 
 **Tolerance**
 
-  Tolerance to apply
+  Model absolute tolerance
 
 **Reset Coordinate System**
 
