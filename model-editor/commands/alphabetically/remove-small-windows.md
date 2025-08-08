@@ -1,2 +1,0 @@
-# Remove small windows
-

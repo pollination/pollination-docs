@@ -1,6 +1,6 @@
 # Data Processing Addendum
 
-This Pollination Data Processing Addendum forms part of and is subject to the provisions of, the [Pollination Terms of Service](terms_of_service.md).
+This Pollination Data Processing Addendum forms part of and is subject to the provisions of, the [Pollination Terms of Service](./terms_of_service.md).
 
 ## 1. Definitions
 
@@ -36,7 +36,7 @@ You are the controller and Pollination is the processor of Your Controlled Data.
 
 ### 4.2 Pollination as Controller
 
-Pollination may also be an independent controller for some personal data relating to you. Please see our [Privacy Policy](privacy_policy.md) and Terms of Service for details about this personal data which we control.
+Pollination may also be an independent controller for some personal data relating to you. Please see our [Privacy Policy](./privacy_policy.md) and Terms of Service for details about this personal data which we control.
 
 ### 4.3 Description of Processing Activities
 
@@ -63,11 +63,16 @@ We will provide you notice without undue delay after becoming aware of and confi
 ### 5.4 Sub-Processors
 
 1. We warrant that we will meet the requirements specified in Article 28(2) and (4) GDPR in order to engage another processor (a sub-processor).
-2. We will therefore not engage another processor (sub-processor) for the fulfillment of the DPA without the prior\
-   general written authorization of the data controller.
-3. You give us the general authorization for the engagement of sub-processors. We shall inform you in writing of any intended changes concerning the addition or replacement of sub-processors at least thirty (30) days in advance, thereby giving you the opportunity to object to such changes prior to the engagement of the concerned sub-processor(s). The list of sub-processors already authorized by the data controller can be found in the [Subprocessors document](subprocessors.md).
+
+2. We will therefore not engage another processor (sub-processor) for the fulfillment of the DPA without the prior
+general written authorization of the data controller.
+
+3. You give us the general authorization for the engagement of sub-processors. We shall inform you in writing of any intended changes concerning the addition or replacement of sub-processors at least thirty (30) days in advance, thereby giving you the opportunity to object to such changes prior to the engagement of the concerned sub-processor(s). The list  of sub-processors already authorized by the data controller can be found in the [Subprocessors document](./subprocessors.md).
+
 4. Where we engage a sub-processor for carrying out specific processing activities on behalf of you, the same data protection obligations as set out in the DPA shall be imposed on that sub-processor by way of a contract or other legal act under EU or Member State law, in particular providing sufficient guarantees to implement appropriate technical and organizational measures in such a manner that the processing will meet the requirements of the DPA and the GDPR.
+
 5. A copy of such a sub-processor agreement and subsequent amendments shall – at your request – be submitted to you, thereby giving the data controller the opportunity to ensure that the same data protection obligations as set out in the DPA are imposed on the sub-processor. DPA on business related content that do not affect the legal data protection content of the sub-processor agreement, shall not require submission to the data controller.
+
 6. If the sub-processor does not fulfil his data protection obligations, we remain fully liable to you for the fulfillment of the obligations of the sub-processor. This does not affect the rights of the data subjects under the GDPR – in particular those foreseen in Articles 79 and 82 GDPR – against neither you nor us, including the sub-processor.
 
 ## 6. Liability

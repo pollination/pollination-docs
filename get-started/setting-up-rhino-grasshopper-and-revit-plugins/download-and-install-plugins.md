@@ -76,13 +76,13 @@ The Grasshopper plugin is also packaged in the Rhino installer. You only need to
 
 Double-click on the `PollinationGHInstaller.exe` file to start the installation. The installer will automatically remove any previous versions of Pollination.
 
-![](<../../.gitbook/assets/image (40) (1).png>)
+![](<../../.gitbook/assets/image (40).png>)
 
 **Step 2**
 
 Follow the prompts to install the plugin.
 
-![](<../../.gitbook/assets/image (35) (1).png>)
+![](<../../.gitbook/assets/image (35).png>)
 {% endtab %}
 {% endtabs %}
 

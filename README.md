@@ -16,7 +16,7 @@ Among other products, Pollination has developed plugins for Revit and Rhino to a
 
 We know what you might be thinking. "_This sounds good but_ _have you seen the models that we get from architects?_" - Yes. We have! And we have helped hundreds of customers to use Pollination with those real-world models. We can help you to do the same.
 
-<figure><img src=".gitbook/assets/image (4) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## <img src=".gitbook/assets/revit_plugin.png" alt="" data-size="line">Pollination Revit Plugin
 
@@ -34,7 +34,7 @@ Here are the 3 facts about Revit models for energy modelers:
 
 Knowing these facts, we have developed the plugin not to _try to be smart_ but to help you save a significant amount of time with a minimum but necessary user interaction.
 
-<figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt="" width="563"><figcaption><p>Save a significant amount of time</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption><p>Save a significant amount of time</p></figcaption></figure>
 
 ### Why should you try yet another building energy modeling Revit plugin?
 
@@ -44,14 +44,14 @@ To ensure we can deliver reliable workflows:
 
 * We have rewritten all the extraction methods from scratch and tested them against hundreds of models.
 * We have also developed an automated validation routine that detects any possible issues in your model.
-* We have developed a [Model Editor](broken-reference/) with [automated workflows](model-editor/workflows/) to fix those issues in your model.
+* We have developed a [Model Editor](broken-reference/) with [automated workflows](model-editor/workflows.md) to fix those issues in your model.
 * We have written direct export from our schema to other building energy simulation tools using their native file formats such as .GEM for IES VE, .INP for eQuest, .OSM for OpenStudio, .IDF for EnergyPlus, and .IDM for IDA-ICE. We still rely on .gbXML for some of the simulation tools such as DesignBuilder and TRACE 3D Plus but we are closely working with both of them to ensure the models are imported to their platforms reliably.
 
 <figure><img src=".gitbook/assets/pollination-revit-ad.png" alt=""><figcaption><p>Said no energy modeler, ever!</p></figcaption></figure>
 
 That's why we are confident that any valid Pollination model will be exported to any of the supported building performance simulation tools with no issues. If you find an issue in the process that we cannot fix, we will give you all your money back! The days of getting exploded gbXML models from Revit are over! Those were before the Pollination Revit plugin.
 
-<figure><img src=".gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p>An analytical model exported from the exact same Revit model with and without using Pollination. Pollination provides a useful starting point even with no model clean up.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>An analytical model exported from the exact same Revit model with and without using Pollination. Pollination provides a useful starting point even with no model clean up.</p></figcaption></figure>
 
 ### What is the process of exporting the model?
 
@@ -63,9 +63,9 @@ The first step of the process is to use the Pollination plugin to review the Rev
 
 #### 2. Cleaning up the model inside the Model Editor
 
-Once you have the snapshot you are ready to clean it up in the <img src=".gitbook/assets/model_editor.png" alt="" data-size="line">Model Editor. After fixing hundreds of real-world Revit models we have developed[ a dozen commands](model-editor/commands/) to automatically fix the [common geometry issues in energy models](model-editor/workflows/).
+Once you have the snapshot you are ready to clean it up in the <img src=".gitbook/assets/model_editor.png" alt="" data-size="line">Model Editor. After fixing hundreds of real-world Revit models we have developed[ a dozen commands](model-editor/commands/) to automatically fix the [common geometry issues in energy models](model-editor/workflows.md).
 
-Here is a video that walks you through the whole process in less than 30 minutes. See [this page](revit-plugin/export-analytical-model-1/) for more in-depth tutorials.
+Here is a video that walks you through the whole process in less than 30 minutes. See [this page](revit-plugin/export-analytical-model/) for more in-depth tutorials.
 
 {% embed url="https://youtu.be/MLOLOXlPaPA" %}
 
@@ -75,13 +75,13 @@ Once you are done with the cleaning up you can [export the model to any of the s
 
 We understand that trying yet another building energy modeling plugin for Revit is high risk. As much as you need a better workflow, you don't want to look bad because you recommended a plugin that doesn't work. To make it even easier to get started we will help you with exporting your first Revit model at no cost and before you commit to buying the Revit plugin. If anything goes wrong it will be on us, and if it works you will look like the smartest person in the office!
 
-<figure><img src=".gitbook/assets/image (4) (1) (1) (1).png" alt="" width="563"><figcaption><p>We got your back!</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1) (1).png" alt="" width="563"><figcaption><p>We got your back!</p></figcaption></figure>
 
 ## <img src=".gitbook/assets/rhino_plugin.png" alt="" data-size="line">Rhino Plugin
 
 We know not everyone is lucky to have access to a Revit Model. You might get only 2D CAD drawings, or 3D models in Rhino or SketchUp. In those cases, you should use the Pollination Rhino plugin. The combination of Rhino's robust geometry library and Pollination's commands for setting up and fixing models has made the Rhino plugin "the best tool for generating building performance geometry" in the market.
 
-<figure><img src=".gitbook/assets/image (5) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### What are the unique aspects of the Pollination Rhino plugin?
 
