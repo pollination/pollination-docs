@@ -18,4 +18,4 @@ Just like any other Pollination product, we are committed to empowering users to
 
 To open the script editor, click on the user setting button on the top right of the screen, and then select "show code editor".
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

@@ -15,13 +15,13 @@ To purchase the seats for your organization:
 1. Go to the organization and find the subscription tab.\\
 2.  Scroll to the Organization Seat Subscription card.\\
 
-    <figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 3.  Use the dropdown to select the ideal organization seats package for your organization.\\
 
-    <figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 4.  Select the quantity and billing period. The billing period is set to a yearly subscription by default which gives you a month of subscription for free.\\
 
-    <figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 5.  Click on the `Subscribe` button and continue with the purchase.\\
 
     ![Payment](../../.gitbook/assets/organization-setup/buy-org-seats-5.png)
