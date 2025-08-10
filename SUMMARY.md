@@ -20,7 +20,7 @@
 
 ## REVIT PLUGIN
 
-* [Before You Begin: Is the Pollination Revit Plugin Right for You?](revit-plugin/export-analytical-model.md)
+* [Before You Begin: Is the Pollination Revit Plugin Right for You?](revit-plugin/before-you-begin.md)
 * [Core Concepts & Best Practices](revit-plugin/core-concepts-and-best-practices/README.md)
   * [Modeling Best Practices](revit-plugin/core-concepts-and-best-practices/modeling-best-practices.md)
   * [Navigating Pollination Plugin Tab](revit-plugin/core-concepts-and-best-practices/getting-started.md)
