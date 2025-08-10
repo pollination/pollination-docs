@@ -2,7 +2,7 @@
 
 Well done! Time to enjoy the outcome of your work. Click the export button, and export the model to any of the supported file formats.
 
-<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption><p>Pollination Export Options</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (39) (1).png" alt=""><figcaption><p>Pollination Export Options</p></figcaption></figure>
 
 {% hint style="info" %}
 If no geometry is selected, Pollination exports all the rooms and shades in the model. But if you select any of the rooms or shades, it will only export the selected items.
@@ -16,7 +16,7 @@ For this tutorial, we will export the model to Pollination Rhino (.HBJSON), IESV
 
 [You can learn more about all the supported file formats and the export options here](../../../model-editor/supported-file-formats/export.md).
 
-<figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption><p>Revit sample model in [Pollination] Rhino (.HBJSON)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (40) (1).png" alt=""><figcaption><p>Revit sample model in [Pollination] Rhino (.HBJSON)</p></figcaption></figure>
 
 {% file src="../../../.gitbook/assets/2023_rac_advanced_sample_project.hbjson" %}
 
@@ -24,14 +24,14 @@ For this tutorial, we will export the model to Pollination Rhino (.HBJSON), IESV
 
 {% file src="../../../.gitbook/assets/2023_rac_advanced_sample_project.gem" %}
 
-<figure><img src="../../../.gitbook/assets/image (41).png" alt=""><figcaption><p>Revit sample model in eQuest (.INP)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (41) (1).png" alt=""><figcaption><p>Revit sample model in eQuest (.INP)</p></figcaption></figure>
 
 {% file src="../../../.gitbook/assets/2023_rac_advanced_sample_project.inp" %}
 
-<figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption><p>Revit sample model in OpenStudio (.OSM)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (43) (1).png" alt=""><figcaption><p>Revit sample model in OpenStudio (.OSM)</p></figcaption></figure>
 
 {% file src="../../../.gitbook/assets/2023_rac_advanced_sample_project.osm" %}
 
-<figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption><p>Revit sample model in Spider (.gbXML)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (42) (1).png" alt=""><figcaption><p>Revit sample model in Spider (.gbXML)</p></figcaption></figure>
 
 {% file src="../../../.gitbook/assets/2023_rac_advanced_sample_project.xml" %}

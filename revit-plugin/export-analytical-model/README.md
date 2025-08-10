@@ -22,4 +22,10 @@ Here is a short checklist before getting started with this tutorial:
 3. If you will be using a license from a Pollination organization, ensure you have been added to the correct license pool. See [this page](../../get-started/manage-license-pool.md) for more information.
 4. We will use the Revit Advanced Sample model for this tutorial. If you don't have the sample model, you can download it from [this page](https://drive.google.com/drive/folders/1sUdlhcai6RS7IMr-_WjC1orQqesrm6lT?usp=sharing) for different versions of Revit.
 
-<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (54) (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+The next sections of this tutorial go through every step of the process, but currently lack videos. If you're a person who learns better by watching videos here is a slightly outdated video. We're working on recording a new video for each section of the updated tutorial.
+
+{% embed url="https://youtu.be/eUzhOOmaU2M?si=U148I6rHVNP6Ks_M" %}

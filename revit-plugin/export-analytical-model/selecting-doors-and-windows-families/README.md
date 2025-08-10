@@ -4,7 +4,7 @@ Unlike many other Revit plugins, Pollination doesn't try to guess the windows an
 
 To select the windows and doors families, click on the `Select Doors & Windows` button.
 
-<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (48) (1).png" alt=""><figcaption></figcaption></figure>
 
 You should see a UI similar to the screenshot below. There are two tabs for windows and doors. You see the list of families on the left side and a preview window on the right. By default, the status of all the families is set to "Ready to review".
 

@@ -14,7 +14,7 @@ It is required to [create a team](account-setup/create-teams.md) first before be
 
 Click on the dropdown menu and go to the Projects page.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 2
 
@@ -24,7 +24,7 @@ Select a project from your existing projects by double-clicking on the project c
 
 Click on the Collaborators tab.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 4
 

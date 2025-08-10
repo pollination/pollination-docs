@@ -8,8 +8,8 @@ In this tutorial, we will use rooms as the geometry source, but the workflow wil
 
 To start exporting Revit rooms, spaces, or areas as a Pollination snapshot, click on the `Export Rooms` button.
 
-<figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (51) (1).png" alt=""><figcaption></figcaption></figure>
 
 You should see a UI similar to the screenshot below. This UI walks you through the required steps for reviewing and exporting the rooms, spaces, or areas as a Pollination snapshot. Use the back and forward buttons on the bottom left to navigate the different steps.
 
-<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>

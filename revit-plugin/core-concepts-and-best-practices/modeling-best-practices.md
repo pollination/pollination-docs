@@ -7,10 +7,10 @@ description: The ideal Revit model for Pollination
 The Pollination Revit plugin is designed to work with any Revit model, but following these best practices will save you and your team the time needed for extracting valid analytical models from Revit. You can share this document with the person who is in charge of managing the Revit model.
 
 **Use detached central models**\
-Even though the Pollination Revit plugin [can work with linked models](setting-up-linked-models.md), the ideal scenario is to use a single detached model that is saved as a central model.\
+Even though the Pollination Revit plugin [can work with linked models](setting-up-linked-models.md), the ideal scenario is to use a single detached model that is saved as a central model. This is solely a suggestion, and not a requirement. We understand that most of the real-world projects are linked models.\
 \
 **Review rooms, spaces**, **or areas to be placed correctly**\
-Pollination Revit plugin uses rooms, spaces, or areas as the source of the geometry for creating Pollination rooms (also known as thermal zones in energy modeling tools). Make sure they are placed correctly in the Revit file, as well as that they are placed on the desired Level.\
+The Pollination Revit plugin uses rooms, spaces, or areas as the source of the geometry for creating Pollination rooms (also known as thermal zones in energy modeling tools). Make sure they are placed correctly in the Revit file, as well as that they are placed on the desired Level.\
 \
 **Minimize the use of separation lines**\
 There are cases in which one might need to use separation lines to bound the rooms or break them down, but try to minimize the use of separation lines as long as possible. Instead, rely on the room-bounding properties of the Revit elements to create the rooms and spaces.\

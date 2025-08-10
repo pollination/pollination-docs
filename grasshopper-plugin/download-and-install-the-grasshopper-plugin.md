@@ -4,7 +4,7 @@
 
 Visit the [Pollination Grasshopper Plugin](https://www.pollination.solutions/grasshopper-plugin) website and click on "Download the Latest Version".
 
-![](<../.gitbook/assets/image (53) (1).png>)
+![](<../.gitbook/assets/image (53) (1) (1).png>)
 
 ## Installation
 
@@ -16,10 +16,10 @@ Extract the zipped file from your downloads folder and run the .exe file to star
 Rhino must be closed before running the installer.
 {% endhint %}
 
-![](<../.gitbook/assets/image (40) (1).png>)
+![](<../.gitbook/assets/image (40) (1) (1).png>)
 
 ### Step 2
 
 Follow the prompts to install the plugin.
 
-![](<../.gitbook/assets/image (35) (1).png>)
+![](<../.gitbook/assets/image (35) (1) (1).png>)

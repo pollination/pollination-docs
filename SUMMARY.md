@@ -22,10 +22,10 @@
 
 * [Before You Begin: Is the Pollination Revit Plugin Right for You?](revit-plugin/export-analytical-model.md)
 * [Core Concepts & Best Practices](revit-plugin/core-concepts-and-best-practices/README.md)
+  * [Modeling Best Practices](revit-plugin/core-concepts-and-best-practices/modeling-best-practices.md)
   * [Navigating Pollination Plugin Tab](revit-plugin/core-concepts-and-best-practices/getting-started.md)
   * [Managing Pollination Revit License](revit-plugin/core-concepts-and-best-practices/managing-pollination-revit-license.md)
   * [Setting Up Linked Models](revit-plugin/core-concepts-and-best-practices/setting-up-linked-models.md)
-  * [Modeling Best Practices](revit-plugin/core-concepts-and-best-practices/modeling-best-practices.md)
 * [Exporting Revit Advanced Sample Model](revit-plugin/export-analytical-model/README.md)
   * [Understanding the Export Process](revit-plugin/export-analytical-model/understanding-the-export-process.md)
   * [Selecting Doors and Windows Families](revit-plugin/export-analytical-model/selecting-doors-and-windows-families/README.md)

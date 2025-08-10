@@ -1,10 +1,10 @@
 # Cleaning Up and Exporting the Snapshots
 
-Once you have the snapshots, you can use the [Pollination Model Editor](broken-reference) to clean them up quickly and export them to any of the [supported file formats](../../../model-editor/supported-file-formats/export.md).
+Once you have the snapshots, you can use the [Pollination Model Editor](broken-reference/) to clean them up quickly and export them to any of the [supported file formats](../../../model-editor/supported-file-formats/export.md).
 
 To open the Model Editor, click the "Export Model" button.
 
-<figure><img src="../../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (53) (1).png" alt=""><figcaption></figcaption></figure>
 
 You should see the 3 snapshots for the levels and the snapshot for shades on the right side. For the rest of this tutorial, we will use the Pollination Model Editor to export the Snapshots as an energy model.
 
@@ -22,7 +22,7 @@ The process for editing models can vary on a model-by-model basis. But in most c
 4. Ensure model validation
 5. Edit slanted and extended roofs
 
-In this section of the tutorial, we will go through these steps to clean the Revit sample model.&#x20;
+In this section of the tutorial, we will go through these steps to clean the Revit sample model.
 
 ## For Those Who Want to Know More
 
@@ -34,4 +34,3 @@ You can read more about each step of a typical clean-up process [on this page](.
 * [Adjusting floor plan boundaries based on external wall thickness](../../../model-editor/workflows/adjusting-floor-plans-for-exterior-wall-thickness.md)
 
 [See here](../../../model-editor/workflows/) for a collection of the most common Model Editor workflows.
-

@@ -51,8 +51,8 @@ In some models, with slanted roofs or extended roofs, you may also need to [edit
 
 Once the editing is complete, you have the flexibility to export the model to any of the [supported file formats](supported-file-formats/export.md).
 
-<div><figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (43) (1).png" alt=""><figcaption></figcaption></figure></div>
 
-<div><figure><img src="../.gitbook/assets/revit-to-iesve.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/revit-to-iesve.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (41) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 The next section includes a collection of the most common Model Editor workflows.

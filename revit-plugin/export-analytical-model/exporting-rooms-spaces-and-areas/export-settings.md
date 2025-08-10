@@ -2,7 +2,7 @@
 
 Pollination provides several settings to control the export process. For this tutorial and most other cases, you don't need to change any of the default values, nevertheless, it is useful to understand every setting.
 
-<figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Export Settings
 
@@ -52,7 +52,7 @@ More advanced techniques are available in the Model Editor for naming rooms usin
 
 By default, the Pollination plugin only exports the geometry information and doesn't include any of the other Revit parameters. In some advanced workflows, you might want to use the Revit properties to later modify the model in the Model Editor, Grasshopper, or the Pollination Rhino plugin. For those cases, you can select the user data that you would like to be exported as part of the room.
 
-<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption><p>User Data Menu</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p>User Data Menu</p></figcaption></figure>
 
 Once you review the settings, click on the right arrow to go to the next step.
 

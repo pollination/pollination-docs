@@ -12,7 +12,7 @@ To use linked Models:
 
 The first step in the process is to ensure you open the model with the rooms, areas, or spaces as the host model, and save the model as a Central Model. You can see if the model is already saved as a Central Model in the `File Save Options` menu.
 
-<figure><img src="../../.gitbook/assets/image (175) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (175) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 2. Review the linked Revit models
 
@@ -22,10 +22,8 @@ Ensure all the other Revit models are linked to the host model correctly. The `M
 
 ## 3. Load the families from linked models
 
-Use the `Links` dropdown in `Select Apertures/Doors` and `Create Shades` menus to load the families from the linked model to the selection.\
-
+Use the `Links` dropdown in `Select Apertures/Doors` and `Create Shades` menus to load the families from the linked model to the selection.\\
 
 <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 Once you add the linked models in the Pollination UIs, you can select them just like how you would select the families from the host model.
-

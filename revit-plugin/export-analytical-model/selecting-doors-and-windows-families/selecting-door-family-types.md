@@ -7,7 +7,7 @@ The process of selecting doors is the same as the one for windows, with two mino
 
 For this tutorial, we will only select the Curtain Wall doors for export and set them to be modeled as glass doors (technically windows).
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Confirming your selection
 
@@ -16,4 +16,3 @@ Once you have reviewed the windows and doors, press OK to confirm your selection
 {% hint style="warning" %}
 If you don't save the Revit model, this selection will only be available in the current session, and you'll have to reselect the windows and doors later.
 {% endhint %}
-

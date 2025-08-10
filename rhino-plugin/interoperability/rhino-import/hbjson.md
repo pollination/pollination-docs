@@ -6,7 +6,7 @@ Use the standard toolbar of Rhino to open the "Import" window. Right click on th
 
 Navigate on the local machine and select the file to import.
 
-![](<../../../.gitbook/assets/image (67) (1).png>)
+![](<../../../.gitbook/assets/image (67) (1) (1).png>)
 
 Add the file format filter **Honeybee Model (\*.hbjson)** show only the selected file format to speed up the process. Click on the "Open" button to complete the operation.
 

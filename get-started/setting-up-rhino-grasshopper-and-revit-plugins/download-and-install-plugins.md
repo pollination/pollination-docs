@@ -30,15 +30,13 @@ Rhino must be closed before running the installer to install or uninstall Pollin
 
 Double-click on the `PollinationRHGHInstaller.exe` file to start the installation. The installer can also be used to remove components, update Pollination, or uninstall previous versions of Pollination. If you already have a version of Pollination installed then the installer will automatically show these options.
 
-
-
 **Step 2**
 
 Follow the instructions in the Pollination Rhino Plugin Setup Wizard to install the plugin.
 
 ![](<../../.gitbook/assets/image (149) (1) (1) (1).png>)
 
-#### Troubleshooting your installation
+**Troubleshooting your installation**
 
 Visit our [troubleshooting](../troubleshooting/ "mention") section to see common errors and installation issues.
 {% endtab %}
@@ -62,7 +60,7 @@ Follow the instructions in the Pollination Revit Plugin Setup Wizard application
 {% endtab %}
 
 {% tab title="Grasshopper" %}
-#### Installation
+**Installation**
 
 **Step 1**
 
@@ -76,13 +74,13 @@ The Grasshopper plugin is also packaged in the Rhino installer. You only need to
 
 Double-click on the `PollinationGHInstaller.exe` file to start the installation. The installer will automatically remove any previous versions of Pollination.
 
-![](<../../.gitbook/assets/image (40) (1).png>)
+![](<../../.gitbook/assets/image (40) (1) (1).png>)
 
 **Step 2**
 
 Follow the prompts to install the plugin.
 
-![](<../../.gitbook/assets/image (35) (1).png>)
+![](<../../.gitbook/assets/image (35) (1) (1).png>)
 {% endtab %}
 {% endtabs %}
 

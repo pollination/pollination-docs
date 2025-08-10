@@ -28,6 +28,6 @@ Import a new program type from OpenStudio Standards template.
 
 _Note:_ [_OpenStudio Standards_](https://github.com/NREL/openstudio-standards/) _are developed by the US._ [_National Renewable Energy Laboratory_](https://www.nrel.gov) _(NREL)'s OpenStudio Team. It includes ASHRAE 90.1 baseline model's program types and HVAC system templates. We convert them to_ [_Honeybee Schema_](https://www.ladybug.tools/honeybee-schema/model.html) _standard format so it becomes one of the trusted data sources that we can use across our entire eco-system._
 
-![](<../../.gitbook/assets/image (63) (1).png>)
+![](<../../.gitbook/assets/image (63) (1) (1).png>)
 
 ***

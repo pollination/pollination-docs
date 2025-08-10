@@ -4,7 +4,7 @@
 
 Pollination provides 3 different preview options.
 
-<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption><p>3D Preview Options</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (37) (1).png" alt=""><figcaption><p>3D Preview Options</p></figcaption></figure>
 
 Starting from right to left:
 
@@ -75,4 +75,3 @@ If left empty, Pollination tries to _guess_ the room height based on the Revit g
 {% hint style="info" %}
 This value is only used in the Extruded Floors mode and will be ignored when Full Geometry is used.
 {% endhint %}
-

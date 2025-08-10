@@ -1,6 +1,6 @@
 # Understanding the Export Process
 
-<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption><p>Typical steps for exporting the model from Revit</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55) (1).png" alt=""><figcaption><p>Typical steps for exporting the model from Revit</p></figcaption></figure>
 
 Pollination breaks down the export process into 3 required and 2 optional steps:
 
@@ -10,7 +10,7 @@ Pollination breaks down the export process into 3 required and 2 optional steps:
 * Exporting shades as Pollination snapshots (optional)
 * Cleaning up and exporting the snapshots in the Model Editor
 
-<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p>Export buttons in the Revit UI</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46) (1).png" alt=""><figcaption><p>Export buttons in the Revit UI</p></figcaption></figure>
 
 ## 1. Selecting doors and windows
 
@@ -26,7 +26,7 @@ This step is mainly useful for models with many different roof segments that you
 
 By default, all the roofs will be exported to the Model Editor. That gives you the option to bypass this step and [edit them later in the Model Editor](../../model-editor/workflows/editing-roofs.md) - also see step 5.
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (44) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 3. Exporting rooms, areas, or spaces as Pollination snapshots
 
@@ -53,4 +53,3 @@ Once you have the snapshots, you are free from the slowness of Revit and into th
 And finally, you can export your model to all the supported file formats with a single click.
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Exported Revit Model</p></figcaption></figure>
-
