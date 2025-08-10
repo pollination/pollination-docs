@@ -1,23 +1,25 @@
-# Exporting Energy Models from Revit
+# Exporting Revit Advanced Sample Model
 
-This section covers the process for exporting your Revit models as an energy model to any of the supported energy modeling software, including but not limited to IES VE, EnergyPlus, OpenStudio, eQuest, and IDA ICE.
+{% hint style="info" %}
+[Before starting this tutorial, you may want to ensure the Pollination Revit plugin is the right tool for you](../export-analytical-model.md).
+{% endhint %}
 
-## Is Pollination the right tool for you?
+In this tutorial, we cover the process for exporting the Revit Advanced sample model as an energy model. By the end of this tutorial, you should be able to:
 
-Before getting started, we need to set some ground rules. Pollination Revit plugin is a practical solution for exporting Revit models based on our learning from exporting several hundred real-world Revit models. We're committed to helping you export your models from Revit as long as you have realistic expectations.
+1. Understand the overall workflow for exporting energy models from Revit
+2. Identify the most common issues in Revit models when exporting them as energy models
+3. Understand and apply best practices to address those issues in the Model Editor
+4. Determine when to address issues inside Revit versus the Model Editor
 
-Let's start with the 3 facts about using Revit models for energy modeling:
+To get the most out of this tutorial, please follow the steps sequentially, as we'll be building upon concepts introduced earlier.
 
-1. **Revit architecture models always need some cleanup before being exported as energy models**. We know you might have heard otherwise. That's far from what we have seen in the real world. Just get over it!
-2. **Revit models are prepared for documentation, not simulation**. This is not going to change because you don't like it.
-3. **Revit models are imperfect but contain valuable data for energy models**. Ignore this fact at your peril. That's why the last model you built was traced over a PDF generated from Revit!
+## Getting Started Checklist <a href="#getting-started-checklist" id="getting-started-checklist"></a>
 
-We neither simplify the problem nor pretend we have found the magic bullet. Instead, we have developed a practical product that helps you get a valid model from the real-world imperfect Revit models.
+Here is a short checklist before getting started with this tutorial:
 
-That means every export process requires a minimum amount of work to get the valuable information out of Revit. Pollination helps you with visualizing, editing, and validating this information. Once you have the valid Pollination model, [we guarantee an accurate export to all of the supported simulation software](https://www.pollination.solutions/pact).
+1. If you haven't already installed the Revit plugin, you need to [download](../../get-started/setting-up-rhino-grasshopper-and-revit-plugins/download-plugins.md) and [install the plugin](../../get-started/setting-up-rhino-grasshopper-and-revit-plugins/download-and-install-plugins.md) on your computer.
+2. You need to [purchase a license](../../get-started/setting-up-rhino-grasshopper-and-revit-plugins/purchase-and-manage-plugins.md) if you have already used the 14-day trial period. See [this page](../core-concepts-and-best-practices/managing-pollination-revit-license.md) for managing the Pollination Revit license.
+3. If you will be using a license from a Pollination organization, ensure you have been added to the correct license pool. See [this page](../../get-started/manage-license-pool.md) for more information.
+4. We will use the Revit Advanced Sample model for this tutorial. If you don't have the sample model, you can download it from [this page](https://drive.google.com/drive/folders/1sUdlhcai6RS7IMr-_WjC1orQqesrm6lT?usp=sharing) for different versions of Revit.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
-
-If this sounds good to you, then we have a great solution for you; otherwise, you may want to look somewhere else!
-
-See the next page for an overview of the process.&#x20;
+<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
