@@ -44,7 +44,7 @@ To ensure we can deliver reliable workflows:
 
 * We have rewritten all the extraction methods from scratch and tested them against hundreds of models.
 * We have also developed an automated validation routine that detects any possible issues in your model.
-* We have developed a [Model Editor](broken-reference/) with [automated workflows](model-editor/workflows/) to fix those issues in your model.
+* We have developed a [Model Editor](broken-reference) with [automated workflows](model-editor/workflows/) to fix those issues in your model.
 * We have written direct export from our schema to other building energy simulation tools using their native file formats such as .GEM for IES VE, .INP for eQuest, .OSM for OpenStudio, .IDF for EnergyPlus, and .IDM for IDA-ICE. We still rely on .gbXML for some of the simulation tools such as DesignBuilder and TRACE 3D Plus but we are closely working with both of them to ensure the models are imported to their platforms reliably.
 
 <figure><img src=".gitbook/assets/pollination-revit-ad.png" alt=""><figcaption><p>Said no energy modeler, ever!</p></figcaption></figure>
@@ -65,7 +65,7 @@ The first step of the process is to use the Pollination plugin to review the Rev
 
 Once you have the snapshot you are ready to clean it up in the <img src=".gitbook/assets/model_editor.png" alt="" data-size="line">Model Editor. After fixing hundreds of real-world Revit models we have developed[ a dozen commands](model-editor/commands/) to automatically fix the [common geometry issues in energy models](model-editor/workflows/).
 
-Here is a video that walks you through the whole process in less than 30 minutes. See [this page](revit-plugin/export-analytical-model/) for more in-depth tutorials.
+Here is a video that walks you through the whole process in less than 30 minutes. See [this page](broken-reference) for more in-depth tutorials.
 
 {% embed url="https://youtu.be/MLOLOXlPaPA" %}
 
@@ -105,28 +105,24 @@ Moreover, its combination with the Pollination <img src=".gitbook/assets/grassho
 
 <figure><img src=".gitbook/assets/rhino-plugin/pollination-rhino-with-ladybug-tools.png" alt="" width="453"><figcaption></figcaption></figure>
 
-## Other products
-
-If you are using any of our CAD plugins or using EnergyPluss, OpenStudio, or Radiance Pollination offers a reliable <img src=".gitbook/assets/cloud_simulation.png" alt="" data-size="line"> Cloud Simulation for running large parametric studies with tens of ready-to-use simulation recipes. We also offer Pollination <img src=".gitbook/assets/apps.png" alt="" data-size="line">Apps for developers to develop custom solutions on top of the Pollination product in a fraction of the time.
-
 ## Pricing
 
-Unlink other companies, our pricing [is on our website](https://www.pollination.solutions/pricing#cad-plugins). Both Rhino and Revit plugins come with a 14-day free trial. We also offer a monthly subscription for all of our products. This makes it easy to get started with a minimum investment.
+Unlike other companies, our pricing [is on our website](https://www.pollination.solutions/pricing#cad-plugins). Both Rhino and Revit plugins come with a 14-day free trial. We also offer a monthly subscription for all of our products. This makes it easy to get started with a minimum investment.
 
 {% embed url="https://www.pollination.solutions/pricing#cad-plugins" %}
 
 ### What would be a good starting package?
 
-The answer depends on the number of people who want to use the Pollination products. Most offices start with monthly subscriptions for 10 organization seats and a single bundled Revit and Rhino license. After testing the plugins for a couple of months they change the subscriptions to annual.
+The answer depends on the number of people who want to use the Pollination products. Most offices start with monthly subscriptions for 10 organization seats and a single bundled Revit and Rhino license. After testing the plugins for a couple of months, they changed the subscriptions to annual.
 
-See [this page](get-started/setting-up-rhino-grasshopper-and-revit-plugins/seats-vs-licenses.md) for the difference between seats and licenses and [this page](web-platform/account-setup/) for setting up your organization.
+See [this page](get-started/setting-up-rhino-grasshopper-and-revit-plugins/seats-vs-licenses.md) for the difference between seats and licenses, and [this page](web-platform/account-setup/) for setting up your organization.
 
 ## Getting in touch
 
 We will always be happy to hear from others interested in adopting more efficient workflows. You can always post your questions on [Pollination Discourse](https://discourse.pollination.solutions/) or email our co-founder directly at mostapha \[at] ladybug.tools
 
 {% hint style="info" %}
-As you use this manual to navigate Pollination, you may notice some incomplete sections or screenshots don't look 100% the same on your computer. Since we are still testing and improving our platform things are changing rapidly. We'll try our best to update changes as we make them!
+As you use this manual to navigate Pollination, you may notice some incomplete sections or screenshots don't look 100% the same on your computer. Since we are still testing and improving our platform, things are changing rapidly. We'll try our best to update changes as we make them!
 {% endhint %}
 
 **Get started today by creating a** [**Pollination account**](https://app.pollination.solutions/)**!**

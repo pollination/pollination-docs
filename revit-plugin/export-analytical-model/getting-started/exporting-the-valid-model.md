@@ -1,5 +1,9 @@
 # Exporting the Valid Model
 
+{% hint style="warning" %}
+This section is a work in progress and currently doesn't include videos. If you prefer learning by watching videos, [see this page](../../../model-editor/getting-started.md).
+{% endhint %}
+
 Well done! Time to enjoy the outcome of your work. Click the export button, and export the model to any of the supported file formats.
 
 <figure><img src="../../../.gitbook/assets/image (39) (1).png" alt=""><figcaption><p>Pollination Export Options</p></figcaption></figure>

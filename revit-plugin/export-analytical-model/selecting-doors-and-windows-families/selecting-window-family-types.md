@@ -67,17 +67,7 @@ We currently don't support this option directly in Revit, but you can use the "[
 
 ### Does Pollination include the frame thickness in the exported window?
 
-The answer to this question is different for windows vs curtain wall panels.
-
-#### Windows
-
-In most cases, the window family includes the frame as part of the family, but with a different material. You can include or exclude the frame from the exported window by selecting or deselecting the frame material.
-
-<figure><img src="../../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
-
-#### Curtain wall panels
-
-The frame is not included in the curtain wall panels. You can use the Make Windows Flush in the Model Editor to adjust the window size to include the frame.
+The answer to this question is different for windows vs curtain wall panels. See [this page](../../../model-editor/typical-editing-process-for-windows-and-doors.md) for a detailed answer to this question.
 
 ### How can I load the windows and doors from linked Revit models?
 

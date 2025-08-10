@@ -1,6 +1,10 @@
 # Cleaning Up and Exporting the Snapshots
 
-Once you have the snapshots, you can use the [Pollination Model Editor](broken-reference/) to clean them up quickly and export them to any of the [supported file formats](../../../model-editor/supported-file-formats/export.md).
+Once you have the snapshots, you can use the [Pollination Model Editor](broken-reference) to clean them up quickly and export them to any of the [supported file formats](../../../model-editor/supported-file-formats/export.md).
+
+{% hint style="warning" %}
+This section is a work in progress and currently doesn't include videos. If you prefer learning by watching videos, [see this page](../../../model-editor/getting-started.md).
+{% endhint %}
 
 To open the Model Editor, click the "Export Model" button.
 

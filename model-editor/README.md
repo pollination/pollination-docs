@@ -26,8 +26,4 @@ The screenshot below shows the different sections of the model editor.
 
 <figure><img src="../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
 
-The best way to learn how to use the Model Editor is to follow the case study for cleaning up the Revit sample model.
-
-{% content-ref url="../revit-plugin/export-analytical-model/getting-started/" %}
-[getting-started](../revit-plugin/export-analytical-model/getting-started/)
-{% endcontent-ref %}
+See the next page to learn how to use the Model Editor for cleaning up the Revit sample model.

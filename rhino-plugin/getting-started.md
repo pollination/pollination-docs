@@ -2,7 +2,7 @@
 
 There are several interfaces and interaction points for Pollination in Rhino.&#x20;
 
-* [Pollination Room Manager](getting-started.md#pollination-room-manager): An icon and table-based interface allowing for analytical model creation, edits, and management.
+* [Pollination Room Manager](getting-started.md#pollination-room-manager): An icon and table-based interface allowing for analytical model creation, editing, and management.
 * Pollination Panel: Brings the Pollination [Web Platform](broken-reference) into Rhino so that you can access Pollination [Apps](../developers/apps/).&#x20;
 * [Pollination Commands](getting-started.md#pollination-commands): Type in commands from getting a license to building a shade element.&#x20;
 
@@ -52,6 +52,6 @@ Besides custom Pollination commands, several native Rhino commands can be used t
 
 ![Undo and Redo Commands](../.gitbook/assets/undoredo.gif)
 
-![Move Face & Move Edge Using Rhino Command line](../.gitbook/assets/moveface\_moveedge\_cmd.gif)
+![Move Face & Move Edge Using Rhino Command line](../.gitbook/assets/moveface_moveedge_cmd.gif)
 
-![Move Face & Move Edge Using Gumball](../.gitbook/assets/moveface\_moveedge.gif)
+![Move Face & Move Edge Using Gumball](../.gitbook/assets/moveface_moveedge.gif)

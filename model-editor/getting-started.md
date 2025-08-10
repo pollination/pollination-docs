@@ -7,10 +7,8 @@ description: Getting started with using the model editor!
 This page includes several videos that walk you through the process of cleaning up the advanced Revit sample model. You don't need the sample snapshot or the Revit plugin to follow this video. You can use the online version of the Model Editor and select the sample model by clicking on the Pollination logo on the bottom right side of the screen and selecting `About`.
 
 {% hint style="info" %}
-See [this page](../revit-plugin/export-analytical-model/creating-snapshots.md) to learn how to create this snapshot using the Pollination Revit plugin.
+See [this page](../revit-plugin/export-analytical-model/creating-snapshots.md) to learn how to create these snapshots using the Pollination Revit plugin.
 {% endhint %}
-
-
 
 ## Understand the Model Editor user interface
 
@@ -27,7 +25,7 @@ See [this page](../revit-plugin/export-analytical-model/creating-snapshots.md) t
 
 * [0:00](https://www.youtube.com/watch?v=FbfHtKUG1ko\&t=0s) Introduction
 * [0:30](https://www.youtube.com/watch?v=FbfHtKUG1ko\&t=30s) Room editing commands overview
-* [1:25](https://www.youtube.com/watch?v=FbfHtKUG1ko\&t=85s) Turn off commands help popup
+* [1:25](https://www.youtube.com/watch?v=FbfHtKUG1ko\&t=85s) Turn off commands help pop-up
 * [1:42](https://www.youtube.com/watch?v=FbfHtKUG1ko\&t=102s) Remove the holes inside the rooms using the "Remove Holes" command
 * [2:04](https://www.youtube.com/watch?v=FbfHtKUG1ko\&t=124s) Changing units
 * [2:33](https://www.youtube.com/watch?v=FbfHtKUG1ko\&t=153s) Remove columns at the edge of the rooms using the "Remove Short Segments" command
@@ -38,11 +36,11 @@ See [this page](../revit-plugin/export-analytical-model/creating-snapshots.md) t
 
 {% embed url="https://youtu.be/GWsH_sPnUF4?si=Dsbggw6OSbcHyhgh" %}
 
-* [0:00](https://www.youtube.com/watch?v=GWsH\_sPnUF4\&t=0s) Review the causes of misalignments and gaps in Revit
-* [0:45](https://www.youtube.com/watch?v=GWsH\_sPnUF4\&t=45s) Highlighting non-orthogonal lines using ALT + O
-* [1:28](https://www.youtube.com/watch?v=GWsH\_sPnUF4\&t=88s) Find adjacency gaps using a command with the same name
-* [2:48](https://www.youtube.com/watch?v=GWsH\_sPnUF4\&t=168s) Explain the strategy to fix the internal misalignments versus the facade alignment
-* [3:25](https://www.youtube.com/watch?v=GWsH\_sPnUF4\&t=205s) How to delete the points
+* [0:00](https://www.youtube.com/watch?v=GWsH_sPnUF4\&t=0s) Review the causes of misalignments and gaps in Revit
+* [0:45](https://www.youtube.com/watch?v=GWsH_sPnUF4\&t=45s) Highlighting non-orthogonal lines using ALT + O
+* [1:28](https://www.youtube.com/watch?v=GWsH_sPnUF4\&t=88s) Find adjacency gaps using a command with the same name
+* [2:48](https://www.youtube.com/watch?v=GWsH_sPnUF4\&t=168s) Explain the strategy to fix the internal misalignments versus the facade alignment
+* [3:25](https://www.youtube.com/watch?v=GWsH_sPnUF4\&t=205s) How to delete the points
 
 ## Fix alignment issues and gaps
 
@@ -60,7 +58,7 @@ See [this page](../revit-plugin/export-analytical-model/creating-snapshots.md) t
 * [6:06](https://www.youtube.com/watch?v=oiI-HzEsFWQ\&t=366s) Clean up the room edge. An example of using the "Pull to Room" command effectively
 * [6:50](https://www.youtube.com/watch?v=oiI-HzEsFWQ\&t=410s) Aligning the exterior facade for all three levels
 * [10:30](https://www.youtube.com/watch?v=oiI-HzEsFWQ\&t=630s) Review the quality of the alignment and fix the issues
-* [11:31](https://www.youtube.com/watch?v=oiI-HzEsFWQ\&t=691s) A word of caution about not cleaning up the model more than what is needed
+* [11:31](https://www.youtube.com/watch?v=oiI-HzEsFWQ\&t=691s) A word of caution about not cleaning up the model more than needed
 
 ## Validate the model
 
@@ -91,14 +89,14 @@ See [this page](../revit-plugin/export-analytical-model/creating-snapshots.md) t
 * [0:00](https://www.youtube.com/watch?v=BX1OhBDdUX0\&t=0s) Add shades' snapshot to the model
 * [1:17](https://www.youtube.com/watch?v=BX1OhBDdUX0\&t=77s) Check ceiling adjacencies
 * [2:06](https://www.youtube.com/watch?v=BX1OhBDdUX0\&t=126s) Export options
-* [2:30](https://www.youtube.com/watch?v=BX1OhBDdUX0\&t=150s) Using the "Snap to Grid" command as an addition step before exporting to IES VE
+* [2:30](https://www.youtube.com/watch?v=BX1OhBDdUX0\&t=150s) Using the "Snap to Grid" command as an additional step before exporting to IES VE
 * [6:17](https://www.youtube.com/watch?v=BX1OhBDdUX0\&t=377s) Our pact with the Pollination users
 
 ## Model simplification before export to eQuest
 
 {% embed url="https://youtu.be/5BVGc2xUkog?si=IIf4Sx0deT3eI7mO" %}
 
-* [0:00](https://www.youtube.com/watch?v=5BVGc2xUkog\&t=0s) Review the level of the details in the model
+* [0:00](https://www.youtube.com/watch?v=5BVGc2xUkog\&t=0s) Review the level of detail in the model
 * [1:12](https://www.youtube.com/watch?v=5BVGc2xUkog\&t=72s) Use the "Merge Room" command for merging rooms
 * [3:26](https://www.youtube.com/watch?v=5BVGc2xUkog\&t=206s) Use the "Simplify Windows" command to simplify the windows
 * [6:50](https://www.youtube.com/watch?v=5BVGc2xUkog\&t=410s) Export to an INP file to export the model to eQuest
@@ -113,4 +111,3 @@ See [this page](../revit-plugin/export-analytical-model/creating-snapshots.md) t
 * [3:44](https://www.youtube.com/watch?v=GKmj2vb8qgw\&t=224s) Model boundary cleanup
 * [5:26](https://www.youtube.com/watch?v=GKmj2vb8qgw\&t=326s) Re-run the "Split Core and Perimeter" command
 * [6:05](https://www.youtube.com/watch?v=GKmj2vb8qgw\&t=365s) Closing remarks
-
