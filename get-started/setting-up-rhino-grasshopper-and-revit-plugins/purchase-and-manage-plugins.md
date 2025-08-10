@@ -12,19 +12,19 @@ You have the option to buy the CAD plugins under your personal account or an org
 
 Click on your avatar on the top right of the page, and select the correct account. If you want to share the license among several users it must be purchased under an organization account.
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>Switch to the organization account</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption><p>Switch to the organization account</p></figcaption></figure>
 
 ### Step 2
 
 Click on the dropdown menu and select Your Subscriptions. \\
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3
 
 Scroll down to the Plugin Subscriptions section. You can purchase the licenses for Rhino and Revit plugins separately or buy a bundled license at a lower price.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Plugins Subscriptions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p>Plugins Subscriptions</p></figcaption></figure>
 
 ### Step 4
 

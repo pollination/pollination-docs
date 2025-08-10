@@ -2,11 +2,11 @@
 
 Use the standard toolbar of Rhino to open the "Import" window. Right click on the button with the folder icon or use the cascade menu: File/Import
 
-![Left click = open; right click = import](../../../.gitbook/assets/Pollination\_Rhino\_Import\_Toolbar.png)
+![Left click = open; right click = import](../../../.gitbook/assets/Pollination_Rhino_Import_Toolbar.png)
 
 Navigate on the local machine and select the file to import.
 
-![](<../../../.gitbook/assets/image (67).png>)
+![](<../../../.gitbook/assets/image (67) (1).png>)
 
 Add the file format filter **Honeybee Model (\*.hbjson)** show only the selected file format to speed up the process. Click on the "Open" button to complete the operation.
 
