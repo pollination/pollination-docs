@@ -1,7 +1,7 @@
 # Exporting Revit Advanced Sample Model
 
 {% hint style="info" %}
-[Before starting this tutorial, you may want to ensure the Pollination Revit plugin is the right tool for you](../export-analytical-model.md).
+[Before starting this tutorial, you may want to ensure the Pollination Revit plugin is the right tool for you](../before-you-begin.md).
 {% endhint %}
 
 In this tutorial, we cover the process for exporting the Revit Advanced sample model as an energy model. By the end of this tutorial, you should be able to:

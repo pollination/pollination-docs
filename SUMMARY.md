@@ -53,6 +53,7 @@
 ## Model Editor
 
 * [What is Pollination Model Editor?](model-editor/README.md)
+* [Getting Started](model-editor/getting-started.md)
 * [Typical Editing Process Breakdown](model-editor/typical-editing-process-breakdown.md)
 * [Typical Editing Process for Windows and Doors](model-editor/typical-editing-process-for-windows-and-doors.md)
 * [Model Editor Most Common Workflows](model-editor/workflows/README.md)
