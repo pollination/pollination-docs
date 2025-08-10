@@ -63,9 +63,9 @@ The first step of the process is to use the Pollination plugin to review the Rev
 
 #### 2. Cleaning up the model inside the Model Editor
 
-Once you have the snapshot you are ready to clean it up in the <img src=".gitbook/assets/model_editor.png" alt="" data-size="line">Model Editor. After fixing hundreds of real-world Revit models we have developed[ a dozen commands](model-editor/commands/) to automatically fix the [common geometry issues in energy models](model-editor/workflows/).
+Once you have the snapshot, you are ready to clean it up in the <img src=".gitbook/assets/model_editor.png" alt="" data-size="line">Model Editor. After fixing hundreds of real-world Revit models, we have developed[ a dozen commands](model-editor/commands/) to automatically fix the [common geometry issues in energy models](model-editor/workflows/).
 
-Here is a video that walks you through the whole process in less than 30 minutes. See [this page](broken-reference) for more in-depth tutorials.
+Here is a video that walks you through the whole process in less than 30 minutes. See [this page](revit-plugin/export-analytical-model/) for more in-depth tutorials.
 
 {% embed url="https://youtu.be/MLOLOXlPaPA" %}
 
