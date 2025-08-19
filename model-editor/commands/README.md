@@ -14,6 +14,10 @@ Automatically align selected rooms to common axes identified across them. The co
 
 Join coplanar walls of the room, effectively removing colinear vertices from the room polygon. Use this command to simplify the geometry and clean up the model before running 'solve adjacency' or 'alignment' commands. [Read more](./me_join_coplanar_faces.md).
 
+#### <img src="images/match-and-replace.svg" width="20" height="20"> **Match and replace rooms**
+
+Replace the room floor plate geometry of selected rooms using the rooms of a base story in the selection. This is useful for the case that several stories with repeated room geometry exist over the building all with unique room names and window geometry. However, only one story represents the clean room floor plates such that a desired result can be achieved by simply replacing the room geometry of the other stories with that of the base story. [Read more](./me_match_and_replace_rooms.md).
+
 #### <img src="images/pull-to-room.svg" width="20" height="20"> **Pull to room**
 
 Pull the vertices of one or more rooms to the first 'target' room in the selection. The operation of pulling can be thought of as aligning the rooms to the target room's segments and then snapping to its vertices. [Read more](./me_pull_to_room.md).

@@ -44,13 +44,13 @@ Make the edges of nearby windows flush with one another. Useful for cleaning up 
 
   The maximin distance that the edges of nearby windows will be moved in order to make them flush with one another
 
-**Ignore Windows**
-
-  Select to have the windows left as they are during the operation
-
 **Ignore Skylights**
 
   Select to have the skylights left as they are during the operation
+
+**Ignore Windows**
+
+  Select to have the windows left as they are during the operation
 
 </details>
 
@@ -70,15 +70,15 @@ Offset the edges of all windows and/or skylights by a certain distance. Useful f
 
 **Overlap Resolve Method**
 
-  The method that should be used for resolving overlaps between windows if offsetting causes them to collide. 'Offset To Flush' will make window edges flush at the centerline between windows that are closer than 2 times the offset distance. 'Offset And Merge' will join windows together that overlap after offsetting. 'Make Flush Only' will only make close windows flush without performing any additional offset of the boundary around each flush group.
-
-**Ignore Windows**
-
-  Select to have the windows left as they are during the offset operation
+  The method that should be used for resolving overlaps between windows if offsetting causes them to collide. 'Offset To Flush' will make window edges flush at the centerline between windows that are closer than 2 times the offset distance. 'Offset And Merge' will join windows together that overlap after offsetting. 'Make Flush Only' will only make close windows flush without performing any additional offset of the boundary around each flush group
 
 **Ignore Skylights**
 
   Select to have the skylights left as they are during the offset operation
+
+**Ignore Windows**
+
+  Select to have the windows left as they are during the offset operation
 
 </details>
 
@@ -92,13 +92,17 @@ Convert windows and/or skylights to rectangles. Useful for cleaning Revit-export
 
 <summary>Options</summary>
 
-**Ignore Windows**
+**Max Area Change Percent**
 
-  Select to have the windows left as they are during the rectangularize operation
+  A number for the maximum percent change in area that is allowed by the operation. For example, setting this to 100 will allow windows to double in size (instead of leaving them un-rectangularized). Set to a negative number to have all windows rectangularized no matter the change in area
 
 **Ignore Skylights**
 
-  Select to have the skylights left as they are during the rectangularize operation
+  Select to have all skylights left as they are during the rectangularize operation
+
+**Ignore Windows**
+
+  Select to have all windows left as they are during the rectangularize operation
 
 </details>
 
@@ -114,7 +118,15 @@ Remove windows of the room that are smaller than a certain specified Area Thresh
 
 **Area Threshold**
 
-  The maximum area of a window below which it will be removed.
+  The area of a window below which it will be removed
+
+**Ignore Skylights**
+
+  Select to have all skylights left as they are during the operation
+
+**Ignore Windows**
+
+  Select to have all windows left as they are during the operation
 
 </details>
 
@@ -156,17 +168,21 @@ Simplify and reduce the number of windows and/or skylights while maintaining the
 
   Select to have the windows simplified to a single window within the center of each wall, which matches the overall area of the original windows
 
+**Delete Doors**
+
+  Select to have all doors removed from the rooms, which often have a small impact on overall building energy use
+
 **Delete Interior**
 
   Select to have the interior windows and doors removed from the rooms, which often have a negligible impact on overall building energy use
 
 **Ignore Skylights**
 
-  Select to have the windows left exactly as they are during the process of simplifying skylights
+  Select to have all skylights left exactly as they are during the operation
 
 **Ignore Windows**
 
-  A boolean to note if the windows should be ignored during the process of simplifying the windows
+  Select to have all windows left exactly as they are during the operation
 
 </details>
 

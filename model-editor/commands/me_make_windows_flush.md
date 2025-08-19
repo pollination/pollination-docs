@@ -9,10 +9,10 @@ Make the edges of nearby windows flush with one another. Useful for cleaning up 
 
   The maximin distance that the edges of nearby windows will be moved in order to make them flush with one another
 
-* **Ignore Windows**
-
-  Select to have the windows left as they are during the operation
-
 * **Ignore Skylights**
 
   Select to have the skylights left as they are during the operation
+
+* **Ignore Windows**
+
+  Select to have the windows left as they are during the operation
