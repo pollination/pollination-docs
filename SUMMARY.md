@@ -106,6 +106,7 @@
     * [Join coplanar faces](model-editor/commands/me_join_coplanar_faces.md)
     * [Join segments](model-editor/commands/me_join_segments.md)
     * [Make windows flush](model-editor/commands/me_make_windows_flush.md)
+    * [Match and replace rooms](model-editor/commands/me_match_and_replace_rooms.md)
     * [Merge small rooms](model-editor/commands/me_merge_small_rooms.md)
     * [Merge roofs](model-editor/commands/me_merge_roofs.md)
     * [Merge rooms](model-editor/commands/me_merge_rooms.md)
