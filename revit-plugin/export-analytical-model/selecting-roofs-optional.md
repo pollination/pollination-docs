@@ -1,6 +1,6 @@
 # Selecting Roofs (optional)
 
-To start exporting shades as a Pollination snapshot, click on the Select Roofs button.
+To start selecting roofs click on the Select Roofs button.This is an optional step to remove the unnecessary roofs to be exported to snapshots. In most cases, you would only need to export the slanted roofs. By default, all the roofs are selected to be exported.
 
 <figure><img src="../../.gitbook/assets/image (49) (1).png" alt=""><figcaption></figcaption></figure>
 
