@@ -278,15 +278,19 @@ The simplest way to fix the issue is to re-assign a symmetric construction to bo
 
 ### 030101
 
-**Room Exceeds Maximum Vertex Count** - The room's floor plate is defined by more than 120 unique vertices. The DOE-2 engine currently does not support such rooms and limits the total number of vertices to 120.
+**Floor Plate Exceeds Maximum Vertex Count** - The floor plate of a room or story needs more than 120 unique vertices in order to represent it. The DOE-2 engine currently does not support more than 120 unique vertices per POLYGON object, which is used to represent these geometries.
 
-The easiest way to address the issue is to use the [Split](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_split) command to split the room into two or more rooms, each of which should have less than 120 unique vertices. Depending on the exact reason for the high number of vertices, it may also be possible ot fix it using commands like [Remove Short Segments](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_remove_short_segments) and [Align](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_align) to remove small segments that are inconsequential to the energy simulation.
+In the case of a room floor plate exceeding the 120-vertex limit, the easiest way to address the issue is to use the [Split](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_split) command to split the room into two or more rooms, each of which should have less than 120 unique vertices.
+
+For story floor plates exceeding the 120-vertex limit, addressing the issue can be more challenging because the official recommendation of the eQuest documentation is to split the story into two or more stories. This can be accomplished in the model editor by using the [Split](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_split) command with a non-zero "Gap Distance" to effectively introduce a gap between two parts of a story floor plate, each of which could have less than 120 unique vertices. This gap will result in the Pollination eQuest exporter translating each of the two disconnected parts of the story floor plate as two separate eQuest stories. While this addresses the problem, the walls along the gap will have outdoor boundary conditions in the export and so they will likely have to be manually changed to adiabatic within eQuest in order to remove their impact on building energy use.
+
+Depending on the exact reason for the high number of vertices, it may also be possible to address the issue using commands like [Remove Short Segments](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_remove_short_segments) and [Align](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_align) to remove small segments that are inconsequential to the energy simulation. If there are several curved floor plates in the model, the [Simplify Curved Edges](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_simplify_curved_edges) command may also be useful.
 
 ### 030102
 
 **Room Contains Holes** - The room's floor plate has one or more holes in it. EQuest currently has no way to represent such rooms so, if the issue is not addressed, the hole will simply be removed as part of the process of exporting to an INP file.
 
-The easiest way to address the issue is to use the [Split](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_split) command to split the room into two or more rooms through the hole(s).
+The easiest way to address the issue is to use the [Split](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_split) command to split the room into two or more rooms through the hole(s). 
 
 ### 030103
 
@@ -294,7 +298,7 @@ The easiest way to address the issue is to use the [Split](https://docs.pollinat
 
 The easiest way to address the issue is to create a small gap (at least a half of a foot wide) that cuts a line from the outer-most boundary of the story to the courtyard, effectively joining the courtyard to the outer boundary. This is the officially recommended workaround from the eQuest developers as is illustrated in the eQuest Schematic Design Wizard when, on the second page, “Rectangular Atrium” is selected for the building shape.
 
-The [Split](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_split) command can be used to establish a line from the courtyard to outer boundary. Then, after the line has been used to split the rooms, the line can be [Offset](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_offset) and used to [Align](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_align) the rooms to the offset line.
+ This can be accomplished in the model editor by using the [Split](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_split) command with a non-zero "Gap Distance" to effectively introduce a gap along a line that runs from the outer-most boundary of the story to the courtyard.
 
 ## Dragonfly Error Codes
 
