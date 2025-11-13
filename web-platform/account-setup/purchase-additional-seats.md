@@ -4,7 +4,7 @@ You need to add additional seats to your organization account before adding new 
 
 Pollination provides several options based on the size of your team. You can either select a monthly or an annual billing period.
 
-![Organization Seats Options](../../.gitbook/assets/organization-setup/org-seats-options.png)
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The annual billing offers a free month of subscription.
@@ -12,21 +12,21 @@ The annual billing offers a free month of subscription.
 
 To purchase the seats for your organization:
 
-1. Go to the organization and find the subscription tab.\\
-2.  Scroll to the Organization Seat Subscription card.\\
+1. Go to the organization and find the subscription tab.
+2.  Scroll to the Organization Seat Subscription card.
 
     <figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
-3.  Use the dropdown to select the ideal organization seats package for your organization.\\
+3.  Use the dropdown to select the ideal organization seats package for your organization.
 
     <figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
-4.  Select the quantity and billing period. The billing period is set to a yearly subscription by default which gives you a month of subscription for free.\\
+4.  Select the quantity and billing period. The billing period is set to a yearly subscription by default which gives you a month of subscription for free.
 
     <figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
-5.  Click on the `Subscribe` button and continue with the purchase.\\
+5.  Click on the `Subscribe` button and continue with the purchase.
 
     ![Payment](../../.gitbook/assets/organization-setup/buy-org-seats-5.png)
 
-    If you have a discount code you may use it at this step and before finishing the purchase by clicking on the `+ Add discount` button.\\
+    If you have a discount code you may use it at this step and before finishing the purchase by clicking on the `+ Add discount` button.
 6. Congrats! The seats are now added to your organization. The next step is to add new members to your organization.
 
 {% hint style="info" %}

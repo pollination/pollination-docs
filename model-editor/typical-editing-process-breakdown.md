@@ -11,7 +11,7 @@ First, you need to fix the visible misalignments in the model where the room wal
 * ![](commands/images/remove-small-holes.svg) [Remove Holes](commands/me_remove_holes.md)
 * ![](commands/images/pull-to-room.svg) [Pull to Room](commands/me_pull_to_room.md)
 * ![](commands/images/remove-short-segments.svg) [Remove Short Segments](commands/me_remove_short_segments.md)
-* ![](<../.gitbook/assets/join-coplanar-faces (1).svg>) [Join Coplanar Faces](commands/me_join_coplanar_faces.md)
+* ![](<../.gitbook/assets/merge-coplanar (1).svg>) [Join Coplanar Faces](commands/me_join_coplanar_faces.md)
 
 ## Fill holes with rooms, and merge smaller rooms
 

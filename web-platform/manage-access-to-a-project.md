@@ -30,7 +30,7 @@ Click on the Collaborators tab.
 
 Click on the Team and select the right team. Then choose the desired Permission level, and click the <mark style="background-color:blue;">Add</mark> button to add them to the project.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 A team can have Read, Write, or Admin access to a project.
 

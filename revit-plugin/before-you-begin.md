@@ -12,7 +12,7 @@ Let's start by clarifying three key facts about using Revit models for energy mo
 
 These points mean that every export process necessitates a minimum amount of work to accurately extract valuable information from Revit. The Pollination plugin empowers you to visualize, edit, and validate this information efficiently. Once you achieve a valid Pollination model, we guarantee an accurate export to all [supported simulation software](https://www.pollination.solutions/pact).
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 If this perspective on Revit models and energy modeling matches yours, then Pollination is designed to help you succeed; otherwise, you may want to look somewhere else.
 

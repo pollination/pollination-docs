@@ -23,5 +23,5 @@ Congrats! Your Pollination organization is created. It is time to add new team m
 {% endhint %}
 
 {% hint style="info" %}
-An organization does not have additional seats or cloud resources by default. Learn more about [purchasing CAD plugin licenses](../../get-started/setting-up-rhino-grasshopper-and-revit-plugins/purchase-and-manage-plugins.md) and [managing the Licenses](../../get-started/manage-license-pool.md). You can always [purchase additional seats](purchase-additional-seats.md) or [add computing resources](purchase-additional-compute-resources.md) to the organization.
+An organization does not have additional seats or cloud resources by default. Learn more about [purchasing CAD plugin licenses](../../get-started/setting-up-rhino-grasshopper-and-revit-plugins/purchase-and-manage-plugins.md) and [managing the Licenses](../../get-started/manage-license-pool.md). You can always [purchase additional seats](purchase-additional-seats.md) or [add computing resources](broken-reference) to the organization.
 {% endhint %}

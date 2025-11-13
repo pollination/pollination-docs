@@ -48,4 +48,4 @@ To finish, click on <mark style="background-color:blue;">Create</mark>.
 You can manage the existing teams from the Teams tab under your organization page.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>

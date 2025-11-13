@@ -5,18 +5,17 @@
 ## Get Started
 
 * [Create a Pollination Account](get-started/create-a-pollination-account.md)
+* [Understanding Pollination Licensing Structure](get-started/seats-vs-licenses.md)
 * [Setting up an Organization](web-platform/account-setup/README.md)
   * [1. Create an Organization](web-platform/account-setup/create-an-organization.md)
   * [2. Add Organization Seats](web-platform/account-setup/purchase-additional-seats.md)
   * [3. Add Team Members](web-platform/account-setup/add-a-member-to-your-account.md)
   * [4. Purchase and Manage CAD Licenses](web-platform/account-setup/purchase-and-manage-plugins.md)
   * [5. Manage License Pools](get-started/manage-license-pool.md)
-  * [6. Add Additional Computing Resources](web-platform/account-setup/purchase-additional-compute-resources.md)
 * [Setting up Rhino, Grasshopper and Revit Plugins](get-started/setting-up-rhino-grasshopper-and-revit-plugins/README.md)
   * [Download CAD Plugins](get-started/setting-up-rhino-grasshopper-and-revit-plugins/download-plugins.md)
   * [Install CAD Plugins](get-started/setting-up-rhino-grasshopper-and-revit-plugins/download-and-install-plugins.md)
   * [Purchase and Manage CAD Plugins](get-started/setting-up-rhino-grasshopper-and-revit-plugins/purchase-and-manage-plugins.md)
-  * [The Difference between CAD Licenses and Organization Seats](get-started/setting-up-rhino-grasshopper-and-revit-plugins/seats-vs-licenses.md)
 
 ## REVIT PLUGIN
 

@@ -6,11 +6,9 @@ description: Use this manual to get started with the Pollination products.
 
 ## Welcome to the Pollination User Manual!
 
-This manual includes what you will need to use different Pollination products.
+This manual includes what you will need to use the Pollination products.
 
-<img src="grasshopper-plugin/images/icons/Login.png" alt="" data-size="line"> Pollination is a fully integrated suite of building performance simulation products to address the inefficiencies in the building performance simulation process and support industry professionals' goal of speeding up the feedback loop while maintaining their quality of work have helped hundreds of customers use pollination.
-
-Among other products, Pollination has developed plugins for Revit and Rhino to address the first and one of the most challenging steps of the process: preparing a valid energy simulation model, we have come a long way in the process. Our customers from all around the world have been using Pollination<img src=".gitbook/assets/revit_plugin.png" alt="" data-size="line">Revit and <img src=".gitbook/assets/rhino_plugin.png" alt="" data-size="line"> Rhino plugins to get from an architectural model in Revit or Rhino to a valid simulation model in a fraction of the time and focus on the more enjoyable steps of the process that need their professional expertise. "None of us went to school hoping to spend most of our time tracing over plan drawings!"
+<img src="grasshopper-plugin/images/icons/Login.png" alt="" data-size="line"> Pollination is the leading software for exporting valid energy models from Rhino (CAD) and Revit (BIM). Our customers from all around the world have been using Pollination<img src=".gitbook/assets/revit_plugin.png" alt="" data-size="line">Revit and <img src=".gitbook/assets/rhino_plugin.png" alt="" data-size="line"> Rhino plugins to get from an architectural model in Revit or Rhino to a valid simulation model in a fraction of the time and focus on the more enjoyable steps of the process that need their professional expertise. "None of us went to school hoping to spend most of our time tracing over plan drawings!"
 
 <figure><img src=".gitbook/assets/pollination-rhino-ad.png" alt=""><figcaption><p>Said no energy modeler, ever!</p></figcaption></figure>
 
@@ -34,7 +32,7 @@ Here are the 3 facts about Revit models for energy modelers:
 
 Knowing these facts, we have developed the plugin not to _try to be smart_ but to help you save a significant amount of time with a minimum but necessary user interaction.
 
-<figure><img src=".gitbook/assets/image (2) (1) (1) (1).png" alt="" width="563"><figcaption><p>Save a significant amount of time</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Save a significant amount of time</p></figcaption></figure>
 
 ### Why should you try yet another building energy modeling Revit plugin?
 
@@ -44,14 +42,14 @@ To ensure we can deliver reliable workflows:
 
 * We have rewritten all the extraction methods from scratch and tested them against hundreds of models.
 * We have also developed an automated validation routine that detects any possible issues in your model.
-* We have developed a [Model Editor](broken-reference) with [automated workflows](model-editor/workflows/) to fix those issues in your model.
+* We have developed a [Model Editor](broken-reference/) with [automated workflows](model-editor/workflows/) to fix those issues in your model.
 * We have written direct export from our schema to other building energy simulation tools using their native file formats such as .GEM for IES VE, .INP for eQuest, .OSM for OpenStudio, .IDF for EnergyPlus, and .IDM for IDA-ICE. We still rely on .gbXML for some of the simulation tools such as DesignBuilder and TRACE 3D Plus but we are closely working with both of them to ensure the models are imported to their platforms reliably.
 
 <figure><img src=".gitbook/assets/pollination-revit-ad.png" alt=""><figcaption><p>Said no energy modeler, ever!</p></figcaption></figure>
 
 That's why we are confident that any valid Pollination model will be exported to any of the supported building performance simulation tools with no issues. If you find an issue in the process that we cannot fix, we will give you all your money back! The days of getting exploded gbXML models from Revit are over! Those were before the Pollination Revit plugin.
 
-<figure><img src=".gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p>An analytical model exported from the exact same Revit model with and without using Pollination. Pollination provides a useful starting point even with no model clean up.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption><p>An analytical model exported from the exact same Revit model with and without using Pollination. Pollination provides a useful starting point even with no model clean up.</p></figcaption></figure>
 
 ### What is the process of exporting the model?
 
@@ -85,7 +83,7 @@ We know not everyone is lucky to have access to a Revit Model. You might get onl
 
 ### What are the unique aspects of the Pollination Rhino plugin?
 
-The main advantage of using the Rhino plugin is that you can slash the time that is spent on creating the model in comparison to the standard energy modeling tools so it doesn't block all the main simulation workflows that rely on a valid simulation model. The larger the project, and the more complex the geometry the more the benefit of using the Rhin oplugin. Here are a few examples of models with complex geometry built using the Pollination Rhino plugin.
+The main advantage of using the Rhino plugin is that you can slash the time that is spent on creating the model in comparison to the standard energy modeling tools so it doesn't block all the main simulation workflows that rely on a valid simulation model. The larger the project, and the more complex the geometry the more the benefit of using the Rhino plugin. Here are a few examples of models with complex geometry built using the Pollination Rhino plugin.
 
 <figure><img src=".gitbook/assets/cloud-city.jpg" alt=""><figcaption><p>Credits: Cloud City by Thornton Tomasetti and Studio Tomás Saraceno</p></figcaption></figure>
 
@@ -115,7 +113,7 @@ Unlike other companies, our pricing [is on our website](https://www.pollination.
 
 The answer depends on the number of people who want to use the Pollination products. Most offices start with monthly subscriptions for 10 organization seats and a single bundled Revit and Rhino license. After testing the plugins for a couple of months, they changed the subscriptions to annual.
 
-See [this page](get-started/setting-up-rhino-grasshopper-and-revit-plugins/seats-vs-licenses.md) for the difference between seats and licenses, and [this page](web-platform/account-setup/) for setting up your organization.
+See [this page](get-started/seats-vs-licenses.md) for the difference between seats and licenses, and [this page](web-platform/account-setup/) for setting up your organization.
 
 ## Getting in touch
 
