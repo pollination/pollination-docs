@@ -1,4 +1,5 @@
 # Explode polyline
-<img src="images/explode-polyline.svg" width="50" height="50"> 
+
+![](<../../.gitbook/assets/explode-polyline (1).svg>)
 
 Explode a polyline into several line segments.

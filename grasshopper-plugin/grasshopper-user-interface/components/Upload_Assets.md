@@ -1,33 +1,29 @@
-## ![Upload Assets](../../images/icons/Upload_Assets.png) Upload Assets
+# Upload\_Assets
 
-![Upload Assets](../../images/components/Upload_Assets.png)
+![Upload Assets](<../../../.gitbook/assets/Upload_Assets (1).png>)
 
 Upload local files and folders to Pollination cloud server, and they will be used as cloud asset references.
 
-### Inputs
+## Inputs
 
-* #### project [Required]
+*   **project \[Required]**
 
-  Project that all artifacts will be uploaded to. Use GetProject component or a name for getting a project from the current user. To get a project under another account, you can specify the account name before the project name with the format: AccountName/ProjectName. For example: pollination/NewDemoProject
+    Project that all artifacts will be uploaded to. Use GetProject component or a name for getting a project from the current user. To get a project under another account, you can specify the account name before the project name with the format: AccountName/ProjectName. For example: pollination/NewDemoProject
+*   **artifacts \[Required]**
 
-* #### artifacts [Required]
+    File or folder paths to be uploaded to the Pollination cloud.
+*   **sub\_folder \[Optional]**
 
-  File or folder paths to be uploaded to the Pollination cloud.
+    An optional input for relative folder path where you want to save all Pollination job's files, instead of project root folder. For example: "Phase 1/Team A"
+*   **upload \[Required]**
 
-* #### sub_folder [Optional]
+    Set to true to upload the assets.
 
-  An optional input for relative folder path where you want to save all Pollination job's files, instead of project root folder.  For example: "Phase 1/Team A"
+## Outputs
 
-* #### upload [Required]
+*   **status**
 
-  Set to true to upload the assets.
+    status.
+*   **artifacts**
 
-### Outputs
-
-* #### status
-
-  status.
-
-* #### artifacts
-
-  artifacts that have been uploaded to the Pollination cloud.
+    artifacts that have been uploaded to the Pollination cloud.

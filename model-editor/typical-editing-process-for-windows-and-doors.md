@@ -4,14 +4,12 @@ Exporting windows and doors can be one of the most challenging parts of the proc
 
 Here is the list of available commands:
 
-1. ![](commands/images/make-windows-flush.svg) [Make Windows Flush](commands/me_make_windows_flush.md)
-2. ![](commands/images/offset-windows.svg) [Offset Windows for Frame](commands/me_offset_windows.md)
-3. ![](commands/images/remove-windows.svg) [Remove Small Windows](commands/alphabetically/remove-small-windows.md)
-4. ![](commands/images/repair-windows.svg) [Repair Invalid Windows](commands/me_repair_windows.md)
-5. ![](commands/images/rectangularize-windows.svg) [Rectangularize windows](commands/me_rectangularize_windows.md)
-6. ![](commands/images/simplify-windows.svg) [Simplify Windows](workflows/simplifying-windows.md)
-
-
+1. ![](../.gitbook/assets/make-windows-flush.svg) [Make Windows Flush](commands/me_make_windows_flush.md)
+2. ![](<../.gitbook/assets/offset-windows (1).svg>) [Offset Windows for Frame](commands/me_offset_windows.md)
+3. ![](../.gitbook/assets/remove-windows.svg) [Remove Small Windows](commands/alphabetically/remove-small-windows.md)
+4. ![](<../.gitbook/assets/repair-windows (1).svg>) [Repair Invalid Windows](commands/me_repair_windows.md)
+5. ![](../.gitbook/assets/rectangularize-windows.svg) [Rectangularize windows](commands/me_rectangularize_windows.md)
+6. ![](<../.gitbook/assets/simplify-windows (1).svg>) [Simplify Windows](workflows/simplifying-windows.md)
 
 Here is the typical process for editing windows in the Model Editor.
 
@@ -48,8 +46,6 @@ If you have followed the steps above, at this point, the only possible issues ar
 ## Reducing the number of windows
 
 Once you have cleaned up the windows, you may want to use the [Simplify Windows](workflows/simplifying-windows.md) command to simplify the windows' geometry and reduce the number of windows in the model. This command allows you to simplify the geometry by merging multiple windows into a single window per wall or roof.
-
-
 
 ## FAQ
 

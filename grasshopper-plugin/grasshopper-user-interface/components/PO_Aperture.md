@@ -1,9 +1,9 @@
-## ![PO Aperture](../../images/icons/PO_Aperture.png) PO Aperture
+# PO\_Aperture
 
-![PO Aperture](../../images/components/PO_Aperture.png)
+![PO Aperture](<../../../.gitbook/assets/PO_Aperture (1).png>)
 
 Contains a collection of apertures
 
-### Inputs
+## Inputs
 
-### Outputs
+## Outputs

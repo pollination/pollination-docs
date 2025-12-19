@@ -1,17 +1,17 @@
-## ![Get a project](../../images/icons/Get_a_project.png) Get a project
+# Get\_a\_project
 
-![Get a project](../../images/components/Get_a_project.png)
+![Get a project](<../../../.gitbook/assets/Get_a_project (1).png>)
 
 Get a project
 
-### Inputs
+## Inputs
 
-* #### name [Required]
+*   **name \[Required]**
 
-  Name for getting a project from the current user. To get a project under another account, you can specify the account name before the project name with the format: AccountName/ProjectName. For example: pollination/NewDemoProject
+    Name for getting a project from the current user. To get a project under another account, you can specify the account name before the project name with the format: AccountName/ProjectName. For example: pollination/NewDemoProject
 
-### Outputs
+## Outputs
 
-* #### project
+*   **project**
 
-  A project found.
+    A project found.

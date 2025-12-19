@@ -1,33 +1,29 @@
-## ![PO Dump IDM](../../images/icons/PO_Dump_IDM.png) PO Dump IDM
+# PO\_Dump\_IDM
 
-![PO Dump IDM](../../images/components/PO_Dump_IDM.png)
+![PO Dump IDM](<../../../.gitbook/assets/PO_Dump_IDM (1).png>)
 
 Save entire model as IDM file
 
-### Inputs
+## Inputs
 
-* #### model [Required]
+*   **model \[Required]**
 
-  A Honeybee Model object to be written to a IDM file.
+    A Honeybee Model object to be written to a IDM file.
+*   **name \[Default]**
 
-* #### name [Default]
+    A name for the file to which the honeybee objects will be written. If unspecified, it will be derived from the model identifier.
+*   **folder \[Default]**
 
-  A name for the file to which the honeybee objects will be written. If unspecified, it will be derived from the model identifier.
+    An optional directory into which the honeybee objects will be written. The default is set to the default simulation folder.
+*   **thickness \[Default]**
 
-* #### folder [Default]
+    Maximum wall thickness for internal walls
+*   **dump \[Required]**
 
-  An optional directory into which the honeybee objects will be written. The default is set to the default simulation folder.
+    Set to "True" to save the honeybee model to a IDM file.
 
-* #### thickness [Default]
+## Outputs
 
-  Maximum wall thickness for internal walls
+*   **IDM**
 
-* #### dump [Required]
-
-  Set to "True" to save the honeybee model to a IDM file.
-
-### Outputs
-
-* #### IDM
-
-  The location of the file where the IDM file is saved.
+    The location of the file where the IDM file is saved.

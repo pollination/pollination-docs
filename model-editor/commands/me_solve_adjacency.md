@@ -1,13 +1,14 @@
 # Solve adjacency
-<img src="images/solve-adjacency.svg" width="50" height="50"> 
+
+![](<../../.gitbook/assets/solve-adjacency (1).svg>)
 
 Solve adjacency between selected rooms by assigning interior boundary conditions where rooms touch one another.
 
 ## Options
 
-* **Ceiling Adjacencies**
+*   **Ceiling Adjacencies**
 
-  Select to have the adjacency between the stories solved
+    Select to have the adjacency between the stories solved
 
 ## Details
 

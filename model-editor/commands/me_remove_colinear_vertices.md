@@ -1,10 +1,11 @@
 # Remove colinear vertices
-<img src="images/remove-colinear-vertices.svg" width="50" height="50"> 
+
+![](<../../.gitbook/assets/remove-colinear-vertices (1).svg>)
 
 Remove colinear vertices from a polyline.
 
 ## Options
 
-* **Tolerance**
+*   **Tolerance**
 
-  The maximum distance between a polyline vertex and the line drawn between neighboring vertices below which it is considered colinear
+    The maximum distance between a polyline vertex and the line drawn between neighboring vertices below which it is considered colinear

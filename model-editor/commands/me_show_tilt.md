@@ -1,4 +1,5 @@
 # Show tilt
-<img src="images/show-tilt.svg" width="50" height="50"> 
+
+![](<../../.gitbook/assets/show-tilt (1).svg>)
 
 Show tilt of the roof temporarily.

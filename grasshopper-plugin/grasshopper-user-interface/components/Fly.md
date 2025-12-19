@@ -1,25 +1,23 @@
-## ![Fly](../../images/icons/Fly.png) Fly
+# Fly
 
-![Fly](../../images/components/Fly.png)
+![Fly](<../../../.gitbook/assets/Fly (1).png>)
 
 Generates design iterations from a collection of sliders, panels, or valueLists.
 
-### Inputs
+## Inputs
 
-* #### id [Required]
+*   **id \[Required]**
 
-  Id from the FlyID component.
+    Id from the FlyID component.
+*   **data \[Optional]**
 
-* #### data [Optional]
+    Optional input for data collection from User Data component.
+*   **folder \[Optional]**
 
-  Optional input for data collection from User Data component.
+    Path to a directory to save data.csv file and images. If not provided the data won't be saved to a file.
 
-* #### folder [Optional]
+## Outputs
 
-  Path to a directory to save data.csv file and images. If not provided the data won't be saved  to a file.
+*   **records**
 
-### Outputs
-
-* #### records
-
-  Recorded data
+    Recorded data

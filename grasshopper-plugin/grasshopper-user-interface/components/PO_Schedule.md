@@ -1,9 +1,9 @@
-## ![PO Schedule](../../images/icons/PO_Schedule.png) PO Schedule
+# PO\_Schedule
 
-![PO Schedule](../../images/components/PO_Schedule.png)
+![PO Schedule](<../../../.gitbook/assets/PO_Schedule (1).png>)
 
 Contains a collection of Honeybee schedules
 
-### Inputs
+## Inputs
 
-### Outputs
+## Outputs

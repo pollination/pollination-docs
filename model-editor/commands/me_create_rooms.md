@@ -1,25 +1,23 @@
 # Create rooms
-<img src="images/create-room.svg" width="50" height="50"> 
+
+![](<../../.gitbook/assets/create-room (1).svg>)
 
 Create room from selected closed polylines. Set the room display name, and adjust the Floor Height and Floor to Ceiling Height if needed. By default, the command uses the heights of the current active story.
 
 ## Options
 
-* **Room Name**
+*   **Room Name**
 
-  Text to set the name of the generated room.
+    Text to set the name of the generated room.
+*   **Use Current Story Height**
 
-* **Use Current Story Height**
+    Select to use the current story height for the newly created room. Unselect this option to be able to have specify the room height and floor elevation explicitly
+*   **Room Height**
 
-  Select to use the current story height for the newly created room. Unselect this option to be able to have specify the room height and floor elevation explicitly
+    Height of the room.
+*   **Room Elevation**
 
-* **Room Height**
-
-  Height of the room.
-
-* **Room Elevation**
-
-  Elevation of the room.
+    Elevation of the room.
 
 ## Details
 

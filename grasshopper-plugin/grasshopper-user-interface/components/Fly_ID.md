@@ -1,21 +1,20 @@
-## ![Fly ID](../../images/icons/Fly_ID.png) Fly ID
+# Fly\_ID
 
-![Fly ID](../../images/components/Fly_ID.png)
+![Fly ID](<../../../.gitbook/assets/Fly_ID (1).png>)
 
 Generates iteration ID from a collection of sliders, panels, or valueLists.
 
-### Inputs
+## Inputs
 
-* #### in_1 []
+*   **in\_1 \[]**
 
-  Please connect a Slider, Panel, or ValueList, as a valid input
+    Please connect a Slider, Panel, or ValueList, as a valid input
 
-### Outputs
+## Outputs
 
-* #### values
+*   **values**
 
-  List of input values
+    List of input values
+*   **id**
 
-* #### id
-
-  A unique ID created based on the input values. Connect this output to Pollination Fly's id input.
+    A unique ID created based on the input values. Connect this output to Pollination Fly's id input.

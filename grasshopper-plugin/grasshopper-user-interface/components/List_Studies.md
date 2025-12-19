@@ -1,33 +1,29 @@
-## ![List Studies](../../images/icons/List_Studies.png) List Studies
+# List\_Studies
 
-![List Studies](../../images/components/List_Studies.png)
+![List Studies](<../../../.gitbook/assets/List_Studies (1).png>)
 
 List all Studies from a Pollination project. You can either type in formatted text "project-owner/project-name" or right click or double click on the component and select a project.
 
-### Inputs
+## Inputs
 
-* #### project [Required]
+*   **project \[Required]**
 
-  A Pollination project from which to list Studies. You can type in formated text "ProjectOwner/ProjectName", or double/right click the component to get a project.
+    A Pollination project from which to list Studies. You can type in formated text "ProjectOwner/ProjectName", or double/right click the component to get a project.
+*   **status \[Optional]**
 
-* #### status [Optional]
+    An optional input to filter the Studies based on status. Valid inputs are: -Created -PreProcessing -Running -Failed -Cancelled -Completed -Unknown
 
-  An optional input to filter the Studies based on status. Valid inputs are:  -Created  -PreProcessing  -Running  -Failed  -Cancelled  -Completed  -Unknown
+## Outputs
 
-### Outputs
+*   **names**
 
-* #### names
+    Name of Pollination Studies from the selected project.
+*   **descriptions**
 
-  Name of Pollination Studies from the selected project.
+    Description of Pollination Studies from the selected project.
+*   **recipes**
 
-* #### descriptions
+    The recipe that Pollination run ran with.
+*   **studies**
 
-  Description of Pollination Studies from the selected project.
-
-* #### recipes
-
-  The recipe that Pollination run ran with.
-
-* #### studies
-
-  List of Pollination Studies from the selected project.
+    List of Pollination Studies from the selected project.

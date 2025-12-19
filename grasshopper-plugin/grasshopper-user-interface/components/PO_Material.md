@@ -1,9 +1,9 @@
-## ![PO Material](../../images/icons/PO_Material.png) PO Material
+# PO\_Material
 
-![PO Material](../../images/components/PO_Material.png)
+![PO Material](<../../../.gitbook/assets/PO_Material (1).png>)
 
 Contains a collection of Honeybee materials
 
-### Inputs
+## Inputs
 
-### Outputs
+## Outputs

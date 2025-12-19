@@ -1,9 +1,9 @@
-## ![PO Room](../../images/icons/PO_Room.png) PO Room
+# PO\_Room
 
-![PO Room](../../images/components/PO_Room.png)
+![PO Room](<../../../.gitbook/assets/PO_Room (1).png>)
 
 Contains a collection of rooms
 
-### Inputs
+## Inputs
 
-### Outputs
+## Outputs

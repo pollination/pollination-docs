@@ -1,9 +1,9 @@
-## ![PO Face](../../images/icons/PO_Face.png) PO Face
+# PO\_Face
 
-![PO Face](../../images/components/PO_Face.png)
+![PO Face](<../../../.gitbook/assets/PO_Face (1).png>)
 
 Contains a collection of faces
 
-### Inputs
+## Inputs
 
-### Outputs
+## Outputs

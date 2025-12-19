@@ -1,25 +1,23 @@
-## ![List Run Assets](../../images/icons/List_Run_Assets.png) List Run Assets
+# List\_Run\_Assets
 
-![List Run Assets](../../images/components/List_Run_Assets.png)
+![List Run Assets](<../../../.gitbook/assets/List_Run_Assets (1).png>)
 
 List all available cloud assets from a finished run of a project
 
-### Inputs
+## Inputs
 
-* #### run [Required]
+*   **run \[Required]**
 
-  A finished run of a cloud study from which artifacts will be listing. Use CheckStudyStatus component to get a finished run
+    A finished run of a cloud study from which artifacts will be listing. Use CheckStudyStatus component to get a finished run
+*   **sub\_folder \[Optional]**
 
-* #### sub_folder [Optional]
+    An optional input for relative folder path where you want to list all Pollination job's files, instead of project root folder. For example: "Phase 1/Team A"
+*   **keyword \[Optional]**
 
-  An optional input for relative folder path where you want to list all Pollination job's files, instead of project root folder.  For example: "Phase 1/Team A"
+    A keyword to filter the files.
 
-* #### keyword [Optional]
+## Outputs
 
-  A keyword to filter the files.
+*   **artifacts**
 
-### Outputs
-
-* #### artifacts
-
-  Run assets to be downloaded by LoadAssets.
+    Run assets to be downloaded by LoadAssets.

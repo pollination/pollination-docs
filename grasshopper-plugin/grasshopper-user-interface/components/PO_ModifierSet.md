@@ -1,9 +1,9 @@
-## ![PO ModifierSet](../../images/icons/PO_ModifierSet.png) PO ModifierSet
+# PO\_ModifierSet
 
-![PO ModifierSet](../../images/components/PO_ModifierSet.png)
+![PO ModifierSet](<../../../.gitbook/assets/PO_ModifierSet (1).png>)
 
 Contains a collection of Honeybee modifier sets
 
-### Inputs
+## Inputs
 
-### Outputs
+## Outputs

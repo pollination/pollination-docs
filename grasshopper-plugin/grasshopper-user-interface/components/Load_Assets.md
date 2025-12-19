@@ -1,25 +1,23 @@
-## ![Load Assets](../../images/icons/Load_Assets.png) Load Assets
+# Load\_Assets
 
-![Load Assets](../../images/components/Load_Assets.png)
+![Load Assets](<../../../.gitbook/assets/Load_Assets (1).png>)
 
 Download cloud based assets or load locally saved assets
 
-### Inputs
+## Inputs
 
-* #### folder [Optional]
+*   **folder \[Optional]**
 
-  The directory path to save the Pollination run's results.
+    The directory path to save the Pollination run's results.
+*   **asset\[1] \[]**
 
-* #### asset[1] []
+    A Pollination run's asset to load. One asset per input.
 
-  A Pollination run's asset to load. One asset per input.
+## Outputs
 
-### Outputs
+*   **logs**
 
-* #### logs
+    ...
+*   **value\[1]**
 
-  ...
-
-* #### value[1]
-
-  Loaded asset from asset[1]
+    Loaded asset from asset\[1]

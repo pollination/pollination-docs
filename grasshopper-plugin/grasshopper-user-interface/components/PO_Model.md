@@ -1,9 +1,9 @@
-## ![PO Model](../../images/icons/PO_Model.png) PO Model
+# PO\_Model
 
-![PO Model](../../images/components/PO_Model.png)
+![PO Model](<../../../.gitbook/assets/PO_Model (1).png>)
 
 Contains a Honeybee Model
 
-### Inputs
+## Inputs
 
-### Outputs
+## Outputs

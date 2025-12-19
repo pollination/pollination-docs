@@ -1,9 +1,9 @@
-## ![PO VisualizationSet](../../images/icons/PO_VisualizationSet.png) PO VisualizationSet
+# PO\_VisualizationSet
 
-![PO VisualizationSet](../../images/components/PO_VisualizationSet.png)
+![PO VisualizationSet](<../../../.gitbook/assets/PO_VisualizationSet (1).png>)
 
 Contains a collection of VisualizationSet
 
-### Inputs
+## Inputs
 
-### Outputs
+## Outputs

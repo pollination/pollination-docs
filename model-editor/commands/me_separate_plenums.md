@@ -1,4 +1,5 @@
 # Separate plenums
-<img src="images/separate-plenums.svg" width="50" height="50"> 
+
+![](<../../.gitbook/assets/separate-plenums (1).svg>)
 
 Click to convert ceiling and floor plenum depths assigned to rooms into explicit plenum room geometry.

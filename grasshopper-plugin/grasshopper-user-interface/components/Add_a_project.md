@@ -1,33 +1,29 @@
-## ![Add a project](../../images/icons/Add_a_project.png) Add a project
+# Add\_a\_project
 
-![Add a project](../../images/components/Add_a_project.png)
+![Add a project](<../../../.gitbook/assets/Add_a_project (1).png>)
 
 Add a new project
 
-### Inputs
+## Inputs
 
-* #### name [Required]
+*   **name \[Required]**
 
-  Name for the new project. By default, the project will be added to the current user. To create a project under another account, you can specify the account name before the project name with the format: AccountName/ProjectName. For example: pollination/NewDemoProject
+    Name for the new project. By default, the project will be added to the current user. To create a project under another account, you can specify the account name before the project name with the format: AccountName/ProjectName. For example: pollination/NewDemoProject
+*   **description \[Optional]**
 
-* #### description [Optional]
+    The new project description
+*   **public \[Optional]**
 
-  The new project description
+    Set to True to create a public project (Default: True)
+*   **add\_recipes \[Optional]**
 
-* #### public [Optional]
+    Set True to add all public recipes to the project (Default: False) WARNING: adding all the public recipes to the new project would take a few seconds.
+*   **create \[Required]**
 
-  Set to True to create a public project (Default: True)
+    Set True to create the project
 
-* #### add_recipes [Optional]
+## Outputs
 
-  Set True to add all public recipes to the project (Default: False) WARNING: adding all the public recipes to the new project would take a few seconds.
+*   **project**
 
-* #### create [Required]
-
-  Set True to create the project
-
-### Outputs
-
-* #### project
-
-  Newly created project.
+    Newly created project.

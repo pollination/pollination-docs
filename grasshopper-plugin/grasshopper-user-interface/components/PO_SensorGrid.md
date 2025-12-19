@@ -1,9 +1,9 @@
-## ![PO SensorGrid](../../images/icons/PO_SensorGrid.png) PO SensorGrid
+# PO\_SensorGrid
 
-![PO SensorGrid](../../images/components/PO_SensorGrid.png)
+![PO SensorGrid](<../../../.gitbook/assets/PO_SensorGrid (1).png>)
 
 Contains a collection of sensor grids
 
-### Inputs
+## Inputs
 
-### Outputs
+## Outputs

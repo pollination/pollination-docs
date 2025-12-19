@@ -1,9 +1,9 @@
-## ![PO Shade](../../images/icons/PO_Shade.png) PO Shade
+# PO\_Shade
 
-![PO Shade](../../images/components/PO_Shade.png)
+![PO Shade](<../../../.gitbook/assets/PO_Shade (1).png>)
 
 Contains a collection of shades
 
-### Inputs
+## Inputs
 
-### Outputs
+## Outputs

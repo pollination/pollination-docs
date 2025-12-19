@@ -16,25 +16,41 @@ Here is a copy of the PoMF file.
 
 {% file src="../../../.gitbook/assets/171912f5-95cd-4be4-b5cc-884e383f7474.pomf" %}
 
-For this tutorial, we will export the model to Pollination Rhino (.HBJSON), IESVE (.GEM), eQuest (.INP), OpenStudio (.OSM), and gbXML. See below for a screenshot of each exported model, and download the export files.
+For this tutorial, we will export the model to Pollination Rhino (.HBJSON), IESVE (.GEM), eQuest (.INP), DesignBuilder (dsbXML), OpenStudio (.OSM), and gbXML. See below for a screenshot of each exported model, and download the export files.
 
 [You can learn more about all the supported file formats and the export options here](../../../model-editor/supported-file-formats/export.md).
+
+### Pollination Rhino (.HBJSON)
 
 <figure><img src="../../../.gitbook/assets/image (40) (1).png" alt=""><figcaption><p>Revit sample model in [Pollination] Rhino (.HBJSON)</p></figcaption></figure>
 
 {% file src="../../../.gitbook/assets/2023_rac_advanced_sample_project.hbjson" %}
 
+### IESVE (.GEM)
+
 <figure><img src="../../../.gitbook/assets/revit-to-iesve.jpg" alt=""><figcaption><p>Revit sample model in IESVE (.GEM)</p></figcaption></figure>
 
 {% file src="../../../.gitbook/assets/2023_rac_advanced_sample_project.gem" %}
+
+### eQuest (.INP)
 
 <figure><img src="../../../.gitbook/assets/image (41) (1).png" alt=""><figcaption><p>Revit sample model in eQuest (.INP)</p></figcaption></figure>
 
 {% file src="../../../.gitbook/assets/2023_rac_advanced_sample_project.inp" %}
 
+### DesignBuilder (.dsbXML)
+
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Revit sample model in DesignBuilder (.dsbXML)</p></figcaption></figure>
+
+{% file src="../../../.gitbook/assets/2023_rac_advanced_sample_project_dsb.xml" %}
+
+### OpenStudio (.OSM)
+
 <figure><img src="../../../.gitbook/assets/image (43) (1).png" alt=""><figcaption><p>Revit sample model in OpenStudio (.OSM)</p></figcaption></figure>
 
 {% file src="../../../.gitbook/assets/2023_rac_advanced_sample_project.osm" %}
+
+### gbXML
 
 <figure><img src="../../../.gitbook/assets/image (42) (1).png" alt=""><figcaption><p>Revit sample model in Spider (.gbXML)</p></figcaption></figure>
 

@@ -1,45 +1,38 @@
-## ![PO Dump INP](../../images/icons/PO_Dump_INP.png) PO Dump INP
+# PO\_Dump\_INP
 
-![PO Dump INP](../../images/components/PO_Dump_INP.png)
+![PO Dump INP](<../../../.gitbook/assets/PO_Dump_INP (1).png>)
 
 Save entire model as INP file
 
-### Inputs
+## Inputs
 
-* #### model [Required]
+*   **model \[Required]**
 
-  A Honeybee Model object to be written to a INP file.
+    A Honeybee Model object to be written to a INP file.
+*   **name \[Default]**
 
-* #### name [Default]
+    A name for the file to which the honeybee objects will be written. If unspecified, it will be derived from the model identifier.
+*   **folder \[Default]**
 
-  A name for the file to which the honeybee objects will be written. If unspecified, it will be derived from the model identifier.
+    An optional directory into which the honeybee objects will be written. The default is set to the default simulation folder.
+*   **hvac\_mapping \[Default]**
 
-* #### folder [Default]
+    An optional input to group rooms for HVAC mapping. Valid options are: `room`, `story`, `model`, and `assigned-hvac`. The default is set to 'story'.
+*   **exclude\_InWalls \[]**
 
-  An optional directory into which the honeybee objects will be written. The default is set to the default simulation folder.
+    Set to "True" to exclude all interior walls. The default is set to False to include all interior walls.
+*   **exclude\_InCeilings \[]**
 
-* #### hvac_mapping [Default]
+    Set to "True" to exclude all interior ceilings. The default is set to False to include all interior ceilings.
+*   **switch\_statements \[Optional]**
 
-  An optional input to group rooms for HVAC mapping. Valid options are: `room`, `story`, `model`, and `assigned-hvac`. The default is set to 'story'.
+    Set to "True" to use switch statements. The default is set to False.
+*   **dump \[Required]**
 
-* #### exclude_InWalls []
+    Set to "True" to save the honeybee model to a INP file.
 
-  Set to "True" to exclude all interior walls. The default is set to False to include all interior walls.
+## Outputs
 
-* #### exclude_InCeilings []
+*   **inp**
 
-  Set to "True" to exclude all interior ceilings. The default is set to False to include all interior ceilings.
-
-* #### switch_statements [Optional]
-
-  Set to "True" to use switch statements. The default is set to False.
-
-* #### dump [Required]
-
-  Set to "True" to save the honeybee model to a INP file.
-
-### Outputs
-
-* #### inp
-
-  The location of the file where the INP file is saved.
+    The location of the file where the INP file is saved.

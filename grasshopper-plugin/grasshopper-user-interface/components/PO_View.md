@@ -1,9 +1,9 @@
-## ![PO View](../../images/icons/PO_View.png) PO View
+# PO\_View
 
-![PO View](../../images/components/PO_View.png)
+![PO View](<../../../.gitbook/assets/PO_View (1).png>)
 
 Contains a collection of views
 
-### Inputs
+## Inputs
 
-### Outputs
+## Outputs

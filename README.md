@@ -8,7 +8,7 @@ description: Use this manual to get started with the Pollination products.
 
 This manual includes what you will need to use the Pollination products.
 
-<img src="grasshopper-plugin/images/icons/Login.png" alt="" data-size="line"> Pollination is the leading software for exporting valid energy models from Rhino (CAD) and Revit (BIM). Our customers from all around the world have been using Pollination<img src=".gitbook/assets/revit_plugin.png" alt="" data-size="line">Revit and <img src=".gitbook/assets/rhino_plugin.png" alt="" data-size="line"> Rhino plugins to get from an architectural model in Revit or Rhino to a valid simulation model in a fraction of the time and focus on the more enjoyable steps of the process that need their professional expertise. "None of us went to school hoping to spend most of our time tracing over plan drawings!"
+<img src=".gitbook/assets/Login (1).png" alt="" data-size="line"> Pollination is the leading software for exporting valid energy models from Rhino (CAD) and Revit (BIM). Our customers from all around the world have been using Pollination<img src=".gitbook/assets/revit_plugin.png" alt="" data-size="line">Revit and <img src=".gitbook/assets/rhino_plugin.png" alt="" data-size="line"> Rhino plugins to get from an architectural model in Revit or Rhino to a valid simulation model in a fraction of the time and focus on the more enjoyable steps of the process that need their professional expertise. "None of us went to school hoping to spend most of our time tracing over plan drawings!"
 
 <figure><img src=".gitbook/assets/pollination-rhino-ad.png" alt=""><figcaption><p>Said no energy modeler, ever!</p></figcaption></figure>
 

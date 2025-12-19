@@ -1,9 +1,9 @@
-## ![PO Door](../../images/icons/PO_Door.png) PO Door
+# PO\_Door
 
-![PO Door](../../images/components/PO_Door.png)
+![PO Door](<../../../.gitbook/assets/PO_Door (1).png>)
 
 Contains a collection of doors
 
-### Inputs
+## Inputs
 
-### Outputs
+## Outputs

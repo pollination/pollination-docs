@@ -1,4 +1,5 @@
 # Roof to shade
-<img src="images/shade-roof.svg" width="50" height="50"> 
+
+![](<../../.gitbook/assets/shade-roof (1).svg>)
 
 Convert roofs to shade objects.
