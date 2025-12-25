@@ -8,7 +8,7 @@ You can only create a study under the projects you have been granted write acces
 
 [Create a new project](create-a-new-project.md) or select an existing project. Then click on the Studies tab.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2
 

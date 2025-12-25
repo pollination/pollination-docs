@@ -4,7 +4,7 @@ You need to add additional seats to your organization account before adding new 
 
 Pollination provides several options based on the size of your team. You can either select a monthly or an annual billing period.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The annual billing offers a free month of subscription.

@@ -6,7 +6,7 @@ Check out our [pricing page](https://www.pollination.solutions/pricing-platform)
 
 Visit [https://app.pollination.solutions/](https://app.pollination.solutions/) and choose your preferred method for signing up. We currently support sign-up via email, with a Google account.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 You need to input additional information about yourself when you create your account for the first time.
 
@@ -20,4 +20,4 @@ We have also seen that some IT department block this email. You may need to get 
 
 After creating your Pollination account you will automatically be added to [Pollination Discourse](https://discourse.pollination.solutions) page to be able to post your questions, interact with the other Pollination users. You will receive a verification email to confirm your Discourse sign up. Once you verify your account, you can log into Pollination Discourse using the same Pollination authentication.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>

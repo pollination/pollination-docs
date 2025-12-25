@@ -1,6 +1,6 @@
 # Typical Editing Process for Windows and Doors
 
-Exporting windows and doors can be one of the most challenging parts of the process. If you spend enough time [selecting the correct windows and doors family types](../revit-plugin/export-analytical-model/selecting-doors-and-windows-families/), you should have a great starting point when you get to the Model Editor. That said, we all know how it goes when you're on a deadline and you want to get the model out as soon as possible. That's why we have developed a collection of commands in the Model Editor to help you with the worst-case scenario.
+Exporting windows and doors can be one of the most challenging parts of the process. If you spend enough time [selecting the correct windows and doors family types](../revit-plugin/hands-on-tutorial/selecting-doors-and-windows-families/), you should have a great starting point when you get to the Model Editor. That said, we all know how it goes when you're on a deadline and you want to get the model out as soon as possible. That's why we have developed a collection of commands in the Model Editor to help you with the worst-case scenario.
 
 Here is the list of available commands:
 
@@ -25,7 +25,7 @@ When working on adjusting the windows for frames, it is important to understand 
 
 ### Windows
 
-In most cases, the window family includes the frame as part of the family, but with a different material. You can include or exclude the frame from the exported window [by selecting or deselecting the frame material](../revit-plugin/export-analytical-model/selecting-doors-and-windows-families/selecting-window-family-types.md#understanding-panel-calculation-options).
+In most cases, the window family includes the frame as part of the family, but with a different material. You can include or exclude the frame from the exported window [by selecting or deselecting the frame material](../revit-plugin/hands-on-tutorial/selecting-doors-and-windows-families/selecting-window-family-types.md#understanding-panel-calculation-options).
 
 ### Curtain wall panels
 
@@ -37,7 +37,7 @@ The next step in the cleanup is to remove the small windows that might exist in 
 
 ## Rectangularize windows
 
-In some cases, you might end up with windows and doors with non-aligned edges. This is usually the result of not filtering the materials correctly and not selecting the correct panel calculation method when selecting doors and windows ([see here](../revit-plugin/export-analytical-model/selecting-doors-and-windows-families/selecting-window-family-types.md#understanding-panel-calculation-options)), but regardless of the reason, you can use the [Rectangularize Windows](commands/me_rectangularize_windows.md) command to change these windows and doors to clean rectangles.
+In some cases, you might end up with windows and doors with non-aligned edges. This is usually the result of not filtering the materials correctly and not selecting the correct panel calculation method when selecting doors and windows ([see here](../revit-plugin/hands-on-tutorial/selecting-doors-and-windows-families/selecting-window-family-types.md#understanding-panel-calculation-options)), but regardless of the reason, you can use the [Rectangularize Windows](commands/me_rectangularize_windows.md) command to change these windows and doors to clean rectangles.
 
 ## Repair invalid windows
 

@@ -6,6 +6,12 @@ Most of the larger Revit projects are created as linked models. Pollination supp
 We understand opening several Revit models is not ideal, but unfortunately, there is not much that we can do to address this issue because of [this bug in the Revit API](https://forums.autodesk.com/t5/revit-api-forum/getboundarysegments-with-linked-models/m-p/13382343). We will revisit this limitation once the bug has been fixed.
 {% endhint %}
 
+This video walks you through the process of setting up a linked model.
+
+{% embed url="https://youtu.be/qrdmFTJKsYc" %}
+
+[You can download the sample models that are used in this video from here](https://drive.google.com/drive/folders/101O3R74LbmvXGYSbKX6G6sKl4AjDPLn-?usp=sharing).
+
 To use linked Models:
 
 ## 1. Save the host model as a Central Model

@@ -7,7 +7,7 @@ description: Getting started with using the model editor!
 This page includes several videos that walk you through the process of cleaning up the advanced Revit sample model. You don't need the sample snapshot or the Revit plugin to follow this video. You can use the online version of the Model Editor and select the sample model by clicking on the Pollination logo on the bottom right side of the screen and selecting `About`.
 
 {% hint style="info" %}
-See [this page](../revit-plugin/export-analytical-model/) to learn how to create these snapshots using the Pollination Revit plugin.
+See [this page](../revit-plugin/hands-on-tutorial/) to learn how to create these snapshots using the Pollination Revit plugin.
 {% endhint %}
 
 ## Understand the Model Editor user interface
