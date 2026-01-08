@@ -1,17 +1,17 @@
 # 3D preview
-
-![](<../../.gitbook/assets/3d-preview (1).svg>)
+<img src="images/3d-preview.svg" width="50" height="50"> 
 
 Show the selected rooms and shades in 3D. The preview shows up in a new floating window.
 
 ## Options
 
-*   **Ceiling Adjacencies**
+* **Ceiling Adjacencies**
 
-    Select to have the adjacency between the stories solved
-*   **Exclude Plenums**
+  Select to have the adjacency between the stories solved
 
-    Select to have ceiling and floor plenum depths ignored. This results in each room in the table translating to a single room in 3D instead of a base room with plenums split off of it
+* **Exclude Plenums**
+
+  Select to have ceiling and floor plenum depths ignored. This results in each room in the table translating to a single room in 3D instead of a base room with plenums split off of it
 
 ## Details
 

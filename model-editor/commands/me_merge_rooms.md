@@ -1,20 +1,21 @@
 # Merge rooms
-
-![](<../../.gitbook/assets/merge-rooms (1).svg>)
+<img src="images/merge-rooms.svg" width="50" height="50"> 
 
 Merge several rooms into a single room. Setting a Merge Distance that is larger than 0 will allow you to merge rooms that have gaps in between them - crossing gaps up to the specified distance.
 
 ## Options
 
-*   **Merge Distance**
+* **Merge Distance**
 
-    The maximum distance between the rooms in which the rooms should be merged.
-*   **Simplify Windows**
+  The maximum distance between the rooms in which the rooms should be merged.
 
-    Select to have the windows simplified when merging rooms.
-*   **Join Faces**
+* **Simplify Windows**
 
-    Select to have the coplanar walls should joined together when merging rooms.
+  Select to have the windows simplified when merging rooms.
+
+* **Join Faces**
+
+  Select to have the coplanar walls should joined together when merging rooms.
 
 ## Details
 

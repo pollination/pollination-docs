@@ -1,5 +1,4 @@
 # Join segments
-
-![](<../../.gitbook/assets/join-segments (1).svg>)
+<img src="images/join-segments.svg" width="50" height="50"> 
 
 Join several segments into one or more polylines.
