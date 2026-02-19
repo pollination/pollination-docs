@@ -6,7 +6,7 @@ description: >-
 
 # Free Trial of Pollination Products
 
-Both Pollination Rhino and Revit plugins offer a 14-day free trial license. To begin your trial, first [create a Pollination account](create-a-pollination-account.md), and then simply download the plugins and start using them.
+Both Pollination Rhino and Revit plugins offer a 30-day free trial license. To begin your trial, first [create a Pollination account](create-a-pollination-account.md), and then simply download the plugins and start using them.
 
 ## Downloading the installers
 

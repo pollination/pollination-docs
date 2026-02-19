@@ -20,7 +20,7 @@ If you landed here from a search not knowing what Pollination is you should prob
 
 Pollination Revit plugin and Pollination Revit and Grasshopper plugins streamline the transition of building models from Revit and Rhino to building energy simulation software so you don't have to trace over the drawings anymore. It is easier, faster and it gives you a better model.
 
-<figure><img src=".gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 We understand that everyone has their own preferred energy simulation software, as it is a very fragmented market. That is why we support a growing list of the most frequently used building simulation software, including but not limited to EnergyPlus, eQuest, OpenStudio, IESVE, DesignBuilder, IDA ICE, Ladybug Tools Honeybee, and Pollination Rhino.
 
@@ -35,7 +35,7 @@ We understand the desire for an exact percentage or a specific number of hours t
 
 Once you learn how to use Pollination, you can say goodbye to drawing models from scratch..
 
-<figure><img src=".gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 If you are still skeptical, [check out what our customers are saying about Pollination](https://www.pollination.solutions/customers). More likely than not, you'll recognize some of the faces, and you can get in touch with them to ask about Pollination and how it has helped them with their projects.
 
@@ -49,7 +49,7 @@ Before moving to the next part to explain how the plugins work, it's helpful to 
 
 We understand that trying yet another building energy modeling plugin can be risky. While you need a better workflow, you don't want to look bad by recommending a plugin that doesn't work. To make it easier to get started, we will help you export your first Revit and Rhino models at no cost, even before you commit to buying the plugins. If anything goes wrong, it will be on us, and if it works, you'll look like the smartest person in the office!
 
-<figure><img src=".gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## <img src=".gitbook/assets/revit_plugin.png" alt="" data-size="line">Pollination Revit Plugin
 

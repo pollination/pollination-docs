@@ -26,7 +26,7 @@ Yes. [See here for more information](core-concepts-and-best-practices/setting-up
 
 ### Does Pollination Revit plugin come with a free trial?
 
-Yes. Pollination Revit plugin comes with a 14-day free trial. You can start your free trial by simply [downloading the latest installer from our website](https://app.pollination.solutions/cad-plugins) and follow the installation instructions. Once you open the Revit plugin for the first time, [use the license manager to start your trial](core-concepts-and-best-practices/managing-pollination-revit-license.md).
+Yes. Pollination Revit plugin comes with a 30-day free trial. You can start your free trial by simply [downloading the latest installer from our website](https://app.pollination.solutions/cad-plugins) and follow the installation instructions. Once you open the Revit plugin for the first time, [use the license manager to start your trial](core-concepts-and-best-practices/managing-pollination-revit-license.md).
 
 ### Do I need an Internet connection to use the Revit plugin?
 

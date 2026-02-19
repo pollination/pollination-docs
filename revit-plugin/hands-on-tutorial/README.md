@@ -19,9 +19,9 @@ To get the most out of this tutorial, please follow the steps sequentially, as w
 
 Here is a short checklist before getting started with this tutorial:
 
-1. If you haven't already installed the Revit plugin, you need to [download](/broken/pages/eofpX6s0GUCOcvkUd2JM) and [install the plugin](/broken/pages/X6gZS8KLrx6zlpmkRK0U) on your computer.
-2. You need to [purchase a license](/broken/pages/FfVR1mE4AD7dZEuqx4nC) if you have already used the 14-day trial period. See [this page](../core-concepts-and-best-practices/managing-pollination-revit-license.md) for managing the Pollination Revit license.
-3. If you will be using a license from a Pollination organization, ensure you have been added to the correct license pool. See [this page](/broken/pages/ePaFRDVOPAqb2uQ101qq) for more information.
+1. If you haven't already installed the Revit plugin, you need to [download and install the plugin](../../getting-started/free-trial-of-pollination-products.md#downloading-the-installers) on your computer.
+2. You need to [buy a license](../../getting-started/buying-pollination-products/) if you have already used the 30-day trial period. See [this page](../core-concepts-and-best-practices/managing-pollination-revit-license.md) for managing the Pollination Revit license.
+3. If you will be using a license from a Pollination organization, ensure you have been added to the correct license pool. [See this page for more information](../../getting-started/account-setup/managing-license-pools.md).
 4. We will use the Revit Advanced Sample model for this tutorial. If you don't have the sample model, you can download it from [this page](https://drive.google.com/drive/folders/1sUdlhcai6RS7IMr-_WjC1orQqesrm6lT?usp=sharing) for different versions of Revit.
 
 <figure><img src="../../.gitbook/assets/image (54) (1).png" alt=""><figcaption></figcaption></figure>
