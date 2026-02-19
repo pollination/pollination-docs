@@ -46,7 +46,7 @@ They are **not** floating licenses with unlimited activation. However you could 
 
 ### How would we manage the licenses?
 
-You can use the license pools under your Pollination organization to manage the licenses. [See this page for more information](/broken/pages/ePaFRDVOPAqb2uQ101qq).
+You can use the license pools under your Pollination organization to manage the licenses. [See this page for more information](../getting-started/account-setup/managing-license-pools.md).
 
 ### Is there a discount for students and academics?
 

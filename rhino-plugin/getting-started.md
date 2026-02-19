@@ -1,10 +1,10 @@
 # Getting Started in Rhino
 
-There are several interfaces and interaction points for Pollination in Rhino.&#x20;
+There are several interfaces and interaction points for Pollination in Rhino.
 
 * [Pollination Room Manager](getting-started.md#pollination-room-manager): An icon and table-based interface allowing for analytical model creation, editing, and management.
-* Pollination Panel: Brings the Pollination [Web Platform](broken-reference) into Rhino so that you can access Pollination [Apps](../developers/apps/).&#x20;
-* [Pollination Commands](getting-started.md#pollination-commands): Type in commands from getting a license to building a shade element.&#x20;
+* Pollination Panel: Brings the Pollination [Web Platform](https://app.pollination.solutions/) into Rhino.
+* [Pollination Commands](getting-started.md#pollination-commands): Type in commands from getting a license to building a shade element.
 
 ## Pollination Room Manager
 
@@ -12,9 +12,9 @@ To pull up the Pollination Room Manager, type `Pollination` in the command line.
 
 {% embed url="https://youtu.be/qJQCc59EdCw" %}
 
-## Pollination Panel&#x20;
+## Pollination Panel
 
-To access apps from within Pollination, type `PO_Panel` in the command line.&#x20;
+To access apps from within Pollination, type `PO_Panel` in the command line.
 
 ## Pollination Commands
 

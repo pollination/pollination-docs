@@ -32,7 +32,7 @@ If you get an error during the installation see the installation log file in the
 
 ### License Population
 
-You do not need to populate the licenses after the installation. As long as the users have been [added to the license pool](/broken/pages/ePaFRDVOPAqb2uQ101qq) they will be able to check out a license from inside the CAD plugins.
+You do not need to populate the licenses after the installation. As long as the users have been added to the license pool they will be able to check out a license from inside the CAD plugins. [Refer to this section to learn more about managing license pools](account-setup/managing-license-pools.md).
 
 Each plugin includes a license manager that allows you to activate your trial after answering a few questions. To use the license manager in Rhino, use the command `PO_LicenseManager`. In Revit, navigate to the Pollination tab and click the `License Manager` button. For more information, [visit this ](../revit-plugin/core-concepts-and-best-practices/managing-pollination-revit-license.md)[page](../revit-plugin/core-concepts-and-best-practices/managing-pollination-revit-license.md).
 
