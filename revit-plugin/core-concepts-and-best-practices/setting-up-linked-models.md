@@ -24,12 +24,12 @@ The first step in the process is to ensure you open the model with the rooms, ar
 
 Ensure all the other Revit models are linked to the host model correctly. The `Manage Links` button is under the Manage tab in Revit.
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 3. Load the families from linked models
 
 Use the `Links` dropdown in `Select Apertures/Doors` and `Create Shades` menus to load the families from the linked model to the selection.\\
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once you add the linked models in the Pollination UIs, you can select them just like how you would select the families from the host model.

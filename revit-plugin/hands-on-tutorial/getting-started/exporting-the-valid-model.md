@@ -12,7 +12,7 @@ Here is a copy of the final model after validation.
 
 Well done! Time to enjoy the outcome of your work. Click the export button, and export the model to any of the supported file formats.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If no geometry is selected, Pollination exports all the rooms and shades in the model. But if you select any of the rooms or shades, it will only export the selected items.
@@ -68,5 +68,5 @@ In addition to the software that we listed above you could use the gbXML export 
 
 <figure><img src="../../../.gitbook/assets/unnamed (1).jpg" alt=""><figcaption><p>Revit sample model in TRACE 3D Plus (.TRACEXML)</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Revit Sample Model in HAP 6.3 (.gbXML)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Revit Sample Model in HAP 6.3 (.gbXML)</p></figcaption></figure>
 

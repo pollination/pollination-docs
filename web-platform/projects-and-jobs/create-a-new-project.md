@@ -14,11 +14,11 @@ You can only create new projects under the organization if you are the owner of 
 
 Click on the plus symbol on the upper right corner of the screen and select New Project from the dropdown.
 
-<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Select New Project from the dropdown</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption><p>Select New Project from the dropdown</p></figcaption></figure>
 
 Alternatively, you can create a new project from the Projects tab. Click on the dropdown menu and click on Your Projects.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then click on the plus symbol on the top right of the screen.
 

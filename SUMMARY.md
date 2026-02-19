@@ -1,26 +1,24 @@
 # Table of contents
 
-* [User Manual](README.md)
+* [Pollination User Manual](README.md)
 
-## Get Started
+## Getting Started
 
-* [Create a Pollination Account](get-started/create-a-pollination-account.md)
-* [Understanding Pollination Licensing Structure](get-started/seats-vs-licenses.md)
-* [Setting up an Organization](web-platform/account-setup/README.md)
-  * [1. Create an Organization](web-platform/account-setup/create-an-organization.md)
-  * [2. Add Organization Seats](web-platform/account-setup/purchase-additional-seats.md)
-  * [3. Add Team Members](web-platform/account-setup/add-a-member-to-your-account.md)
-  * [4. Purchase and Manage CAD Licenses](web-platform/account-setup/purchase-and-manage-plugins.md)
-  * [5. Manage License Pools](get-started/manage-license-pool.md)
-* [Setting up Rhino, Grasshopper and Revit Plugins](get-started/setting-up-rhino-grasshopper-and-revit-plugins/README.md)
-  * [Download CAD Plugins](get-started/setting-up-rhino-grasshopper-and-revit-plugins/download-plugins.md)
-  * [Install CAD Plugins](get-started/setting-up-rhino-grasshopper-and-revit-plugins/download-and-install-plugins.md)
-  * [Purchase and Manage CAD Plugins](get-started/setting-up-rhino-grasshopper-and-revit-plugins/purchase-and-manage-plugins.md)
+* [Creating a Pollination Account](getting-started/create-a-pollination-account.md)
+* [Free Trial of Pollination Products](getting-started/free-trial-of-pollination-products.md)
+* [Buying Pollination Products](getting-started/buying-pollination-products/README.md)
+  * [Understanding Pollination Subscriptions Types](getting-started/buying-pollination-products/seats-vs-licenses.md)
+  * [Setting Up your Pollination Organization](getting-started/buying-pollination-products/setting-up-your-pollination-organization.md)
+  * [Creating New Pollination Subscriptions](getting-started/buying-pollination-products/creating-new-pollination-subscriptions.md)
+* [Managing Pollination Organization](getting-started/account-setup/README.md)
+  * [Managing Members](getting-started/account-setup/managing-members.md)
+  * [Managing License Pools](getting-started/account-setup/managing-license-pools.md)
+  * [Managing Subscriptions](getting-started/account-setup/managing-subscriptions.md)
 
 ## REVIT PLUGIN
 
 * [Before You Begin: Is the Pollination Revit Plugin Right for You?](revit-plugin/getting-started.md)
-* [Before You Begin: Frequently Asked Questions](revit-plugin/before-you-begin-frequently-asked-questions.md)
+* [Pollination Revit Plugin Demos](revit-plugin/pollination-revit-plugin-demos.md)
 * [Core Concepts & Best Practices](revit-plugin/core-concepts-and-best-practices/README.md)
   * [Modeling Best Practices](revit-plugin/core-concepts-and-best-practices/modeling-best-practices.md)
   * [Navigating Pollination Plugin Tab](revit-plugin/core-concepts-and-best-practices/getting-started.md)

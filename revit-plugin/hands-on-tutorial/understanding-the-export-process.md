@@ -22,7 +22,7 @@ These steps are:
 
 In the first step, we need to select the family types that should be exported as windows and doors. Pollination lists all the possible families and helps you visualize them so you can pick the right families to be exported as windows and doors.
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Select Windows/Doors Menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>Select Windows/Doors Menu</p></figcaption></figure>
 
 ## 2. Selecting roofs (optional)
 
@@ -38,7 +38,7 @@ By default, all the roofs will be exported to the Model Editor. That gives you t
 
 Once we have picked the doors and windows, we go through the process of reviewing and exporting the Revit rooms, spaces, or areas as Pollination rooms. Pollination helps you to create clean plan floors in Revit so you can review them quickly, and insert any missing rooms with exterior faces. It also helps you visualize the rooms with windows before exporting them as snapshots to ensure they look as expected.
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Export Rooms Menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p>Export Rooms Menu</p></figcaption></figure>
 
 {% hint style="info" %}
 We don't worry about cleaning up gaps and small holes in this step. That's for step 5.
@@ -48,7 +48,7 @@ We don't worry about cleaning up gaps and small holes in this step. That's for s
 
 You can also use the Pollination Revit plugin to export shades. It is not a required step but a popular one nevertheless. Pollination provides several options for selecting shades, and an easy way to visualize them before the export. It also provides options to remove small faces from the shade automatically. This feature is particularly useful when exporting non-planar geometries as shades from Revit.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Export Shades Menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Export Shades Menu</p></figcaption></figure>
 
 ## 5. Cleaning up and exporting the snapshots in the Model Editor
 
@@ -58,4 +58,4 @@ Once you have the snapshots, you are free from the slowness of Revit and into th
 
 And finally, you can export your model to all the supported file formats with a single click.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Exported Revit Model</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Exported Revit Model</p></figcaption></figure>

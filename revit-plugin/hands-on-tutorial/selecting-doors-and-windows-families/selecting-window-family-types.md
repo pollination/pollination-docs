@@ -31,7 +31,7 @@ Pollination provides 3 different options for calculating window panels:
 
 The Revit sample model includes simple windows family types, and the default _Single Panel_ mode works without any issues, but in the real world, you will see more complex examples. Here is an example of a window that also includes 2 different shading elements and the frames as part of the window.
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>A window family which also includes the exterior shade</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p>A window family which also includes the exterior shade</p></figcaption></figure>
 
 The _Single Panel_ option tries to create a single panel from all the geometries. Since the shade elements are not aligned with the window, this is how the window would look when the Single Panel option is selected. Note the diagonal edge on the left side of the window.
 
@@ -77,4 +77,4 @@ The answer to this question is different for windows vs curtain wall panels. See
 
 Both windows and doors menus have a dropdown for loading families from linked models. Simply select the linked model, and you will see the families loaded in the table. See [this page](../../core-concepts-and-best-practices/setting-up-linked-models.md) for more information about setting up linked models.
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
