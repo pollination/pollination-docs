@@ -21,3 +21,15 @@ As part of the process, you should receive an email from `pollination@app.pollin
 After creating your Pollination account you will automatically be added to [Pollination Discourse](https://discourse.pollination.solutions) page to be able to post your questions, interact with the other Pollination users. You will receive a verification email to confirm your Discourse sign up. Once you verify your account, you can log into Pollination Discourse using the same Pollination authentication.
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+## Frequently Asked Questions
+
+### Can I delete my Pollination account?
+
+Yes. You can always delete your Pollination account. To delete your Pollination account, navigate to your profile page and click on "Delete Account." Be aware that this will permanently erase all your information from Pollination and cannot be undone. You can create a new account later using the same credentials if needed.
+
+<figure><img src="../.gitbook/assets/image (216).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (217).png" alt=""><figcaption></figcaption></figure>
