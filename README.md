@@ -20,13 +20,13 @@ If you landed here from a search not knowing what Pollination is you should prob
 
 Pollination Revit plugin and Pollination Revit and Grasshopper plugins streamline the transition of building models from Revit and Rhino to building energy simulation software so you don't have to trace over the drawings anymore. It is easier, faster and it gives you a better model.
 
-<figure><img src=".gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 We understand that everyone has their own preferred energy simulation software, as it is a very fragmented market. That is why we support a growing list of the most frequently used building simulation software, including but not limited to EnergyPlus, eQuest, OpenStudio, IESVE, DesignBuilder, IDA ICE, Ladybug Tools Honeybee, and Pollination Rhino.
 
 Unlike other interoperability tools, we don't rely on gbXML. For all the software mentioned above, we export the model to their native file format. For instance, we generate an IDF file for EnergyPlus, an INP file for eQuest, and a GEM file for IESVE. That's how we can guarantee the quality of the export and a successful import to your software of choice. That said, Pollination also exports a valid gbXML file that you can use to export your model to software like TRACE700, TRACE 3D Plus, HAP 6.3+, EnergyPro, and more.
 
-<figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 We understand the desire for an exact percentage or a specific number of hours that Pollination will save you. However, we can't provide that without making up some numbers. The truth is that the time saved varies between models, but here's what we've observed among customers using Pollination:
 
@@ -35,7 +35,7 @@ We understand the desire for an exact percentage or a specific number of hours t
 
 Once you learn how to use Pollination, you can say goodbye to drawing models from scratch..
 
-<figure><img src=".gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 If you are still skeptical, [check out what our customers are saying about Pollination](https://www.pollination.solutions/customers). More likely than not, you'll recognize some of the faces, and you can get in touch with them to ask about Pollination and how it has helped them with their projects.
 
@@ -49,7 +49,7 @@ Before moving to the next part to explain how the plugins work, it's helpful to 
 
 We understand that trying yet another building energy modeling plugin can be risky. While you need a better workflow, you don't want to look bad by recommending a plugin that doesn't work. To make it easier to get started, we will help you export your first Revit and Rhino models at no cost, even before you commit to buying the plugins. If anything goes wrong, it will be on us, and if it works, you'll look like the smartest person in the office!
 
-<figure><img src=".gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## <img src=".gitbook/assets/revit_plugin.png" alt="" data-size="line">Pollination Revit Plugin
 
@@ -59,11 +59,11 @@ We know, particularly when it comes to a Revit plugins to export energy models, 
 
 Here is our secret sauce: instead of trying to develop a magic one-click software that claims to fix everything but disappoints when used in real-world projects, we have built a software that helps automate most of the process while relying on your intelligence to ensure the quality of the outcome, especially when dealing with real-world, imperfect Revit models.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p><a href="https://www.pollination.solutions/revit-plugin#facts">https://www.pollination.solutions/revit-plugin#facts</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p><a href="https://www.pollination.solutions/revit-plugin#facts">https://www.pollination.solutions/revit-plugin#facts</a></p></figcaption></figure>
 
 We expect you to put in some minimum effort, and in return, we will save you hours and days of time. If you're looking for a single-click magical button to give you a cleaned-up model, Pollination is not for you.
 
-<div align="center"><figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Here is a 15-minute video that walks you through the process using the current version of the Revit plugin.
 
@@ -75,8 +75,8 @@ In the next couple of months, we will release a new version of the Revit plugin 
 
 If you enjoy detailed step-by-step tutorials, then you should check out the hands-on tutorials for the Revit plugin.
 
-{% content-ref url="revit-plugin/hands-on-tutorial/" %}
-[hands-on-tutorial](revit-plugin/hands-on-tutorial/)
+{% content-ref url="revit-plugin/pollination-revit-classic/hands-on-tutorial/" %}
+[hands-on-tutorial](revit-plugin/pollination-revit-classic/hands-on-tutorial/)
 {% endcontent-ref %}
 
 ## <img src=".gitbook/assets/rhino_plugin.png" alt="" data-size="line"> Pollination Rhino Plugin
@@ -87,7 +87,7 @@ Not everyone has access to a Revit Model. If you only have 2D CAD, PDF drawings,
 
 This process technically involves redrawing the model, but it is much faster than using the native geometry modeling environment of the energy modeling software. The combination of Rhino's robust geometry library and [Pollination's commands](rhino-plugin/pollination-commands/by-use-case.md) for setting up and fixing models has made the Rhino plugin "the best tool for generating building performance geometry" in the market.
 
-<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Here are two example of models that are built by the Pollination Rhino plugin for real world projects.
 

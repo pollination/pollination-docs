@@ -12,7 +12,7 @@ Both Pollination Rhino and Revit plugins offer a 30-day free trial license. To b
 
 You can download the installers from [this page on our website](https://app.pollination.solutions/cad-plugins). You can also find the link on the landing page.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once you download the installer double click on it and follow the steps.
 

@@ -4,7 +4,7 @@ The Pollination Revit plugin is a practical solution. It is built upon our years
 
 Our guiding principle has been not to simplify the inherent complexities, and never claim to offer a magic bullet. Instead, we've developed a pragmatic product designed to help you generate a valid energy model even from imperfect real-world Revit files. Our commitment is to assist you in exporting your models from Revit, provided you approach the process with realistic expectations.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Let's start by clarifying three key facts about using Revit models for energy modeling:
 
@@ -54,5 +54,5 @@ Yes. You can find the links under [the FAQ section on our pricing page](https://
 
 ### Can I get a demo of the Revit plugin?
 
-Yes. [See this page for demos](pollination-revit-plugin-demos.md).
+Yes. [See this page for demos](pollination-revit-classic/pollination-revit-plugin-classic-demos.md).
 
