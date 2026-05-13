@@ -12,4 +12,14 @@ Set the adjacencies between the selected rooms to use air boundaries. Note that 
 
 Solve adjacency between selected rooms by assigning interior boundary conditions where rooms touch one another.
 
+<details>
+
+<summary>Options</summary>
+
+**Inter-Story Adjacencies**
+
+  Select to have the adjacency between the stories solved
+
+</details>
+
 ---
