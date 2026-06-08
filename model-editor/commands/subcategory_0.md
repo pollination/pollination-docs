@@ -54,6 +54,10 @@ Automatically align selected rooms to common axes identified across them. The co
 
   Select to have the currently selected line geometry override any suggested alignment axes. This can be used to ensure that auto-aligning does not move parts of the model that are already correct.
 
+**Constrain Edges**
+
+  Select to have all axes of the room edges that were not pulled to the line geometry be preserved
+
 **Group by Base Plane**
 
   Select to have the command group the selected rooms by the underlying base plane that best fits the room geometry before auto-aligning them. This is useful in cases where the selected rooms contain different structural grids that are at angles to one another.
