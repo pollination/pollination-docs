@@ -30,6 +30,10 @@ Change units and/or tolerance.
 
   Model units system
 
+**Format**
+
+  Model units format
+
 **Angle Tolerance**
 
   Model angle tolerance in degrees
