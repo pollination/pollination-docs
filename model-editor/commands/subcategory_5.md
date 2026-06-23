@@ -60,6 +60,10 @@ Check whether the selected rooms are valid/simulate-able. Valid models should ex
 
   The destination engine for which validation will be performed. Selecting an option here will ignore checks that are not relevant for the engine. Use the 'Generic' option if the intention is to make a model for multiple engines.
 
+**Include Warnings**
+
+  Select to have validation run checks for cases that are not true errors but are likely still indicative of poor modeling that should be fixed. For example, selecting this option will run a check for small gaps between rooms, which does not make the model invalid but will probably result in interior boundary conditions not being assigned in cases where they are expected.
+
 </details>
 
 ---

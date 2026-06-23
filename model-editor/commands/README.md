@@ -198,6 +198,10 @@ Remove all duplicate roof geometries across the model. [Read more](./me_remove_d
 
 Convert roofs to shade objects. [Read more](./me_roof_to_shade.md).
 
+#### <img src="images/roof-shade.svg" width="20" height="20"> **Shade to roof**
+
+Convert shade objects to roofs. [Read more](./me_shade_to_roof.md).
+
 #### <img src="images/show-tilt.svg" width="20" height="20"> **Show tilt**
 
 Show tilt of the roof temporarily. [Read more](./me_show_tilt.md).

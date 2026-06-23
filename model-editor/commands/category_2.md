@@ -90,6 +90,12 @@ Convert roofs to shade objects.
 
 ---
 
+## <img src="images/roof-shade.svg" width="30" height="30"> Shade to roof
+
+Convert shade objects to roofs.
+
+---
+
 ## <img src="images/show-tilt.svg" width="30" height="30"> Show tilt
 
 Show tilt of the roof temporarily.
