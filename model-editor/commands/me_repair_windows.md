@@ -1,6 +1,6 @@
 # Repair invalid windows
 
-![](<../../.gitbook/assets/repair-windows (2).svg>)
+![](<../../.gitbook/assets/repair-windows (1).svg>)
 
 Fix the windows of the rooms by merging the colliding windows and trimming those that extend past the parent Face. The Rectangle option can be used to further simplify non-rectangular windows into rectangular shapes
 

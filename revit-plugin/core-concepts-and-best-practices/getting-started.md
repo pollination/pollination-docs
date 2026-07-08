@@ -12,7 +12,7 @@ Once Revit opens, you can find a tab for Pollination in the ribbon. The Pollinat
 * Resources
 * Model
 
-<figure><img src="../../.gitbook/assets/image (47) (1).png" alt=""><figcaption><p>Pollination Tab</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p>Pollination Tab</p></figcaption></figure>
 
 Below is the list of different sections and buttons:
 

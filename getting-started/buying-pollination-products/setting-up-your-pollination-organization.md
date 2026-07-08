@@ -14,5 +14,4 @@ No need to worry about the Avatar URL; you can update the profile image later in
 
 Once the organization is created you will be redirected to the organization's subscription page automatically. You will be the first and the only owner of the organization.
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt="" width="563"><figcaption></figcaption></figure>
-
+<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="563"><figcaption></figcaption></figure>

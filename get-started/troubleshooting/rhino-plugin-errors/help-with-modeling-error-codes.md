@@ -1,6 +1,6 @@
 # Validation Error Codes
 
-The validation process happens automatically upon importing a model to the Rhino plugin or whenever the [po\_validatemodel.md](../../../rhino-plugin/pollination-commands/po\_validatemodel.md "mention") command is run. It can also be run on a `.hbjson` file from the command line by installing [lbt-honeybee](https://pypi.org/project/lbt-honeybee/) and then running the [`honeybee validate model`](https://www.ladybug.tools/honeybee-core/docs/cli/validate.html) command.
+The validation process happens automatically upon importing a model to the Rhino plugin or whenever the [po\_validatemodel.md](../../../rhino-plugin/pollination-commands/po_validatemodel.md "mention") command is run. It can also be run on a `.hbjson` file from the command line by installing [lbt-honeybee](https://pypi.org/project/lbt-honeybee/) and then running the [`honeybee validate model`](https://www.ladybug.tools/honeybee-core/docs/cli/validate.html) command.
 
 The validation process runs a number of tests on the model, each of which corresponds to a specific validation error code. A model failing a specific test will return this error code along with a message about the failing Model object. A model that passes all validation can be simulated in the engines that Honeybee connects to without error (eg. OpenStudio/EnergyPlus, RAdiance, etc.). Validation is therefore meant to be a comprehensive check of all things that could make a model un-simulate-able, including things like compliance with [the 5 golden rules of honeybee schema geometry](https://github.com/ladybug-tools/honeybee-schema/wiki/2.1-Face3D-Schema#the-5-golden-rules-of-honeybee-schema-geometry) as well as engine-specific checks like adjacent constructions being in reverse order of materials for EnergyPlus simulation.
 
@@ -22,25 +22,25 @@ Below is a list of all validation error codes that can be obtained from the Hone
 
 **Duplicate Shade Identifier** - Two or more Shades in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during the serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object.
 
-This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../../rhino-plugin/pollination-commands/po\_resetidentifier.md "mention")command can be used to change object identifiers.
+This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../../rhino-plugin/pollination-commands/po_resetidentifier.md "mention")command can be used to change object identifiers.
 
 ### 000002
 
 **Duplicate Sub-Face Identifier** - Two or more Apertures or Doors in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during the serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object.
 
-This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../../rhino-plugin/pollination-commands/po\_resetidentifier.md "mention")command can be used to change object identifiers.
+This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../../rhino-plugin/pollination-commands/po_resetidentifier.md "mention")command can be used to change object identifiers.
 
 ### 000003
 
 **Duplicate Face Identifier** - Two or more Faces in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during the serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object.
 
-This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../../rhino-plugin/pollination-commands/po\_resetidentifier.md "mention")command can be used to change object identifiers.
+This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../../rhino-plugin/pollination-commands/po_resetidentifier.md "mention")command can be used to change object identifiers.
 
 ### 000004
 
 **Duplicate Room Identifier** - Two or more Rooms in the model have the same identifier. This is not only illegal in EnergyPlus and can cause strange behavior in Radiance, but it can also result in errors during the serialization of the model to/from any file format. For example, properties for EnergyPlus or Radiance may be assigned to the incorrect object.
 
-This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../../rhino-plugin/pollination-commands/po\_resetidentifier.md "mention")command can be used to change object identifiers.
+This issue should be fixed by finding the object with the duplicate identifier and changing its ID or deleting the object. In Rhino, the [po\_resetidentifier.md](../../../rhino-plugin/pollination-commands/po_resetidentifier.md "mention")command can be used to change object identifiers.
 
 ### 000101
 
@@ -48,7 +48,7 @@ This issue should be fixed by finding the object with the duplicate identifier a
 
 This error must be fixed for simulation in both Radiance and EnergyPlus since these engines only accept planar geometry.
 
-If the non-planarity of the geometry is not that severe, it can sometimes be fixed by using the [PO\_RebuildRooms](../../../rhino-plugin/pollination-commands/po\_rebuildrooms.md) command with the `RebuildFaces` option or by using the [PO\_AlignInPlan](../../../rhino-plugin/pollination-commands/po\_aligninplan.md) command. Otherwise, more detailed editing of vertices on the individual geometry object may be required.
+If the non-planarity of the geometry is not that severe, it can sometimes be fixed by using the [PO\_RebuildRooms](../../../rhino-plugin/pollination-commands/po_rebuildrooms.md) command with the `RebuildFaces` option or by using the [PO\_AlignInPlan](../../../rhino-plugin/pollination-commands/po_aligninplan.md) command. Otherwise, more detailed editing of vertices on the individual geometry object may be required.
 
 ### 000102
 
@@ -99,7 +99,7 @@ The message associated with the error should list the number of naked and non-ma
 
 **Colliding Room Volumes** - There are two Rooms in the Model with volumes that collide with one another such that each Room geometry extends into the other. While this will not cause a simulation failure for either EnergyPlus or Radiance, it may cause a failure to translate to IES-VE, eQuest, or IDA-ICE (or it will result in warnings when the model is opened in these programs). It's also generally considered poor modeling in the EnergyPlus documentation, even though it does not cause the simulation to stop.
 
-The issue can often be corrected by using the [PO\_AlignInPlan](../../../rhino-plugin/pollination-commands/po\_aligninplan.md) command or the [PO\_AlignToRoom](../../../rhino-plugin/pollination-commands/po\_aligntoroom.md) command in the Rhino plugin. In the Revit plugin, checking room bounding elements or using alignment lines can usually correct the issue.
+The issue can often be corrected by using the [PO\_AlignInPlan](../../../rhino-plugin/pollination-commands/po_aligninplan.md) command or the [PO\_AlignToRoom](https://github.com/pollination/pollination-docs/blob/master/rhino-plugin/pollination-commands/po_aligntoroom.md) command in the Rhino plugin. In the Revit plugin, checking room bounding elements or using alignment lines can usually correct the issue.
 
 ### 000201
 
@@ -273,7 +273,6 @@ The easiest way to solve the issue is to just move all of the model geometry dow
 
 The simplest way to fix the issue is to re-assign a symmetric construction to both adjacent objects. Symmetric constructions are ones where the reversed order of materials is the same as the non-reversed order. The issue can also be solved by taking an existing asymmetric construction, duplicating it, reversing its material order, giving it a new name/identifier, and assigning it to the other adjacent object.
 
-
 ## DOE-2 Error Codes
 
 ### 030101
@@ -290,7 +289,7 @@ Depending on the exact reason for the high number of vertices, it may also be po
 
 **Room Contains Holes** - The room's floor plate has one or more holes in it. EQuest currently has no way to represent such rooms so, if the issue is not addressed, the hole will simply be removed as part of the process of exporting to an INP file.
 
-The easiest way to address the issue is to use the [Split](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_split) command to split the room into two or more rooms through the hole(s). 
+The easiest way to address the issue is to use the [Split](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_split) command to split the room into two or more rooms through the hole(s).
 
 ### 030103
 
@@ -298,7 +297,7 @@ The easiest way to address the issue is to use the [Split](https://docs.pollinat
 
 The easiest way to address the issue is to create a small gap (at least a half of a foot wide) that cuts a line from the outer-most boundary of the story to the courtyard, effectively joining the courtyard to the outer boundary. This is the officially recommended workaround from the eQuest developers as is illustrated in the eQuest Schematic Design Wizard when, on the second page, “Rectangular Atrium” is selected for the building shape.
 
- This can be accomplished in the model editor by using the [Split](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_split) command with a non-zero "Gap Distance" to effectively introduce a gap along a line that runs from the outer-most boundary of the story to the courtyard.
+This can be accomplished in the model editor by using the [Split](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_split) command with a non-zero "Gap Distance" to effectively introduce a gap along a line that runs from the outer-most boundary of the story to the courtyard.
 
 ## Dragonfly Error Codes
 
@@ -336,7 +335,7 @@ Note that duplicated vertices are still considered valid and vertices are consid
 
 **Invalid Window Parameters** - Windows or Skylights are formatted such that the resulting geometries overlap with one another, are degenerate/self-intersecting (like a bowtie), or they extend past the parent face. When the window or skylight geometry is translated to into a complete 3D Honeybee model, the resulting Apertures or Doors will be invalid, creating issues with shading calculations in both Radiance and EnergyPlus and throwing errors in other interfaces like IES-VE, IDA-ICE, and eQuest.
 
-In the model editor, the easiest way to fix these cases is to run the [Repair Windows](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_repair_windows) command, which will delete degenerate windows, offset windows from the parent face edges, and offers options for resolving overlaps between the window geometries. 
+In the model editor, the easiest way to fix these cases is to run the [Repair Windows](https://docs.pollination.solutions/user-manual/model-editor/commands/alphabetically/me_repair_windows) command, which will delete degenerate windows, offset windows from the parent face edges, and offers options for resolving overlaps between the window geometries.
 
 ### 100104
 

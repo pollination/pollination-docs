@@ -93,7 +93,7 @@ Here are two example of models that are built by the Pollination Rhino plugin fo
 
 <div><figure><img src=".gitbook/assets/image (173).png" alt=""><figcaption><p>Credits: <a href="https://vripack.com/project-zero/">https://vripack.com/project-zero/<br></a></p></figcaption></figure> <figure><img src=".gitbook/assets/cloud-city.jpg" alt=""><figcaption><p>Credits: Cloud City by Thornton Tomasetti and Studio Tomás Saraceno</p></figcaption></figure></div>
 
-See the [Rhino plugin section](/broken/pages/-MaZsm2EiZQboqIlOaf8) to get started with using the Rhino plugin.
+See the [Rhino plugin section](https://app.gitbook.com/s/-MaZZSUE1L_iKrqfreV9/rhino-plugin) to get started with using the Rhino plugin.
 
 ### Integration with Grasshopper
 

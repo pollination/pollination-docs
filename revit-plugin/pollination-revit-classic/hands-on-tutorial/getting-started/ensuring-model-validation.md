@@ -12,7 +12,7 @@ To ensure the validity of the model we check every level for small gaps, and any
 
 * ![](../../../../.gitbook/assets/find-adjacency-gaps.svg)[Find Adjacency Gaps](../../../../model-editor/commands/me_find_adjacency_gaps.md)
 * Highlight Non-orthogonal Walls (Alt + O)
-* ![](<../../../../.gitbook/assets/solve-adjacency (1).svg>) [Solve Adjacency](../../../../model-editor/commands/me_solve_adjacency.md)
+* ![](../../../../.gitbook/assets/solve-adjacency.svg) [Solve Adjacency](../../../../model-editor/commands/me_solve_adjacency.md)
 * Highlight External Walls (Alt + E)
 
 We will also use the validation routine to ensure the model is valid. If you have followed the previous steps, you should have already resolved most of the validation errors related to the floor plans.

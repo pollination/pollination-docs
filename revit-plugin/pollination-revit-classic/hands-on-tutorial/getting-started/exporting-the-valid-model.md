@@ -28,7 +28,7 @@ For this tutorial, we will export the model to Pollination Rhino (.HBJSON), IESV
 
 ### Pollination Rhino (.HBJSON)
 
-<figure><img src="../../../../.gitbook/assets/image (40) (1).png" alt=""><figcaption><p>Revit sample model in [Pollination] Rhino (.HBJSON)</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (40).png" alt=""><figcaption><p>Revit sample model in [Pollination] Rhino (.HBJSON)</p></figcaption></figure>
 
 {% file src="../../../../.gitbook/assets/2023_rac_advanced_sample_project.hbjson" %}
 
@@ -40,7 +40,7 @@ For this tutorial, we will export the model to Pollination Rhino (.HBJSON), IESV
 
 ### eQuest (.INP)
 
-<figure><img src="../../../../.gitbook/assets/image (41) (1).png" alt=""><figcaption><p>Revit sample model in eQuest (.INP)</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (41).png" alt=""><figcaption><p>Revit sample model in eQuest (.INP)</p></figcaption></figure>
 
 {% file src="../../../../.gitbook/assets/2023_rac_advanced_sample_project.inp" %}
 
@@ -52,13 +52,13 @@ For this tutorial, we will export the model to Pollination Rhino (.HBJSON), IESV
 
 ### OpenStudio (.OSM)
 
-<figure><img src="../../../../.gitbook/assets/image (43) (1).png" alt=""><figcaption><p>Revit sample model in OpenStudio (.OSM)</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (43).png" alt=""><figcaption><p>Revit sample model in OpenStudio (.OSM)</p></figcaption></figure>
 
 {% file src="../../../../.gitbook/assets/2023_rac_advanced_sample_project.osm" %}
 
 ### gbXML
 
-<figure><img src="../../../../.gitbook/assets/image (42) (1).png" alt=""><figcaption><p>Revit sample model in Spider (.gbXML)</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (42).png" alt=""><figcaption><p>Revit sample model in Spider (.gbXML)</p></figcaption></figure>
 
 {% file src="../../../../.gitbook/assets/2023_rac_advanced_sample_project.xml" %}
 
@@ -69,4 +69,3 @@ In addition to the software that we listed above you could use the gbXML export 
 <figure><img src="../../../../.gitbook/assets/unnamed (1).jpg" alt=""><figcaption><p>Revit sample model in TRACE 3D Plus (.TRACEXML)</p></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>Revit Sample Model in HAP 6.3 (.gbXML)</p></figcaption></figure>
-

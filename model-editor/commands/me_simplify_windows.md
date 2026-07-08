@@ -1,6 +1,6 @@
 # Simplify windows
 
-![](<../../.gitbook/assets/simplify-windows (2).svg>)
+![](<../../.gitbook/assets/simplify-windows (1).svg>)
 
 Simplify and reduce the number of windows and/or skylights while maintaining the overall exterior window/skylight area. Useful for improving simulation speed without significantly changing energy use results.
 

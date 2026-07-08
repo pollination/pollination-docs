@@ -4,7 +4,7 @@
 
 Pollination provides 3 different preview options.
 
-<figure><img src="../../../../.gitbook/assets/image (37) (1).png" alt=""><figcaption><p>3D Preview Options</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (37).png" alt=""><figcaption><p>3D Preview Options</p></figcaption></figure>
 
 Starting from right to left:
 

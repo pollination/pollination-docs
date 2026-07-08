@@ -1,5 +1,5 @@
 # Resolve roof overlaps
 
-![](<../../.gitbook/assets/resolve-roof-overlaps (2).svg>)
+![](../../.gitbook/assets/resolve-roof-overlaps.svg)
 
 Clean up roof geometries across the model.

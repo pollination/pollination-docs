@@ -8,7 +8,7 @@ There are two ways to identify the families in the Revit model:
 
 1.  Right-click on the family name and click on `Select All`. That will select all the families with the same type in the Revit active view. It's usually easier to see the windows if you are in a 3D view.\\
 
-    <figure><img src="../../../../.gitbook/assets/image (18) (2).png" alt=""><figcaption><p>Highlighting the family type in the viewport</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Highlighting the family type in the viewport</p></figcaption></figure>
 2.  Select the family, and use the \`Preview\` button to preview them in the Pollination 3D viewer inside the menu.
 
     <figure><img src="../../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Preview a family inside the menu</p></figcaption></figure>

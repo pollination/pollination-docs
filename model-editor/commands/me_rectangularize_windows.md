@@ -1,6 +1,6 @@
 # Rectangularize windows
 
-![](<../../.gitbook/assets/rectangularize-windows (1).svg>)
+![](../../.gitbook/assets/rectangularize-windows.svg)
 
 Convert windows and/or skylights to rectangles. Useful for cleaning Revit-exported window families that are supposed to be rectangular.
 

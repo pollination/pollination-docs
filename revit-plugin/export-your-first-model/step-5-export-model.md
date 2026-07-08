@@ -12,7 +12,7 @@ Finally, we will head to the Export panel to send your model to your simulation 
 
 ### Pollination Rhino (.HBJSON)
 
-<figure><img src="../../.gitbook/assets/image (40) (1).png" alt=""><figcaption><p>Revit sample model in [Pollination] Rhino (.HBJSON)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption><p>Revit sample model in [Pollination] Rhino (.HBJSON)</p></figcaption></figure>
 
 {% file src="../../.gitbook/assets/2023_rac_advanced_sample_project.hbjson" %}
 
@@ -24,7 +24,7 @@ Finally, we will head to the Export panel to send your model to your simulation 
 
 ### eQuest (.INP)
 
-<figure><img src="../../.gitbook/assets/image (41) (1).png" alt=""><figcaption><p>Revit sample model in eQuest (.INP)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption><p>Revit sample model in eQuest (.INP)</p></figcaption></figure>
 
 {% file src="../../.gitbook/assets/2023_rac_advanced_sample_project.inp" %}
 
@@ -36,13 +36,13 @@ Finally, we will head to the Export panel to send your model to your simulation 
 
 ### OpenStudio (.OSM)
 
-<figure><img src="../../.gitbook/assets/image (43) (1).png" alt=""><figcaption><p>Revit sample model in OpenStudio (.OSM)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption><p>Revit sample model in OpenStudio (.OSM)</p></figcaption></figure>
 
 {% file src="../../.gitbook/assets/2023_rac_advanced_sample_project.osm" %}
 
 ### gbXML
 
-<figure><img src="../../.gitbook/assets/image (42) (1).png" alt=""><figcaption><p>Revit sample model in Spider (.gbXML)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption><p>Revit sample model in Spider (.gbXML)</p></figcaption></figure>
 
 {% file src="../../.gitbook/assets/2023_rac_advanced_sample_project.xml" %}
 

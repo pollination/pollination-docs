@@ -1,6 +1,6 @@
 # Make windows flush
 
-![](<../../.gitbook/assets/make-windows-flush (1).svg>)
+![](../../.gitbook/assets/make-windows-flush.svg)
 
 Make the edges of nearby windows flush with one another. Useful for cleaning up overlapping windows in a way that does not merge them together like 'Repair Windows' or removing gaps between windows without offsetting all edges like 'Offset windows for frame'.
 

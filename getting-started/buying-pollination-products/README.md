@@ -1,6 +1,6 @@
 # Buying Pollination Products
 
-This section covers everything that you need to know for buying Pollination. We will explain [Pollination subscription types](seats-vs-licenses.md) before explaining [how to set up your Pollination organization](setting-up-your-pollination-organization.md) and [buy the subscriptions for your organization](creating-new-pollination-subscriptions.md).&#x20;
+This section covers everything that you need to know for buying Pollination. We will explain [Pollination subscription types](seats-vs-licenses.md) before explaining [how to set up your Pollination organization](setting-up-your-pollination-organization.md) and [buy the subscriptions for your organization](creating-new-pollination-subscriptions.md).
 
 Let's answer some of the most frequently asked questions that come up in the process of buying Pollination before getting started.
 
@@ -8,7 +8,7 @@ Let's answer some of the most frequently asked questions that come up in the pro
 
 ### Where can I find Pollination Terms of Service? Is Pollination GDPR compliant?
 
-Yes. You can find Pollination Terms of Service, as well as other legal documents under the [legal section](/broken/pages/H2s1mQG9pkQZIhQarvtB).
+Yes. You can find Pollination Terms of Service, as well as other legal documents under the [legal section](https://app.gitbook.com/s/-MaZZSUE1L_iKrqfreV9/legal).
 
 ### Are you collecting project data? What is your data privacy policy?
 

@@ -4,11 +4,11 @@
 
 To start exporting shades as a Pollination snapshot, click on the Export Shades button.
 
-<figure><img src="../../../.gitbook/assets/image (52) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 The button opens up a menu that allows you to select Revit elements and export them as shade objects in an energy model. Like the "Export Rooms" menu, you can visualize the shades in the UI before exporting them.
 
-<figure><img src="../../../.gitbook/assets/image (175) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (175).png" alt=""><figcaption></figcaption></figure>
 
 There are 3 options for adding elements as shades:
 

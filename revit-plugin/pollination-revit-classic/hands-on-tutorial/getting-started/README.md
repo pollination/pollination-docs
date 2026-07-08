@@ -4,7 +4,7 @@ Once you have the snapshots, you can use the Pollination Model Editor to clean t
 
 To open the Model Editor, click the "Export Model" button.
 
-<figure><img src="../../../../.gitbook/assets/image (53) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
 This video gives you an overview of the Model Editor UI.
 

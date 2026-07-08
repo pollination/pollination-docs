@@ -1,6 +1,6 @@
 # Import windows
 
-![](<../../.gitbook/assets/import-windows (1).svg>)
+![](../../.gitbook/assets/import-windows.svg)
 
 Import windows and doors from a HBJSON file, replacing the currently-assigned windows. If rooms are selected while running this command, only the windows and doors of the selected rooms will be updated.
 

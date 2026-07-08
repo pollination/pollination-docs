@@ -5,7 +5,7 @@
 * ![IMAGE](../../../.gitbook/assets/List_Run_Assets.png) [List\_Run\_Assets](../components/List_Run_Assets.md)
 * ![IMAGE](../../../.gitbook/assets/Setup_Runs.png) [Setup\_Runs](../components/Setup_Runs.md)
 * ![IMAGE](../../../.gitbook/assets/User_Inputs.png) [User\_Data](../components/User_Data.md)
-* ![IMAGE](../../../.gitbook/assets/Pollinate.png) [Pollinate](../components/Pollinate.md)
+* ![IMAGE](<../../../.gitbook/assets/Login (1).png>) [Pollinate](../components/Pollinate.md)
 * ![IMAGE](../../../.gitbook/assets/Check_Job_Status.png) [Check\_Study\_Status](../components/Check_Study_Status.md)
 * ![IMAGE](../../../.gitbook/assets/List_Studies.png) [List\_Studies](../components/List_Studies.md)
 * ![IMAGE](../../../.gitbook/assets/Add_a_project.png) [Add\_a\_project](../components/Add_a_project.md)
