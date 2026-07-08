@@ -682,6 +682,12 @@ Check whether the selected rooms are valid/simulate-able. Valid models should ex
 
 ---
 
+## <img src="images/reload-room.svg" width="30" height="30"> Reload Program Types
+
+Reload all program types from the current model.
+
+---
+
 ## <img src="images/reload-room.svg" width="30" height="30"> Reload Rooms from Revit
 
 Replace rooms with updated version of the room from Revit. Existing openings will be projected onto the updated rooms based on the specified projection distance and angle tolerance.
