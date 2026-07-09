@@ -1,4 +1,5 @@
 # Multipliers to geometry
-<img src="images/multipliers-to-geo.svg" width="50" height="50"> 
+
+<img src="../../.gitbook/assets/multipliers-to-geo (1).svg" alt="" height="50" width="50">
 
 Click to convert multipliers assigned to stories into explicit room geometry.
