@@ -1,5 +1,4 @@
 # Subtract rooms
-
-<img src="../../.gitbook/assets/subtract-rooms (1).svg" alt="" height="50" width="50">
+<img src="images/subtract-rooms.svg" width="50" height="50"> 
 
 Subtract one room from another room. Useful for resolving colliding room geometries.
