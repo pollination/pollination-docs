@@ -1,21 +1,23 @@
-# PO\_AlignInPlan2D
+# PO_AlignInPlan2D
 
 Rebuild all 2D plan curves by aligning them to Rhino grid.
 
 ## Options
 
-*   **DeleteInputs**
+* **DeleteInputs**
 
-    Delete the selected planar curves.
-*   **Threshold**
+  Delete the selected planar curves.
 
-    Minimum dimension of the offset to apply. Default 0.1.
+* **Threshold**
+
+  Minimum dimension of the offset to apply. Default 0.1.
 
 Notes:
 
-* All curve geometries' end points will be snapped together based on current model's tolerance.
+* All curve geometries&apos; end points will be snapped together based on current model&apos;s tolerance.
 
 ## See Also
 
-* [PO\_AlignInPlan](po_aligninplan.md)
-* [PO\_AlignToRoom](https://github.com/pollination/pollination-docs/blob/master/rhino-plugin/pollination-commands/po_aligntoroom.md)
+* [PO_AlignInPlan](./po_aligninplan.md)
+* [PO_AlignToRoom](./po_aligntoroom.md)
+
