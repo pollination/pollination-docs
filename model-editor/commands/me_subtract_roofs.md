@@ -1,5 +1,4 @@
 # Subtract roofs
-
-<img src="../../.gitbook/assets/diff-roof (1).svg" alt="" height="50" width="50">
+<img src="images/diff-roof.svg" width="50" height="50"> 
 
 Subtract one roof part from another one.
