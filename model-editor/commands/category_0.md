@@ -682,7 +682,7 @@ Check whether the selected rooms are valid/simulate-able. Valid models should ex
 
 ---
 
-## <img src="images/reload-room.svg" width="30" height="30"> Reload Program Types
+## <img src="images/reload-program.svg" width="30" height="30"> Reload Program Types
 
 Reload all program types from the current model.
 

@@ -134,7 +134,7 @@ Check whether the selected rooms are valid/simulate-able. Valid models should ex
 
 Check whether the selected rooms are valid/simulate-able. Valid models should export to any of the supported BEM engines without errors. Invalid models will have their errors presented in a table with the option to select the part of the model where the error originates so that it can be fixed. [Read more](./me_validate_model.md).
 
-#### <img src="images/reload-room.svg" width="20" height="20"> **Reload Program Types**
+#### <img src="images/reload-program.svg" width="20" height="20"> **Reload Program Types**
 
 Reload all program types from the current model. [Read more](./me_reload_program_types.md).
 
