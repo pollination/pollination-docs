@@ -10,6 +10,10 @@ Align the selected rooms' vertices to the selected lines/polylines if the room v
 
 Automatically align selected rooms to common axes identified across them. The command is intended to automatically perform most of the alignments that would typically be done manually. Note that having a line selected while running this command will force the generated alignment axes to be generated only in the plane of that line. [Read more](./me_auto_align.md).
 
+#### <img src="images/auto-align.svg" width="20" height="20"> **Auto block**
+
+Automatically group rooms into blocks using the most common orientation of right angles in the rooms. [Read more](./me_auto_block.md).
+
 #### <img src="images/auto-zone.svg" width="20" height="20"> **Auto zoning**
 
 Automatically assign zones to rooms with similar properties. Properties that are used to group rooms into zones include story, orientation, and (optionally) energy programs. [Read more](./me_auto_zoning.md).

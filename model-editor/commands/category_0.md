@@ -66,6 +66,22 @@ Automatically align selected rooms to common axes identified across them. The co
 
 ---
 
+## <img src="images/auto-align.svg" width="30" height="30"> Auto block
+
+Automatically group rooms into blocks using the most common orientation of right angles in the rooms.
+
+<details>
+
+<summary>Options</summary>
+
+**Angle Increment**
+
+  A positive number in degrees for the angle increment between blocks. This sets an upper limit on the number of blocks given that 45 divided by this increment yields the maximum number of categories the rooms can be grouped into
+
+</details>
+
+---
+
 ## <img src="images/auto-zone.svg" width="30" height="30"> Auto zoning
 
 Automatically assign zones to rooms with similar properties. Properties that are used to group rooms into zones include story, orientation, and (optionally) energy programs.
