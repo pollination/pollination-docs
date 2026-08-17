@@ -584,16 +584,6 @@ Set the adjacencies between the selected rooms to use air boundaries. Note that 
 
 Solve adjacency between selected rooms by assigning interior boundary conditions where rooms touch one another.
 
-<details>
-
-<summary>Options</summary>
-
-**Inter-Story Adjacencies**
-
-  Select to have the adjacency between the stories solved
-
-</details>
-
 ---
 
 ## <img src="images/unite-square-duotone.svg" width="30" height="30"> Create boundary
@@ -692,7 +682,7 @@ Check whether the selected rooms are valid/simulate-able. Valid models should ex
 
 **Destination engine**
 
-  The destination engine for which validation will be performed. Selecting an option here will ignore checks that are not relevant for the engine. Use the 'Generic' option if the intention is to make a model for multiple engines.
+  The destination engine for which validation will be performed. Selecting an option here will ignore checks that are not relevant for the engine. It is recommended to use the 'Generic' option if the intention is to make a model for multiple engines.
 
 **Include Warnings**
 
