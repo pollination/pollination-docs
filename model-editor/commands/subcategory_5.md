@@ -10,6 +10,10 @@ Show the selected rooms and shades in 3D. The preview shows up in a new floating
 
 <summary>Options</summary>
 
+**Color By**
+
+  A dropdown to indicate what should be used for coloring the geometry in 3D preview.
+
 **Inter-Story Adjacencies**
 
   Select to have the adjacency between the stories solved
