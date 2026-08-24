@@ -204,6 +204,10 @@ Remove the segments of the room polygon that are smaller than a certain specifie
 
   The maximum length of a segment below which it will be removed
 
+**Keep Coplanar Walls**
+
+  Select to have the coplanar walls kept in the result.
+
 </details>
 
 ---
@@ -520,13 +524,9 @@ Merge several rooms into a single room. Setting a Merge Distance that is larger 
 
   The maximum distance between the rooms in which the rooms should be merged.
 
-**Simplify Windows**
+**Keep Coplanar Walls**
 
-  Select to have the windows simplified when merging rooms.
-
-**Join Faces**
-
-  Select to have the coplanar walls should joined together when merging rooms.
+  Select to have the coplanar walls across the original rooms preserved through the merging.
 
 </details>
 
@@ -690,7 +690,11 @@ Check whether the selected rooms are valid/simulate-able. Valid models should ex
 
 **Include Warnings**
 
-  Select to have validation run checks for cases that are not true errors but are likely still indicative of poor modeling that should be fixed. For example, selecting this option will run a check for small gaps between rooms, which does not make the model invalid but will probably result in interior boundary conditions not being assigned in cases where they are expected.
+  Select to have validation run checks for cases that are not true errors but are likely still indicative of poor modeling that should be fixed. For example, small gaps between rooms, which does not make the model invalid but will result in interior boundary conditions not being assigned in cases where they are expected.
+
+**Gap Distance**
+
+  The minimum distance of a gap between rooms that is considered an intentional separation. This is only used when 'include warnings' is selected.
 
 </details>
 

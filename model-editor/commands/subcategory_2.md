@@ -54,13 +54,9 @@ Merge several rooms into a single room. Setting a Merge Distance that is larger 
 
   The maximum distance between the rooms in which the rooms should be merged.
 
-**Simplify Windows**
+**Keep Coplanar Walls**
 
-  Select to have the windows simplified when merging rooms.
-
-**Join Faces**
-
-  Select to have the coplanar walls should joined together when merging rooms.
+  Select to have the coplanar walls across the original rooms preserved through the merging.
 
 </details>
 

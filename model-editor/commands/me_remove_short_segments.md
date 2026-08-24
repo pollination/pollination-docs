@@ -8,3 +8,7 @@ Remove the segments of the room polygon that are smaller than a certain specifie
 * **Segment Distance**
 
   The maximum length of a segment below which it will be removed
+
+* **Keep Coplanar Walls**
+
+  Select to have the coplanar walls kept in the result.
