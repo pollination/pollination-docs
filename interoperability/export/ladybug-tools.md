@@ -1,8 +1,21 @@
 # Ladybug Tools Interoperability
 
-## Export/Import DFJSON and HBJSON
+## In the Pollination Revit Plugin (Model Editor)
 
-Both the Pollination Model Editor 
+To use models in the Pollination Model Editor with Ladybug Tools for Grasshopper, simply save the model as a "Honeybee Model (.hbjson)". This can be loaded into Grasshopper via the [HB Load Objects](https://docs.ladybug.tools/honeybee-primer/components/3_serialize/load_objects) component.
+
+![Export HBJSON in the Pollination Model Editor](../../.gitbook/assets/revit-plugin/export-hbjson.png)
+
+HBJSONs can also be opened directly within the Pollination Rhino plugin for further cleanup and customization before use with Ladybug Tools.
+
+Models passing Generic validation in the Model Editor will work well with all Ladybug Tools simulation features.
+
+
+## In the Pollination Rhino Plugin (Export/Import DFJSON and HBJSON)
+
+The Pollination Rhino plugin offers a "File > Save As" option for "Honeybee Model (*.hbjson)", which can be loaded into Grasshopper via the [HB Load Objects](https://docs.ladybug.tools/honeybee-primer/components/3_serialize/load_objects) component.
+
+However a more seamless integration with Ladybug Tools is achievable via the Pollination Rhino Grasshopper Components.
 
 
 ## Pollination Rhino Grasshopper Components
@@ -37,7 +50,7 @@ Use one of the entity components, for example _Pollination Room _and right click
 
 ![Menu of the actions](<../../../.gitbook/assets/image (117).png>)
 
-Click on _Select Pollination Rooms _to select the rooms you want from Rhino canvas. It convert every Pollination Rhino room to a Honeybee room.
+Click on _Select Pollination Rooms _to select the rooms you want from Rhino canvas. It converts every Pollination Rhino room to a Honeybee room.
 
 ![Selection of the Pollination rooms](<../../../.gitbook/assets/image (118).png>)
 

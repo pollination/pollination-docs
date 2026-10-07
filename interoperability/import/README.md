@@ -24,7 +24,7 @@ can be imported from the other formats. These are summarized below.
 | Model Element                   | HBJSON/<br>DFJSON | OSM             | IDF/<br>epJSON  | INP | GEM | gbXML            |
 | ------------------------------- | ----------------- | --------------- | --------------- | --- | --- | ---------------- |
 | Geometry                        | ☑                | ☑              | ☑ <sup>1</sup> | ☑  | ☑  | ☑               |
-| Zoning                          | ☑                | ☑              | ☑              | :x: | :x: | ☑               |
+| Zoning                          | ☑                | ☑              | ☑              | N/A | :x: | ☑               |
 | Face Types<br>(eg. AirBoundary) | ☑                | ☑              | ☑              | ☑  | ☑  | ☑               |
 | Boundary Conditions             | ☑                | ☑              | ☑              | ☑  | :x: | ☑               |
 | Opaque Constructions            | ☑                | ☑              | ☑              | :x: | :x: | ☑               |

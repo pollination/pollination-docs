@@ -15,6 +15,18 @@
   * [Managing License Pools](getting-started/account-setup/managing-license-pools.md)
   * [Managing Subscriptions](getting-started/account-setup/managing-subscriptions.md)
 
+## INTEROPERABILITY
+
+* [The Pollination Pact](interoperability/README.md)
+* [Export](interoperability/export/README.md)
+  * [Ladybug Tools](interoperability/export/ladybug-tools.md)
+  * [IESVE](interoperability/export/iesve.md)
+  * [OpenStudio](interoperability/export/openstudio.md)
+  * [gbXML](interoperability/export/gbxml.md)
+* [Import](interoperability/import/README.md)
+* [Validation](interoperability/validation/README.md)
+  * [Error Codes](interoperability/validation/validation-error-codes.md)
+
 ## REVIT PLUGIN
 
 * [Before You Begin: Is the Pollination Revit Plugin Right for You?](revit-plugin/getting-started.md)
@@ -179,21 +191,8 @@
   * [Add Sensor Grid](rhino-plugin/daylight-modeling/add-sensor-grid.md)
   * [Add View](rhino-plugin/daylight-modeling/add-view.md)
   * [Run Simulation and Visualize Daylighting Results](rhino-plugin/daylight-modeling/run-simulation-and-visualize-daylighting-results.md)
-* [Interoperability](rhino-plugin/interoperability/README.md)
-  * [Ladybug Tools Grasshopper Plugins](rhino-plugin/interoperability/ladybug-tools/README.md)
-    * [Entity components](rhino-plugin/interoperability/ladybug-tools/entity-components.md)
-  * [Import](rhino-plugin/interoperability/rhino-import/README.md)
-    * [Import HBJSON](rhino-plugin/interoperability/rhino-import/hbjson.md)
-    * [Import gbXML](rhino-plugin/interoperability/rhino-import/gbxml.md)
-    * [Import OSM](rhino-plugin/interoperability/rhino-import/osm.md)
-    * [Import IDF](rhino-plugin/interoperability/rhino-import/idf.md)
-  * [Export](rhino-plugin/interoperability/rhino-export/README.md)
-    * [Export HBJSON](rhino-plugin/interoperability/rhino-export/hbjson.md)
-    * [Export gbXML](rhino-plugin/interoperability/rhino-export/gbxml.md)
-    * [Export OSM and IDF](rhino-plugin/interoperability/rhino-export/osm.md)
 * [Troubleshooting](get-started/troubleshooting/README.md)
   * [Rhino Plugin Errors](get-started/troubleshooting/rhino-plugin-errors/README.md)
-  * [Validation Error Codes](get-started/troubleshooting/rhino-plugin-errors/help-with-modeling-error-codes.md)
 * [Pollination Commands](rhino-plugin/pollination-commands/README.md)
   * [By Use Case](rhino-plugin/pollination-commands/by-use-case.md)
     * [General](rhino-plugin/pollination-commands/category_0.md)
