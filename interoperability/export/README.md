@@ -2,7 +2,7 @@
 
 The Pollination plugins support exporting all geometry as faithfully as possible to a few different file formats. Usually, some properties assigned to the geometry area also exported.
 
-## In the Pollination Model Editor (Revit Plugin)
+## In the Pollination Revit Plugin (Model Editor)
 
 In the Pollination Model Editor, the entire model can always be exported to any of the formats below by going to the "Export" menu while the whole model displaying in the Model Editor workspace.
 
@@ -16,7 +16,7 @@ Using the native Rhino "File > Export Selected" dialog will bring up the option 
 
 ## Supported Formats
 
-Files in the following format can be saved or exported from the Pollination plugins:
+Files in the following format can be exported from the Pollination plugins:
 
 * [Ladybug Tools \(HBJSON and DFJSON\)](https://www.ladybug.tools/)
 * [IES-VE \(GEM\)](https://www.iesve.com/)
@@ -32,74 +32,75 @@ Files in the following format can be saved or exported from the Pollination plug
 * [CBECC \(SDD XML\)](https://www.energy.ca.gov/programs-and-topics/programs/building-energy-efficiency-standards/2025-energy-code-compliance-software)
 * [Green Building XML \(gbXML\)](https://www.gbxml.org/)
 
-All file formats export geometry as faithfully as possible into the destination engines. Some file formats support the translation of effectively all pollination model properties into the during but, others will only translate some of the properties assigned to the model geometry. These are summarized below.
+All file formats export geometry as faithfully as possible into the destination engines. Some file formats support the translation of effectively all pollination model properties but, others will only translate some of the properties assigned to the model geometry. These are summarized below.
 
 ### Commercial Simulation Platforms
 
-The Pollination plugins can export to the native file formats of a variety of commercial simulation platforms.
+By exporting to the native file formats used by commercial simulation platforms, the Pollination plugins not only faithfully translate geometry but some properties assigned to this geometry (eg. zoning) can also be exported.
 
 | Model Element                  | TRACE 700         | IES-VE         | DesignBuilder     | IDA ICE        | TRACE 3D Plus  |
 | ------------------------------ | ----------------- | -------------- | ----------------- | -------------- | -------------- |
 | Geometry                       | ☑                | ☑              | ☑                | ☑ <sup>4</sup> | ☑             |
-| Zoning                         | ☑                | ☑ <sup>1</sup> | ☑ <sup>1</sup>   | :x:             | :x:            |
+| Zoning                         | ☑                | ☑ <sup>1</sup> | ☑ <sup>1</sup>   | ☑ <sup>5</sup> | ☑ <sup>1</sup> |
 | Face Types<br>(eg. AirBoundary)| ☑                | ☑              | ☑                | :x:             | :x:            |
 | Boundary Conditions            | ☑                | :x:             | ☑                | :x:            | :x:            |
 | Opaque Constructions           | ☑                | :x:             | :x:              | :x:             | :x:            |
 | Window Constructions           | ☑                | :x:             | :x:              | :x:             | :x:            |
 | Schedules                      | ☑                | :x:             | :x:              | :x:             | :x:            |
 | Internal Loads                 | ☑                | :x:             | :x:              | :x:             | :x:            |
-| Thermostats + Outdoor Air Req. | ☑                | :x:             | :x:              | :x:             | :x:            |
+| Thermostats +<br>Outdoor Air   | ☑                | :x:             | :x:              | :x:             | :x:            |
 | Program Types                  | ☑ <sup>2</sup>   | ☑ <sup>3</sup> | :x:               | :x:             | :x:            |
 | HVAC Systems                   | :x:               | :x:            | :x:               | :x:             | :x:            |
-| SHW Systems                    | :x:               | :x:            | :x:               | :x:             | :x:            |
-| Everything Else                | :x:               | :x:            | :x:               | :x:             | :x:            |
+| SHW Systems                    | N/A               | :x:            | :x:               | :x:             | N/A            |
 
 <sup>1</sup> Supported via an export option that merges rooms of the same zone (or shared plenums) into a single volume.\
 <sup>2</sup> Exported as Room templates through the TRACE 700 EXP file format.\
 <sup>3</sup> Map-able to IES-VE Templates through the Pollination Bridge navigator (WIP).\
-<sup>4</sup> Includes an auto-generated building body to set interior vs. exterior boundary conditions.
+<sup>4</sup> Includes an auto-generated building body to set interior vs. exterior boundary conditions.\
+<sup>5</sup> Zones are exported as Groups in the IDM.
 
 ### Free Simulation Platforms
 
-The Pollination plugins also export to a wide variety of free and open source engines.
+The Pollination plugins also export to a wide variety of free and open source engines. Due to the well-documented, text-readable file formats of these engines, nearly all attributes can be transferred through the export.
 
-| Model Element                  | Ladybug Tools     | eQuest         | OpenStudio        | EnergyPlus     | Radiance        |
+| Model Element                  | Ladybug Tools     | OpenStudio     | EnergyPlus        | eQuest         | Radiance        |
 | ------------------------------ | ----------------- | -------------- | ----------------- | -------------- | --------------  |
 | Geometry                       | ☑                | ☑              | ☑                | ☑              | ☑              |
-| Zoning                         | ☑                | ☑ <sup>1</sup> | ☑                | ☑              | ☑ <sup>1</sup> |
-| Face Types<br>(eg. AirBoundary)| ☑                | ☑              | ☑                | ☑              | ☑              |
-| Boundary Conditions            | ☑                | ☑              | ☑                | ☑              | ☑              |
-| Opaque Constructions           | ☑                | ☑              | ☑                | ☑              | ☑              |
-| Window Constructions           | ☑                | ☑              | ☑                | ☑              | ☑              |
-| Schedules                      | ☑                | ☑              | ☑                | ☑              | :x:            |
-| Internal Loads                 | ☑                | ☑              | ☑                | ☑              | :x:            |
-| Thermostats + Outdoor Air Req. | ☑                | ☑              | ☑                | ☑              | :x:            |
-| Program Types                  | ☑                | ☑ <sup>2</sup> | ☑                | ☑ <sup>3</sup> | :x:            |
-| HVAC Systems                   | ☑                | ☑ <sup>4</sup> | ☑                | ☑              | :x:            |
-| SHW Systems                    | ☑                | :x:            | ☑                 | ☑              | :x:            |
-| Everything Else                | ☑                | :x:            | ☑                 | ☑              | :x:            |
+| Zoning                         | ☑                | ☑              | ☑                | ☑ <sup>1</sup> | ☑ <sup>1</sup> |
+| Face Types<br>(eg. AirBoundary)| ☑                | ☑              | ☑                | ☑              | ☑ <sup>5</sup> |
+| Boundary Conditions            | ☑                | ☑              | ☑                | ☑              | ☑ <sup>5</sup> |
+| Opaque Constructions           | ☑                | ☑              | ☑                | ☑              | ☑ <sup>5</sup> |
+| Window Constructions           | ☑                | ☑              | ☑                | ☑              | ☑ <sup>5</sup> |
+| Schedules                      | ☑                | ☑              | ☑                | ☑              | N/A            |
+| Internal Loads                 | ☑                | ☑              | ☑                | ☑              | N/A            |
+| Thermostats +<br>Outdoor Air   | ☑                | ☑              | ☑                | ☑              | N/A            |
+| Program Types                  | ☑                | ☑              | ☑ <sup>2</sup>   | ☑ <sup>3</sup> | N/A            |
+| HVAC Systems                   | ☑                | ☑              | ☑                | ☑ <sup>4</sup> | N/A            |
+| SHW Systems                    | ☑                | ☑              | ☑                | :x:             | N/A            |
 
 <sup>1</sup> Supported via an export option that merges rooms of the same zone into a single volume.\
-<sup>2</sup> Supported via switch statements for easy editing of all zones with the same program.\
-<sup>3</sup> Supported via ZoneList objects for easy editing of all zones with the same program.\
-<sup>4</sup> Only HVAC grouping is translated and not any HVAC attributes.
+<sup>2</sup> Supported via ZoneList objects for easy editing of all zones with the same program.\
+<sup>3</sup> Supported via switch statements for easy editing of all zones with the same program.\
+<sup>4</sup> Only HVAC grouping is translated and not any HVAC attributes.\
+<sup>5</sup> Exported insofar as the geometry properties can influence the assigned Radiance modifiers.
 
-### Dedicated Code Compliance Platforms
+### Dedicated Standards Compliance Platforms
 
-The Pollination plugins are also often usable with location-specific energy code compliance software when these software platforms include an option to import a gbXML. There are dedicated options offered for California Title 24 compliance through EnergyPro and CBECC native XML formats. Other compliance software like Lesosai and SIMIEN can also often accept the generic gbXML file format that the Pollination plugins export.
+The Pollination plugins are also often usable with location-specific energy code compliance software. Pollination offers dedicated exporters to assist with California Title 24 compliance through the native XML format of CBECC and a specially-formatted gbXML for EnergyPro 9, which are fully covered by the [Pollination Pact](https://www.pollination.solutions/pact). Other compliance software packages that can import gbXML (eg. Lesosai and SIMIEN) usually accept the generic gbXML files that the Pollination plugins export, particularly if the gbXML export options are configured for maximal compatibility with them. However, while the generic gbXML files exported by Pollination are accurate and highly customizable in terms of their format, compatibility issues may still sometimes arise when importing them due to varying import implementations. For this reason, exports of generic gbXMLs to platforms not listed on this page are not covered by the Pollination Pact.
 
-| Model Element                  | gbXML (Generic)   | EnergyPro      | CBECC             |
+| Model Element                  | gbXML (Generic)   | CBECC          | EnergyPro         |
 | ------------------------------ | ----------------- | -------------- | ----------------- |
 | Geometry                       | ☑                | ☑              | ☑                |
-| Zoning                         | ☑                | ☑              | ☑                |
-| Face Types<br>(eg. AirBoundary)| ☑                | ☑              | ☑                |
-| Boundary Conditions            | ☑                | ☑              | ☑                |
-| Opaque Constructions           | ☑                | :x:             | ☑                |
-| Window Constructions           | ☑                | :x:             | ☑                |
+| Zoning                         | ☑ <sup>1</sup>   | ☑              | ☑                |
+| Face Types<br>(eg. AirBoundary)| ☑ <sup>1</sup>   | ☑              | ☑                |
+| Boundary Conditions            | ☑ <sup>1</sup>   | ☑              | ☑                |
+| Opaque Constructions           | ☑ <sup>1</sup>   | ☑              | :x:               |
+| Window Constructions           | ☑ <sup>1</sup>   | ☑              | :x:               |
 | Schedules                      | :x:               | :x:            | :x:               |
-| Internal Loads                 | ☑                | :x:             | :x:              |
-| Thermostats + Outdoor Air Req. | ☑                | :x:             | :x:              |
-| Program Types                  | :x:               | :x:            | :x:              |
-| HVAC Systems                   | :x:               | :x:            | :x:              |
-| SHW Systems                    | :x:               | :x:            | :x:              |
-| Everything Else                | :x:               | :x:            | :x:              |
+| Internal Loads                 | ☑ <sup>1</sup>   | :x:             | :x:              |
+| Thermostats +<br>Outdoor Air   | ☑ <sup>1</sup>   | :x:             | :x:              |
+| Program Types                  | N/A               | :x:            | :x:               |
+| HVAC Systems                   | :x:               | :x:            | :x:               |
+| SHW Systems                    | N/A               | :x:            | :x:               |
+
+<sup>1</sup> Included in the exported data but there is no guarantee that destination software can import it if not listed on this page.

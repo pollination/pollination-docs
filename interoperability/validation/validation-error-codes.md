@@ -1,16 +1,6 @@
-# Validation Error Codes
-
-The validation process happens automatically upon importing a model to the Rhino plugin or whenever the [po\_validatemodel.md](../../../rhino-plugin/pollination-commands/po_validatemodel.md "mention") command is run. It can also be run on a `.hbjson` file from the command line by installing [lbt-honeybee](https://pypi.org/project/lbt-honeybee/) and then running the [`honeybee validate model`](https://www.ladybug.tools/honeybee-core/docs/cli/validate.html) command.
-
-The validation process runs a number of tests on the model, each of which corresponds to a specific validation error code. A model failing a specific test will return this error code along with a message about the failing Model object. A model that passes all validation can be simulated in the engines that Honeybee connects to without error (eg. OpenStudio/EnergyPlus, RAdiance, etc.). Validation is therefore meant to be a comprehensive check of all things that could make a model un-simulate-able, including things like compliance with [the 5 golden rules of honeybee schema geometry](https://github.com/ladybug-tools/honeybee-schema/wiki/2.1-Face3D-Schema#the-5-golden-rules-of-honeybee-schema-geometry) as well as engine-specific checks like adjacent constructions being in reverse order of materials for EnergyPlus simulation.
-
-Invalid models may still be simulate-able in some engines but not others. For this reason, it is helpful to check the consequences of each error code since it can sometimes be ok to ignore them. Furthermore, in the event that an error must be fixed, it is important to know how to fix it and errors sharing the same error code can usually be corrected with similar methods. This document describes all validation error codes used by Honeybee and Dragonfly and includes recommendations for how to fix them.
-
-**Note**: While a valid model can be simulated in simulation engines, it is always the modeler's responsibility to ensure that the assumptions of the valid model align with the real building design that they are informing.
-
 ## Validation Error Codes
 
-Below is a list of all validation error codes that can be obtained from the Honeybee model validation process. Each one is described in detail and many include suggestions for how to fix them.
+Below is a list of all validation error codes that can be obtained from the validation process. Each one is described in detail and many include suggestions for how to fix them.
 
 ## Core Error Codes
 
