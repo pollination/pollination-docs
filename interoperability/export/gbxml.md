@@ -4,15 +4,15 @@ The Pollination plugins have the ability to export a generic gbXML file with man
 
 | Model Element                  | gbXML (Generic)   |
 | ------------------------------ | ----------------- |
-| Geometry                       | ☑                |
-| Zoning                         | ☑ <sup>1</sup>   |
-| Face Types<br>(eg. AirBoundary)| ☑ <sup>1</sup>   |
-| Boundary Conditions            | ☑ <sup>1</sup>   |
-| Opaque Constructions           | ☑ <sup>1</sup>   |
-| Window Constructions           | ☑ <sup>1</sup>   |
+| Geometry                       | ✅                |
+| Zoning                         | ✅ <sup>1</sup>   |
+| Face Types<br>(eg. AirBoundary)| ✅ <sup>1</sup>   |
+| Boundary Conditions            | ✅ <sup>1</sup>   |
+| Opaque Constructions           | ✅ <sup>1</sup>   |
+| Window Constructions           | ✅ <sup>1</sup>   |
 | Schedules                      | :x:               |
-| Internal Loads                 | ☑ <sup>1</sup>   |
-| Thermostats +<br>Outdoor Air   | ☑ <sup>1</sup>   |
+| Internal Loads                 | ✅ <sup>1</sup>   |
+| Thermostats +<br>Outdoor Air   | ✅ <sup>1</sup>   |
 | Program Types                  | N/A               |
 | HVAC Systems                   | :x:               |
 | SHW Systems                    | N/A               |

@@ -4,8 +4,8 @@ Thanks to the open nature of the IDM file format that IDA ICE uses, the Pollinat
 
 | Model Element                   | IDA ICE         |
 | ------------------------------- | --------------- |
-| Geometry                        | ☑ <sup>1</sup> |
-| Zoning                          | ☑ <sup>2</sup> |
+| Geometry                        | ✅ <sup>1</sup> |
+| Zoning                          | ✅ <sup>2</sup> |
 | Face Types<br>(eg. AirBoundary) | :x:             |
 | Boundary Conditions             | :x:             |
 | Opaque Constructions            | :x:             |

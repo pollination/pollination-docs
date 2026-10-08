@@ -4,16 +4,16 @@ While the native TRACE 700 .TRC file type is proprietary and not a format that t
 
 | Model Element                  | TRACE 700         |
 | ------------------------------ | ----------------- |
-| Geometry                       | ☑                |
-| Zoning                         | ☑                |
-| Face Types<br>(eg. AirBoundary)| ☑                |
-| Boundary Conditions            | ☑                |
-| Opaque Constructions           | ☑                |
-| Window Constructions           | ☑                |
-| Schedules                      | ☑                |
-| Internal Loads                 | ☑                |
-| Thermostats +<br>Outdoor Air   | ☑                |
-| Program Types                  | ☑ <sup>1</sup>   |
+| Geometry                       | ✅                |
+| Zoning                         | ✅                |
+| Face Types<br>(eg. AirBoundary)| ✅                |
+| Boundary Conditions            | ✅                |
+| Opaque Constructions           | ✅                |
+| Window Constructions           | ✅                |
+| Schedules                      | ✅                |
+| Internal Loads                 | ✅                |
+| Thermostats +<br>Outdoor Air   | ✅                |
+| Program Types                  | ✅ <sup>1</sup>   |
 | HVAC Systems                   | :x:               |
 | SHW Systems                    | N/A               |
 
