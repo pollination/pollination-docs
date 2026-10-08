@@ -1,5 +1,23 @@
 # Ladybug Tools Interoperability
 
+There is no loss of data when transferring models between Pollination and Ladybug Tools. All features of the Pollination model are translated into the HBJSON or DFJSON format.
+
+| Model Element                  | Ladybug Tools     |
+| ------------------------------ | ----------------- |
+| Geometry                       | ☑                |
+| Zoning                         | ☑                |
+| Face Types<br>(eg. AirBoundary)| ☑                |
+| Boundary Conditions            | ☑                |
+| Opaque Constructions           | ☑                |
+| Window Constructions           | ☑                |
+| Schedules                      | ☑                |
+| Internal Loads                 | ☑                |
+| Thermostats +<br>Outdoor Air   | ☑                |
+| Program Types                  | ☑                |
+| HVAC Systems                   | ☑                |
+| SHW Systems                    | ☑                |
+
+
 ## In the Pollination Revit Plugin (Model Editor)
 
 To use models in the Pollination Model Editor with Ladybug Tools for Grasshopper, simply save the model as a "Honeybee Model (.hbjson)". This can be loaded into Grasshopper via the [HB Load Objects](https://docs.ladybug.tools/honeybee-primer/components/3_serialize/load_objects) component.
@@ -22,7 +40,7 @@ However a more seamless integration with Ladybug Tools is achievable via the Pol
 
 In addition to interoperability offered by importing and exporting DFJSON and HBJSON, the Pollination Rhino Plugin includes several Grasshopper components to ensure these models can be used seamlessly with the Ladybug Tools Grasshopper plugin.
 
-![Pollination Tab in Grasshopper](../../../.gitbook/assets/rhino-plugin/rhino-grasshopper-components.png)
+![Pollination Tab in Grasshopper](../../.gitbook/assets/rhino-plugin/rhino-grasshopper-components.png)
 
 Of the available components, three types are particularly relevant to the interoperability between Pollination Rhino and Ladybug Tools:
 
@@ -48,15 +66,15 @@ Right click on it to access to menu of actions. Generally the available features
 
 Use one of the entity components, for example _Pollination Room _and right click on it.
 
-![Menu of the actions](<../../../.gitbook/assets/image (117).png>)
+![Menu of the actions](<../../.gitbook/assets/image (117).png>)
 
 Click on _Select Pollination Rooms _to select the rooms you want from Rhino canvas. It converts every Pollination Rhino room to a Honeybee room.
 
-![Selection of the Pollination rooms](<../../../.gitbook/assets/image (118).png>)
+![Selection of the Pollination rooms](<../../.gitbook/assets/image (118).png>)
 
 Continue the workflow with Honeybee. For example, I can add border shades to all apertures. Use one of the preview components of Honeybee to check the geometries.
 
-![Continue the workflow with Honeybee](<../../../.gitbook/assets/image (119).png>)
+![Continue the workflow with Honeybee](<../../.gitbook/assets/image (119).png>)
 
 At this point you can decide to continue with Honeybee or going back to Rhino using the Bake feature.
 
