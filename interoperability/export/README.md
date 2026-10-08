@@ -79,8 +79,8 @@ The Pollination plugins also export to a wide variety of free and open source en
 | SHW Systems                    | ☑                | ☑              | ☑                | :x:             | N/A            |
 
 <sup>1</sup> Supported via an export option that merges rooms of the same zone into a single volume.\
-<sup>2</sup> Supported via ZoneList objects for easy editing of all zones with the same program.\
-<sup>3</sup> Supported via switch statements for easy editing of all zones with the same program.\
+<sup>2</sup> Translated to SpaceList objects for easy editing of all spaces with the same program.\
+<sup>3</sup> Translated to switch statements for easy editing of all zones with the same program.\
 <sup>4</sup> Only HVAC grouping is translated and not any HVAC attributes.\
 <sup>5</sup> Exported insofar as the geometry properties can influence the assigned Radiance modifiers.
 
