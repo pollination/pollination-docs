@@ -4,10 +4,10 @@ While the native .dsb file format used by DesignBuilder is proprietary and not a
 
 | Model Element                   | DesignBuilder   |
 | ------------------------------- | --------------- |
-| Geometry                        | ☑              |
-| Zoning                          | ☑ <sup>1</sup> |
-| Face Types<br>(eg. AirBoundary) | ☑              |
-| Boundary Conditions             | ☑              |
+| Geometry                        | ✅              |
+| Zoning                          | ✅ <sup>1</sup> |
+| Face Types<br>(eg. AirBoundary) | ✅              |
+| Boundary Conditions             | ✅              |
 | Opaque Constructions            | :x:             |
 | Window Constructions            | :x:             |
 | Schedules                       | :x:             |

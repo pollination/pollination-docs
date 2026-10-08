@@ -23,19 +23,19 @@ can be imported from the other formats. These are summarized below.
 
 | Model Element                   | HBJSON/<br>DFJSON | OSM             | IDF/<br>epJSON  | INP | GEM | gbXML            |
 | ------------------------------- | ----------------- | --------------- | --------------- | --- | --- | ---------------- |
-| Geometry                        | ☑                | ☑              | ☑ <sup>1</sup> | ☑  | ☑  | ☑               |
-| Zoning                          | ☑                | ☑              | ☑              | N/A | :x: | ☑               |
-| Face Types<br>(eg. AirBoundary) | ☑                | ☑              | ☑              | ☑  | ☑  | ☑               |
-| Boundary Conditions             | ☑                | ☑              | ☑              | ☑  | :x: | ☑               |
-| Opaque Constructions            | ☑                | ☑              | ☑              | :x: | :x: | ☑               |
-| Window Constructions            | ☑                | ☑ <sup>2</sup> | ☑ <sup>2</sup> | :x: | :x: | ☑               |
-| Schedules                       | ☑                | ☑              | ☑              | ☑  | :x: | :x: <sup>4</sup> |
-| Internal Loads                  | ☑                | ☑              | ☑              | ☑  | :x: | :x: <sup>4</sup> |
-| Thermostats +<br>Outdoor Air    | ☑                | ☑ <sup>3</sup> | ☑              | ☑  | :x: | :x: <sup>4</sup> |
-| Program Types                   | ☑                | ☑              | :x:             | ☑  | :x: | :x:              |
-| HVAC Systems                    | ☑                | :x:             | :x:             | :x: | :x: | :x:              |
-| SHW Systems                     | ☑                | :x:             | :x:             | :x: | :x: | :x:              |
-| Everything Else                 | ☑                | :x:             | :x:             | :x: | :x: | :x:              |
+| Geometry                        | ✅                | ✅              | ✅ <sup>1</sup> | ✅  | ✅  | ✅               |
+| Zoning                          | ✅                | ✅              | ✅              | N/A | :x: | ✅               |
+| Face Types<br>(eg. AirBoundary) | ✅                | ✅              | ✅              | ✅  | ✅  | ✅               |
+| Boundary Conditions             | ✅                | ✅              | ✅              | ✅  | :x: | ✅               |
+| Opaque Constructions            | ✅                | ✅              | ✅              | :x: | :x: | ✅               |
+| Window Constructions            | ✅                | ✅ <sup>2</sup> | ✅ <sup>2</sup> | :x: | :x: | ✅               |
+| Schedules                       | ✅                | ✅              | ✅              | ✅  | :x: | :x: <sup>4</sup> |
+| Internal Loads                  | ✅                | ✅              | ✅              | ✅  | :x: | :x: <sup>4</sup> |
+| Thermostats +<br>Outdoor Air    | ✅                | ✅ <sup>3</sup> | ✅              | ✅  | :x: | :x: <sup>4</sup> |
+| Program Types                   | ✅                | ✅              | :x:             | ✅  | :x: | :x:              |
+| HVAC Systems                    | ✅                | :x:             | :x:             | :x: | :x: | :x:              |
+| SHW Systems                     | ✅                | :x:             | :x:             | :x: | :x: | :x:              |
+| Everything Else                 | ✅                | :x:             | :x:             | :x: | :x: | :x:              |
 
 <sup>1</sup> IDF only supports Apertures/Doors with 3-4 vertices (more complex window geometries are usually triangulated).\
 <sup>2</sup> No window frames of window constructions are imported.\

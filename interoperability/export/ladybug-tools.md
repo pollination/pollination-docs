@@ -4,18 +4,18 @@ There is no loss of data when transferring models between Pollination and Ladybu
 
 | Model Element                  | Ladybug Tools     |
 | ------------------------------ | ----------------- |
-| Geometry                       | ☑                |
-| Zoning                         | ☑                |
-| Face Types<br>(eg. AirBoundary)| ☑                |
-| Boundary Conditions            | ☑                |
-| Opaque Constructions           | ☑                |
-| Window Constructions           | ☑                |
-| Schedules                      | ☑                |
-| Internal Loads                 | ☑                |
-| Thermostats +<br>Outdoor Air   | ☑                |
-| Program Types                  | ☑                |
-| HVAC Systems                   | ☑                |
-| SHW Systems                    | ☑                |
+| Geometry                       | ✅                |
+| Zoning                         | ✅                |
+| Face Types<br>(eg. AirBoundary)| ✅                |
+| Boundary Conditions            | ✅                |
+| Opaque Constructions           | ✅                |
+| Window Constructions           | ✅                |
+| Schedules                      | ✅                |
+| Internal Loads                 | ✅                |
+| Thermostats +<br>Outdoor Air   | ✅                |
+| Program Types                  | ✅                |
+| HVAC Systems                   | ✅                |
+| SHW Systems                    | ✅                |
 
 
 ## In the Pollination Revit Plugin (Model Editor)

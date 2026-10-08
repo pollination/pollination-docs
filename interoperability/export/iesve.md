@@ -4,16 +4,16 @@ Given the limitations of the GEM format, exporting Pollination models to IES-VE 
 
 | Model Element                   | IES-VE          |
 | ------------------------------- | --------------- |
-| Geometry                        | ☑              |
-| Zoning                          | ☑ <sup>1</sup> |
-| Face Types<br>(eg. AirBoundary) | ☑              |
+| Geometry                        | ✅              |
+| Zoning                          | ✅ <sup>1</sup> |
+| Face Types<br>(eg. AirBoundary) | ✅              |
 | Boundary Conditions             | :x:             |
 | Opaque Constructions            | :x:             |
 | Window Constructions            | :x:             |
 | Schedules                       | :x:             |
 | Internal Loads                  | :x:             |
 | Thermostats +<br>Outdoor Air    | :x:             |
-| Program Types                   | ☑ <sup>2</sup> |
+| Program Types                   | ✅ <sup>2</sup> |
 | HVAC Systems                    | :x:             |
 | SHW Systems                     | :x:             |
 

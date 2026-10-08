@@ -4,18 +4,18 @@ All energy simulation features of Pollination models are transferred to both the
 
 | Model Element                   | OpenStudio      | EnergyPlus      |
 | ------------------------------- | --------------- | --------------- |
-| Geometry                        | ☑              | ☑              |
-| Zoning                          | ☑              | ☑              |
-| Face Types<br>(eg. AirBoundary) | ☑              | ☑              |
-| Boundary Conditions             | ☑              | ☑              |
-| Opaque Constructions            | ☑              | ☑              |
-| Window Constructions            | ☑              | ☑              |
-| Schedules                       | ☑              | ☑              |
-| Internal Loads                  | ☑              | ☑              |
-| Thermostats +<br>Outdoor Air    | ☑              | ☑              |
-| Program Types                   | ☑ <sup>1</sup> | ☑ <sup>2</sup> |
-| HVAC Systems                    | ☑              | ☑              |
-| SHW Systems                     | ☑              | ☑              |
+| Geometry                        | ✅              | ✅              |
+| Zoning                          | ✅              | ✅              |
+| Face Types<br>(eg. AirBoundary) | ✅              | ✅              |
+| Boundary Conditions             | ✅              | ✅              |
+| Opaque Constructions            | ✅              | ✅              |
+| Window Constructions            | ✅              | ✅              |
+| Schedules                       | ✅              | ✅              |
+| Internal Loads                  | ✅              | ✅              |
+| Thermostats +<br>Outdoor Air    | ✅              | ✅              |
+| Program Types                   | ✅ <sup>1</sup> | ✅ <sup>2</sup> |
+| HVAC Systems                    | ✅              | ✅              |
+| SHW Systems                     | ✅              | ✅              |
 
 <sup>1</sup> Translated to SpaceType objects for easy editing of all spaces with the same program.\
 <sup>2</sup> Translated to SpaceList objects for easy editing of all spaces with the same program.

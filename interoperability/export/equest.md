@@ -4,17 +4,17 @@ Due to the well-documented, text-readable INP file format used by eQuest, nearly
 
 | Model Element                   | eQuest          |
 | ------------------------------- | --------------- |
-| Geometry                        | ☑              |
-| Zoning                          | ☑ <sup>1</sup> |
-| Face Types<br>(eg. AirBoundary) | ☑              |
-| Boundary Conditions             | ☑              |
-| Opaque Constructions            | ☑              |
-| Window Constructions            | ☑              |
-| Schedules                       | ☑              |
-| Internal Loads                  | ☑              |
-| Thermostats +<br>Outdoor Air    | ☑              |
-| Program Types                   | ☑ <sup>2</sup> |
-| HVAC Systems                    | ☑ <sup>3</sup> |
+| Geometry                        | ✅              |
+| Zoning                          | ✅ <sup>1</sup> |
+| Face Types<br>(eg. AirBoundary) | ✅              |
+| Boundary Conditions             | ✅              |
+| Opaque Constructions            | ✅              |
+| Window Constructions            | ✅              |
+| Schedules                       | ✅              |
+| Internal Loads                  | ✅              |
+| Thermostats +<br>Outdoor Air    | ✅              |
+| Program Types                   | ✅ <sup>2</sup> |
+| HVAC Systems                    | ✅ <sup>3</sup> |
 | SHW Systems                     | :x:             |
 
 <sup>1</sup> Supported via an export option that merges rooms of the same zone into a single volume.\

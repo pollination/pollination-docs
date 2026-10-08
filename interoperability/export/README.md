@@ -40,16 +40,16 @@ By exporting to the native file formats used by commercial simulation platforms,
 
 | Model Element                  | TRACE 700         | IES-VE         | DesignBuilder     | IDA ICE        | TRACE 3D Plus  |
 | ------------------------------ | ----------------- | -------------- | ----------------- | -------------- | -------------- |
-| Geometry                       | ☑                | ☑              | ☑                | ☑ <sup>4</sup> | ☑             |
-| Zoning                         | ☑                | ☑ <sup>1</sup> | ☑ <sup>1</sup>   | ☑ <sup>5</sup> | ☑ <sup>1</sup> |
-| Face Types<br>(eg. AirBoundary)| ☑                | ☑              | ☑                | :x:             | :x:            |
-| Boundary Conditions            | ☑                | :x:             | ☑                | :x:            | :x:            |
-| Opaque Constructions           | ☑                | :x:             | :x:              | :x:             | :x:            |
-| Window Constructions           | ☑                | :x:             | :x:              | :x:             | :x:            |
-| Schedules                      | ☑                | :x:             | :x:              | :x:             | :x:            |
-| Internal Loads                 | ☑                | :x:             | :x:              | :x:             | :x:            |
-| Thermostats +<br>Outdoor Air   | ☑                | :x:             | :x:              | :x:             | :x:            |
-| Program Types                  | ☑ <sup>2</sup>   | ☑ <sup>3</sup> | :x:               | :x:             | :x:            |
+| Geometry                       | ✅                | ✅              | ✅                | ✅ <sup>4</sup> | ✅             |
+| Zoning                         | ✅                | ✅ <sup>1</sup> | ✅ <sup>1</sup>   | ✅ <sup>5</sup> | ✅ <sup>1</sup> |
+| Face Types<br>(eg. AirBoundary)| ✅                | ✅              | ✅                | :x:             | :x:            |
+| Boundary Conditions            | ✅                | :x:             | ✅                | :x:            | :x:            |
+| Opaque Constructions           | ✅                | :x:             | :x:              | :x:             | :x:            |
+| Window Constructions           | ✅                | :x:             | :x:              | :x:             | :x:            |
+| Schedules                      | ✅                | :x:             | :x:              | :x:             | :x:            |
+| Internal Loads                 | ✅                | :x:             | :x:              | :x:             | :x:            |
+| Thermostats +<br>Outdoor Air   | ✅                | :x:             | :x:              | :x:             | :x:            |
+| Program Types                  | ✅ <sup>2</sup>   | ✅ <sup>3</sup> | :x:               | :x:             | :x:            |
 | HVAC Systems                   | :x:               | :x:            | :x:               | :x:             | :x:            |
 | SHW Systems                    | N/A               | :x:            | :x:               | :x:             | N/A            |
 
@@ -65,18 +65,18 @@ The Pollination plugins also export to a wide variety of free and open source en
 
 | Model Element                  | Ladybug Tools     | OpenStudio     | EnergyPlus        | eQuest         | Radiance        |
 | ------------------------------ | ----------------- | -------------- | ----------------- | -------------- | --------------  |
-| Geometry                       | ☑                | ☑              | ☑                | ☑              | ☑              |
-| Zoning                         | ☑                | ☑              | ☑                | ☑ <sup>1</sup> | ☑ <sup>1</sup> |
-| Face Types<br>(eg. AirBoundary)| ☑                | ☑              | ☑                | ☑              | ☑ <sup>5</sup> |
-| Boundary Conditions            | ☑                | ☑              | ☑                | ☑              | ☑ <sup>5</sup> |
-| Opaque Constructions           | ☑                | ☑              | ☑                | ☑              | ☑ <sup>5</sup> |
-| Window Constructions           | ☑                | ☑              | ☑                | ☑              | ☑ <sup>5</sup> |
-| Schedules                      | ☑                | ☑              | ☑                | ☑              | N/A            |
-| Internal Loads                 | ☑                | ☑              | ☑                | ☑              | N/A            |
-| Thermostats +<br>Outdoor Air   | ☑                | ☑              | ☑                | ☑              | N/A            |
-| Program Types                  | ☑                | ☑              | ☑ <sup>2</sup>   | ☑ <sup>3</sup> | N/A            |
-| HVAC Systems                   | ☑                | ☑              | ☑                | ☑ <sup>4</sup> | N/A            |
-| SHW Systems                    | ☑                | ☑              | ☑                | :x:             | N/A            |
+| Geometry                       | ✅                | ✅              | ✅                | ✅              | ✅              |
+| Zoning                         | ✅                | ✅              | ✅                | ✅ <sup>1</sup> | ✅ <sup>1</sup> |
+| Face Types<br>(eg. AirBoundary)| ✅                | ✅              | ✅                | ✅              | ✅ <sup>5</sup> |
+| Boundary Conditions            | ✅                | ✅              | ✅                | ✅              | ✅ <sup>5</sup> |
+| Opaque Constructions           | ✅                | ✅              | ✅                | ✅              | ✅ <sup>5</sup> |
+| Window Constructions           | ✅                | ✅              | ✅                | ✅              | ✅ <sup>5</sup> |
+| Schedules                      | ✅                | ✅              | ✅                | ✅              | N/A            |
+| Internal Loads                 | ✅                | ✅              | ✅                | ✅              | N/A            |
+| Thermostats +<br>Outdoor Air   | ✅                | ✅              | ✅                | ✅              | N/A            |
+| Program Types                  | ✅                | ✅              | ✅ <sup>2</sup>   | ✅ <sup>3</sup> | N/A            |
+| HVAC Systems                   | ✅                | ✅              | ✅                | ✅ <sup>4</sup> | N/A            |
+| SHW Systems                    | ✅                | ✅              | ✅                | :x:             | N/A            |
 
 <sup>1</sup> Supported via an export option that merges rooms of the same zone into a single volume.\
 <sup>2</sup> Translated to SpaceList objects for easy editing of all spaces with the same program.\
@@ -90,15 +90,15 @@ The Pollination plugins are also often usable with location-specific energy code
 
 | Model Element                  | gbXML (Generic)   | CBECC          | EnergyPro         |
 | ------------------------------ | ----------------- | -------------- | ----------------- |
-| Geometry                       | ☑                | ☑              | ☑                |
-| Zoning                         | ☑ <sup>1</sup>   | ☑              | ☑                |
-| Face Types<br>(eg. AirBoundary)| ☑ <sup>1</sup>   | ☑              | ☑                |
-| Boundary Conditions            | ☑ <sup>1</sup>   | ☑              | ☑                |
-| Opaque Constructions           | ☑ <sup>1</sup>   | ☑              | :x:               |
-| Window Constructions           | ☑ <sup>1</sup>   | ☑              | :x:               |
+| Geometry                       | ✅                | ✅              | ✅                |
+| Zoning                         | ✅ <sup>1</sup>   | ✅              | ✅                |
+| Face Types<br>(eg. AirBoundary)| ✅ <sup>1</sup>   | ✅              | ✅                |
+| Boundary Conditions            | ✅ <sup>1</sup>   | ✅              | ✅                |
+| Opaque Constructions           | ✅ <sup>1</sup>   | ✅              | :x:               |
+| Window Constructions           | ✅ <sup>1</sup>   | ✅              | :x:               |
 | Schedules                      | :x:               | :x:            | :x:               |
-| Internal Loads                 | ☑ <sup>1</sup>   | :x:             | :x:              |
-| Thermostats +<br>Outdoor Air   | ☑ <sup>1</sup>   | :x:             | :x:              |
+| Internal Loads                 | ✅ <sup>1</sup>   | :x:             | :x:              |
+| Thermostats +<br>Outdoor Air   | ✅ <sup>1</sup>   | :x:             | :x:              |
 | Program Types                  | N/A               | :x:            | :x:               |
 | HVAC Systems                   | :x:               | :x:            | :x:               |
 | SHW Systems                    | N/A               | :x:            | :x:               |
