@@ -1,6 +1,6 @@
 # Ladybug Tools Interoperability
 
-There is no loss of data when transferring models between Pollination and Ladybug Tools. All features of the Pollination model are translated into the HBJSON or DFJSON format.
+There is no loss of data when transferring models between Pollination and Ladybug Tools. All features of the Pollination model are translated into the HBJSON or DFJSON format and read back to Pollination when importing from these formats.
 
 | Model Element                  | Ladybug Tools     |
 | ------------------------------ | ----------------- |
