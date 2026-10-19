@@ -10,7 +10,7 @@ While the native TRACE 700 .TRC file type is proprietary and not a format that t
 | Boundary Conditions            | ✅                |
 | Opaque Constructions           | ✅                |
 | Window Constructions           | ✅                |
-| Schedules                      | ✅                |
+| Schedules                      | :x:               |
 | Internal Loads                 | ✅                |
 | Thermostats +<br>Outdoor Air   | ✅                |
 | Program Types                  | ✅ <sup>1</sup>   |
