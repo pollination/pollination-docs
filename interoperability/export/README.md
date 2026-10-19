@@ -46,7 +46,7 @@ By exporting to the native file formats used by commercial simulation platforms,
 | Boundary Conditions            | ✅                | :x:             | ✅                | :x:            | :x:            |
 | Opaque Constructions           | ✅                | :x:             | :x:              | :x:             | :x:            |
 | Window Constructions           | ✅                | :x:             | :x:              | :x:             | :x:            |
-| Schedules                      | ✅                | :x:             | :x:              | :x:             | :x:            |
+| Schedules                      | :x:               | :x:             | :x:              | :x:             | :x:            |
 | Internal Loads                 | ✅                | :x:             | :x:              | :x:             | :x:            |
 | Thermostats +<br>Outdoor Air   | ✅                | :x:             | :x:              | :x:             | :x:            |
 | Program Types                  | ✅ <sup>2</sup>   | ✅ <sup>3</sup> | :x:               | :x:             | :x:            |
