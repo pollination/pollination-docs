@@ -192,6 +192,12 @@ Remove the holes inside the room that are smaller than a certain specified Area 
 
 ---
 
+## <img src="images/remove-self-intersections.svg" width="30" height="30"> Remove self-intersections
+
+Remove self-intersecting parts of a room by splitting the room polygon at the point(s) of intersection and only keeping the largest area polygon of the result.
+
+---
+
 ## <img src="images/remove-short-segments.svg" width="30" height="30"> Remove short segments
 
 Remove the segments of the room polygon that are smaller than a certain specified Segment Distance. Use this command to remove column holes and other unwanted small segments at the edges of the rooms.

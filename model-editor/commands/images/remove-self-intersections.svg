@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 30 30" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(74.509805%,74.509805%,74.509805%);fill-opacity:1;" d="M 2.578125 2.601562 L 18.082031 14.769531 L 2.851562 26.503906 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 27.554688 8.519531 L 18.699219 15.253906 L 27.398438 21.753906 "/>
+<path style="fill:none;stroke-width:5.11;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 8.288542 326.089447 L 8.288542 256.973983 L 99.590234 313.497691 L 99.590234 275.529692 L 8.288542 326.089447 " transform="matrix(0.275229,0.000000000000000005,0.000000000000000005,0.364822,0,-92.105239)"/>
+<path style="fill:none;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(13.725491%,12.156863%,12.54902%);stroke-opacity:1;stroke-dasharray:1.55,2.33;stroke-miterlimit:10;" d="M -21.277444 -21.274373 L 21.278942 -21.274373 " transform="matrix(0,0.609118,0.442302,0,27.81985,15.147981)"/>
+</g>
+</svg>

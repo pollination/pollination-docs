@@ -34,6 +34,10 @@ Pull the vertices of one or more rooms to the first 'target' room in the selecti
 
 Remove the holes inside the room that are smaller than a certain specified Area Threshold. Use this command to remove column and duct holes from inside rooms. [Read more](./me_remove_holes.md).
 
+#### <img src="images/remove-self-intersections.svg" width="20" height="20"> **Remove self-intersections**
+
+Remove self-intersecting parts of a room by splitting the room polygon at the point(s) of intersection and only keeping the largest area polygon of the result. [Read more](./me_remove_self-intersections.md).
+
 #### <img src="images/remove-short-segments.svg" width="20" height="20"> **Remove short segments**
 
 Remove the segments of the room polygon that are smaller than a certain specified Segment Distance. Use this command to remove column holes and other unwanted small segments at the edges of the rooms. [Read more](./me_remove_short_segments.md).
