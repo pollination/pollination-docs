@@ -108,7 +108,7 @@ Create core and perimeter rooms for a selected room. This is particularly useful
 
 #### <img src="images/separate-plenums.svg" width="20" height="20"> **Vertically split**
 
-Split the selected rooms vertically if they are tall enough to cross multiple stories in the model. [Read more](./me_vertically_split.md).
+Split Room2D geometry vertically across stories using a selected story or all rooms as reference input. [Read more](./me_vertically_split.md).
 
 #### <img src="images/air-boundaries.svg" width="20" height="20"> **Set air boundaries**
 
